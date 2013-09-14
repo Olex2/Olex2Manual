@@ -1,0 +1,1 @@
+This booklet is our very first draft of an Olex2 manual and has been produced in very limited numbers for the Olex2 workshop at the ECM in Warwick on the 24th of August 2013.
