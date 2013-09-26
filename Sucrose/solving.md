@@ -5,14 +5,14 @@ Solving the Structure
 
     >You will find a little info button in the beginning of many lines in the GUI panel. More information on the tool is available from there.
 
-3.	Select a solution program from the dropdown menu. Depending on your computer setup, you may only see the built-in olex2.solve pro-gram, but you may also see other programs in the list, if they are present on your machine.
-4.	Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at Info | Electron Density Peaks for a clickable list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
+3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
+4.	Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at _Info | Electron Density Peaks_ for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
 
-    >Q-peaks represent maxima in the electron density map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in Info | Electron Density Peaks.
+    >Q-peaks represent maxima in the electron density map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in _Info | Electron Density Peaks_.
 
-5.	In the Work section there is another header tab Toolbox Work.  Select Q-Peak Intensities from the Labels menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
+5.	In the Work section there is another header tab _Toolbox Work_.  Select Q-Peak Intensities from the Labels menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
-    >The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 … etc. having less relative inten-sity. Select Toggle On/Off from the dropdown menu in Work | Tool-box Work | Labels (or press F3). At this stage it is normally more useful to see their relative intensities.
+    >The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 … etc. having less relative intensity. Select Toggle On/Off from the drop-down menu in Work | Tool-box Work | Labels (or press F3). At this stage it is normally more useful to see their relative intensities.
 
 6.	Still in the Toolbox Work click on the Q square   to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  CTRL+Q re-peatedly).
 
