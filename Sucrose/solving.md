@@ -1,7 +1,10 @@
-Solving the Structure
-================
+##Solving the Structure
+
 1.	Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange.
+
 2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The structure solution options are displayed.
+
+	![Solution Settings](/images/solution_settings.png)
 
     >You will find a little info button in the beginning of many lines in the GUI panel. More information on the tool is available from there.
 
