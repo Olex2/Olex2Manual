@@ -1,5 +1,5 @@
 #	Atom Label Display Options
-Olex2 offers a large range of properties that can be displayed as labels on atoms. This provides immediate feedback on these properties of the atoms: Work | Toolbox Work | Labels:
+Olex2 offers a large range of properties that can be displayed as labels on atoms. This provides immediate feedback on these properties of the atoms: `Work | Toolbox Work | Labels`:
 - _Toggle On/Off_ – show or hide atom name labels and Q-peak labels (alternatively press F3). This will switch other types of labelling off but selecting it again will display atom name labels.
 - _Atom Names_ – F3 shows non-hydrogen atom and Q-peak labels
 - _Crystallographic Occupancy_ – displays the occupancy of any atoms which are not 100% occupied i.e. their occupancy is not 1.
