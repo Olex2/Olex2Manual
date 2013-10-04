@@ -9,6 +9,7 @@
     >You will find a little info button in the beginning of many lines in the GUI panel. More information on the tool is available from there.
 
 3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
+
 4.	Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at _Info | Electron Density Peaks_ for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
@@ -17,9 +18,9 @@
 
 5.	In the Work section there is another header tab _Toolbox Work_.  Select Q-Peak Intensities from the Labels menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
-    >The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 … etc. having less relative intensity. Select Toggle On/Off from the drop-down menu in Work | Tool-box Work | Labels (or press F3). At this stage it is normally more useful to see their relative intensities.
+    >The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 … etc. having less relative intensity. Select Toggle On/Off from the drop-down menu in _Work | Tool-box Work | Labels_ (or press _F3_). At this stage it is normally more useful to see their relative intensities.
 
-6.	Still in the Toolbox Work click on the Q square   to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  CTRL+Q re-peatedly).
+6.	Still in the Toolbox Work click on the Q square `ICON_Q` to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  _CTRL+Q_ repeatedly).
 
     >Some of the Q-peaks may not represent real atoms at this stage so don’t worry if there are unexpected bonds.
 

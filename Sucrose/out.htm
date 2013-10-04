@@ -1,0 +1,86 @@
+<h1>Structure Determination of Sucrose</h1>
+<p><img alt="ChemDraw Sucrose" src="/images/sucrose_diagram.png" /></p>
+<p>This section is a guide through the basic structure solution and refinement of sucrose. With these step-by-step instructions you will be able to repeat this structure solution and refinement process for yourself and this will help you become familiar with the way Olex2 works.
+Selecting Data
+========</p>
+<ol>
+<li>
+<p>Open Olex2. </p>
+</li>
+<li>
+<p>Click on the Home tab in the GUI panel. Under the Start header one of the Sample Structures is <em>Sucrose</em> click on this and the model/instructions <em>.ins</em> file will be loaded.</p>
+</li>
+</ol>
+<p><img alt="Home Tab in GUI Panel" src="/images/start.png" /></p>
+<blockquote>
+<p>Since this sample structure has already been solved the sucrose molecule appears on your screen, normally if you are loading an unsolved structure the screen would be blank as none of the atom positions have been determined.</p>
+</blockquote>
+<h2>Solving the Structure</h2>
+<ol>
+<li>
+<p>Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange.</p>
+</li>
+<li>
+<p>Click on the arrow next to the Solve button so that it is turns orange and points upwards. The structure solution options are displayed.</p>
+<p><img alt="Solution Settings" src="/images/solution_settings.png" /></p>
+<blockquote>
+<p>You will find a little info button in the beginning of many lines in the GUI panel. More information on the tool is available from there.</p>
+</blockquote>
+</li>
+<li>
+<p>Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.</p>
+</li>
+<li>
+<p>Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at <em>Info | Electron Density Peaks</em> for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.</p>
+<p><img alt="Sucrose Peaks" src="/images/sucrose_peaks.png" /></p>
+<blockquote>
+<p>Q-peaks represent maxima in the electron density map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in <em>Info | Electron Density Peaks</em>.</p>
+</blockquote>
+</li>
+<li>
+<p>In the Work section there is another header tab <em>Toolbox Work</em>.  Select Q-Peak Intensities from the Labels menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.</p>
+<blockquote>
+<p>The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 … etc. having less relative intensity. Select Toggle On/Off from the drop-down menu in <em>Work | Tool-box Work | Labels</em> (or press <em>F3</em>). At this stage it is normally more useful to see their relative intensities.</p>
+</blockquote>
+</li>
+<li>
+<p>Still in the Toolbox Work click on the Q square <code>ICON_Q</code> to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  <em>CTRL+Q</em> repeatedly).</p>
+<blockquote>
+<p>Some of the Q-peaks may not represent real atoms at this stage so don’t worry if there are unexpected bonds.</p>
+</blockquote>
+</li>
+<li>
+<p>The ‘structure’ can be rotated by holding down the left hand mouse button in the background of the main screen and moving the mouse.</p>
+<blockquote>
+<p>Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.</p>
+</blockquote>
+</li>
+<li>
+<p>The next stage is to assign atoms types to the Q-peaks. Use the left hand mouse button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.</p>
+<blockquote>
+<p>If the Q-peaks don’t appear to form a structure, try typing compaq -a, which will pull Q-peaks together. Clicking on centre   (top right of GUI) has the same effect.</p>
+</blockquote>
+</li>
+<li>
+<p>In Toolbox Work click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type name C to assign all selected peaks as carbon atoms. By using the UP key, it’s easy to repeat this command.</p>
+<blockquote>
+<p>Hovering over the atom with the mouse pointer shows the atom label e.g. O1, which takes the format of an atom type followed by a number. There are often some spurious peaks at this stage, so identify recognisable fragments rather than trying to assign an atom type to every Q-peak. Hydrogen atoms are not usually identified at this stage, since they have a very low scattering power.</p>
+</blockquote>
+<h2>Tidying the Structure</h2>
+<ol>
+<li>The key numbers to look at are R1, wR2, Difference map: max and min, GooF, Hooft y and Flack x which should be examined after each refinement cycle.</li>
+</ol>
+<blockquote>
+<p>The values of R1 and wR2 are an indication of the agreement between Fc and Fo and should decrease as the refinement proceeds; very high values of R1/wR2 (e.g. &gt; 40/70 respectively) suggest that the structure solution is incorrect. Difference map: max and min gives information on the highest and lowest peaks and holes in the electron density map. GooF is the goodness of fit of a structure and should converge towards 1 at the end of the refinement. Hooft y and Flack x are applicable only to structures in non-centrosymmetric space groups (i.e. not containing an inversion centre). They are displayed with an error and should be close to zero if the structure solution is correct, while ~1 implies the structure should be inverted and values significantly different from 0 or 1 indicate a racemic twin.</p>
+</blockquote>
+</li>
+<li>
+<p>Check that the chemical composition is correct and there are no extra or missing atoms. If there is an error in Toolbox Work the atom types will not appear green. To update the chemical composition to agree with the structure displayed on the screen under Work | Toolbox Work click on   and then Refine again.</p>
+</li>
+<li>
+<p>Go to the Info tab and open the Bad Reflections header tab if there are one or two reflections that have very large |Fc2-Fo2|/esd values they may need to be omitted. Such reflections will be obvious as their values will be significantly out of line with the rest of the reflections. If it seems necessary to omit more than a handful of reflections, there is probably a reason that should be investigated. 0.</p>
+<blockquote>
+<p>Do not omit reflections until all of the atoms have been located as the poorly fitting reflections are affected by missing atoms, for example low angle reflections often appear badly fitting prior to the addition of hydrogen atoms.</p>
+</blockquote>
+</li>
+</ol>
