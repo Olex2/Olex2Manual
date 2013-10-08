@@ -66,7 +66,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 20.	Rotate the structure and examine the hydrogen positions to make sure that the structure looks sensible, if required repeat adjustments to the hydrogen atom positions. 
 
-	![Incorrectly Positioned Hydrogen](/images/incorrectly_positioned_hydrogen.png)
+	![Incorrectly Positioned Hydrogen](/images/Incorrectly_positioned_hydrogen.png)
 
 21.	It is now necessary to adjust the weighting scheme. Under the refinement options, there is a Weights option. Tick the box next to Auto Update Weights. Click Refine and repeat until the weights are no longer changing.
 
