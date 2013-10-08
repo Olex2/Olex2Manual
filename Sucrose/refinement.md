@@ -19,12 +19,12 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 	>The atoms are displayed as spheres when they are modelled isotropically (i.e. one parameter to define the atomic displacement parameter, ADP). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
 
-7.	If a sphere is significantly smaller than the others, the atom type is too light e.g. assigned as a carbon atom but it should be an oxygen atom. If it is distinctively larger, it’s been assigned as a too heavy atom. Select the offending spheres and change their atom types. If the sphere representing the atom has become too small to see, draw a rectangle (SHIFT+LEFT MOUSE) around the atom to select it. 
+7.	If a sphere is significantly smaller than the others, the atom type is too light e.g. assigned as a carbon atom but it should be an oxygen atom. If it is distinctively larger, itï¿½s been assigned as a too heavy atom. Select the offending spheres and change their atom types. If the sphere representing the atom has become too small to see, draw a rectangle (SHIFT+LEFT MOUSE) around the atom to select it. 
 
 	>If an assigned atom type is too light, there is not enough electron density available to fit the experimental data so the refinement pulls the available electron density into a smaller volume to try and improve the fit to the experimental data. If the assigned atom type is too heavy it has more electron density that expected and the refinement increased the volume over which the electron density is spread to improve the fit to the experimental data.
 
 8.	Carry out further refinement cycles (and adjust atom types!) until all atoms are approximately represented by spheres of the same size.
-9.	At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e– Å-3, min ~-0.6 e Å-3. 
+9.	At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 eï¿½ ï¿½-3, min ~-0.6 e ï¿½-3. 
 
 10.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using `anisotropic displacement parameters` (ADP) requires 6 parameters to define the volume occupied by the electron density rather than the single one that was used to define the sphere during `isotropic refinement`.
 
@@ -38,7 +38,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 	>It is generally good practice to re-set the atoms to be isotropic, click on   in Toolbox Work at the top right. Select the relevant atoms and change the atom type in Toolbox Work. Click on Refine, make sure your structure looks reasonable then click on   on Toolbox Work at the top right to re-refine in the anisotropic model.
 
-	At this stage using olex2.refine you should have R1 ~ 7–8 %, wR2 ~ 20–21%, Difference map max ~0.7 e Å-3, min ~-0.4 e Å-3.
+	At this stage using olex2.refine you should have R1 ~ 7-8 %, wR2 ~ 20-21%, Difference map max ~0.7 e ï¿½-3, min ~-0.4 e ï¿½-3.
 
 13.	The next stage is to add hydrogen atoms to your structure. In Toolbox Work click on Add H in the top right hand corner (or type hadd in the console). Olex2 automatically adds hydrogen atoms and includes these in the subsequent refinement.
 
@@ -54,19 +54,19 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 16.	Repeat hydrogen atom addition as before. This time Olex2 will only add the missing hydrogen atoms. If for any reason, they are still incorrect, it will be necessary to add them manually. Similarly if hydrogen atoms were missing after Add H. 
 
-17.	The first assignment of hydrogen atom positions is not always fully optimised, particularly for less well defined groups such as –OH. If there are Q-peaks close to oxygen atoms that are not where the hydrogen is currently located, the hydrogen position may need adjusting. The image shows an incorrectly positioned hydrogen atom 1 which should be located at the Q-peak 2.
+17.	The first assignment of hydrogen atom positions is not always fully optimised, particularly for less well defined groups such as ï¿½OH. If there are Q-peaks close to oxygen atoms that are not where the hydrogen is currently located, the hydrogen position may need adjusting. The image shows an incorrectly positioned hydrogen atom 1 which should be located at the Q-peak 2.
 
-18.	To optimise the hydrogen atom positions if necessary there are two options: multiple refinement cycles using Refine may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position), alternatively select a hydrogen atom and then in Toolbox Work choose Fit option from the Select group or atom(s) and then … tool. Once in Fit mode, holding the SHIFT key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atoms needs to be relocated.
+18.	To optimise the hydrogen atom positions if necessary there are two options: multiple refinement cycles using Refine may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position), alternatively select a hydrogen atom and then in Toolbox Work choose Fit option from the Select group or atom(s) and then ï¿½ tool. Once in Fit mode, holding the SHIFT key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atoms needs to be relocated.
 
 	When in the Fit mode it is possible to rotate the structure to see if the relocated hydrogen atom is now on the Q-peak. Remove your finger from the mouse and SHIFT key, hold the LEFT MOUSE button down and move the mouse.
 
 19.	Refine the structure.
 
-	![Incorrectrly Positioned Hydrogen](/images/incorrectly_position_hydrogen.png)
-
 	>The refinement engine will automatically adjust the position to maintain the appropriate geometric constraints dictated by the AFIX instruction.
 
 20.	Rotate the structure and examine the hydrogen positions to make sure that the structure looks sensible, if required repeat adjustments to the hydrogen atom positions. 
+
+	![Incorrectly Positioned Hydrogen](/images/incorrectly_positioned_hydrogen.png)
 
 21.	It is now necessary to adjust the weighting scheme. Under the refinement options, there is a Weights option. Tick the box next to Auto Update Weights. Click Refine and repeat until the weights are no longer changing.
 
