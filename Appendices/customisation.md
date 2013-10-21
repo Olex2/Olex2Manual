@@ -19,4 +19,4 @@ For example the following construct placed in that file sets programs for KDE:
 		>
 	>`
 	
-This defines a function which is called when Olex2 starts up, please note if there are several functions with the same name are found in the files - the last one will be used. Please avoid overriding any functions in the macro.xld file as that may cause Olex2 to function incorrectly.
+This defines a function which is called when Olex2 starts up, please note if several functions with the same name are found in the files - the last one will be used. Please avoid overriding any functions in the macro.xld file as this may cause Olex2 to function incorrectly.
