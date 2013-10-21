@@ -29,7 +29,7 @@ There are a variety of options to determine geometric parameters relating to the
 
 ### Measuring bond angles
 - Right click on the central atom, under BANG the bond angle will be displayed.
-- Select three atoms, then under View – Geometry click on either Dis-tance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of View – Geometry – Refine and save esd info first.)
+- Select three atoms, then under View â€“ Geometry click on either Dis-tance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of View â€“ Geometry â€“ Refine and save esd info first.)
 - Select the central atom and type bang sel to see associated geometric parameters (alternatively replace sel by an atom name).
 - Under Work click on Report to generate an html report containing the bond lengths in one of the tables.
 ### Measuring torsion angles
@@ -42,18 +42,18 @@ There are a variety of options to determine geometric parameters relating to the
 
 ## Analysing Interactions
 ### Hydrogen bonding
-- Use Olex2 ’s htab command to locate the hydrogen bonds; (use help htab to find more information). Type htab –g to automati-cally calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type fuse (note that Olex2 will display HTABs disregarding their validity). 
+- Use Olex2 â€™s htab command to locate the hydrogen bonds; (use help htab to find more information). Type htab â€“g to automati-cally calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type fuse (note that Olex2 will display HTABs disregarding their validity). 
 
 ### p-p interactions
-To analyse all p-p interactions associated with the asymmetric unit automatically type pipi –g. Type fuse to return to the asymmetric unit. This is also available under View | Geometry | Analyse p-p Interactions. 
+To analyse all p-p interactions associated with the asymmetric unit automatically type pipi â€“g. Type fuse to return to the asymmetric unit. This is also available under View | Geometry | Analyse p-p Interactions. 
 #### Locate p-p interactions manually
 - If the potential p-p interaction is not within the asymmetric unit, grow the structure to display both parts of the interaction.
 - Select all of the atoms of the first ring under View | Geometry click on Mean Plane (of active selection). A plane will be displayed in the ring and a centroid generated, all symmetry related planes will automatically be added to any other molecules on the screen.
-- Click on the two centroids under View | Geometry click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection), to obtain the distance with or without an esd respectively (the latter requires the use of View – Geometry – Refine and save esd info first).
+- Click on the two centroids under View | Geometry click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection), to obtain the distance with or without an esd respectively (the latter requires the use of View â€“ Geometry â€“ Refine and save esd info first).
 ### Calculating the mean plane of a selection
 Select four or more atoms through which to calculate a plane. Click on View | Geometry | Mean Plane (of active selection).
 ### Calculating the deviation of atoms from a plane
-Select the atoms to be in a plane and type mpln to create the plane. Olex2 to will then print information regarding the plane. If more information regarding this plane is needed – select it and any other object (atom, bond, plane etc) and type sel (esd) to get the required information.
+Select the atoms to be in a plane and type mpln to create the plane. Olex2 to will then print information regarding the plane. If more information regarding this plane is needed â€“ select it and any other object (atom, bond, plane etc) and type sel (esd) to get the required information.
 ### Calculating the angle between planes
 Create the required planes and select them. In View | Geometry click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection), to obtain the distance with or without an esd respectively (the latter requires the use of View | Geometry | Refine and save esd info first). Alternatively:
 - Click on the   pencil icon to display the header of the .ins file. On a line below the UNIT instruction type:
@@ -64,26 +64,26 @@ Create the required planes and select them. In View | Geometry click on either D
 ## Growing Structures
 Olex2 offers a lot of flexibility over the manner in which structures are grown, the majority of these options are found under View | Symmetry Generation | Growing under which there are three options: Grow, Mode Grow and Assemble.
 - Completing structures where Z' ? 1
-- Grow - Grow All will display all symmetry equivalent atoms/fragments to display the complete structure. (This is the same as View – Symmetry Generation - Grow All).
+- Grow - Grow All will display all symmetry equivalent atoms/fragments to display the complete structure. (This is the same as View â€“ Symmetry Generation - Grow All).
 If the asymmetric unit does not consist of a complete molecule i.e. Z'? 1, this mode will generate the rest of the structure. It is not uncommon for Z' to be some fraction of a molecule if it is sat on or around a special position in which case the rest of the molecule is generated by one or more symmetry operation(s), e.g. if a molecule is sat on an inversion centre only half of the molecule will be contained within the asu, the other half is generated by the inversion centre. For polymeric structures growth of 1 asu fragment will occur at each attachment point each time Grow All is clicked on.
 - Shells will grow incomplete fragments atom by atom in shell-by-shell from the currently displayed image.
 - Complete will generate all missing symmetry equivalent atoms of an already grown structure, independent of whether these are bound to the main fragment or not. In other words: all solvent molecules and counter-ion will be generated according to what is already shown.
 ### User-controlled growing modes
 These options are similar to grow, but the commands are only executed after you click on an object. When you enter a growing mode, clickable 'growing bonds' will sprout from atoms where the kind of growing you have asked for is applicable. There are various options in View | Symmetry Generation | Growing | Mode Grow:
 - Short Contacts displays grow-able 'bonds' to those atoms where 'short interactions' exist, alternatively type mode grow -s. Press ESC to exit the mode. If an atom is selected first only short interactions to that atom are shown.
-- Contacts near selected atoms – select an atom or atoms and then select Selection to display growable bonds from those atoms, alter-natively type mode grow –r. Press ESC to exit the mode.
-- Contacts within the Van der Waals radii will show grow-able 'bonds' which are within the Van der Waals radii of the atoms. Alternatively type mode grow –v ## where ## represents a user specified distance away from atoms. Press ESC to exit the mode. If an atom is selected first only short interactions to that atom are shown.
+- Contacts near selected atoms â€“ select an atom or atoms and then select Selection to display growable bonds from those atoms, alter-natively type mode grow â€“r. Press ESC to exit the mode.
+- Contacts within the Van der Waals radii will show grow-able 'bonds' which are within the Van der Waals radii of the atoms. Alternatively type mode grow â€“v ## where ## represents a user specified distance away from atoms. Press ESC to exit the mode. If an atom is selected first only short interactions to that atom are shown.
 - Atom by atom structures can be grown by selecting Shells. Press ESC to exit the mode. If an atom is selected first only short interactions to that atom are shown.
-- Relocating atoms in the asu – it may be desirable to select different atoms to form the asymmetric unit. To do this select Move and click on an alternative location. Press ESC to exit the mode. If an atom is selected first only options relating to that atom are displayed.
-> In order to grow all of the displayed clickable growing options in growing modes, type grow –b.
+- Relocating atoms in the asu â€“ it may be desirable to select different atoms to form the asymmetric unit. To do this select Move and click on an alternative location. Press ESC to exit the mode. If an atom is selected first only options relating to that atom are displayed.
+> In order to grow all of the displayed clickable growing options in growing modes, type grow â€“b.
 ### Reassembling structures
 This tool does not strictly belong to the 'growing' family of tools, but it is frequently used together with the growing tools as it allows you to re-arrange the asymmetric unit contents into a different configuration. There are various options under View | Symmetry Generation | Growing | Assemble:
-- Broken Fragments: a structure may become 'broken' - parts that should be bonded are shown as separate fragments. This tool will bring them back together, alternatively type compaq –a. 
-- Atom-to-Atom is very similar to the 'Broken Fragments' tool, but a different algorithm is used, or type compaq –c. 
-- Metal Last In this tool, metal ions are ignored while attempts to re-assemble the ligand are made, the metal ion is placed at the shortest possible distance, or type compaq –m. 
-- Q-Peaks This will move all electron density peaks as close to existing atoms as possible, or type compaq –q.
+- Broken Fragments: a structure may become 'broken' - parts that should be bonded are shown as separate fragments. This tool will bring them back together, alternatively type compaq â€“a. 
+- Atom-to-Atom is very similar to the 'Broken Fragments' tool, but a different algorithm is used, or type compaq â€“c. 
+- Metal Last In this tool, metal ions are ignored while attempts to re-assemble the ligand are made, the metal ion is placed at the shortest possible distance, or type compaq â€“m. 
+- Q-Peaks This will move all electron density peaks as close to existing atoms as possible, or type compaq â€“q.
 - Growing structure to display hydrogen bonding interactions
--- To view the hydrogen bonding interaction associated with the asymmetric unit type htab –g. To return to just viewing the asymmetric unit type fuse.
+-- To view the hydrogen bonding interaction associated with the asymmetric unit type htab â€“g. To return to just viewing the asymmetric unit type fuse.
 -- Displaying the asymmetric unit only:
 -- Grow - Asymm. Unit (fuse) Removes all symmetry equivalent atoms and displays the asymmetric unit. Alternatively type fuse.
 ## Packing Structures
@@ -97,6 +97,6 @@ Olex2 offers a range of options for packing structures in different ways in orde
 Under Tools | Chemical Tools you will find these useful general tools:
 - CHN Analysis calculates the expected CHN composition on the basis of the unit cell content.
 - Molecular Isotope Pattern
-- Molecular Volume – calculates the Molecular surface area and Mo-lecular volume of the current model.
+- Molecular Volume â€“ calculates the Molecular surface area and Mo-lecular volume of the current model.
 - Volume of Polyhedron around Selected Atom calculates the sum of the angles of the selected atom and the tetrahedron volume. This does not apply to terminal atoms.
 - Wrapping Box. Right-click on it and then select hide to delete it.

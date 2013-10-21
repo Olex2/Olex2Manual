@@ -11,10 +11,10 @@ Atoms can be selected under Work | Select. When the labels are active Ctrl+A sel
 There are two independent sets of labels. The built-in labels (toggled with F3 and under Work | Toolbox Work) and then those accessed from Tools | Images. These image labels can be positioned with SHIFT+LEFT MOUSE. The built-in labels are useful if you want to see to see all atom names but label only a few atoms.
 ### Saving Images
 Olex2 offers a number of different file formats for saving images, these are found under Tools | Images, the images are saved in the current structure folder:
-- Bitmap Images – various option exist for changing the appearance of the image, it is worth experimenting.
-- Postscript Images – various option exist for changing the appearance of the image, it is worth experimenting.
-- Povray Images – Olex2 writes a .pov file but any changes need to be made using PovRay.
-- Image Series – creates a series of images for a movie. There are op-tions for changing the Rotation around Axis, the number of degrees of rotation between each image, the Number of Frames and the Size.
+- Bitmap Images â€“ various option exist for changing the appearance of the image, it is worth experimenting.
+- Postscript Images â€“ various option exist for changing the appearance of the image, it is worth experimenting.
+- Povray Images â€“ Olex2 writes a .pov file but any changes need to be made using PovRay.
+- Image Series â€“ creates a series of images for a movie. There are op-tions for changing the Rotation around Axis, the number of degrees of rotation between each image, the Number of Frames and the Size.
 There are options to specify what happens if a picture file already ex-ists, the default is to Ask, but it is also possible to select Increment or Replace.
 
 ## Generating Figures

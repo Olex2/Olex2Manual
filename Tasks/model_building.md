@@ -17,8 +17,8 @@ When a large number of atoms have not been located it is advisable to use a larg
 ### Displaying Q-peak intensity labels
 - Select Q-Peak intensities from Work | Toolbox Work | Labels. 
 ### Displaying negative Q-peaks
-- Using ShelXL, under Work | Refine | Refinement Settings Extra change FMAP 2 to –2. Negative Q-peaks are displayed as purple spheres.
-- In general type, calcfourier -diff –i to display negative Q-peaks.
+- Using ShelXL, under Work | Refine | Refinement Settings Extra change FMAP 2 to â€“2. Negative Q-peaks are displayed as purple spheres.
+- In general type, calcfourier -diff â€“i to display negative Q-peaks.
 ### Adjusting the visual appearance of Q-peaks
 - The relative scaling of the Q-Peak transparency can be adjusted under  Info | Electron Density Peaks using the Transparency slider. 
 ## Atom Manipulations
@@ -28,30 +28,30 @@ When a large number of atoms have not been located it is advisable to use a larg
 - Select atoms(s) and use the name command.
 ### Selecting atoms or groups of atoms
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
-- Selected atoms turn ‘green’
+- Selected atoms turn â€˜greenâ€™
 - Add to the current selection by clicking atoms
 - Take atoms out of a selection by clicking on them again
 - Double-click on a whole molecule to select it
-- CTRL+I – inverts the selection
-- CTRL+A – selects everything,
-- DELETE – deletes selected atoms.
-- ESC – deselects all atoms
-For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you don’t have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type anis, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
+- CTRL+I â€“ inverts the selection
+- CTRL+A â€“ selects everything,
+- DELETE â€“ deletes selected atoms.
+- ESC â€“ deselects all atoms
+For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you donâ€™t have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type anis, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
 Olex2 offers several options for selecting atoms individually:
 - Left click with the mouse on an atom or multiple atoms in turn to select one or more atoms.
 - Under Work | Select:
 	-- Exclusive or Additive enable either C, H, N, O or all atoms to be se-lected either individually or additively.
 	-- Selection the current atom selection can be Inverted, Deselected, Deleted or Previous returns to the previous atom selection.
-	-- Select atoms where Uiso … is greater than (>), less than (<) or equal (=) to a user-defined value. Click on Select to select defined atoms.
+	-- Select atoms where Uiso â€¦ is greater than (>), less than (<) or equal (=) to a user-defined value. Click on Select to select defined atoms.
 	-- Select Rings: C6, C5N, C5 or C5O options are available, type in the ring composition to be selected.
 	-- More options are available from help sel.
 ### Naming Atoms
 Olex2 offers a couple of useful features for naming specifically automatically adjusting hydrogen labelling, if the parent atom name is changed and name matching for equivalent fragments if Z' > 1. These options are listed under Work | Naming.
 To name atoms enter the Start number, change the Suffix and Type if needed. Click on Name, then use the left mouse button to click on the atoms in the required order, they will be labelled sequentially. Press ESC when finished.
 - To restart from a number select the appropriate number and click on Name again. A number can only be used once in association with a particular atom type, if one appears more than once the two atoms with the same name will be labelled in red.
-Automatic Hydrogen Naming – if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click Refine for changes to the hydrogen atom labels to take effect (or type FixHL in the command-line).
-Equivalent Fragments (Z' > 1) – name matching for equivalent fragments. Select one atom from the correctly named fragment then one from the fragment to match the names. Add a Suffix letter and click on Equivalent Fragments (Z' > 1) the second fragment will automatically be relabelled.
-As with many option this can be done in the command-line after selecting the atoms in order type match sel –n=suffix where suffix is the number required, without selecting atoms sel can be replaced by the two atom names in order separated by a space. Two alternative naming ap-proaches can be achieved using the command-line only: (1) replace the first number e.g. C101 becomes C201, and type match sel –n=$suffix where suffix is the number required; (2) replace the last character type match sel –n=-suffix. If no atoms are selected clicking on Equivalent Fragments (Z' > 1) will show how the fragments will be matched. Type match -u to return to the non-matched view.
+Automatic Hydrogen Naming â€“ if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click Refine for changes to the hydrogen atom labels to take effect (or type FixHL in the command-line).
+Equivalent Fragments (Z' > 1) â€“ name matching for equivalent fragments. Select one atom from the correctly named fragment then one from the fragment to match the names. Add a Suffix letter and click on Equivalent Fragments (Z' > 1) the second fragment will automatically be relabelled.
+As with many option this can be done in the command-line after selecting the atoms in order type match sel â€“n=suffix where suffix is the number required, without selecting atoms sel can be replaced by the two atom names in order separated by a space. Two alternative naming ap-proaches can be achieved using the command-line only: (1) replace the first number e.g. C101 becomes C201, and type match sel â€“n=$suffix where suffix is the number required; (2) replace the last character type match sel â€“n=-suffix. If no atoms are selected clicking on Equivalent Fragments (Z' > 1) will show how the fragments will be matched. Type match -u to return to the non-matched view.
 3.5.2.4	Sorting atoms in the .ins file
 The atoms can be sorted in the .ins file automatically under Work | Sorting | by Mass & Label, Atom Label, Atomic Mass or Moieties. Click on the info icon in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
 ## Hydrogen Atoms
@@ -64,8 +64,8 @@ Hydrogen atoms can be added in a number of different ways within Olex2 either by
 - Q-peaks can be turned into H using the H button under Work | Toolbox Work or by right-clicking on the peak and then selecting Type | H.
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the Q to H   icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 #### Using AFIX/HFIX instructions: 
-Automatic hydrogen atom positioning – Under Work | Toolbox Work is the Add H option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
-- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as –CH3¬ or –OH, if there appears to be a Q-peak(s) that would be better positions for the hydrogen atom(s) it may be necessary to carry out multiple refinement cycles or use Work | Toolbox Work | Select Group or atom(s) and then Split or Move with Shift key to optimise the relevant positions
+Automatic hydrogen atom positioning â€“ Under Work | Toolbox Work is the Add H option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
+- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as â€“CH3Â¬ or â€“OH, if there appears to be a Q-peak(s) that would be better positions for the hydrogen atom(s) it may be necessary to carry out multiple refinement cycles or use Work | Toolbox Work | Select Group or atom(s) and then Split or Move with Shift key to optimise the relevant positions
 - Manually adding hydrogen atoms - Under Tools | Hydrogen Atoms various options are provided for adding hydrogen atoms:
 The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Click the OK icon to exit or press ESC.
 - If the HFIX is inappropriate for an atom, an error message will appear in the console and hydrogen atoms will not be added. Otherwise, H atoms will appear on the screen. For more information HFIX instructions see the ShelXL manual.

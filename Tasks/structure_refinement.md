@@ -7,11 +7,11 @@ The most common refinement options can be set under Work | Refine. Listed here a
 ### Maximum Refinement Iterations
 Set the number of refinement cycles. ShelXL refines up to the maximum number of cycles, regardless of the refinement has settled or not. olex2.refine will stop earlier if the refinement has converged.
 Early on in the refinement, when you know that your structure is far from correct, a few cycles of refinement is about right. If you ask for more cycles, you are not only wasting your time, but you are asking the program to find the minimum of something that you know is wrong! This can lead to unwanted and sometimes confusing shifts in your model.
-A larger number can be useful towards the end of a refinement to ensure the Max Shift label   reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesnít approach 0, thereís something wrong with the model and you must figure out what that is before you can finalise the structure.
+A larger number can be useful towards the end of a refinement to ensure the Max Shift label   reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesn‚Äôt approach 0, there‚Äôs something wrong with the model and you must figure out what that is before you can finalise the structure.
 ### Number of Residual Peaks
-Changes the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you donít need so many Q-Peaks and/or can switch them off.
+Changes the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you don‚Äôt need so many Q-Peaks and/or can switch them off.
 ### Weights
-Weights will automatically update once the R-factor for your structure goes below the chosen value. Set this to 0 if you donít wish to update weights.
+Weights will automatically update once the R-factor for your structure goes below the chosen value. Set this to 0 if you don‚Äôt wish to update weights.
 Weights are normally added towards the end of the refinement. Keep re-fining, until the weights are no longer changing and have turned green.
 ### Use extinction correction
 Tick the box to include an extinction correction.
@@ -28,12 +28,12 @@ The list file (in the case of running Shelx programs) can be viewed by typing ed
 ### Viewing statistics on refinements and reflections
 A summary of the key refinement parameters that are particularly useful to monitor the progress of the refinement are available under Info | Refinement Indicators. There is also as summary about your data is under Info | Reflection Statistics Summary.
 - The statistics are colour-coded to provide a quick method to monitor a refinement, such that red=bad, orange=moderate, dark=ok. 
-- R1, wR2, GooF: Standard algorithms for measuring the quality of the agreement between Fo and Fc. When someone asks ìWhat was the R-factor of your structure?î, they are asking for R1 (R1 for reflections filtered by Fo > 4sig(Fo)). A very large R-value suggests an incorrect solution and therefore a need to try more rigorous structure solution routines. The GooF (Goodness of Fit) value should converge to 1.0 at the end of the refinement.
-- Highest peak/Deepest hole: Values indicate residual electron den-sity peaks and holes in units of eñ/≈3. The closer to zero, the better. 
+- R1, wR2, GooF: Standard algorithms for measuring the quality of the agreement between Fo and Fc. When someone asks ‚ÄúWhat was the R-factor of your structure?‚Äù, they are asking for R1 (R1 for reflections filtered by Fo > 4sig(Fo)). A very large R-value suggests an incorrect solution and therefore a need to try more rigorous structure solution routines. The GooF (Goodness of Fit) value should converge to 1.0 at the end of the refinement.
+- Highest peak/Deepest hole: Values indicate residual electron den-sity peaks and holes in units of e‚Äì/√Ö3. The closer to zero, the better. 
 - Refs (total): the number of reflections read from the hkl file.
 - Refs (uni) is the number of unique reflections, after merging equivalent reflections and rejecting systematic absence violations. 
-- Refs (Fo> 4sig(Fo)): cutoff for defining ìobserved dataî.
-- Rint: measure of ìequivalenceî of symmetry equivalent reflections. Lower the Rint ñ is better. A high value indicates bad data, poor ab-sorption correction, or wrong space group (i.e. Laue symmetry).
+- Refs (Fo> 4sig(Fo)): cutoff for defining ‚Äúobserved data‚Äù.
+- Rint: measure of ‚Äúequivalence‚Äù of symmetry equivalent reflections. Lower the Rint ‚Äì is better. A high value indicates bad data, poor ab-sorption correction, or wrong space group (i.e. Laue symmetry).
 - R (sigma): measure of the precision of the resulting mean intensities. Large values indicate that the data is very weak and/or data were incorrectly processed.
 - F000: This is the scattering factor (F) for the hkl = 000 reflection. The value is equal to the number of electrons in the unit cell.
 ## Omitting Reflections
@@ -43,6 +43,6 @@ Poorly fitting reflections are listed under Info | Bad Reflections. Those measur
 - Edit Reflections. This displays the worst-fitting reflections, showing each equivalent occurrence of that reflection separately. You can omit only the offending separate reflections and don't need to throw the whole reflection out. In fact, Olex2 simply moves the flagged reflections to the end of the file (after the '0 0 0' line, indicating to the refinement program that these should be ignored.
 - To omit a specific reflection manually, type OMIT h k l.
 - Use OMIT ##, where ## is the minimum value of the |(Fc2-Fo2)|/esd to omit all reflections where the value is above the threshold.
-- In general most of the poorly fitting reflections should have similar values of |Fc2-Fo2|/esd ideally all less than ~ +/ñ10. One or two poorly fitting reflections with significantly different values of |Fc2-Fo2|/esd can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
+- In general most of the poorly fitting reflections should have similar values of |Fc2-Fo2|/esd ideally all less than ~ +/‚Äì10. One or two poorly fitting reflections with significantly different values of |Fc2-Fo2|/esd can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
 ##Inverting a Structure
-It  should never be necessary to invert a  structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv ñf. 
+It  should never be necessary to invert a  structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv ‚Äìf. 

@@ -1,5 +1,5 @@
 introduction.md
-quick_accesss_icons.md
+quick_access_icons.md
 context_menus.md
 command_line_options.md
 file_editing_options.md
