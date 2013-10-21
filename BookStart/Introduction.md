@@ -9,5 +9,5 @@ The manual also includes a step-by-step guide to the use of Olex2 to determine t
 Olex2 is frequently being updated with new features or tools, some of which arise from specific user requests. If there is a feature or tool that is not currently available in Olex2 but you need or would like to see added, please contact the OlexSys team on www.olex2.org.
 
 When using Olex2 please always cite the following reference:
-O. V. Dolomanov, L. J. Bourhis, R. J. Gildea, J. A. K. Howard and H. Puschmann. "Olex2: A complete structure solution, refinement and analysis program". (2009) J. Appl. Cryst., 42, 339-341.
+O. V. Dolomanov, L. J. Bourhis, R. J. Gildea, J. A. K. Howard and H. Puschmann. "Olex2: A complete structure solution, refinement and analysis program". (2009) *J. Appl. Cryst.*, 42, 339-341.
  
