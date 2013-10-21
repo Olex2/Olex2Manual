@@ -11,6 +11,7 @@ Under Work | Report you can type a name of the crystal structure report (‘data
 - Publication – details of CCDC numbers, authors and journals.
 - Reference – details on the published structure
 - Source Files – Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
+
 ### Generating a Report
 Under Work | Report are three boxes giving options on including an Image, Style and Template used to generate the report. Select the options then either click on Make Report or the Report tab heading. An html report will be generated and saved into the folder containing the current structure.
 ### Generating a CIF
