@@ -22,16 +22,16 @@
 
 6.	Still in the Toolbox Work click on the Q square `ICON_Q` to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  _CTRL+Q_ repeatedly).
 
-    >Some of the Q-peaks may not represent real atoms at this stage so don’t worry if there are unexpected bonds.
+    >Some of the Q-peaks may not represent real atoms at this stage so don't worry if there are unexpected bonds.
 
-7.	The ‘structure’ can be rotated by holding down the left hand mouse button in the background of the main screen and moving the mouse.
+7.	The ‘structure' can be rotated by holding down the left hand mouse button in the background of the main screen and moving the mouse.
 
     >Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
 
 8.	The next stage is to assign atoms types to the Q-peaks. Use the left hand mouse button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
 
-    >If the Q-peaks don’t appear to form a structure, try typing compaq -a, which will pull Q-peaks together. Clicking on centre   (top right of GUI) has the same effect.
+    >If the Q-peaks don't appear to form a structure, try typing compaq -a, which will pull Q-peaks together. Clicking on centre   (top right of GUI) has the same effect.
 
-9.	In Toolbox Work click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type name C to assign all selected peaks as carbon atoms. By using the UP key, it’s easy to repeat this command.
+9.	In Toolbox Work click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type name C to assign all selected peaks as carbon atoms. By using the UP key, it's easy to repeat this command.
 
     >Hovering over the atom with the mouse pointer shows the atom label e.g. O1, which takes the format of an atom type followed by a number. There are often some spurious peaks at this stage, so identify recognisable fragments rather than trying to assign an atom type to every Q-peak. Hydrogen atoms are not usually identified at this stage, since they have a very low scattering power.

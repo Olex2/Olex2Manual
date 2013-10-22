@@ -10,11 +10,11 @@ More detail of linking to occupancy is provided in Section 4.4.7 on occu-pancy.
 If more than one position of an atom or fragment of a molecule is being modelled in the unit cell, it is necessary to put the disordered atoms into separate parts otherwise bonds appear between the disordered parts and only one option can be at any point in a cell at any one time.
 - Right click on an atom and select desired part from the context menu | Part.
 - Using the GUI panel -- select the atoms to put into a part. In Tools | Disorder | Assign selection to Part type the required part number and click on the tool link.
-- Select some atoms and type part ## where ## is the part number, in the command-line. Using the command-line you can also provide second numerical value to the part command -- the selected atom’s occupancy.
+- Select some atoms and type part ## where ## is the part number, in the command-line. Using the command-line you can also provide second numerical value to the part command -- the selected atom's occupancy.
 
 ## Displaying PART Information
 Displaying PART numbers -- under Work | Toolbox Work | Labels either select Parts from the drop down menu or click on PARTS. Alternatively use showp ##, where ## is a space separated list of parts, in the command-line.
-Displaying atoms in particular PART’s under both Work | Toolbox Work | Show and Tools | Disorder | Show PART are the options to display all atoms assigned to specific parts in combination e.g. 0 + 1 or 0 + 2 or all parts.
+Displaying atoms in particular PART's under both Work | Toolbox Work | Show and Tools | Disorder | Show PART are the options to display all atoms assigned to specific parts in combination e.g. 0 + 1 or 0 + 2 or all parts.
 All atoms in PART 0 are normally 100% occupied in other words they are at that position in every asymmetric unit, while those in other parts are not present in every asymmetric unit hence it is normally desirable to see things in combination with atoms in PART 0. This can be useful to check that each section of modelled disorder makes chemical and crystallo-graphic sense. 
 ## Assigning Occupancies
 When refining occupancies, the thermal parameters of the atoms should be refined isotropically. If the sum of the occupancies of a pair ofatoms is required to total one, their Uiso values should be linked using EADP but allowed to refine until the occupancies are fixed. The reason for this is that strong correlations exist between occupancies and thermal parameters and not linking Uiso while refining the occupancies may lead to incorrect occupancies. Very small occupancies should be examined with caution.
@@ -39,18 +39,18 @@ Right click on the atom -- Chemical Occupancy will provide these options:
 - Select a specific occupancy value e.g. ½. 
 - Fix the occupancy to its current refined value. This is only applicable if the atom occupancy has been refining freely or associated with a free variable (FVAR in the .ins file).
 - To refine the occupancy, select Free. This refines the occupancy freely but does not associate it with a free variable.
-- Use ‘fix’ and ‘free’ in the command-line. For example fix occu 1 fixes the occupancy of selected (or ALL atoms) to 1; free occu will make occupancy of selected (or ALL) 'refineable'.
+- Use ‘fix' and ‘free' in the command-line. For example fix occu 1 fixes the occupancy of selected (or ALL atoms) to 1; free occu will make occupancy of selected (or ALL) 'refineable'.
 
 ## Linking Atom Occupancies
 Under Tools | Disorder | Link Selected Occupancies will link the occupan-cies of the two selected atoms to a free variable and set their sum to equal 1. Subsequent selections will be linked to another free variable.
 The free variable will be linked to a number in the FVAR instruction at the top of the .ins file 21 links to the second FVAR number, while 31 links to the third FVAR number etc. These number are then refined. Essential 21 means 1 x FVAR 2, while -21 means 1-(1 x FVAR 2)] in other words if two atoms have occupancies of 21 and -21 respectively the sum of their occu-pancies will equal one fully occupied atom.
 Sometimes it quicker and easier to perform this using the command-line:
-- Using ‘Part part occupancy’ command, for example part 1 21 or part 2 -21. In the case new parts to be created, the one can select the atoms of different parts sequentially and issue part --p=N --lo command to create N new parts and link their occupancy. In the case N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
-- Using ‘Fvar variable times’ command, where ‘times’ is the FVAR multiplier, typically 1. For example fvar 2 1 or fvar -2 1.
+- Using ‘Part part occupancy' command, for example part 1 21 or part 2 -21. In the case new parts to be created, the one can select the atoms of different parts sequentially and issue part --p=N --lo command to create N new parts and link their occupancy. In the case N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
+- Using ‘Fvar variable times' command, where ‘times' is the FVAR multiplier, typically 1. For example fvar 2 1 or fvar -2 1.
 ## Displaying Occupancy Values
 Under Work | Toolbox Work | Labels either select Occupancy or Chemical Occupancy from the drop down menu or click on OCCU or Chem OCCU. Occupancy shows you the crystallographic occupancy: if an atom is on a symmetry element, then its crystallographic occupancy is no longer 1, even though chemically it is a fully occupied atom in that position. The chemical occupancy hides this complexity. If that number says '0.5', then that means there is half an atom in that position.
 ## Splitting Atoms 
-If an atom or group of atoms is associated with disorder it can be useful to split the atom in order to model it over more than one position, sometimes it is desirable to do this in association with a restraint, constraint or by linking the occupancies of the two parts. There are a number of options to achieve this within Olex2 :
+If an atom or group of atoms is associated with disorder it can be useful to split the atom in order to model it over more than one position, sometimes it is desirable to do this in association with a restraint, constraint or by linking the occupancies of the two parts. There are a number of options to achieve this within Olex2:
 ### Work | Toolbox Work | Split atoms you click next with … 
 - No restraint splits atoms with no restraints or constraints, putting them into two parts and associating the occupancy with a free variable. Press ESC when finished.
 - EADP or ISOR or SIMU splits the atoms applying either an EADP constraint or ISOR or SIMU restraint depending on what option is selected. Press ESC when finished. (See restraints/constraints) for more detail of these restraints.

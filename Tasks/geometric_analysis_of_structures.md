@@ -42,7 +42,7 @@ There are a variety of options to determine geometric parameters relating to the
 
 ## Analysing Interactions
 ### Hydrogen bonding
-- Use Olex2 ’s htab command to locate the hydrogen bonds; (use help htab to find more information). Type htab --g to automati-cally calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type fuse (note that Olex2 will display HTABs disregarding their validity). 
+- Use Olex2 's htab command to locate the hydrogen bonds; (use help htab to find more information). Type htab --g to automati-cally calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type fuse (note that Olex2 will display HTABs disregarding their validity). 
 
 ### p-p interactions
 To analyse all p-p interactions associated with the asymmetric unit automatically type pipi --g. Type fuse to return to the asymmetric unit. This is also available under View | Geometry | Analyse p-p Interactions. 

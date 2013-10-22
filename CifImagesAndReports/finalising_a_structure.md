@@ -3,20 +3,20 @@
 The bonds to hydrogen atoms are not automatically included in the CIF. Type htab in the command-line -- this will print the found hydrogen bonds and include into the refinement mode; you need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type help htab to find out more about this.
 If a full analysis of torsion angles is required, click on editins   to open the .ins file header. Type CONF on a separate line somewhere below the UNIT line. There is also a tick-box in the refinement settings that will add a collection of commands to ensure that the final cif will contain all the information required by IUCr journals.
 ### Editing Report / CIF parameters
-Under Work | Report you can type a name of the crystal structure report (‘data’ block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the ‘standard location’ (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should be filled. 
+Under Work | Report you can type a name of the crystal structure report (‘data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the ‘standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should be filled. 
 <<<<<<< HEAD
-- Collection – information on the experimenter, date collected.
-- Crystal – name, colour, size, shape preparation details etc.
-- Diffraction – details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users’ own diffractometers.
-- Absorption Correction – details of the absorption correction type, details, Tmax and Tmin.
-- Publication – details of CCDC numbers, authors and journals.
-- Reference – details on the published structure
-- Source Files – Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
+- Collection: information on the experimenter, date collected.
+- Crystal: name, colour, size, shape preparation details etc.
+- Diffraction: details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users' own diffractometers.
+- Absorption Correction: details of the absorption correction type, details, Tmax and Tmin.
+- Publication: details of CCDC numbers, authors and journals.
+- Reference: details on the published structure
+- Source Files: Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
 
 =======
 - Collection -- information on the experimenter, date collected.
 - Crystal -- name, colour, size, shape preparation details etc.
-- Diffraction -- details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users’ own diffractometers.
+- Diffraction -- details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users' own diffractometers.
 - Absorption Correction -- details of the absorption correction type, details, Tmax and Tmin.
 - Publication -- details of CCDC numbers, authors and journals.
 - Reference -- details on the published structure
@@ -32,7 +32,7 @@ Work | Report | Edit CIF Info brings up a text editor enabling the currently kno
 
 ### Validating the CIF
 Direct access to the IUCr CheckCif is available through Olex2 under Work | Report | CheckCif Report with the option to include the .fcf (Send FCF) in the submission or not. The report is saved in either html or pdf format into the folder containing the current crystal structure.
-It is important to check the .cif file for any errors or problems with the crystal structure, to this end the IUCr offers a free automated checking service for .cif files, CheckCif, is available through Olex2 but can also be accessed at http://checkcif.iucr.org/. To obtain a full report the structure factors have to be included (Send FCF). Alert’s are given under either codes of A-G each has a section title that, if generated directly through the program on the web, can be clicked on for more details of what an alert means. Alert A’s are the most serious and generally need attention while Alert G is probably only advisory. All Alert’s that can be solved should be fixed and any more major problems that can’t be fixed should be ex-plained.
+It is important to check the .cif file for any errors or problems with the crystal structure, to this end the IUCr offers a free automated checking service for .cif files, CheckCif, is available through Olex2 but can also be accessed at http://checkcif.iucr.org/. To obtain a full report the structure factors have to be included (Send FCF). Alert's are given under either codes of A-G each has a section title that, if generated directly through the program on the web, can be clicked on for more details of what an alert means. Alert A's are the most serious and generally need attention while Alert G is probably only advisory. All Alert's that can be solved should be fixed and any more major problems that can't be fixed should be ex-plained.
 
 ### Submitting a structure to the CCDC
 A CCDC number ready for a paper can be obtained by clicking on the link CCDC Number.  You can specify whether this submission is intended for a specific journal, or whether it should be treated as a private communication. In either case, you will receive an e-mail with the CCDC number a few days after your submission. The CCDC is always very happy to receive new structure reports of structures that already exist in the CSD. So, next time your structure turns out to be 'already in the CSD', why not submit it as a private communication? It is not necessary to devise a naming scheme and/or prepare any publication material, so it's easily done!
@@ -43,7 +43,7 @@ This should be done upon completion of the structure refinement. If the currentl
 - Under Work | Solve | Chemical Composition simply enter the formula.
 
 ## Refinement Data Plots
-We’ve covered reflection data plots before. Here are the remaining plots that are only relevant once you’ve got a model. These are currently (wrongly) located under Info | Reflection Statistics:
+We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under Info | Reflection Statistics:
 <<<<<<< HEAD
 
 ### Fo–Fc

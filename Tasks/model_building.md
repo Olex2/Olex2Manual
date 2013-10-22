@@ -28,7 +28,7 @@ When a large number of atoms have not been located it is advisable to use a larg
 - Select atoms(s) and use the name command.
 ### Selecting atoms or groups of atoms
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
-- Selected atoms turn ‘green’
+- Selected atoms turn ‘green'
 - Add to the current selection by clicking atoms
 - Take atoms out of a selection by clicking on them again
 - Double-click on a whole molecule to select it
@@ -36,7 +36,7 @@ Atom selections are very important in Olex2. When you need to address specific a
 - CTRL+A -- selects everything,
 - DELETE -- deletes selected atoms.
 - ESC -- deselects all atoms
-For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you don’t have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type anis, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
+For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you don't have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type anis, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
 Olex2 offers several options for selecting atoms individually:
 - Left click with the mouse on an atom or multiple atoms in turn to select one or more atoms.
 - Under Work | Select:
