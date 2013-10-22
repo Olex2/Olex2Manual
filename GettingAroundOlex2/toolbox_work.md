@@ -7,5 +7,5 @@ This option is located under Work and is so frequently used. Here's what's in it
 4.	Display sections of the structure by part number (useful for disorder).
 5.	Set what information about the atoms should be displayed in the atom labels.
 6.	Selects the Q-peaks that are displayed, slide to the right to hide strongest peaks first or to the left to hide weakest peaks first.
-7.	Select atoms by the size of the displacement parameter. Slide to the right to select the ‘biggest' atoms, and to the left to select the ‘smallest' atoms.
+7.	Select atoms by the size of the displacement parameter. Slide to the right to select the 'biggest' atoms, and to the left to select the 'smallest' atoms.
 8.	A selection of available options for treating disorder, displaying elec-tron density maps or growing the structure. 0.

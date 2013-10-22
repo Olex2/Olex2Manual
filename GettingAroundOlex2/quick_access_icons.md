@@ -10,6 +10,6 @@ Displays atomic information including associated constraints and restraints in a
  
 This will open the folder for currently loaded structure. This folder should only contain ONE .ins and ONE .res file, but may contain many .hkl files. There will also be an .olex folder in this subdirectory -- this is where Olex2 keeps the details relating to the current structure.
  
-Displays current console buffer - what is seen in the graphic screen e.g. relating to refinements, suggesting space groups, calculating geometry, studying intermolecular interactions (the buffer has limited size and can be cleared using clear command). This is useful if you want to copy and paste any of this information into other documents. A full transcript of the entire session can be obtained by typing ‘log'. Use PGUP and PGDN keys to scroll the buffer.
+Displays current console buffer - what is seen in the graphic screen e.g. relating to refinements, suggesting space groups, calculating geometry, studying intermolecular interactions (the buffer has limited size and can be cleared using clear command). This is useful if you want to copy and paste any of this information into other documents. A full transcript of the entire session can be obtained by typing 'log'. Use PGUP and PGDN keys to scroll the buffer.
  
 This will try and assemble a fragmented structure compaq -a, adjust the zoom and centre the structure on the screen. Structures should not normally fragment, but sometimes they do.

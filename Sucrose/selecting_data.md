@@ -1,8 +1,5 @@
-Selecting Data
-========
-
+## Selecting Data
 1. Open Olex2. 
-
 2. Click on the Home tab in the GUI panel. Under the Start header one of the Sample Structures is *Sucrose* click on this and the model/instructions *.ins* file will be loaded.
 
 ![Home Tab in GUI Panel](/images/start.png)

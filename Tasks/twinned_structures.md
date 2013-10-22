@@ -1,6 +1,8 @@
 # Twinned Structures
+
 ## Twinning
 Twinning in crystallography means that the crystal contains more than one domain related by a symmetry operation, consequently the diffraction pattern measured is a combination of the diffraction patterns from each of the domains. Twinning makes the data analysis more complicated but with advances in computing and software it is normally possible to resolve twinned crystals. A good introduction to twinning can be found in S. Parsons, (2003), ActaCryst., D59, 1995-2003.
+
 ### Common signs
 There are a number of warning signs for twinning that have been identified, not all will exist at any one time, but if signs are present it is worth investigating twinning. The following list is derived from a list published in R. Herbst-Irmer& G. M. Sheldrick, (1998), ActaCryst., B54, 443-449, where applicable suggestions of where to check features within Olex2 are highlighted: 
 - Indexing problems:
@@ -17,17 +19,21 @@ There are a number of warning signs for twinning that have been identified, not 
 -- R1 and wR2 remain unexpectedly high based on the Rint value. Generally the R1 value should be approximately similar to the Rint upon completion, see Info | Refinement Indicators and Info | Reflection Statistics Summary.
 -- Weights the second value of the weighting scheme remains very high e.g.> 5, to check this see Work | Refine | Weights.
 - Higher symmetry crystal systems in the lower symmetry Laue classes are often subject to merohedral twinning so this is always worth checking. Possible twin laws can be searched for under Tools | Twinning | Search for Twin Laws.
-The first 3 points on the list above should be assessed within the data processing software. The remaining points can be checked within Olex2. 
+The first 3 points on the list above should be assessed within the data processing software. The remaining points can be checked within Olex2.
+
 ### Treating twinning
-Olex2 can automatically search for twin laws and suggest any likely twin laws or you can input twin laws to test. There are different types of twinning: 
+Olex2 can automatically search for twin laws and suggest any likely twin laws or you can input twin laws to test. There are different types of twinning:
+
 #### Merohedral and psedudo-merhohedral Twinning
 Those where the reciprocal lattices (i.e. reflection positions) exactly overlap which is known as twinning by merohedry or pseudo-merohedry this is relatively simple to treat and procedures are described below. In the case of merohedral or pseudo-merohedral twinning a twin law and twin scale factor are added to the head of the .ins file below the unit instruction in the form
 TWIN -1 0 1 0 -1 0 0 0 1 2
 BASF 0.1
 Where -1 0 1 0 -1 0 0 0 1 2 is a 3 by 3 matrix to define the twin law 2 is the no. of twin components. BASF is the twin scale factor, an arbitrary value < 1 is selected which is subsequently refined
+
 #### Non-merohedral twinning
 Non-merohedral twinning where only some of the reflections overlap are more complicated and require the preparation of a different type of .hkl file (an HKLF 5 file) prior to refinement within Olex2. A BASF ## (where ## is an arbitrary number <1) line is included in the .ins file, but no TWIN law.
-Only one twin law can be applied to the data at any time (with the exception of including racemic twinning alongside a twin law). Any twin laws that are being applied to the data are displayed below the refinement statistics at the top of the GUI panel . 
+Only one twin law can be applied to the data at any time (with the exception of including racemic twinning alongside a twin law). Any twin laws that are being applied to the data are displayed below the refinement statistics at the top of the GUI panel .
+
 ### For merohedral and pseudo merohedral twins
 Automatic searching for twin laws -- this can be done using Olex2, Tools | Twinning | Search for Twin Laws, the program searches for metrically possible twin laws, if found the structure is refined against each of them in turn. The R value gives an indication of the quality of the structure, a low R value is better. To select a twin law to continue the refinement click on the relevant twin law.
 If a twin law is selected Olex2 automatically includes the selected twin law and BASF into the .ins file. The matrix (1 0 0 0 1 0 0 0 1) is the untwined refinement. BASF is the twinned scale factor indicating what percentage of the structure would be the second component i.e. 0.20 (=20%) would suggest 80% is component 1 and 20% is component 2. Currently it is only possible to refine using one twin law (excluding racemic twinning) in Olex2.

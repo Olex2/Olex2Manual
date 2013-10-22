@@ -1,10 +1,11 @@
 # Finalising a Structure
+
 ## Before Writing a Final CIF
 The bonds to hydrogen atoms are not automatically included in the CIF. Type htab in the command-line -- this will print the found hydrogen bonds and include into the refinement mode; you need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type help htab to find out more about this.
 If a full analysis of torsion angles is required, click on editins   to open the .ins file header. Type CONF on a separate line somewhere below the UNIT line. There is also a tick-box in the refinement settings that will add a collection of commands to ensure that the final cif will contain all the information required by IUCr journals.
+
 ### Editing Report / CIF parameters
-Under Work | Report you can type a name of the crystal structure report (‘data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the ‘standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should be filled. 
-<<<<<<< HEAD
+Under Work | Report you can type a name of the crystal structure report ('data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the 'standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should be filled.
 - Collection: information on the experimenter, date collected.
 - Crystal: name, colour, size, shape preparation details etc.
 - Diffraction: details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users' own diffractometers.
@@ -13,15 +14,6 @@ Under Work | Report you can type a name of the crystal structure report (‘data
 - Reference: details on the published structure
 - Source Files: Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
 
-=======
-- Collection -- information on the experimenter, date collected.
-- Crystal -- name, colour, size, shape preparation details etc.
-- Diffraction -- details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util / SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users' own diffractometers.
-- Absorption Correction -- details of the absorption correction type, details, Tmax and Tmin.
-- Publication -- details of CCDC numbers, authors and journals.
-- Reference -- details on the published structure
-- Source Files -- Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
->>>>>>> encoding...
 ### Generating a Report
 Under Work | Report are three boxes giving options on including an Image, Style and Template used to generate the report. Select the options then either click on Make Report or the Report tab heading. An html report will be generated and saved into the folder containing the current structure.
 
@@ -44,12 +36,8 @@ This should be done upon completion of the structure refinement. If the currentl
 
 ## Refinement Data Plots
 We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under Info | Reflection Statistics:
-<<<<<<< HEAD
 
-### Fo–Fc
-=======
 ### Fo--Fc
->>>>>>> encoding...
 This should be a straight line with Fo ˜ Fc, i.e. the gradient of the line should be ~1 and the intercept ~ 0. Any omitted data are shown in grey. If a reflection appears to be an outlier hovering over it gives relevant information in the following format (Fo, Fc)(h, k, l).
 
 ### Fo/Fc
