@@ -40,10 +40,10 @@ Under Work | Solve | Solution Settings Extra additional options specific to the 
 - Structure Expansion uses Patterson Methods and then feeds the results into a direct methods solution. 
 - Use tref ## where ## is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the ## of higher probability solution. You can traverse the solutions using Ctrl+Up/Down keys.
 
-## Check for Signs of Twinning: Section 3.9.
+## Check for Signs of Twinning: Section XX
 
 ## Check the Cell and Integration
-The unit cell dimensions and the integration should be checked prior to attempting a structure solution, but if all of the above methods have failed to yield a structure solution, it is always worth going back to the original data (the diffraction frames) to check whether an alternate cell or twinning has been missed. Rint which is a measure of how 'equivalent' symmetry equivalent reflections really are (the lower the Rint, the better), a high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+The unit cell dimensions and the integration should be checked prior to attempting a structure solution, but if all of the above methods have failed to yield a structure solution, it is always worth going back to the original data (the diffraction frames) to check whether an alternate cell or twinning has been missed. R_{int} which is a measure of how 'equivalent' symmetry equivalent reflections really are (the lower the R_{int}, the better), a high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
 ## Additional Structure Solution Options
 Reflection File: the file will have the same name as that of the .ins file but if you have more than one .hkl file in the project you can choose to use another file. 

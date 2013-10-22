@@ -9,14 +9,14 @@ There are a number of warning signs for twinning that have been identified, not 
 -- Difficulty obtaining a cell.
 -- An unusually long axis.
 -- Split reflections.
-- Rint for a higher symmetry group is similar to that of the low symmetry group.
+- R_{int} for a higher symmetry group is similar to that of the low symmetry group.
 - The metric symmetry is higher than the Laue symmetry of the dif-fraction pattern e.g. a monoclinic structure with ß~90.0° appears orthorhombic.
 - Problems identifying the space group either the systematic absences are not consistent with a space group or it is uncommon. (To examine this in Olex2 Work | Solve | Suggest SG, the output will be displayed on the screen (and in your text editor after clicking on the notepad icon.) 
 - The average value of |E2-1| is lower than expected the expected values. (Two graphs in Olex2 can assist with assessing this under Info | Reflection Statistics there are the options to plot the Cumulative In-tensity Distribution and the Wilson Plot also has an assessment of the average |E2-1| value for the structure below it).
 - The structure cannot be solved.
 - The refinement is unsatisfactory:
 -- Fo>>Fc for the majority of the most disagreeable reflections. Dis-agreeable reflections can be omitted under Info | Bad Reflections and clicking on omit. In addition under, Info | Reflection Statistics a plot of Fo --Fc should have a gradient of ~1 and an intercept ~0, without many reflection deviating from this line, any reflections that have been omitted will be greyed out, while Fo/Fc versus resolution should have a value of ~1.
--- R1 and wR2 remain unexpectedly high based on the Rint value. Generally the R1 value should be approximately similar to the Rint upon completion, see Info | Refinement Indicators and Info | Reflection Statistics Summary.
+-- R1 and wR2 remain unexpectedly high based on the R_{int} value. Generally the R1 value should be approximately similar to the R_{int} upon completion, see Info | Refinement Indicators and Info | Reflection Statistics Summary.
 -- Weights the second value of the weighting scheme remains very high e.g.> 5, to check this see Work | Refine | Weights.
 - Higher symmetry crystal systems in the lower symmetry Laue classes are often subject to merohedral twinning so this is always worth checking. Possible twin laws can be searched for under Tools | Twinning | Search for Twin Laws.
 The first 3 points on the list above should be assessed within the data processing software. The remaining points can be checked within Olex2.
