@@ -1,12 +1,21 @@
-##Checking the Structure
-During a refinement there are a number of checks that should be made after each refinement cycle. 
+#Checking the Structure
+
+During a refinement there are a number of checks that should be made after each refinement cycle.
+
 - Check that all of the ADPs are of a similar size throughout the structure and look sensible (the ellipsoid axes should not appear significantly different).
+
 - Check that the correct number of hydrogen atoms is present and that they are appropriately positioned.
+
 - Go to the Info tab and open the Refinement Indicators header tab if there are any errors some or all of the parameters will be orange (potential moderate problem) or red (potential serious problem). These should improve as the refinement proceeds. Attempts should always be made to correct these or be able to explain why they are not ideal.
+
 - Check that bond lengths and angles are sensible. There are several ways to do this: 
+
 -- Hover over a bond and the bond length will be displayed; left click on the bond to select it and then right click to view the bond length. 
+
 -- Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle, then go to the View tab, under the Geometry header tab click on Distance and Angles (of selection).
+
 -- Right click on an atom or bond in a molecule under Fragment -- Select bonds will highlight all bonds. Under Tools | Images select Label selected atoms. To delete bond labels it is necessary to be in Tools | Images depending on what had been carried out in the interim time period. Pressing CTRL+A will either select the bond length labels (in which case press delete) or the atoms and bonds in which case press CTRL+I to invert the selection, the bond length labels will now be selected press delete.
+
 -- The Cambridge Structural Database is an excellent resource to use to check that your bond lengths and angles are sensible and within expected ranges. If they are not, investigate why not!
 >The sel command can be always used in the command-line to print information regarding the current selection.
 

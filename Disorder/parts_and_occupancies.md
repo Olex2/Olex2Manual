@@ -41,7 +41,7 @@ PART 1 / 2 means that the atoms have been grouped into different PARTS only one 
 
 ## Change the Occupancy of an Atom or Group
 Right click on the atom -- Chemical Occupancy will provide these options:
-- Select a specific occupancy value e.g. ½. 
+- Select a specific occupancy value e.g. 1/2.
 - Fix the occupancy to its current refined value. This is only applicable if the atom occupancy has been refining freely or associated with a free variable (FVAR in the .ins file).
 - To refine the occupancy, select Free. This refines the occupancy freely but does not associate it with a free variable.
 - Use 'fix' and 'free' in the command-line. For example fix occu 1 fixes the occupancy of selected (or ALL atoms) to 1; free occu will make occupancy of selected (or ALL) 'refineable'.

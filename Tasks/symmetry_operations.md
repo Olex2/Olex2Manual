@@ -58,6 +58,6 @@ To convert the structure to P-1 the following procedure can be followed:
 6.	Type echo ccrd(sel) to double check that the geometric centre now coincides with an inversion centre at 0,0,0.
 7.	Type changesg P-1 to merge the two molecules. The space group symbol in the upper right corner of the GUI panel should be updated.
 8.	Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type compaq -a (or Work | Toolbox Work and click on  ).
-9.	If the structure contains extra atoms near the expected positions. Type fuse 0.4 to Ã¢â‚¬Å“fuse togetherÃ¢â‚¬ï¿½ all atoms that are closer to each other than 0.4 Ãƒ.... This situation is illustrated here.
+9.	If the structure contains extra atoms near the expected positions. Type fuse 0.4 to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
 	>The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.
 10.	Refine the structure and assuming that there are no problems continue finishing the refinement of the structure. 0.

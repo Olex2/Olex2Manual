@@ -10,7 +10,7 @@ There are a number of warning signs for twinning that have been identified, not 
 -- An unusually long axis.
 -- Split reflections.
 - R_{int} for a higher symmetry group is similar to that of the low symmetry group.
-- The metric symmetry is higher than the Laue symmetry of the dif-fraction pattern e.g. a monoclinic structure with ß~90.0° appears orthorhombic.
+- The metric symmetry is higher than the Laue symmetry of the dif-fraction pattern e.g. a monoclinic structure with \textalpha 90 appears orthorhombic.
 - Problems identifying the space group either the systematic absences are not consistent with a space group or it is uncommon. (To examine this in Olex2 Work | Solve | Suggest SG, the output will be displayed on the screen (and in your text editor after clicking on the notepad icon.) 
 - The average value of |E2-1| is lower than expected the expected values. (Two graphs in Olex2 can assist with assessing this under Info | Reflection Statistics there are the options to plot the Cumulative In-tensity Distribution and the Wilson Plot also has an assessment of the average |E2-1| value for the structure below it).
 - The structure cannot be solved.

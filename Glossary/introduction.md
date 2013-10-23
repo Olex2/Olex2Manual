@@ -1,4 +1,4 @@
-#Glossary
+\chapter{Glossary}
 
 **Anisotropic displacement parameters,  *ADP* or $U_{ij}$**:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
 
