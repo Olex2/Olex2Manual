@@ -11,17 +11,17 @@ All structure solution programs work slightly differently, so trying different p
 This solution program is part of Olex2 and is always available. It uses the charge flipping algorithm to solve structures which is currently considered one of the most powerful approaches for obtaining a structure solution. It also has the added advantage of not requiring the knowledge of  the correct expected atom types to work. Charge flipping is an iterative process that starts from a random point: and therefore repeating the structure solution again (even with the same parameters) does not necessarily lead to the same result so it can be beneficial to repeat a structure solution attempt.
 
 ### ShelXS
-This is the most widely used program for solving small-molecule struc-tures. It runs faster than charge-flipping, but you must provide the correct space group and it might not work if you don't know the molecular configuration accurately. Within ShelXS, there are two structure solution methods:
+This is the most widely used program for solving small-molecule structures. It runs faster than charge-flipping, but you must provide the correct space group and it might not work if you don't know the molecular configuration accurately. Within ShelXS, there are two structure solution methods:
 - Direct Methods: are suitable for attempting a structure solution for any type of structure.
 - Patterson: this approach is suitable for locating heavy elements in the presence of much lighter ones. Since heavy elements make a significant contribution to the overall scattering locating these will normally give sufficiently good phases to enable the rest of the atoms to be located within a couple of cycles of refinement. 
-- Structure Expansion: from Olex2, we offer this third option: a Pat-terson solution is 'fed into' the Direct Methods algorithm and this will often lead to a structure when other methods fail.
+- Structure Expansion: from Olex2, we offer this third option: a Patterson solution is 'fed into' the Direct Methods algorithm and this will often lead to a structure when other methods fail.
 
 ### ShelXD
 This dual-space method is popular for solving macromolecular structures but it also will work for small molecules. It is slow, but if all else fails, it's worth a shot!
 
 ### Superflip
 Superflip is the 'heavy weight' implementation of the charge-flipping algorithm. It will almost always solve any structure, regardless of whether you knew the symmetry in advance or knew what atom types to expect. If your original symmetry was wrong, Superflip will return the solution in the correct space group for you.
-Olex2 automatically recognises all solution programs from the SHELX suite, as well as Superflip and some versions of SIR, as long as the execu-tables are 'on the system PATH' (i.e. you: or the software installation: has set the PATH environment variable to point to these executables. If you absolutely don't want to fiddle with those, you can place the executa-bles (.exe files) into the Olex2 directory: something we don't recommend!
+Olex2 automatically recognises all solution programs from the ShelX suite, as well as Superflip and some versions of SIR, as long as the execu-tables are 'on the system PATH' (i.e. you: or the software installation: has set the PATH environment variable to point to these executables. If you absolutely don't want to fiddle with those, you can place the executa-bles (.exe files) into the Olex2 directory: something we don't recommend!
 
 ### Check the Space Group
 Getting the space group right is an important condition for obtaining the correct final structures. Sometimes a structure will solve in the wrong space group, and the refinement may proceed without obvious major problems. If the space group is wrong, there will always be signs: and it's essential to check for these.
@@ -30,7 +30,7 @@ An incorrect space group can prevent a structure solution being obtained. Howeve
 
 ## Check the Chemical Composition
 The chemical composition it displayed in the fixed top tab in the GUI panel. It can be changed under Work | Solve and typing into the Chemical Composition menu. For some structure solution programs to work, the correct formula is essential: or at least the correct element types that are present in the structure.
-If a structure should contain heavy atoms and the chemical composition does not reflect this or vice versa, some structure solution programs (di-rect methods in particular) will be adversely affected. It is also worth considering whether the structure is what was expected or could it be a reactant, an intermediate or a by-product.
+If a structure should contain heavy atoms and the chemical composition does not reflect this or vice versa, some structure solution programs (direct methods in particular) will be adversely affected. It is also worth considering whether the structure is what was expected or could it be a reactant, an intermediate or a by-product.
 
 ## Change the Settings Of Structure Solution Programs
 Under Work | Solve | Solution Settings Extra additional options specific to the structure solution method selected will be displayed. Adjusting these can help to yield a structure solution in more challenging cases. Please refer to the relevant manuals (specifically for ShelXS and Superflip) for explanations of these options. Here are a couple of tips for ShelXS:
