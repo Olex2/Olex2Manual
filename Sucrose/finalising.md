@@ -3,8 +3,12 @@
 Your structure is now finished and completed from the refinement point of view. If the structure is to be included into a thesis or scientific publication, then you probably need to come up with a naming scheme for its atoms. If it's not your own structure, it's worth liaising with the author to agree on a naming scheme -- structures are often part of a series of structures which should have consistent naming throughout.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. The next stage is to label your structure to a sensible numbering scheme. In Toolbox Work | Labels select Toggle On/Off until the atom labels are displayed (alternatively press F3). Hide the Q-peaks either using the Q square in Toolbox Work or use CTRL+Q.
 	
+=======
+1. To label your structure to a sensible numbering scheme. In Toolbox Work | Labels select Toggle On/Off until the atom labels are displayed (alternatively press F3). Hide the Q-peaks either using the Q square in Toolbox Work or use CTRL+Q.
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 =======
 1. To label your structure to a sensible numbering scheme. In Toolbox Work | Labels select Toggle On/Off until the atom labels are displayed (alternatively press F3). Hide the Q-peaks either using the Q square in Toolbox Work or use CTRL+Q.
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
