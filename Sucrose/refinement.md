@@ -26,7 +26,11 @@ Now that initial atom assignments have been made, the next stage is to refine th
 	![Different Sized Atom Spheres](/images/different_sized_atom_spheres.png)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	>OLEX2 The atoms are displayed as spheres when they are modelled isotropically (i.e. one parameter to define the atomic displacement parameter, ADP). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
+=======
+>The atoms are displayed as spheres when they are modelled isotropically. The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 =======
 >The atoms are displayed as spheres when they are modelled isotropically. The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
@@ -42,6 +46,7 @@ At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e' '-
 ## Anisotropic Refinement
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using `anisotropic displacement parameters` (ADP) requires 6 parameters to define the volume occupied by the electron density rather than the single one that was used to define the sphere during `isotropic refinement`.
 2.	Click on the rugby-ball shaped blue icon I_ANIS on Toolbox Work at the top right. Olex2 will then automatically carry out an anisotropic refinement.
 
@@ -53,6 +58,8 @@ At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e' '-
 
 	>OLEX2 It is generally good practice to re-set the atoms to be isotropic, click on I_ISOT in Toolbox Work at the top right. Select the relevant atoms and change the atom type in Toolbox Work. Click on Refine, make sure your structure looks reasonable then click on   on Toolbox Work at the top right to re-refine in the anisotropic model.
 =======
+=======
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 1.	So far, we have limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using `anisotropic displacement parameters` (ADP) requires 6 parameters to define the volume occupied by the electron density rather than the single one that was used to define the sphere during `isotropic refinement`.
 
 2.	Click on the rugby ball shaped blue icon on Toolbox Work at the top right. Olex2 will then automatically carry out an anisotropic refinement.
@@ -64,6 +71,9 @@ At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e' '-
 	![Incorrect Ellipsoids](/images/incorrect_ellipsoids.png)
 
 >It is generally good practice to re-set the atoms to be isotropic, click on in Toolbox Work at the top right. Select the relevant atoms and change the atom type in Toolbox Work. Click on Refine, make sure your structure looks reasonable then click on   on Toolbox Work at the top right to re-refine in the anisotropic model.
+<<<<<<< HEAD
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
+=======
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 	
 At this stage using olex2.refine you should have R1 ~ 7-8 %, wR2 ~ 20-21%, Difference map max ~0.7 e '-3, min ~-0.4 e '-3.
@@ -73,7 +83,11 @@ At this stage using olex2.refine you should have R1 ~ 7-8 %, wR2 ~ 20-21%, Diffe
 1.	The next stage is to add hydrogen atoms to your structure. In Toolbox Work click on Add H in the top right hand corner (or type hadd in the console). Olex2 automatically adds hydrogen atoms and includes these in the subsequent refinement.
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking   in Toolbox Work (or CTRL+Q).
+=======
+>The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking the Q icon in Toolbox Work (or CTRL+Q).
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 =======
 >The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking the Q icon in Toolbox Work (or CTRL+Q).
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
@@ -99,6 +113,9 @@ At this stage using olex2.refine you should have R1 ~ 7-8 %, wR2 ~ 20-21%, Diffe
 17.	The first assignment of hydrogen atom positions is not always fully optimised, particularly for less well defined groups such as -OH. If there are Q-peaks close to oxygen atoms that are not where the hydrogen is currently located, the hydrogen position may need adjusting. The image shows an incorrectly positioned hydrogen atom 1 which should be located at the Q-peak 2.
 
 18.	To optimise the hydrogen atom positions if necessary there are two options: multiple refinement cycles using Refine may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position), alternatively select a hydrogen atom and then in Toolbox Work choose Fit option from the Select group or atom(s) and then... tool. Once in Fit mode, holding the SHIFT key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atom needs to be relocated.
+<<<<<<< HEAD
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
+=======
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 
 	>OLEX2 When in the Fit mode it is possible to rotate the structure to see if the relocated hydrogen atom is now on the Q-peak. Remove your finger from the mouse and SHIFT key, hold the LEFT MOUSE button down and move the mouse.

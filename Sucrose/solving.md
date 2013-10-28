@@ -2,7 +2,12 @@
 
 1.	Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The structure solution options are displayed.
+=======
+
+2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 =======
 
 2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
@@ -13,8 +18,11 @@
 	>OLEX2 You will find a little info button I_INFO in the beginning of many lines in the GUI panel. More information on the tool is available from there.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
 =======
+=======
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list if they are present on your machine.
 
 >>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
