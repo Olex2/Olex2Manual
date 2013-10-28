@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 bookauthor=Hazel Sparkes \& Horst Puschmann
 booktitle=Solving and Refining Molecular Structurs using Olex2
 booksubtitle=An Introduction
-=======
 booktitle=Olex2
-bookauthor=Hazel Sparkes
->>>>>>> e7f7d5cc2dfa989712fc5a714c14a59d0ca6ee8f
 pandoc_cmd=pandoc -o %s -f markdown -t latex %s
 BookStart
 Sucrose
