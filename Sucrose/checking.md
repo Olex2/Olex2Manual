@@ -17,7 +17,8 @@ During a refinement there are a number of checks that should be made after each 
 -- Right click on an atom or bond in a molecule under Fragment -- Select bonds will highlight all bonds. Under Tools | Images select Label selected atoms. To delete bond labels it is necessary to be in Tools | Images. Depending on what had been carried out in the interim time period, pressing CTRL+A will either select the bond length labels (in which case press delete) or the atoms and bonds in which case press CTRL+I to invert the selection, the bond length labels will now be selected press delete.
 
 -- The Cambridge Structural Database is an excellent resource to use to check that your bond lengths and angles are sensible and within expected ranges. If they are not, investigate why not!
->The sel command can be always used in the command-line to print information regarding the current selection.
+
+>OLEX2 The sel command can be always used in the command-line to print information regarding the current selection.
 
 ### What To Look For In a Good Refinement
 
