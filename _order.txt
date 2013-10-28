@@ -1,3 +1,6 @@
+booktitle=Olex2
+bookauthor=Hazel Sparkes
+pandoc_cmd=pandoc -o %s -f markdown -t latex %s
 BookStart
 Sucrose
 GettingAroundOlex2
