@@ -3,20 +3,27 @@ In the header toolbar click on Tools | Options to enable customisation of the ap
 
 ## Default Programs
 Olex2 makes use of three programs that are already installed on the computer: notepad, internet browser and file explorer/chooser. It uses the default settings of your system, but you can define alternative programs if you wish.
-
 To change default text editor, html editor or folder browser, you need to set the Olex2 variables associated with these programs. To keep the changes permanent, create the file 'custom.xld' in the Olex2 installation directory.
-
 For example the following construct placed in that file sets programs for KDE:
 
 `<user_onstartup help="Executes on program start"
-	<body 
-		<args> 
-			<cmd 
-				<cmd1 "setvar(defeditor,'kate')">
-				<cmd2 "setvar(defexplorer,'konqueror')">
-				<cmd3 "setvar(defbrowser,'konqueror')">
-			>
-		>
-	>`
-	
-This defines a function which is called when Olex2 starts up, please note if there are several functions with the same name are found in the files - the last one will be used. Please avoid overriding any functions in the macro.xld file as that may cause Olex2 to function incorrectly.
+
+<body 
+
+  <args> 
+
+    <cmd 
+
+      <cmd1 "setvar(defeditor,'kate')">
+
+      <cmd2 "setvar(defexplorer,'konqueror')">
+
+      <cmd3 "setvar(defbrowser,'konqueror')">
+
+    >
+
+>
+
+>`
+
+This defines a function which is called when Olex2 starts up, please note if several functions with the same name are found in the files - the last one will be used. Please avoid overriding any functions in the macro.xld file as this may cause Olex2 to function incorrectly.

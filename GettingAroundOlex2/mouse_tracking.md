@@ -1,5 +1,5 @@
 # Mouse Tracking
-Once you get used to using Olex2, the mouse actions will become second nature and you won’t even think about them. Depending on what software you have used before, you will find the mouse actions in Olex2 more or less intuitive.
+Once you get used to using Olex2, the mouse actions will become second nature and you won't even think about them. Depending on what software you have used before, you will find the mouse actions in Olex2 more or less intuitive.
 Mouse Action	Effect
 Hold LEFT MOUSE 	Rotates the model
 Hold RIGHT MOUSE
