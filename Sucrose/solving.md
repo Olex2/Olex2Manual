@@ -1,13 +1,23 @@
 #Solving the Structure
 
 1.	Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
+<<<<<<< HEAD
 2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The structure solution options are displayed.
+=======
+
+2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 
 	![Solution Settings](/images/solution_settings.png)
 
 	>OLEX2 You will find a little info button I_INFO in the beginning of many lines in the GUI panel. More information on the tool is available from there.
 
+<<<<<<< HEAD
 3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
+=======
+3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list if they are present on your machine.
+
+>>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 4.	Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at _Info | Electron Density Peaks_ for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)

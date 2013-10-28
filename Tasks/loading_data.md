@@ -13,4 +13,4 @@ The basic unit you work with in Olex2 is 'a structure'. It has a name and that s
 - Simply drag and drop any crystallographic file into Olex2. 
 - On the GUI panel under Home | Start, select Open Existing Structure or Data File, locate your directory, select the .ins file and click Open. 
 - In the menu bar File | Open, locate directory, select the .ins file and click Open.
-- On the GUI panel Info | Recent Files contains recently refined struc-tures, if any exist, click on a file name to load a structure.
+- On the GUI panel Info | Recent Files contains recently refined structures, if any exist, click on a file name to load a structure.

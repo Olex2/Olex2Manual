@@ -2,7 +2,7 @@
 
 ## Refinement Method Options
 The refinement method can be changed Work | Refine | Refinement Method. ShelXL offer two refinement methods one is a full matrix least squares refinement and a simpler block refinement method and Konnert-Hendrickson conjugate gradient algorithm CGLS. olex2.refine offers two refinement methods one is a standard Gauss-Newton and the other, considered to be safer from pitfalls of the former, Levenberg-Marquardt method.
-The final refinement cycles should always be carried out using a full ma-trix least squares method, however a block refinement can be useful dur-ing early cycles of refinement in certain circumstances, for example, if a refinement is unstable, atoms are still being located or for speed with a very large structure (although this is less of a problem with modern com-puters).
+The final refinement cycles should always be carried out using a full matrix least squares method, however a block refinement can be useful during early cycles of refinement in certain circumstances, for example, if a refinement is unstable, atoms are still being located or for speed with a very large structure (although this is less of a problem with modern computers).
 
 ## Additional Refinement Options
 The most common refinement options can be set under Work | Refine. Listed here are the most commonly used ones.
@@ -10,18 +10,18 @@ The most common refinement options can be set under Work | Refine. Listed here a
 ### Maximum Refinement Iterations
 Set the number of refinement cycles. ShelXL refines up to the maximum number of cycles, regardless of the refinement has settled or not. olex2.refine will stop earlier if the refinement has converged.
 Early on in the refinement, when you know that your structure is far from correct, a few cycles of refinement is about right. If you ask for more cycles, you are not only wasting your time, but you are asking the program to find the minimum of something that you know is wrong! This can lead to unwanted and sometimes confusing shifts in your model.
-A larger number can be useful towards the end of a refinement to ensure the Max Shift label   reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesn't approach 0, there's something wrong with the model and you must figure out what that is before you can finalise the structure.
+A larger number can be useful towards the end of a refinement to ensure the Max Shift label $$$$ reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesn't approach 0, there's something wrong with the model and you must figure out what that is before you can finalise the structure.
 
 ### Number of Residual Peaks
-Changes the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you don't need so many Q-Peaks and/or can switch them off.
+Changing the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you don't need so many Q-Peaks and/or can switch them off.
 
 ### Weights
 Weights will automatically update once the R-factor for your structure goes below the chosen value. Set this to 0 if you don't wish to update weights.
-Weights are normally added towards the end of the refinement. Keep re-fining, until the weights are no longer changing and have turned green.
+Weights are normally added towards the end of the refinement. Keep refining, until the weights are no longer changing and have turned green.
 
 ### Use extinction correction
 Tick the box to include an extinction correction.
-Extinction affects the intensity of reflections and can result in systemati-cally absent reflections being observed under special conditions. This pa-rameter accounts for the intensity changes associated with extinction, the method used is a compromise to cover primary and secondary extinction. In general this should not be included until all of the non-hydrogen atoms have been located.
+Extinction affects the intensity of reflections and can result in systematically absent reflections being observed under special conditions. This parameter accounts for the intensity changes associated with extinction, the method used is a compromise to cover primary and secondary extinction. In general this should not be included until all of the non-hydrogen atoms have been located.
 
 ### Refinement Settings Extra
 If additional options are available for a refinement program, as in the case of ShelXL, these will be displayed.
@@ -31,7 +31,7 @@ In order to monitor the progress of a refinement it is necessary to be able to m
 
 ### Viewing the output from refinement cycles
 - Typing lines ## where ## is a number, will adjust the number of lines of text output behind the graphics screen. You can scroll though the output using the PAGEUP and PAGEDOWN keys.
-- Type text in the command-line or click on the notepad icon   at the top of the GUI panel to open a text editor displaying the full output of everything that has been displayed on the graphics screen for a structure since it was last opened in Olex2.
+- Type text in the command-line or click on the notepad icon $$$$ at the top of the GUI panel to open a text editor displaying the full output of everything that has been displayed on the graphics screen for a structure since it was last opened in Olex2.
 
 ### Viewing the list file
 The list file (in the case of running Shelx programs) can be viewed by typing edit lst in the command-line or clicking on   and selecting the .lst file. The list file contains more detailed information on the refinement and is particularly useful when there are problems.
@@ -58,4 +58,4 @@ Poorly fitting reflections are listed under Info | Bad Reflections. Those measur
 - In general most of the poorly fitting reflections should have similar values of |Fc2-Fo2|/esd ideally all less than ~ +/- 0. One or two poorly fitting reflections with significantly different values of |Fc2-Fo2|/esd can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
 
 ##Inverting a Structure
-It  should never be necessary to invert a  structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv:f. 
+It should never be necessary to invert a structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv:f. 

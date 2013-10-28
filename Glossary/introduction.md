@@ -18,13 +18,13 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **Disorder** indicates that not all of the asymmetric units are identical, for example longer chains which are flexible such as butyl groups often show positional disorder within the structure, with some asymmetric units containing the molecules in one orientation and others in a slightly different orientation.
 
-**Ellipsoid**: The anisotropic displacement parameters are usually visualised by displaying an atom as an ellipsoid. If these ellipsoids are relatively large or small -- or look distorted -- then this usually indicates a problem with the refinement.
+**Ellipsoid**: The anisotropic displacement parameters are usually visualised by displaying an atom as an ellipsoid. If these ellipsoids are relatively large or small - or look distorted - then this usually indicates a problem with the refinement.
 
 **$F$**: the structure factors has a phase and amplitude associated with it.
 
-**Flack $x$**: applicable to non-centrosymmetric structures the Flack pa-rameter can indicate whether the absolute structure is correct. The pa-rameter is calculated with and esd which should be examined to assess whether the analysis is meaningful. A value of 1 with a small esd indicates that the absolute structure should be inverted, while 0 with a small esd suggest that the absolute structure is correct. A value of 0.5 may suggest that a centre of symmetry has been missed, while values in between 0 and 1 could indicate the presence of racemic twinning.
+**Flack $x$**: applicable to non-centrosymmetric structures the Flack parameter can indicate whether the absolute structure is correct. The parameter is calculated with and esd which should be examined to assess whether the analysis is meaningful. A value of 1 with a small esd indicates that the absolute structure should be inverted, while 0 with a small esd suggest that the absolute structure is correct. A value of 0.5 may suggest that a centre of symmetry has been missed, while values in between 0 and 1 could indicate the presence of racemic twinning.
 
-**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). -21.000 means 1   (1 x free variable 2) in other words the occupancy of the two parts adds to 1.
+**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). -21.000 means 1 -   (1 x free variable 2) in other words the occupancy of the two parts adds to 1.
 
 **GooF**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
 

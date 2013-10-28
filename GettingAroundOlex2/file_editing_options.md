@@ -1,6 +1,5 @@
 # File Editing Options
-If you are new to crystallography and Olex2 is the first crystallographic program you have come across, then you will find this section very odd indeed. If you are an expert crystallographer who has grown up with editing a SHELX .ins file before every refinement cycle, for example, then you have probably been wondering for a while how to 
-edit the .ins.
+If you are new to crystallography and Olex2 is the first crystallographic program you have come across, then you will find this section very odd indeed. If you are an expert crystallographer who has grown up with editing a SHELX .ins file before every refinement cycle, for example, then you have probably been wondering for a while how to edit the .ins.
 Olex2 uses its very own model internally. All the information regarding your model is stored and managed by Olex2 transparently -- you don't need to worry about this (you can type describe in the command-line to see what Olex2 knows about the refinement model, the same information is placed into the CIF when completing the structure). For somebody starting out their crystallographic career with Olex2, the question of editing files never arises. Olex2 provides all tools that are required to build models of any complexity using only the graphical interface. 
 For those people who can't live without editing files (and also to safeguard against situations where the GUI might fail unexpectedly) we have provided the option to edit the Olex2 model using the SHELX syntax. In other words, Olex2 can export its current model in SHELX format in form of an .ins file for you to edit. While you edit this file, you can't make any changes in the model using the graphical interface, and once you save your edits, an updated Olex2 internal model will be created. As far as we know, all SHELX commands are fully supported by the Olex2 model.
 The SHELX .ins file consists of several parts:
@@ -11,10 +10,10 @@ The SHELX .ins file consists of several parts:
 If you want to examine a file-representation of the model, Olex2 offers the three options described below.
 
 ## Viewing the Instructions
-This will display all the instructions for the refinement of the structure in a text editor. You can edit these instructions there and Olex2 will save these in its own model. These instructions relate to the overall refinement of the structure, but also show those instructions that are relevant for specific atoms only. Type editins, or press  .
+This will display all the instructions for the refinement of the structure in a text editor. You can edit these instructions there and Olex2 will save these in its own model. These instructions relate to the overall refinement of the structure, but also show those instructions that are relevant for specific atoms only. Type editins, or press $$$$.
 
 ##Viewing the Atom List
-If you want to inspect or change properties of specific atoms, simply select the atoms you are interested in and you will only see the lines that are relevant to your selection. For each selected atom, you will see the atom line, but you will also see all lines of instructions related to your selection. Type editatom, or press   All information belonging to the selected atoms will be displayed, including hydrogen atoms and re-straints/constraints.
+If you want to inspect or change properties of specific atoms, simply select the atoms you are interested in and you will only see the lines that are relevant to your selection. For each selected atom, you will see the atom line, but you will also see all lines of instructions related to your selection. Type editatom, or press $$$$ All information belonging to the selected atoms will be displayed, including hydrogen atoms and restraints/constraints.
 >Warning: Do not edit atom names in the .ins file or change the atom order when using the edit windows, as this can cause problems within Olex2 which keeps track of parameters in relations to each atom label. To change the atom name labels use Work | Naming (or name command), and to change the order of the atoms in the list use Work | Sorting.
 
 ##Viewing the Entire .ins File
