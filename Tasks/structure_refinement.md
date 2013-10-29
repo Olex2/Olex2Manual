@@ -10,7 +10,7 @@ The most common refinement options can be set under Work | Refine. Listed here a
 ### Maximum Refinement Iterations
 Set the number of refinement cycles. ShelXL refines up to the maximum number of cycles, regardless of the refinement has settled or not. olex2.refine will stop earlier if the refinement has converged.
 Early on in the refinement, when you know that your structure is far from correct, a few cycles of refinement is about right. If you ask for more cycles, you are not only wasting your time, but you are asking the program to find the minimum of something that you know is wrong! This can lead to unwanted and sometimes confusing shifts in your model.
-A larger number can be useful towards the end of a refinement to ensure the Max Shift label $$$$ reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesn't approach 0, there's something wrong with the model and you must figure out what that is before you can finalise the structure.
+A larger number can be useful towards the end of a refinement to ensure the Max Shift label @@@@ reads 0.000 i.e. the refinement has converged. Click on the label to see select the atom where the largest shift occurs. For a large structure early on in the refinement this may slow the refinement. If the residual shift doesn't approach 0, there's something wrong with the model and you must figure out what that is before you can finalise the structure.
 
 ### Number of Residual Peaks
 Changing the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you don't need so many Q-Peaks and/or can switch them off.
@@ -31,7 +31,7 @@ In order to monitor the progress of a refinement it is necessary to be able to m
 
 ### Viewing the output from refinement cycles
 - Typing lines ## where ## is a number, will adjust the number of lines of text output behind the graphics screen. You can scroll though the output using the PAGEUP and PAGEDOWN keys.
-- Type text in the command-line or click on the notepad icon $$$$ at the top of the GUI panel to open a text editor displaying the full output of everything that has been displayed on the graphics screen for a structure since it was last opened in Olex2.
+- Type text in the command-line or click on the notepad icon @@@@ at the top of the GUI panel to open a text editor displaying the full output of everything that has been displayed on the graphics screen for a structure since it was last opened in Olex2.
 
 ### Viewing the list file
 The list file (in the case of running Shelx programs) can be viewed by typing edit lst in the command-line or clicking on   and selecting the .lst file. The list file contains more detailed information on the refinement and is particularly useful when there are problems.

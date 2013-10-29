@@ -2,10 +2,10 @@
 The use of parts and occupancy are often linked. 
 The PART number is used to define which atoms are considered to be bonded to each other, atoms in part 0 bond to everything, within bonding distance, while those in parts other than 0, bond to all atoms in part 0 and the same part number as them.  For example if some atoms are modelled in parts 1 and 2, the atoms in part 0 within bonding distance bond to atoms in part 1 and 2, but the atoms in part 1 only bond to those in part 0 and 1 not 2, likewise for those in part 2.
 
-The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, $$$$ it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
+The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, @@@@ it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 
 ## Changing PARTs
-More detail of linking to occupancy is provided in Section $$$$ on occupancy.
+More detail of linking to occupancy is provided in Section @@@@ on occupancy.
 
 ## Assigning PARTs
 If more than one position of an atom or fragment of a molecule is being modelled in the unit cell, it is necessary to put the disordered atoms into separate parts otherwise bonds appear between the disordered parts and only one option can be present at any point in a cell at any one time.
