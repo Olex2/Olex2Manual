@@ -14,7 +14,11 @@ This will display all the instructions for the refinement of the structure in a 
 
 ##Viewing the Atom List
 If you want to inspect or change properties of specific atoms, simply select the atoms you are interested in and you will only see the lines that are relevant to your selection. For each selected atom, you will see the atom line, but you will also see all lines of instructions related to your selection. Type editatom, or press I_EDIT . All information belonging to the selected atoms will be displayed, including hydrogen atoms and restraints/constraints.
+<<<<<<< HEAD
 >Warning: Do not edit atom names in the .ins file or change the atom order when using the edit windows, as this can cause problems within Olex2 which keeps track of parameters in relations to each atom label. To change the atom name labels use `@Work|Naming` (or name command), and to change the order of the atoms in the list use Work | Sorting.
+=======
+>Warning: Do not edit atom names in the .ins file or change the atom order when using the edit windows, as this can cause problems within Olex2 which keeps track of parameters in relations to each atom label. To change the atom name labels use Work | Naming (or name command), and to change the order of the atoms in the list use Work | Sorting.
+>>>>>>> d27fac7c9a64021974d98765d8a03a38e95504e1
 
 ##Viewing the Entire .ins File
 To view the entire .ins file type edit ins (note the space!) in the command-line to bring up a text editor. Save the file after making any changes in order to update the model in Olex2. Please be aware that you are 'on your own' in this mode: if you make mistakes or introduce invalid commands, Olex2 may not be able to load you updated file correctly, or you may find that some of your instructions do not appear in the Olex2 model. We do not recommend editing files in this way.

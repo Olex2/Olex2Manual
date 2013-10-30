@@ -85,14 +85,23 @@ The atoms can be sorted in the .ins file automatically under `@Work|Sorting|by M
 ### Displaying hydrogen atoms
 
 - CTRL+H toggles the hydrogen atoms through show H, show H with H-bonding interactions and hide H.
+<<<<<<< HEAD
 - Clicking on the I_H icon under `@Work|Toolbox Work` achieves the same as CTRL+H.
+=======
+- Clicking on the @@@@ icon under Work | Toolbox Work achieves the same as CTRL+H.
+>>>>>>> d27fac7c9a64021974d98765d8a03a38e95504e1
 
 ### Adding hydrogen atoms
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually:
 
 #### On Q-peaks with no AFIX/HFIX instructions.
+<<<<<<< HEAD
 - Q-peaks can be turned into H using the H button under Work|Toolbox-Work or by right-clicking on the peak and then selecting Type | H.
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
+=======
+- Q-peaks can be turned into H using the H button under Work | Toolbox Work or by right-clicking on the peak and then selecting Type | H.
+- Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the Q to H @@@@ icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
+>>>>>>> d27fac7c9a64021974d98765d8a03a38e95504e1
 
 #### Using AFIX/HFIX instructions: 
 Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the Add H option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
@@ -110,5 +119,9 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 ## Deleting Hydrogen Atoms
 
 - Typing kill $H in the command-line will delete all or selected hydrogen atoms.
+<<<<<<< HEAD
 - Click on the I_H icon under Work | Toolbox Work will delete selected H.
+=======
+- Click on the @@@@ under Work | Toolbox Work will delete selected H.
+>>>>>>> d27fac7c9a64021974d98765d8a03a38e95504e1
 - Select one or more hydrogen atom(s) and press DELETE. 
