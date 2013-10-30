@@ -1,54 +1,13 @@
 #Solving the Structure
 
 1.	Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The structure solution options are displayed.
-=======
-
-2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-=======
-
-2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-=======
-
-2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-=======
-
-2.	Click on the arrow next to the Solve button so that it turns orange and points upwards. The structure solution options are displayed.
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-
-	![Solution Settings](/images/solution_settings.png)
-
-	>OLEX2 You will find a little info button I_INFO in the beginning of many lines in the GUI panel. More information on the tool is available from there.
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The \index{structure solution} options are displayed.
 3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
-=======
-=======
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-=======
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list if they are present on your machine.
-
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
-=======
-3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list if they are present on your machine.
-
->>>>>>> 80e0445c32c32e007caf7b467db687bba6d16aab
 4.	Click Solve (or type solve) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at _Info | Electron Density Peaks_ for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
 
-	>CRYST Q-peaks represent maxima in the electron density map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in _Info | Electron Density Peaks_.
+	>CRYST \index{Q-peaks} represent maxima in the \index{electron density} map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in _Info | Electron Density Peaks_.
 
 5.	In the Work section there is another header tab _Toolbox Work_.  Select Q-Peak Intensities from the Labels menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
@@ -61,7 +20,7 @@
 
 8.	The next stage is to assign atoms types to the Q-peaks. Use the left hand mouse button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
 
-	>OLEX2 If the Q-peaks don't appear to form a structure, try typing compaq -a, which will pull Q-peaks together. Clicking on centre   (top right of GUI) has the same effect.
+	>OLEX2 If the Q-peaks don't appear to form a structure, try typing compaq -a, which will pull Q-peaks together. Clicking on centre I_CENTER (top right of GUI) has the same effect.
 
 9.	In Toolbox Work click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type name C to assign all selected peaks as carbon atoms. By using the UP key, it's easy to repeat this command.
 

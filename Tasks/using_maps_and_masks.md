@@ -19,7 +19,7 @@ The Masks option serves as an alternative to SQUEEZE which is imple-mented in Pl
 
 ## 3D Electron Density Maps
 In order to see whether disorder is likely it can be very useful to see a map of the residual electron density.
-An electron density map can be calculated quickly under Work | Toolbox Work| Electron Density Map which will use the settings selected under Tools | Maps | Electron Density. See Section 3.7.1 for a description of these features.
+An electron density map can be calculated quickly under `@Work|Toolbox Work|Electron Density Map` which will use the settings selected under Tools | Maps | Electron Density. See Section 3.7.1 for a description of these features.
 
 ##Modelling Solvent
 Where possible every attempt should be made to model the solvent if it can be identified and sensibly modelled as this will give the most accurate structure and therefore calculated structure factors. However, this is not always possible if the structure contains large voids enabling multiple solvent molecules to be incorporated or various positions for the molecules, in such cases Masks (either calculated by Olex2 or by Pla-ton/SQUEEZE can be used.

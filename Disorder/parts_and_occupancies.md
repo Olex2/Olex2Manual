@@ -2,10 +2,10 @@
 The use of parts and occupancy are often linked. 
 The PART number is used to define which atoms are considered to be bonded to each other, atoms in part 0 bond to everything, within bonding distance, while those in parts other than 0, bond to all atoms in part 0 and the same part number as them.  For example if some atoms are modelled in parts 1 and 2, the atoms in part 0 within bonding distance bond to atoms in part 1 and 2, but the atoms in part 1 only bond to those in part 0 and 1 not 2, likewise for those in part 2.
 
-The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, $$$$ it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
+The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, @@@@ it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 
 ## Changing PARTs
-More detail of linking to occupancy is provided in Section $$$$ on occupancy.
+More detail of linking to occupancy is provided in Section @@@@ on occupancy.
 
 ## Assigning PARTs
 If more than one position of an atom or fragment of a molecule is being modelled in the unit cell, it is necessary to put the disordered atoms into separate parts otherwise bonds appear between the disordered parts and only one option can be present at any point in a cell at any one time.
@@ -14,8 +14,8 @@ If more than one position of an atom or fragment of a molecule is being modelled
 - Select some atoms and type part ## where ## is the part number, in the command-line. Using the command-line you can also provide a second numerical value to the part command -- the selected atom's occupancy.
 
 ## Displaying PART Information
-Displaying PART numbers -- under Work | Toolbox Work | Labels either select Parts from the drop down menu or click on PARTS. Alternatively use showp ##, where ## is a space separated list of parts, in the command-line.
-Displaying atoms in particular PART's under both Work | Toolbox Work | Show PART and Tools | Disorder | Show PART are the options to display all atoms assigned to specific parts in combination e.g. 0 + 1 or 0 + 2 or all parts.
+Displaying PART numbers -- under `Work|Toolbox Work|Labels` either select Parts from the drop down menu or click on PARTS. Alternatively use showp ##, where ## is a space separated list of parts, in the command-line.
+Displaying atoms in particular PARTs under both `Work|Toolbox Work|Show PART and Tools|Disorder|Show PART` are the options to display all atoms assigned to specific parts in combination e.g. 0 + 1 or 0 + 2 or all parts.
 All atoms in PART 0 are normally 100% occupied in other words they are at that position in every asymmetric unit, while those in other parts are not present in every asymmetric unit hence it is normally desirable to see things in combination with atoms in PART 0. This can be useful to check that each section of modelled disorder makes chemical and crystallographic sense.
 
 ## Assigning Occupancies

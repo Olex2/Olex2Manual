@@ -21,10 +21,10 @@ Olex2 offers a number of different file formats for saving images, these are fou
 There are options to specify what happens if a picture file already ex-ists, the default is to Ask, but it is also possible to select Increment or Replace.
 
 ## Generating Figures
-A variety of options are available for creating figures are available under View |  Quick Drawing Styles and Tools | Images. Pictures are created of the molecules or fragments displayed on the graphics screen and can either be of a grown or ungrown structure.
+A variety of options are available for creating figures are available under `@View|Quick-Drawing-Styles-and-Tools|Images`. Pictures are created of the molecules or fragments displayed on the graphics screen and can either be of a grown or ungrown structure.
 
 ### Changing the atom display style
-The same display options apply for changing the appearance of the atoms during a refinement as can be used for generating images. These can be found under View | Quick Drawing Styles, alternatively right click on the graphics display window and under Draw Style select the desired appearance. 
+The same display options apply for changing the appearance of the atoms during a refinement as can be used for generating images. These can be found under `@View|Quick-Drawing-Styles`, alternatively right click on the graphics display window and under Draw Style select the desired appearance. 
 When producing figures there may be conventions for expected formats, e.g. for small molecule organic/organometallics an ellipsoid plot is typical with carbon atoms grey, oxygen red. In such cases it is a good idea to fol-low convention. In other situations the appearance of the figures may be down to the personal preference.
 
 ## Writing a Report or a Cif
