@@ -12,7 +12,7 @@ Calculates voids that are large enough to contain solvent. Probe/$\AA$ adjusts t
 
 ### Electron Density
 The resolution of the map can adjusted using Res/$\AA$, the smaller the number the more detailed the map. The Mask tick-box enables the map to either overlay on the structure (box ticked) or lie to one side of the structure (box unticked). There are four different map options available: diff, Fc, 2Fo-Fc and Fo
-An electron density map can also be calculated quickly under Work | Toolbox Work| Electron Density Map which will use the settings selected under Tools | Maps | Electron Density. If refinement has been attempted using both ShelXL and olex2.refine the option to select either olex or an .fcf files, ensure that the file from the last cycle of refinement is used.
+An electron density map can also be calculated quickly under `@Work|Toolbox-Work|Electron-Density-Map` which will use the settings selected under Tools | Maps | Electron Density. If refinement has been attempted using both ShelXL and olex2.refine the option to select either olex or an .fcf files, ensure that the file from the last cycle of refinement is used.
 
 ### Masks
 The Masks option serves as an alternative to SQUEEZE which is imple-mented in Platon (http://www.cryst.chem.uu.nl/platon/). These sorts of approaches should only be used when the solvent can't be identified or modelled, effort should be made to try and identify or model solvent. If refinement has been attempted using both ShelXL and olex2.refine the option to select either 'olex' or an .fcf files, ensure that the file from the last cycle of refinement is used.

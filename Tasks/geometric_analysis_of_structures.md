@@ -3,19 +3,19 @@
 ## Overlaying Structures
 It is frequently useful to be able to overlay structures either to compare the orientation of common fragments in the same structure (e.g. when Z'>1) or between two different structures (e.g. a different polymorph, structures before and after a phase transition or spin-crossover). Overlaying the structures makes it much simpler to identify differences.
 
->OLEX2 Before trying to overlay structures delete all Q-peaks, e.g. type kill $Q.
+> OLEX2 Before trying to overlay structures delete all Q-peaks, e.g. type kill $Q.
 
 ### Automatically overlaying fragments in the same structure
-In situations where there are two fragments in the structure with the same connectivity, under `@Tools|Overlay` click on Match All Fragments. Olex2 will overlay the structures on the screen and calculates a root mean square distance (RMSD) deviation for overlay of the fragments which is displayed on the graphics screen with and without inversion, alternatively type match. To return to unmatched fragments click on UnMatch or type fuse.
+In situations where there are two fragments in the structure with the same connectivity, under `@Tools|Overlay` click on Match All Fragments. Olex2 will overlay the structures on the screen and calculates a root mean square distance (RMSD) deviation for overlay of the fragments which is displayed on the graphics screen with and without inversion, alternatively type match. To return to unmatched fragments click on UnMatch or type `CODE fuse`.
 
->OLEX2 The automatic matching does not always work if there is disorder in a molecule (try matching selected atoms) or it is of high symmetry. In the case of a high symmetry example, try hiding hydrogen atoms (Ctrl+H) or manually change an atom type to break the symmetry, this is because the graph matching algorithm does not use pattern recognition for the optimisation, and high symmetry can introduce a large number of possible permutations, e.g. a CH3 group increases the number of permutations by 6.
+> OLEX2 The automatic matching does not always work if there is disorder in a molecule (try matching selected atoms) or it is of high symmetry. In the case of a high symmetry example, try hiding hydrogen atoms (Ctrl+H) or manually change an atom type to break the symmetry, this is because the graph matching algorithm does not use pattern recognition for the optimisation, and high symmetry can introduce a large number of possible permutations, e.g. a CH3 group increases the number of permutations by 6.
 
 ### Matching selected atoms in the same structure
 If the automatic matching did not work or different atoms are required to be matched, it is possible to match selected atoms.
  
-Select 3 atoms in the first fragment and then 3 atoms in the second fragment in the order to be matched and under Tools | Overlay select Match Selected Atoms. To return to the unmatched structure, click on UnMatch or type fuse.
+Select 3 atoms in the first fragment and then 3 atoms in the second fragment in the order to be matched and under `@Tools|Overlay` select Match Selected Atoms. To return to the unmatched structure, click on UnMatch or type `CODE fuse`.
 
-`@Tools|Overlay|Mode Match This mode enables interactive matching by a maximum of three pairs of atoms. The first pair of atoms are superimposed, the second one causes the rotation to minimize the distance between the atoms of the second pair, the third pair causes rotation around the line formed by the first and second pair to minimize the difference between the atoms of the third pair. Hit ESC to exit this mode. To return to the unmatched structures click on UnMatch or type fuse.
+`@Tools|Overlay|Mode Match` This mode enables interactive matching by a maximum of three pairs of atoms. The first pair of atoms are superimposed, the second one causes the rotation to minimize the distance between the atoms of the second pair, the third pair causes rotation around the line formed by the first and second pair to minimize the difference between the atoms of the third pair. Hit ESC to exit this mode. To return to the unmatched structures click on UnMatch or type `CODE fuse`.
 
 ### Overlaying molecules from different structures
 Click on `@Tools|Overlay|Overlay Structure` to overlay a second structure. The two structures now appear on the right and left hand side of the graphics screen and the user-selected matching mode is automatically set up.
@@ -32,7 +32,7 @@ There are a variety of options to determine geometric parameters relating to the
 
 - Hovering over a bond with the mouse will display the bond length of that particular bond.
 - Right click on the bond and the bond length will be displayed at the top.
-- Select two atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of `@View|Geometry` | Refine and save esd info first.)
+- Select two atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of `@View|Geometry|Refine` and save esd info first.)
 - Right click over an atom, under BANG is a list of all bond lengths or distances to nearby Q-peaks.
 - Select one/two atoms and type bang to see associated geometric parameters (you can also supply atom names).
 - Under Work click on Report to generate an html report containing the bond lengths in one of the tables.
@@ -40,15 +40,16 @@ There are a variety of options to determine geometric parameters relating to the
 ### Measuring bond angles
 
 - Right click on the central atom, under BANG the bond angle will be displayed.
-- Select three atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of `@View|Geometry` | Refine and save esd info first.)
+- Select three atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd (the latter requires the use of `@View|Geometry|Refine` and save esd info first.)
 - Select the central atom and type bang sel to see associated geometric parameters (alternatively replace sel by an atom name).
 - Under Work click on Report to generate an html report containing the bond lengths in one of the tables.
 
 ### Measuring torsion angles
 
 - Right click on the central bond, under TANG any torsion angles associated with the bond will be displayed.
-- Select four atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd respectively (the latter requires the use of `@View|Geometry` | Refine and save esd info first).
+- Select four atoms, then under `@View|Geometry` click on either Distance and Angles (of selection) or Distance and Angles with esd (of selection) to obtain the distance with or without an esd respectively (the latter requires the use of `@View|Geometry|Refine` and save esd info first).
 - To tabulate the torsion angles:
+
     - Click on the pencil icon to open the .ins file header.
     - Type CONF on a separate line somewhere below the UNIT line and refine.
     - Under Work click on Report to generate an html report containing the bond lengths in one of the tables.
@@ -106,9 +107,9 @@ These options are similar to grow, but the commands are only executed after you 
 This tool does not strictly belong to the 'growing' family of tools, but it is frequently used together with the growing tools as it allows you to re-arrange the asymmetric unit contents into a different configuration. There are various options under `@View|Symmetry-Generation|Growing|Assemble`:
 
 - Broken Fragments: a structure may become 'broken' - parts that should be bonded are shown as separate fragments. This tool will bring them back together, alternatively type compaq -a. 
-- Atom-to-Atom is very similar to the 'Broken Fragments' tool, but a different algorithm is used, or type compaq -c. 
-- Metal Last In this tool, metal ions are ignored while attempts to re-assemble the ligand are made, the metal ion is placed at the shortest possible distance, or type compaq -m. 
-- Q-Peaks This will move all electron density peaks as close to existing atoms as possible, or type compaq -q.
+- Atom-to-Atom is very similar to the 'Broken Fragments' tool, but a different algorithm is used, or type `CODE compaq -c`. 
+- Metal Last In this tool, metal ions are ignored while attempts to re-assemble the ligand are made, the metal ion is placed at the shortest possible distance, or type `CODE compaq -m`. 
+- Q-Peaks This will move all electron density peaks as close to existing atoms as possible, or type `CODE compaq -q`.
 - Growing structure to display hydrogen bonding interactions
     - To view the hydrogen bonding interaction associated with the asymmetric unit type htab -g. To return to just viewing the asymmetric unit type fuse.
     - Displaying the asymmetric unit only:

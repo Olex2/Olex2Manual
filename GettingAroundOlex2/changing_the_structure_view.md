@@ -4,7 +4,7 @@
 The same display options apply for changing the appearance of the atoms during a refinement as can be used for generating images. These can be found under `View|Quick Drawing Styles`, alternatively right click on the graphics display window and under Draw Style select the desired appearance.
 
 ## Atom Display Quality
-Quality - the quality of the atom appearance can be adjusted using the slider bar. Alternatively right click in the display window under Draw quality is the option to change between High, Medium or Low or type qual -h/m/l. When very large structures or packing diagrams are displayed, the graphics may respond slowly if the draw quality is set too high - besides, you will see the same regardless of which quality setting you choose!
+Quality - the quality of the atom appearance can be adjusted using the slider bar. Alternatively right click in the display window under Draw quality is the option to change between High, Medium or Low or type `CODE qual -h/m/l`. When very large structures or packing diagrams are displayed, the graphics may respond slowly if the draw quality is set too high - besides, you will see the same regardless of which quality setting you choose!
 
 ## Rotating a Structure
 Using the mouse is probably the simplest way to rotate the structure, simply click with the left mouse button in the graphics screen (avoiding atoms or Q-peaks) and move the mouse. Holding Ctrl down at the same time rotates the structure around in the plane of the screen. You can also use Shift + direction keys to rotate the structure using the keyboard.
@@ -19,8 +19,9 @@ In general, you can use matr to align the model along a direction in real or rec
 The viewing direction can be saved and loaded using save view ## and load view ##, where ## is any name you choose.
 
 ## Displaying Basis Vectors and Cell Axes
-- Show Basis - toggle to display/hide the basis vectors. Alternatively right click in the display window under Model is the option to Show / Hide Basis or type basis. The basis vectors can be moved by dragging them with left mouse button while holding down Shift, and zoomed by dragging it with the right mouse button.
-- Show Cell - toggle to display/hide the cell axes. Alternatively right click in the display window under Model is the option to Show / Hide Unit Cell or type cell. The directions (a, b, c and origin) are also displayed. While holding Shift down, you can move these labels with the left mouse button.
+
+- **Show Basis**: Toggle to display/hide the basis vectors. Alternatively right click in the display window under Model is the option to Show / Hide Basis or type `CODE basis`. The basis vectors can be moved by dragging them with left mouse button while holding down Shift, and zoomed by dragging it with the right mouse button.
+- **Show Cell**: Toggle to display/hide the cell axes. Alternatively right click in the display window under Model is the option to Show / Hide Unit Cell or type `CODE cell`. The directions (a, b, c and origin) are also displayed. While holding Shift down, you can move these labels with the left mouse button.
 
 ## Stereo View
 Various output options for Stereo viewing are available under`View|Stereo View`. Some of these produce stereo images on a standard monitor, but stereo output on dedicated 3-D monitors is also supported for either of the two commonly available systems

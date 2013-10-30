@@ -9,6 +9,7 @@ There is also a tick-box in the refinement settings that will add a collection o
 
 ### Editing Report / CIF parameters
 Under `@Work|Report` you can type a name of the crystal structure report ('data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the 'standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should already be filled.
+
 - Collection: information on the experimenter, date collected.
 - Crystal: name, colour, size, shape preparation details etc.
 - Diffraction: details on the diffractometer, diffraction temperature, special details. Clicking on Definition File brings up a number of files containing standard information on specific diffractometers. These files are located in the Olex2 directory/util/SiteSpecific and can be adjusted or new ones created (use a copy of template.cif) to fit users' own diffractometers.
@@ -22,6 +23,7 @@ Under `@Work|Report` are three boxes giving options on including an Image and ch
 
 ### Generating a CIF
 `@Work|Report|Edit CIF Info` brings up a text editor enabling the currently known information to be editing. Any edits made in this window will take precedence over any previous values. We recommend that you make all edits to the .cif file here.
+
 - `@Work|Report|Merge CIF` will merge all CIF information into one .cif file. There is also the option to select to include/exclude HKL/RES in the cif.
 - If ShelXL is being used to carry out the refinement under `@Work|Refine|Refinement Settings Extra it is possible to select the ACTA command which will generate a .cif and .fcf file. Note any information input under the Report section will be added to the CIF.
 
@@ -34,6 +36,7 @@ A CCDC number ready for a paper can be obtained by clicking on the link CCDC Num
 
 ## Updating the Chemical Composition
 This should be done upon completion of the structure refinement. If the currently assigned chemical composition is different to that displayed on the screen under Toolbox Work the atom types will not appear green. To update the chemical composition:
+
 - Under `@Work|Toolbox Work` click on   Click on Refine to update the formula.
 - Under `@Work|Solve|Chemical Composition` simply enter the formula.
 
