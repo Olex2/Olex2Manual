@@ -1,4 +1,5 @@
 # Space Group Determination
+
 In most routine cases, space group determination is a fairly fail-safe procedure that you would have carried out (or was carried out automatically) during the data processing step. If all worked well, it's usually not a problem. But things do not always work out this well.
 Olex2 contains a space group determination routine in `@Work|Solve|Suggest SG`. The result will appear in the drop-down box (in which you can also type your own choice of space group). Plots of your data are also available: the Wilson plot and the cumulative plot are particularly useful when you have trouble determining the correct space group.
 If you have the Rigaku XPlain program on the system path, Olex2 will offer it as an alternative method for the space group determination.

@@ -47,7 +47,7 @@ $I(F^{2})$: the measured intensity of a reflection.
 
 **Occupancy** is used to define the fraction of an atom modelled in a particular location, for most atoms this will be 1 indicating that they are fully occupied. However, when disorder is present the two (or more) parts could not both be present in the asymmetric unit at the same time, hence as an average across the structure they are fractionally occupied e.g. one part 0.8 and one part 0.2. This means that 80% of the asymmetric units contain the molecule in one orientation and 20% contain the molecule in the second orientation.
 
-**Phase problem** Like all waves, X-rays have both a phase and amplitude associated with them, however during a diffraction experiment we are only able to measure the amplitude of a reflection (= vI = F) not its phase. In order to solve a structure it is essential to determine the relative phase of each reflection in order to add all of the waves together correctly.
+**Phase problem** Like all waves, X-rays have both a phase and amplitude associated with them, however during a diffraction experiment we are only able to measure the amplitude of a reflection ($\sqrt{I} = F$) not its phase. In order to solve a structure it is essential to determine the relative phase of each reflection in order to add all of the waves together correctly.
 
 **Q-peaks**: represent peaks or troughs (depending what is plotted) in the difference electron density map. The size of them gives an indication of their significance and whether or not they indicate a missing atom.
 
@@ -61,7 +61,7 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 **.res file**: The .res file contains essentially all of the information in the .ins but after the last refinement cycle so some instructions that have been implemented may no longer be present e.g. AFIX or ANIS. There will also be information on the highest residual peaks.
 
-**R_{int}** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the R_{int}, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+**R_{int}** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
 $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
@@ -75,9 +75,9 @@ $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
 **Unit Cell**: represents the fraction of the crystal structure which repeats by translation. The unit cell parameters consists of 3 unit cell axes (a, b and c) and 3 unit cell angles ($\alpha$, $\beta$ and $\gamma$) which define a parallelepiped. There are multiple unit cell choices available and conventions exist for selecting a unit cell, the smallest choice is the reduced cell but for various reasons a slightly larger cell may be selected. The unit cell will be one of the 7 crystal systems and 14 Bravais lattices.
 
-**$wR_{2}$**: a standard measure of the quality of the agreement between Fo and Fc. A very large $wR_{2}$ value suggests an incorrect solution and a need to try more rigorous structure solution routines.
+**wR2**: a standard measure of the quality of the agreement between Fo and Fc. A very large wR2 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-$wR_{2} = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]$
+wR2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]$
 
 $w$: weighting scheme, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor)
 
