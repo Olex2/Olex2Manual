@@ -54,8 +54,8 @@ Poorly fitting reflections are listed under Info | Bad Reflections. Those measur
 - Type a specific hkl under Exclude.
 - Edit Reflections. This displays the worst-fitting reflections, showing each equivalent occurrence of that reflection separately. You can omit only the offending separate reflections and don't need to throw the whole reflection out. In fact, Olex2 simply moves the flagged reflections to the end of the file (after the '0 0 0' line, indicating to the refinement program that these should be ignored.
 - To omit a specific reflection manually, type OMIT h k l.
-- Use OMIT \#\#, where \#\# is the minimum value of the |(Fc2-Fo2)|/esd to omit all reflections where the value is above the threshold.
-- In general most of the poorly fitting reflections should have similar values of |Fc2-Fo2|/esd ideally all less than ~ +/- 0. One or two poorly fitting reflections with significantly different values of |Fc2-Fo2|/esd can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
+- Use OMIT \#\#, where \#\# is the minimum value of the $|(F_{calc}^{2}2-F_{obs}^{2}2)/esd$ to omit all reflections where the value is above the threshold.
+- In general most of the poorly fitting reflections should have similar values of $|(F_{calc}^{2}2-F_{obs}^{2}2)/esd$ ideally all less than ~ +/- 0. One or two poorly fitting reflections with significantly different values of $|(F_{calc}^{2}2-F_{obs}^{2}2)/esd$ can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
 
 ##Inverting a Structure
 It should never be necessary to invert a structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv:f. 

@@ -5,6 +5,6 @@
 
 2.	Check that the chemical composition is correct and there are no extra or missing atoms. If there is an error in Toolbox Work the atom types will not appear green. To update the chemical composition to agree with the structure displayed on the screen under Work | Toolbox Work click on @@@@ and then Refine again.
 
-3.	Go to the Info tab and open the Bad Reflections header tab if there are one or two reflections that have very large |Fc2-Fo2|/esd values they may need to be omitted. Such reflections will be obvious as their values will be significantly out of line with the rest of the reflections. If it seems necessary to omit more than a handful of reflections, there is probably a reason that should be investigated. 
+3.	Go to the Info tab and open the Bad Reflections header tab if there are one or two reflections that have very large $|F_{calc}^{2}-F_{obs}^{2}|/esd$ values they may need to be omitted. Such reflections will be obvious as their values will be significantly out of line with the rest of the reflections. If it seems necessary to omit more than a handful of reflections, there is probably a reason that should be investigated. 
 	
->Do not omit reflections until all of the atoms have been located as the poorly fitting reflections are affected by missing atoms, for example low angle reflections often appear badly fitting prior to the addition of hydrogen atoms.
+>CRYST Do not omit reflections until all of the atoms have been located as the poorly fitting reflections are affected by missing atoms, for example low angle reflections often appear badly fitting prior to the addition of hydrogen atoms.

@@ -3,7 +3,7 @@
 ##Change the Asymmetric Unit
 
 ### Using symmetry tools to adjust atomic positions
-It is frequently desirable to adjust atomic positions or change the location of the asymmetric unit based on space group allowed symmetry operations e.g. when a molecule is split over more than one site rather than being joined in the asymmetric unit or to clearly display intermolecular interactions between a fragment and solvent molecule. Options for making these adjustments are provided under View | Symmetry Generation| Symmetry Tools. See also Reassembling structures.
+It is frequently desirable to adjust atomic positions or change the location of the asymmetric unit based on space group allowed symmetry operations e.g. when a molecule is split over more than one site rather than being joined in the asymmetric unit or to clearly display intermolecular interactions between a fragment and solvent molecule. Options for making these adjustments are provided under `@View|Symmetry-Generation|Symmetry-Tools`. See also Reassembling structures.
 
 ### Relocating the asymmetric unit
 - Centre on Cell: centres all parts of the asymmetric unit within the unit cell. (Alternatively right click in the display window under Model is the option to Centre.) It is crystallographic good practice to ensure that the centre of mass of a molecule or fragment is contained within the unit cell.
@@ -13,14 +13,19 @@ It is frequently desirable to adjust atomic positions or change the location of 
 - Assemble: if the contents of the asymmetric unit are disjointed clicking on this option reassembles all fragments that can be bonded together. Alternatively type compaq -a to achieve the same thing or click on the centre icon  . 
 
 ### Moving fragments or creating copies
-Move Near: moves fragments closer together if Z '> 1 or can be used within the same fragment to change the location of that part of the asymmetric unit.
+
+#### Move Near
+Moves fragments closer together if Z'>1 or can be used within the same fragment to change the location of that part of the asymmetric unit.
+
 - Left click to select the atom that the fragment wants to be moved close to.
 - Click Move Near (the initially selected atom is deselected).
 - Left click on an atom in the fragment to move. It will automatically move.
 - Press ESC to exit the mode.
 - Refine the structure to update the .ins file.
--
-Copy Near: creates a copy of a fragment, this may make viewing intermolecular interaction easier for example.
+
+#### Copy Near
+Ceverreates a copy of a fragment, this may make viewing intermolecular interaction easier for example.
+
 - LEFT CLICK to select the atom that the fragment wants to be moved close to.
 - Click Copy Near (the initially selected atom is deselected).
 - LEFT CLICK on an atom in the fragment to copy. A copy will be generated.
@@ -43,22 +48,29 @@ An incorrect space group can prevent structure solution but just because a struc
 ####Prior to structure solution
 If you believe that your space group selection is wrong you can change this under the Work | Solve tab in the Space Group section. 
 If you know the space group you want to try you can type it into the dropdown box and press return. 
-If you are unsure of the space group Olex2 can suggest likely possible space groups for you, click on Suggest SG to see a list of the most likely space groups appear on the graphics screen (or type sg in the command-line). These will also appear in the dropdown box for you to select.
-To view the full output in relation to systematic absences click on the notepad icon or type text. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution and your data fit well to your cell during the integration stage it is worth checking the space group. 
+If you are unsure of the space group Olex2 can suggest likely possible space groups for you, click on Suggest SG to see a list of the most likely space groups appear on the graphics screen (or type `CODE sg` in the command-line). These will also appear in the dropdown box for you to select.
+To view the full output in relation to systematic absences click on the notepad icon or type `CODE text`. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution and your data fit well to your cell during the integration stage it is worth checking the space group. 
 
 #### Converting to a higher symmetry space group
 Example: Converting a structure in space group P1 with two symmetry-related molecules into one in P-1 with one molecule in the asymmetric unit. 
 To convert the structure to P-1 the following procedure can be followed:
-1.	Ensure that the atoms are currently modelled isotropically, if not, click @@@@ under Work | Toolbox Work and refine the structure.
-2.	Select two symmetry related heavy atoms, if present, otherwise any two symmetry related atoms.
-	>The position of heavy elements is normally better defined due to their dominance of the scattering and hence if present it is better to select these.
-3.	Type echo ccrd(sel) you will see the three coordinates (x,y,z) of the geometric centre between the selected atoms.
-	>Alternatively type echo ccrd(Atom1name Atom2name) without selecting any atoms.
-4.	Type push:x:y:z, which moves all of the atomic coordinates so that the inversion centre between the molecules is coincident with a crystallographic inversion centre (at 0,0,0) in P-1.
-5.	Select the same two symmetry related heavy atoms. 
-6.	Type echo ccrd(sel) to double check that the geometric centre now coincides with an inversion centre at 0,0,0.
-7.	Type changesg P-1 to merge the two molecules. The space group symbol in the upper right corner of the GUI panel should be updated.
-8.	Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type compaq -a (or Work | Toolbox Work and click on @@@@ ).
-9.	If the structure contains extra atoms near the expected positions. Type fuse 0.4 to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
-	>The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.
+
+1. Ensure that the atoms are currently modelled isotropically, if not, click I_ISOT under `@ Work|Toolbox-Work` and refine the structure.
+2. Select two symmetry related heavy atoms, if present, otherwise any two symmetry related atoms.
+
+> CRYST The position of heavy elements is normally better defined due to their dominance of the scattering and hence if present it is better to select these.
+
+3. Type `CODE echo ccrd(sel)` you will see the three coordinates (x,y,z) of the geometric centre between the selected atoms.
+
+> OLEX2 Alternatively type `CODE echo ccrd(Atom1name Atom2name)` without selecting any atoms.
+
+4. Type push:x:y:z, which moves all of the atomic coordinates so that the inversion centre between the molecules is coincident with a crystallographic inversion centre (at 0,0,0) in P-1.
+5. Select the same two symmetry related heavy atoms. 
+6. Type `CODE echo ccrd(sel)` to double check that the geometric centre now coincides with an inversion centre at 0,0,0.
+7. Type changesg P-1 to merge the two molecules. The space group symbol in the upper right corner of the GUI panel should be updated.
+8. Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type the command compaq -a (or `@Work|Toolbox-Work` and click on I_CENTER ).
+9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
+
+> The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.
+
 10.	Refine the structure and assuming that there are no problems continue finishing the refinement of the structure.

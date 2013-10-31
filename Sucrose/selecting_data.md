@@ -5,4 +5,4 @@
 
 ![Home Tab in GUI Panel](/images/start.png)
 
->Since this sample structure has already been solved the sucrose molecule appears on your screen, normally if you are loading an unsolved structure the screen would be blank as none of the atom positions have been determined.
+>OLEX2 Since this sample structure has already been solved the sucrose molecule appears on your screen, normally if you are loading an unsolved structure the screen would be blank as none of the atom positions have been determined.

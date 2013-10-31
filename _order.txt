@@ -1,8 +1,29 @@
+# LATEX replacements
+2Theta::x::$2\Theta$
+Fobs::x::$F_{obs}$
+Fcalc::x::$F_{calc}$
+\b Fo \b::x::$F_{obs}$
+Fc::x::$F_{calc}$
+F2::x::$F^{2}$
+Z'>1::x::$Z' > 1$
+Rint::x::$R_{int}$
+wR2::x::$wR_{2}$
+R1::x::$R_{1}$
+e-3::x::$e^{-3}$
+e/A::x::$e^{-}/\\AA$
+Uij::x::$U_{IJ}$
+Uiso::x::$U_{iso}$
+
+#BOOK Details
 bookauthor=Hazel Sparkes \& Horst Puschmann
 booktitle=Solving and Refining Molecular Structurs using Olex2
 booksubtitle=An Introduction
 booktitle=Olex2
+
+#PANDOC command
 pandoc_cmd=pandoc -o %s -f markdown -t latex %s
+
+#Book Chapters
 BookStart
 Sucrose
 GettingAroundOlex2
