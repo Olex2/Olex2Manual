@@ -2,10 +2,10 @@
 The use of parts and occupancy are often linked. 
 The PART number is used to define which atoms are considered to be bonded to each other, atoms in part 0 bond to everything, within bonding distance, while those in parts other than 0, bond to all atoms in part 0 and the same part number as them.  For example if some atoms are modelled in parts 1 and 2, the atoms in part 0 within bonding distance bond to atoms in part 1 and 2, but the atoms in part 1 only bond to those in part 0 and 1 not 2, likewise for those in part 2.
 
-The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, @@@@ it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
+The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, it would not be possible for atoms in PART 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of part 1 and in others it is in the orientation of part 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 
 ## Changing PARTs
-More detail of linking to occupancy is provided in Section @@@@ on occupancy.
+More detail of linking to occupancy is provided in the Section \ref{assigning-occupancies} on occupancy.
 
 ## Assigning PARTs
 If more than one position of an atom or fragment of a molecule is being modelled in the unit cell, it is necessary to put the disordered atoms into separate parts otherwise bonds appear between the disordered parts and only one option can be present at any point in a cell at any one time.
@@ -66,7 +66,7 @@ If an atom or group of atoms is associated with disorder it can be useful to spl
 - No restraint splits atoms with no restraints or constraints, putting them into two parts and associating the occupancy with a free variable. Press ESC when finished.
 - EADP or ISOR or SIMU splits the atoms applying either an EADP constraint or ISOR or SIMU restraint depending on what option is selected. Press ESC when finished. (See restraints/constraints) for more detail of these restraints.
 
->OLEX2 If you click on more than one atom to split it will be associated with the same free variable unless you press ESC and reopen the mode in which case the occupancy will be linked to a new free variable. To edit the standard deviations associated with ISOR or SIMU click on the relevant atoms to select them, click on the open .ins icon and edit the .ins file directly. When atoms are split, Olex2 will automatically make them isotropic for the occupancies to be refined.
+>OLEX2 If you click on more than one atom to split it will be associated with the same free variable unless you press ESC and reopen the mode in which case the occupancy will be linked to a new free variable. To edit the standard deviations associated with ISOR or SIMU click on the relevant atoms to select them, click on the open .ins icon I_EDIT and edit the .ins file directly. When atoms are split, Olex2 will automatically make them isotropic for the occupancies to be refined.
 
 ### `@Toolbox Work|Select-group-or-atom(s)-and-then...` 
 Split will split the pre-selected atom or group of atoms with no restraint setting one atom to PART 1 with the occupancy linked to a free variable and the other to PART 2 with the occupancy linked to 1-free variable. Subsequently holding down the SHIFT+LEFT MOUSE button and moving the mouse allows the new atom(s) to be moved e.g. onto a Q-peak. Press ESC when finished.

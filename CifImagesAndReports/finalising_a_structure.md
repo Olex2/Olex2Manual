@@ -1,7 +1,7 @@
 # Finalising a Structure
 
 ## Before Writing a Final CIF
-The bonds to hydrogen atoms are not automatically included in the CIF. Type htab in the command-line -- this will print detail of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode; you then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type help htab to find out more about this.
+The bonds to hydrogen atoms are not automatically included in the CIF. Type htab in the command-line -- this will print detail of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode; you then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.
 
 If a full analysis of torsion angles is required, click on editins to open the .ins file header. Type CONF on a separate line somewhere below the UNIT line. 
 
@@ -35,10 +35,10 @@ It is important to check the .cif file for any errors or problems with the cryst
 A CCDC number ready for a paper can be obtained by clicking on the link CCDC Number.  You can specify whether this submission is intended for a specific journal, or whether it should be treated as a private communication. In either case, you will receive an e-mail with the CCDC number a few days after your submission. The CCDC is always very happy to receive new structure reports of structures that already exist in the CSD. So, next time your structure turns out to be 'already in the CSD', why not submit it as a private communication? It is not necessary to devise a naming scheme and/or prepare any publication material, so it's easily done!
 
 ## Updating the Chemical Composition
-This should be done upon completion of the structure refinement. If the currently assigned chemical composition is different to that displayed on the screen under Toolbox Work the atom types will not appear green. To update the chemical composition:
+This should be done upon completion of the structure refinement. If the currently assigned chemical composition is different to that displayed on the screen under `@Toolbox-Work` the atom types will not appear green. To update the chemical composition:
 
-- Under `@Work|Toolbox Work` click on   Click on Refine to update the formula.
-- Under `@Work|Solve|Chemical Composition` simply enter the formula.
+- Under `@Work|Toolbox-Work` click on   Click on Refine to update the formula.
+- Under `@Work|Solve|Chemical-Composition` simply enter the formula.
 
 ## Refinement Data Plots
 We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under `@Info|Reflection Statistics:

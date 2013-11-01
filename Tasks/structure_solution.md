@@ -5,7 +5,7 @@ What solutions programs actually do to 'solve' the structure, is to solve the 'c
 Structure solution is largely a fully automated process, and in most routine cases it will simply work with default settings. But there are always cases where this step can become quite difficult, and there are several things you can do to try and obtain a solution.
 
 ## Select Solution Program
-To change the structure solution program go to Work | Solve and examine the drop down menu by Solution Program to see the options available for use. If a program has more than one choice of method e.g. ShelXS these will be displayed in the drop down menu by Solution Method.
+To change the structure solution program go to `@Work|Solve` and examine the drop down menu by Solution Program to see the options available for use. If a program has more than one choice of method e.g. ShelXS these will be displayed in the drop down menu by Solution Method.
 All structure solution programs work slightly differently, so trying different programs may help. Olex2 is supplied with Olex2.solve but if present ShelXS, ShelXM, SIR and Superflip can also be used from within Olex2.
 
 ### olex2.solve

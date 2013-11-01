@@ -5,32 +5,32 @@ The Q-peaks are displayed as brown spheres, the transparency of which is related
 
 ### Displaying/Hiding/Deleting
 
-- CTRL+Q toggles between no Q-peaks, show isolated Q-peaks, and show Q-peaks with bonds. Depending on what you are looking for, you will use this command a lot during a structure determination. The ???? icon under Work | Toolbox Work has exactly the same effect.
+- CTRL+Q toggles between no Q-peaks, show isolated Q-peaks, and show Q-peaks with bonds. Depending on what you are looking for, you will use this command a lot during a structure determination. The I_Q icon under `@Work|Toolbox-Work` has exactly the same effect.
 - Type kill $Q in the command-line to delete all of the Q-peaks. There is really never a real reason to do this!
 
 ### Changing the number of Q-peaks displayed
 
 - Use the mouse wheel function
-- Under Info | Electron Density Peaks or Work | Toolbox-Work | Peaks the slider bar by peaks sets the number of peaks displayed on the screen. When the bar is at the centre 100% of the peaks are displayed, sliding to the left hides the weakest peaks first while sliding to the right hides the strongest peaks first.
-- Under Work | Refine Settings change the Number of Residual Peaks, click Refine to re-calculate the number of peaks.
+- Under `@Info|Electron-Density-Peaks` or `@Work|Toolbox-Work|Peaks` the slider bar by peaks sets the number of peaks displayed on the screen. When the bar is at the centre 100% of the peaks are displayed, sliding to the left hides the weakest peaks first while sliding to the right hides the strongest peaks first.
+- Under `@Work|Refine-Settings` change the Number of Residual Peaks, click Refine to re-calculate the number of peaks.
 
 When a large number of atoms have not been located it is advisable to use a larger number of residual peaks but as the refinement proceeds reducing the number can make it easy to see where the highest peaks are located.
 
 ### Changing a Q-peak to an atom type
 
-- Select one or more Q-peaks and click on the desired atom type under Work | Toolbox Work.
+- Select one or more Q-peaks and click on the desired atom type under `@Work|Toolbox Work`.
 - Select the atom type first (with nothing selected) and then click on the Q-Peaks you wish to assign in turn.
 - Select one or more Q-peaks and right click on them, under Type select the desired atom type.
-- Select one or more Q-peaks and then type name O to make them into oxygen atoms. Select more peaks, hit the UP key and 
+- Select one or more Q-peaks and then type `CODE name O` to make them into oxygen atoms. Select more peaks, hit the UP key and 
 
 ### Displaying Q-peak intensity labels
 
-- Select Q-Peak intensities from Work | Toolbox-Work | Labels. 
+- Select Q-Peak intensities from `@Work|Toolbox-Work|Labels`. 
 
 ### Displaying negative Q-peaks
 
-- Using ShelXL, under Work | Refine | Refinement Settings Extra change FMAP 2 to -2. Negative Q-peaks are displayed as purple spheres.
-- In general type, calcfourier -diff -i to display negative Q-peaks.
+- Using ShelXL, under `@Work|Refine|Refinement-Settings-Extra` change FMAP 2 to -2. Negative Q-peaks are displayed as purple spheres.
+- In general type, `CODE calcfourier -diff -i` to display negative Q-peaks.
 
 ### Adjusting the visual appearance of Q-peaks
 
@@ -56,11 +56,11 @@ Atom selections are very important in Olex2. When you need to address specific a
 - DELETE - deletes selected atoms.
 - ESC - deselects all atoms
 
-For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you don't have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type anis, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
+For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you don't have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type `CODE anis`, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
 Olex2 offers several options for selecting atoms individually:
 
 - Left click with the mouse on an atom or multiple atoms in turn to select one or more atoms.
-- Under Work | Select:
+- Under `@Work|Select`:
     - Exclusive or Additive enable either C, H, N, O or all atoms to be selected either individually or additively.
     - Selection the current atom selection can be Inverted, Deselected, Deleted or Previous returns to the previous atom selection.
     - Select atoms where $U_{iso}$ is greater than (>), less than (<) or equal (=) to a user-defined value. Click on Select to select defined atoms.
@@ -75,10 +75,13 @@ To name atoms enter the Start number, change the Suffix and Type if needed. Clic
 - Automatic Hydrogen Naming - if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click Refine for changes to the hydrogen atom labels to take effect (or type `CODE FixHL` in the command-line).
 - Equivalent Fragments (Z'>1) - name matching for equivalent fragments. Select one atom from the correctly named fragment then one from the fragment to match the names. Add a Suffix letter and click on Equivalent Fragments (Z' > 1) the second fragment will automatically be relabelled.
 
-As with many option this can be done in the command-line after selecting the atoms in order type match sel -n=suffix where suffix is the number required, without selecting atoms sel can be replaced by the two atom names in order separated by a space. Two alternative naming ap-proaches can be achieved using the command-line only: (1) replace the first number e.g. C101 becomes C201, and type match sel -n=$suffix where suffix is the number required; (2) replace the last character type match sel -n=-suffix. If no atoms are selected clicking on Equivalent Fragments (Z' > 1) will show how the fragments will be matched. Type match -u to return to the non-matched view.
+As with many option this can be done in the command-line after selecting the atoms in order type `CODE match sel -n=suffix` where suffix is the number required, without selecting atoms sel can be replaced by the two atom names in order separated by a space. Two alternative naming ap-proaches can be achieved using the command-line only:
+
+- replace the first number e.g. C101 becomes C201, and type `CODE match sel -n=$suffix` where suffix is the number required;
+- replace the last character type `CODE match sel -n=-suffix`. If no atoms are selected clicking on Equivalent Fragments (Z'>1) will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
 
 ## Sorting atoms in the .ins file
-The atoms can be sorted in the .ins file automatically under `@Work|Sorting|by Mass \& Label`, Atom Label, Atomic Mass or Moieties. Click on the info icon in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
+The atoms can be sorted in the .ins file automatically under `@Work|Sorting|by Mass \& Label`, Atom Label, Atomic Mass or Moieties. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
 
 ## Hydrogen Atoms
 
@@ -97,8 +100,8 @@ Hydrogen atoms can be added in a number of different ways within Olex2 either by
 #### Using AFIX/HFIX instructions: 
 Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the Add H option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
 
-- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH, if there appears to be a Q-peak(s) that would be better positions for the hydrogen atom(s) it may be necessary to carry out multiple refinement cycles or use Work | Toolbox-Work | Select Group or atom(s) and then Split or Move with Shift key to optimise the relevant positions
-- Manually adding hydrogen atoms - Under Tools | Hydrogen Atoms various options are provided for adding hydrogen atoms:
+- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH, if there appears to be a Q-peak(s) that would be better positions for the hydrogen atom(s) it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select Group-or-atom(s)` and then Split or Move with SHIFT KEY to optimise the relevant positions
+- Manually adding hydrogen atoms - Under `@Tools|Hydrogen Atoms` various options are provided for adding hydrogen atoms:
 
 The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Click the OK icon to exit or press ESC.
 
@@ -110,5 +113,5 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 ## Deleting Hydrogen Atoms
 
 - Typing kill $H in the command-line will delete all or selected hydrogen atoms.
-- Click on the I_H icon under Work | Toolbox Work will delete selected H.
+- Click on the I_H icon under `@Work|Toolbox Work' will delete selected H.
 - Select one or more hydrogen atom(s) and press DELETE. 

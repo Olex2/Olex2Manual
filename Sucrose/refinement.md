@@ -5,7 +5,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 ##Initial Atom Type Assignement
 
 1.	Under the Work tab click on the arrow next to the Refine button so that it is pointing upwards and highlighted orange meaning that the refinement options are now displayed. 
-2.	Click on the Refine button and Olex2 will refine your structure. Alternatively, you can type refine or press CTRL+R.
+2.	Click on the Refine button and Olex2 will refine your structure. Alternatively, you can type `CODE refine` or press CTRL+R.
 
 	>CRYST During a \index{refinement} Olex2 is calculating structure factors based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
 
@@ -40,7 +40,7 @@ At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e' '-
 
 	![Incorrect Ellipsoids](/images/incorrect_ellipsoids.png)
 
-	>OLEX2 It is generally good practice to re-set the atoms to be isotropic, click on I_ISOT in Toolbox Work at the top right. Select the relevant atoms and change the atom type in Toolbox Work. Click on Refine, make sure your structure looks reasonable then click on   on Toolbox Work at the top right to re-refine in the anisotropic model.
+	>OLEX2 It is generally good practice to re-set the atoms to be isotropic, click on I_ISOT in Toolbox Work at the top right. Select the relevant atoms and change the atom type in `@Toolbox Work`. Click on Refine, make sure your structure looks reasonable then click on   on Toolbox Work at the top right to re-refine in the anisotropic model.
 
 	![Incorrect Ellipsoids](/images/incorrect_ellipsoids.png)
 
@@ -60,7 +60,7 @@ At this stage using olex2.refine you should have R1 ~ 7-8 %, wR2 ~ 20-21%, Diffe
 	
 	>OLEX2 If you select some hydrogen atoms and use the Delete All H button I_KILLH  or type `CODE kill $H` in the command-line, only the selected atoms will be deleted. 
 	
->The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking the Q icon in Toolbox Work (or CTRL+Q).
+>The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking the Q icon I_Q in Toolbox Work (or CTRL+Q).
 
 14.	In Toolbox Work clicking on the H square cycles through show H / show H with H-bonding interactions / hide H (alternatively use CTRL+H). Stop at show H with hydrogen bonding interactions.
 	

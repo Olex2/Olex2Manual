@@ -10,7 +10,7 @@ It is frequently desirable to adjust atomic positions or change the location of 
 - Largest Part: centres all parts of the asymmetric unit on the largest fragment. 
 
 ### Reassembling split fragments
-- Assemble: if the contents of the asymmetric unit are disjointed clicking on this option reassembles all fragments that can be bonded together. Alternatively type compaq -a to achieve the same thing or click on the centre icon  . 
+- Assemble: if the contents of the asymmetric unit are disjointed clicking on this option reassembles all fragments that can be bonded together. Alternatively type `CODE compaq -a` to achieve the same thing or click on the centre icon I_CENTER. 
 
 ### Moving fragments or creating copies
 
@@ -29,7 +29,7 @@ Ceverreates a copy of a fragment, this may make viewing intermolecular interacti
 - LEFT CLICK to select the atom that the fragment wants to be moved close to.
 - Click Copy Near (the initially selected atom is deselected).
 - LEFT CLICK on an atom in the fragment to copy. A copy will be generated.
-- Press ESC to exit the mode. To view the asymmetric unit again, type fuse.
+- Press ESC to exit the mode. To view the asymmetric unit again, type `CODE fuse`.
 
 ###Display asymmetric unit only or complete structures where Z'<1
 - Fuse: to display the asymmetric unit only (alternatively type fuse).
@@ -40,16 +40,16 @@ If the asymmetric unit (ASU) does not consist of a complete molecule i.e. Z'!=1,
 
 ### Space group selection
 The current space group is displayed in the top corner of the GUI panel.
-A number of the data plot options (Info | Reflection Statistics) can be useful when you are unsure about the space group.
+A number of the data plot options (`@Info|Reflection-Statistics`) can be useful when you are unsure about the space group.
 
 ### Changing the space group
 An incorrect space group can prevent structure solution but just because a structure solves in a space group it doesn't mean that the assignment is correct and a check should be made for higher symmetry space groups e.g. using Platon.
 
 ####Prior to structure solution
-If you believe that your space group selection is wrong you can change this under the Work | Solve tab in the Space Group section. 
+If you believe that your space group selection is wrong you can change this under the `@Work|Solve` tab in the Space Group section. 
 If you know the space group you want to try you can type it into the dropdown box and press return. 
 If you are unsure of the space group Olex2 can suggest likely possible space groups for you, click on Suggest SG to see a list of the most likely space groups appear on the graphics screen (or type `CODE sg` in the command-line). These will also appear in the dropdown box for you to select.
-To view the full output in relation to systematic absences click on the notepad icon or type `CODE text`. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution and your data fit well to your cell during the integration stage it is worth checking the space group. 
+To view the full output in relation to systematic absences click on the notepad icon IEDIT or type `CODE text`. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution and your data fit well to your cell during the integration stage it is worth checking the space group. 
 
 #### Converting to a higher symmetry space group
 Example: Converting a structure in space group P1 with two symmetry-related molecules into one in P-1 with one molecule in the asymmetric unit. 

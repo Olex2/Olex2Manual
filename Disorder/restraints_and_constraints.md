@@ -26,7 +26,7 @@ DIANG 	Restrains the dihedral angle of the selection to the value provided.
 ------- ------------------------------------
 
 ## Shelx Compatible Constraints
-It is very easy to apply any SHELX constraints (and restraints) in Olex2. The instructions are fully managed, so you don't have to take care of atom names in this. For example, if you want two atoms to have the same ADP value, you simply select the two atoms and type EADP (or find the corresponding command on the GUI, where you will also find some more information about this command and how to apply it). If you later decide to rename any of the atoms involved in a constraint, this doesn't matter -- Olex2 takes care of this for you.
+It is very easy to apply any SHELX constraints (and restraints) in Olex2. The instructions are fully managed, so you don't have to take care of atom names in this. For example, if you want two atoms to have the same ADP value, you simply select the two atoms and type `CODE EADP` (or find the corresponding command on the GUI, where you will also find some more information about this command and how to apply it). If you later decide to rename any of the atoms involved in a constraint, this doesn't matter -- Olex2 takes care of this for you.
 For the detailed documentation of ShelXL constraints and restraints, please refer to the SHELX manual. A link to this manual is provided on our GUI with George Sheldrick's kind permission
 
 ------- ------------------------------------
@@ -41,7 +41,7 @@ EADP 	 The ADPs/$U_{iso}$ of selected atoms will be constrained to be the same.
 
 ## Shelx Compatible Restraints
 
-Again, these are fully managed: for example, if you wanted to say that two bonds should be restrained to the same length, you would apply the 'SADI' restraint by selecting the two bonds in question (or the atoms that define the bond -- two atoms to define the first bond, then two atoms to define the second bond) and then type SADI (or find the corresponding command on the GUI). In the case when there are no bonds, but two the distances (A-C and B-C) to be restrained share an atom (C), three atoms, A,C and B can be selected to generate the similarity restraint. 
+Again, these are fully managed: for example, if you wanted to say that two bonds should be restrained to the same length, you would apply the 'SADI' restraint by selecting the two bonds in question (or the atoms that define the bond -- two atoms to define the first bond, then two atoms to define the second bond) and then type `CODE SADI` (or find the corresponding command on the GUI). In the case when there are no bonds, but two the distances (A-C and B-C) to be restrained share an atom (C), three atoms, A,C and B can be selected to generate the similarity restraint. 
 
 ------- ------------------------------------
 ShelX Compatible Restraints
