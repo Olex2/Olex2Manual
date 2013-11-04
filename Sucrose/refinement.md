@@ -7,7 +7,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 1.	Under the Work tab click on the arrow next to the Refine button so that it is pointing upwards and highlighted orange meaning that the refinement options are now displayed. 
 2.	Click on the Refine button and Olex2 will refine your structure. Alternatively, you can type `CODE refine` or press CTRL+R.
 
-	>CRYST During a \index{refinement} Olex2 is calculating structure factors based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
+> CRYST During a \index{refinement} Olex2 is calculating structure factors based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
 
 3.	If one of the atoms you assigned is now represented as a comparatively huge sphere (not just slightly larger than the others), it is not real, select it and press the DELETE key on your keyboard (or right-click and select Delete from the context menu). If you delete an atom by mistake, use CTRL+Z to undo.
 
@@ -19,7 +19,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 	![Different Sized Atom Spheres](/images/different_sized_atom_spheres.png)
 
-	>OLEX2 The atoms are displayed as spheres when they are modelled isotropically (i.e. one parameter to define the atomic displacement parameter, ADP). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
+> OLEX2 The atoms are displayed as spheres when they are modelled isotropically (i.e. one parameter to define the atomic displacement parameter, ADP). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
 
 7.	If a sphere is significantly smaller than the others, the atom type is too light e.g. assigned as a carbon atom but it should be an oxygen atom. If it is distinctively larger, it has been assigned as too heavy an atom. Select the offending spheres and change their atom types. If the sphere representing the atom has become too small to see, draw a rectangle (SHIFT+LEFT MOUSE) around the atom to select it. 
 
@@ -31,7 +31,7 @@ At this stage you should have R1 ~ 8-9%, wR2 ~25%, Difference map max ~0.7 e' '-
 
 ## Anisotropic Refinement
 
-1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using `anisotropic displacement parameters` (ADP) requires 6 parameters to define the volume occupied by the electron density rather than the single one that was used to define the sphere during `isotropic refinement`.
+1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using `anisotropic displacement parameters` (ADP) requires 6 parameters to define the volume occupied by the electron density rather than the single one that was used to define the sphere during \index{isotropic refinement}.
 2.	Click on the rugby-ball shaped blue icon I_ANIS on Toolbox Work at the top right. Olex2 will then automatically carry out an anisotropic refinement.
 
 	>OLEX2 Atoms will now be displayed more like rugby balls, however if they appear like pancakes or are comparatively much larger than other atoms in the structure, this should be investigated. Common reasons for odd shaped ellipsoids include incorrect atom assignments, atomic disorder, incorrect space group assignment or poor data quality.
