@@ -1,4 +1,4 @@
-# Toolbox Work
+﻿# Toolbox Work
 This tool is intended to provide quick shortcuts to operations that you will encounter frequently when working on a structure. Some of the tools present here are also accessible elsewhere on the GUI, and of course you can always type the command.
 
 ![Toolbox Work](C:\Users\Horst\Documents\GitHub\Olex2Manual\Tools\images\toolbox_work.png)
@@ -39,13 +39,13 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Useful Shortcuts**:
 
-	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the 'clean' tool as described below. `name $Q C`.
+	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the 'clean' tool as described below. `CODE name $Q C`.
 
-	- **Q To H**: Converts all *showing* Q-peaks to Hydrogen atoms. This tool is not recommended. The Olex2 hydrogen placement routine is clearly the better way! `name $Q H`.
+	- **Q To H**: Converts all *showing* Q-peaks to Hydrogen atoms. This tool is not recommended. The Olex2 hydrogen placement routine is clearly the better way! `CODE name $Q H`.
 
-	- **Clean (Brush)**: Peaks that are too small will be deleted and larger peak will be converted to carbon. Impossible atoms will be deleted and some other atom type assignments may be made. This tool is suprisingly useful in the early stages of model building (soon after structure solution). `clean`.
+	- **Clean (Brush)**: Peaks that are too small will be deleted and larger peak will be converted to carbon. Impossible atoms will be deleted and some other atom type assignments may be made. This tool is suprisingly useful in the early stages of model building (soon after structure solution). `CODE clean`.
 	
-	- **Delete Hydrogen Atoms**: If nothing is selected, all hydrogen atoms in the structure will be deleted. Otherwise, the selected atoms will be deleted. `kill $H`.
+	- **Delete Hydrogen Atoms**: If nothing is selected, all hydrogen atoms in the structure will be deleted. Otherwise, the selected atoms will be deleted. `CODE kill $H`.
 
 	- **Show/Hide Peaks**: The display of Q-peaks is cycled through these stages: Show -> Show with Bonds -> Hide. `Ctrl+Q`.
 
@@ -57,7 +57,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **PARTS and Disorder**: This line is only shown when any of the atoms in the model have been assigned to a PART.
 
-	- **Show PARTS 0 AND**: All atoms of PART 0 and all atoms belonging to the chosen PART will be shown. Each view here should afford a recognisable and chemically feasible moiety on the screen. `ShowP 0 1`, `ShowP 0 2`, `ShowP`.
+	- **Show PARTS 0 AND**: All atoms of PART 0 and all atoms belonging to the chosen PART will be shown. Each view here should afford a recognisable and chemically feasible moiety on the screen. `CODE ShowP 0 1`, `CODE ShowP 0 2`, `CODE ShowP`.
 
 	- **Unique**: When you tick this box while an atom is selected, Olex2 will only display the fragment of the structure that contains the selected atom (`uniq`). If it is ticked, the chosen fragment will continue to be shown in isolation if you visualise the various PARTS.
 	

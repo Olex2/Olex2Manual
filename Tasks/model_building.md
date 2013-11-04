@@ -6,7 +6,7 @@ The Q-peaks are displayed as brown spheres, the transparency of which is related
 ### Displaying/Hiding/Deleting
 
 - CTRL+Q toggles between no Q-peaks, show isolated Q-peaks, and show Q-peaks with bonds. Depending on what you are looking for, you will use this command a lot during a structure determination. The I_Q icon under `@Work|Toolbox-Work` has exactly the same effect.
-- Type kill $Q in the command-line to delete all of the Q-peaks. There is really never a real reason to do this!
+- Type 'CODE kill $Q' in the command-line to delete all of the Q-peaks. There is really never a real reason to do this!
 
 ### Changing the number of Q-peaks displayed
 
@@ -34,7 +34,7 @@ When a large number of atoms have not been located it is advisable to use a larg
 
 ### Adjusting the visual appearance of Q-peaks
 
-- The relative scaling of the Q-Peak transparency can be adjusted under Info | Electron Density Peaks using the Transparency slider. 
+- The relative scaling of the Q-Peak transparency can be adjusted under '@Info|Electron Density Peaks* using the Transparency slider. 
 
 ## Atom Manipulations
 
@@ -68,7 +68,7 @@ Olex2 offers several options for selecting atoms individually:
     - More options are available from help sel.
 
 ### Naming Atoms
-Olex2 offers a couple of useful features for naming specifically automatically adjusting hydrogen labelling, if the parent atom name is changed and name matching for equivalent fragments if Z' > 1. These options are listed under Work | Naming.
+Olex2 offers a couple of useful features for naming specifically automatically adjusting hydrogen labelling, if the parent atom name is changed and name matching for equivalent fragments if Z' > 1. These options are listed under '@Work|Naming.
 To name atoms enter the Start number, change the Suffix and Type if needed. Click on Name, then use the left mouse button to click on the atoms in the required order, they will be labelled sequentially. Press ESC when finished.
 
 - To restart from a number select the appropriate number and click on Name again. A number can only be used once in association with a particular atom type, if one appears more than once the two atoms with the same name will be labelled in red.
@@ -94,7 +94,7 @@ The atoms can be sorted in the .ins file automatically under `@Work|Sorting|by M
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually:
 
 #### On Q-peaks with no AFIX/HFIX instructions.
-- Q-peaks can be turned into H using the H button under Work|Toolbox-Work or by right-clicking on the peak and then selecting Type | H.
+- Q-peaks can be turned into H using the H button under '@Work|Toolbox-Work' or by right-clicking on the peak and then selecting Type | H.
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 
 #### Using AFIX/HFIX instructions: 
@@ -112,6 +112,6 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 
 ## Deleting Hydrogen Atoms
 
-- Typing kill $H in the command-line will delete all or selected hydrogen atoms.
+- Typing 'CODE kill $H' in the command-line will delete all or selected hydrogen atoms.
 - Click on the I_H icon under `@Work|Toolbox Work' will delete selected H.
 - Select one or more hydrogen atom(s) and press DELETE. 

@@ -21,7 +21,7 @@ Moves fragments closer together if Z'>1 or can be used within the same fragment 
 - Click Move Near (the initially selected atom is deselected).
 - Left click on an atom in the fragment to move. It will automatically move.
 - Press ESC to exit the mode.
-- Refine the structure to update the .ins file.
+- Refine the structure to update the *.ins* file.
 
 #### Copy Near
 Ceverreates a copy of a fragment, this may make viewing intermolecular interaction easier for example.
@@ -56,6 +56,7 @@ Example: Converting a structure in space group P1 with two symmetry-related mole
 To convert the structure to P-1 the following procedure can be followed:
 
 1. Ensure that the atoms are currently modelled isotropically, if not, click I_ISOT under `@ Work|Toolbox-Work` and refine the structure.
+
 2. Select two symmetry related heavy atoms, if present, otherwise any two symmetry related atoms.
 
 > CRYST The position of heavy elements is normally better defined due to their dominance of the scattering and hence if present it is better to select these.
@@ -64,11 +65,16 @@ To convert the structure to P-1 the following procedure can be followed:
 
 > OLEX2 Alternatively type `CODE echo ccrd(Atom1name Atom2name)` without selecting any atoms.
 
-4. Type push:x:y:z, which moves all of the atomic coordinates so that the inversion centre between the molecules is coincident with a crystallographic inversion centre (at 0,0,0) in P-1.
+4. Type 'CODE push:x:y:z', which moves all of the atomic coordinates so that the inversion centre between the molecules is coincident with a crystallographic inversion centre (at 0,0,0) in P-1.
+
 5. Select the same two symmetry related heavy atoms. 
+
 6. Type `CODE echo ccrd(sel)` to double check that the geometric centre now coincides with an inversion centre at 0,0,0.
-7. Type changesg P-1 to merge the two molecules. The space group symbol in the upper right corner of the GUI panel should be updated.
-8. Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type the command compaq -a (or `@Work|Toolbox-Work` and click on I_CENTER ).
+
+7. Type 'CODE changesg P-1' to merge the two molecules. The space group symbol in the upper right corner of the GUI panel should be updated.
+
+8. Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type the command 'CODE compaq -a' (or `@Work|Toolbox-Work` and click on I_CENTER ).
+
 9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
 
 > The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.

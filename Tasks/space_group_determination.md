@@ -18,7 +18,7 @@ Provides an indication of whether the data is centric, acentric or twinned. If t
 The intensity distribution of reflections that should be systematically absent (but are not) is plotted. These should all be very weak.
 
 ### Completeness
-The percentage completeness is plotted against the resolution. For good data this should be ~100% complete in all regions. If the completeness is low (i.e. you find a sharp decrease at higher 2Theta values, or if sections of data are missing), you will probably find that something isn't quite right with your final structure. Also, most journals require a minimum completeness for acceptance of a crystal structure for publication.
+The percentage completeness is plotted against the resolution. For good data this should be ~100% complete in all regions. If the completeness is low (i.e. you find a sharp decrease at higher 2/Theta values, or if sections of data are missing), you will probably find that something isn't quite right with your final structure. Also, most journals require a minimum completeness for acceptance of a crystal structure for publication.
 
 ### Bijvoet Differences Probability Plot
 Similarly to the normal probablility plot above, this plots the ordered deviations between the observed and calculated Bijvoet differences. Frequently it is observed that this plot can deviate from linearity, suggesting that the errors are not normally distributed. Hooft et. al (2010) suggested that a Student's t distribution may better describe the errors in the Bijvoet differences. Olex2 can calculate this plot for both the normal and Student's t distribution, allowing you to judge whether or not a Student's t distribution is a better model for the errors in your data.
