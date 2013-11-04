@@ -14,7 +14,7 @@ During a refinement there are a number of checks that should be made after each 
 
 -- Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle, then go to the View tab, under the Geometry header tab click on Distance and Angles (of selection).
 
--- Right click on an atom or bond in a molecule under Fragment -- Select bonds will highlight all bonds. Under `Tools|Images` select Label selected atoms. To delete bond labels it is necessary to be in `Tools|Images`. Depending on what had been carried out in the interim time period, pressing CTRL+A will either select the bond length labels (in which case press delete) or the atoms and bonds in which case press CTRL+I to invert the selection, the bond length labels will now be selected press delete.
+-- Right click on an atom or bond in a molecule under Fragment -- Select bonds will highlight all bonds. Under `@Tools|Images` select Label selected atoms. To delete bond labels it is necessary to be in `@Tools|Images`. Depending on what had been carried out in the interim time period, pressing CTRL+A will either select the bond length labels (in which case press delete) or the atoms and bonds in which case press CTRL+I to invert the selection, the bond length labels will now be selected press delete.
 
 -- The Cambridge Structural Database is an excellent resource to use to check that your bond lengths and angles are sensible and within expected ranges. If they are not, investigate why not!
 

@@ -1,9 +1,12 @@
 #Solving the Structure
 
 1.	Click on the Work tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
+
 2.	Click on the arrow next to the Solve button so that it is turns orange and points upwards. The \index{structure solution} options are displayed.
-3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
-4.	Click Solve (or type `CODE solve`) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at `Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
+
+3.	Select a solution program from the drop-down menu. Depending on your computer set-up, you may only see the built-in *olex2.solve* program, but you may also see other programs in the list, if they are present on your machine.
+
+4.	Click Solve (or type `CODE solve`) and Olex2 will attempt to solve the structure. If a structure was already present (as would be the case in a new installation of Olex2), this model will be reset. Once the structure is solved, electron density peaks (Q-peaks), are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, spurious peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
 
@@ -14,6 +17,7 @@
 	>OLEX2 The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 ... etc. having less relative intensity. Select Toggle On/Off from the drop-down menu in `@Work|Toolbox-Work|Labels` (or press F3). At this stage it is normally more useful to see their relative intensities.
 
 6.	Still in the Toolbox Work click on the Q square I_Q to toggle between Q-peaks, Q-peaks with bonds and no Q-peaks (Or press  _CTRL+Q_ repeatedly). Some of the Q-peaks may not represent real atoms at this stage so don't worry if there are unexpected bonds.
+
 7.	The 'structure' can be rotated by holding down the left hand mouse button in the background of the main screen and moving the mouse.
 
 	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
