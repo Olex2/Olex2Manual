@@ -23,7 +23,6 @@ For example the following construct placed in that file sets programs for KDE:
 
     >
 
->
 
 >`
 
