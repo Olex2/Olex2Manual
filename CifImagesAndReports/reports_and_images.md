@@ -21,16 +21,16 @@ Olex2 offers a number of different file formats for saving images, these are fou
 - Bitmap Images -- various option exist for changing the appearance of the image, it is worth experimenting.
 - Postscript Images -- various option exist for changing the appearance of the image, it is worth experimenting.
 - Povray Images -- Olex2 writes a .pov file but any changes need to be made using PovRay.
-- Image Series -- creates a series of images for a movie. There are op-tions for changing the Rotation around Axis, the number of degrees of rotation between each image, the Number of Frames and the Size.
+- Image Series -- creates a series of images for a movie. There are options for changing the Rotation around Axis, the number of degrees of rotation between each image, the Number of Frames and the Size.
 
-There are options to specify what happens if a picture file already ex-ists, the default is to Ask, but it is also possible to select Increment or Replace.
+There are options to specify what happens if a picture file already exists, the default is to Ask, but it is also possible to select Increment or Replace.
 
 ## Generating Figures
 A variety of options are available for creating figures are available under `@View|Quick-Drawing-Styles-and-Tools|Images`. Pictures are created of the molecules or fragments displayed on the graphics screen and can either be of a grown or ungrown structure.
 
 ### Changing the atom display style
 The same display options apply for changing the appearance of the atoms during a refinement as can be used for generating images. These can be found under `@View|Quick-Drawing-Styles`, alternatively right click on the graphics display window and under Draw Style select the desired appearance. 
-When producing figures there may be conventions for expected formats, e.g. for small molecule organic/organometallics an ellipsoid plot is typical with carbon atoms grey, oxygen red. In such cases it is a good idea to fol-low convention. In other situations the appearance of the figures may be down to the personal preference.
+When producing figures there may be conventions for expected formats, e.g. for small molecule organic/organometallics an ellipsoid plot is typical with carbon atoms grey, oxygen red. In such cases it is a good idea to follow convention. In other situations the appearance of the figures may be down to the personal preference.
 
 ## Writing a Report or a Cif
 Olex2 generates both a report, containing crystallographic information in table format typical for papers, and a standard CIF,  using user controlled values. The options available under `@Work|Report` are relatively self-explanatory and hence this section is not discussed in detail here.
