@@ -13,10 +13,10 @@ The SHELX .ins file consists of several parts:
 If you want to examine a file-representation of the model, Olex2 offers the three options described below.
 
 ## Viewing the Instructions
-This will display all the instructions for the refinement of the structure in a text editor. You can edit these instructions there and Olex2 will save these in its own model. These instructions relate to the overall refinement of the structure, but also show those instructions that are relevant for specific atoms only. Type editins, or press I_EDIT .
+This will display all the instructions for the refinement of the structure in a text editor. You can edit these instructions there and Olex2 will save these in its own model. These instructions relate to the overall refinement of the structure, but also show those instructions that are relevant for specific atoms only. Type 'CODE editins', or press I_EDIT .
 
 ##Viewing the Atom List
-If you want to inspect or change properties of specific atoms, simply select the atoms you are interested in and you will only see the lines that are relevant to your selection. For each selected atom, you will see the atom line, but you will also see all lines of instructions related to your selection. Type editatom, or press I_EDIT . All information belonging to the selected atoms will be displayed, including hydrogen atoms and restraints/constraints.
+If you want to inspect or change properties of specific atoms, simply select the atoms you are interested in and you will only see the lines that are relevant to your selection. For each selected atom, you will see the atom line, but you will also see all lines of instructions related to your selection. Type 'CODE editatom', or press I_EDIT . All information belonging to the selected atoms will be displayed, including hydrogen atoms and restraints/constraints.
 
 >OLEX2 Warning: Do not edit atom names in the .ins file or change the atom order when using the edit windows, as this can cause problems within Olex2 which keeps track of parameters in relations to each atom label. To change the atom name labels use `@Work|Naming` (or name command), and to change the order of the atoms in the list use `@Work|Sorting`.
 

@@ -3,7 +3,7 @@ As already mentioned Olex2 offers the opportunity to use a command-line approach
 Frequently used command-line options
 
 ------  ----------------------------------------------------------------
-refine	Refines the structure. The number of cycles and peaks can be set: refine 4 5 will ask for four cycles and return 5 peaks.
+refine	Refines the structure. The number of cycles and peaks can be set: 'CODE refine 4 5' will ask for four cycles and return 5 peaks.
 
 name	Change the atom types of the selected atoms
 
@@ -21,5 +21,5 @@ lines #	Change the number of lines of text shown in the main graphics window. li
 ------  ----------------------------------------------------------------
 
 The command-line is an enormously powerful tool in Olex2. There are only a few commands that are frequently used, but they are used again and again and it's well worth your time to get to know these.
-Many -- if not most -- SHELX and/or XP commands can be used directly in Olex2. If you want the bond distances to be the same, simply select the two distances and type `CODE SADI`. If you want them to be the same with a very high weight, type SADI 0.001. The same goes for almost all other SHELX commands. If you type such a command, and the atoms become deselected, then you know it has worked. If you want to convince yourself that it has worked, click on one of the atoms you have modified and then type editatom. You will find your instructions in the window that will pop up.
+Many -- if not most -- SHELX and/or XP commands can be used directly in Olex2. If you want the bond distances to be the same, simply select the two distances and type `CODE SADI`. If you want them to be the same with a very high weight, type 'CODE SADI 0.001'. The same goes for almost all other SHELX commands. If you type such a command, and the atoms become deselected, then you know it has worked. If you want to convince yourself that it has worked, click on one of the atoms you have modified and then type 'CODE editatom'. You will find your instructions in the window that will pop up.
 You can also use the command-line to enter general instructions for your refinement. Most commonly used instructions (e.g. OMIT etc) are recognised straight off. If you need something more complex, you can type `CODE addins MyInstruction` and 'MyInstruction' will be added. A shortcut for this is / MyInstruction - i.e. a forward-slash followed by a space and then your instruction. You can also pass a list of the currently selected atoms by using the sel() construct: / SADI 0.001 sel() the sel() will be replaced by a list of the selected atoms.
