@@ -28,7 +28,7 @@ CTRL\+(.) ::x::\\textsc{Ctrl \1}
 \b P1 \b ::x:: $P1$
 \$\$ ::x:: \$
 pi-pi ::x:: \\textpi-\\textpi
-
+\£ (.*?) \£ ::x:: \\greentt{\1}
 
 #BOOK Details
 bookauthor=Hazel Sparkes \& Horst Puschmann
