@@ -1,5 +1,5 @@
 # Keyboard Shortcuts
-There are plenty of pre-defined keystrokes, and these can really be very helpful. 
+There are plenty of pre-defined keystrokes and these can be very helpful. 
 
 ------------------------------------------------------------------------
 Key Stroke  Action
@@ -32,7 +32,7 @@ CTRL+G      Enters the grow mode.
 
 CTRL+H      Toggles the H atoms through show H / show H with H- bonding interactions / hide H.
 
-CTRL+I      Inverts the selection. If nothing is selected works as ctrl-A
+CTRL+I      Inverts the selection. If nothing is selected works as ctrl+A
 
 CTRL+O      Launches the Open File dialog.
 
@@ -52,5 +52,3 @@ MODE OFF    Not a shortcut, but a quick way to exit a current mode in command-li
 
 UP KEY      Key brings the previously issued commands from the console.
 ------------------------------------------------------------------------
-
-
