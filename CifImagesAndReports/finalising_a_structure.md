@@ -1,9 +1,9 @@
 # Finalising a Structure
 
 ## Before Writing a Final CIF
-The bonds to hydrogen atoms are not automatically included in the CIF. Type htab in the command-line -- this will print detail of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode; you then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.
+The bonds to hydrogen atoms are not automatically included in the CIF. Type `CODE htab` in the command-line -- this will print detail of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode; you then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.
 
-If a full analysis of torsion angles is required, click on editins to open the .ins file header. Type CONF on a separate line somewhere below the UNIT line. 
+If a full analysis of torsion angles is required, click on editins to open the .ins file header. Type `CODE CONF` on a separate line somewhere below the UNIT line. 
 
 There is also a tick-box in the refinement settings that will add a collection of commands to ensure that the final cif will contain all the information required by IUCr journals.
 
@@ -50,7 +50,7 @@ This should be a straight line with Fo -- Fc, i.e. the gradient of the line shou
 Plotted against resolution should be around 1.0.
 
 ### Scale factor vs resolution
-These should be approximately constant around 1.0 across the whole data range, a low value at high values of 2$? can indicate that the data is weak or not present in that region.
+These should be approximately constant around 1.0 across the whole data range, a low value at high values of 2$$$$? can indicate that the data is weak or not present in that region.
 
 ### R1 factor vs resolution
 This value will increase for higher angle data.

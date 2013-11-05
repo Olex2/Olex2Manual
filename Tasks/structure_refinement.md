@@ -33,7 +33,7 @@ In order to monitor the progress of a refinement it is necessary to be able to m
 
 ### Viewing the output from refinement cycles
 
-- Typing lines ## where ## is a number, will adjust the number of lines of text output behind the graphics screen. You can scroll though the output using the PAGEUP and PAGEDOWN keys.
+- Typing 'CODE lines ##' where ## is a number, will adjust the number of lines of text output behind the graphics screen. You can scroll though the output using the PAGEUP and PAGEDOWN keys.
 - Type text in the command-line or click on the notepad icon I_TEXT at the top of the GUI panel to open a text editor displaying the full output of everything that has been displayed on the graphics screen for a structure since it was last opened in Olex2.
 
 ### Viewing the list file

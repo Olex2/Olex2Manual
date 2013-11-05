@@ -14,7 +14,7 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **Constraints** are used to fix parameters to certain values. An alternative is a restraint which is softer.
 
-**Difference map**: max and min (also known as *highest peak*/*deepest hole*). Values indicate residual electron density peaks and holes in units of e/A. The closer the values to zero is the better.
+**Difference map**: max and min (also known as *highest peak*/*deepest hole*). Values indicate residual electron density peaks and holes in units of e/A. The closer the values to zero the better.
 
 **Disorder** indicates that not all of the asymmetric units are identical, for example longer chains which are flexible such as butyl groups often show positional disorder within the structure, with some asymmetric units containing the molecules in one orientation and others in a slightly different orientation.
 
