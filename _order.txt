@@ -30,6 +30,8 @@ CTRL\+(.) ::x::\\textsc{Ctrl \1}
 pi-pi ::x:: \\textpi-\\textpi
 \£ (.*?) \£ ::x:: \\greentt{\1}
 
+\begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
+
 #BOOK Details
 bookauthor=Hazel Sparkes \& Horst Puschmann
 booktitle=Solving and Refining Molecular Structurs using Olex2
