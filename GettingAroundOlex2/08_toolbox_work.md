@@ -1,11 +1,13 @@
 # Toolbox Work
-This option is located under Work and is so frequently used. Here's what's in it:
+This option is located under `@Work` and is frequently used. Here is what is in it:
+
+![Toolbox Work](/images/toolbox_work.png)
  
 1. Options to change the atom type. If you have a selection and press one of these buttons, the selected atoms will be changed according to which button was pressed. If there is no selection and you press one of these buttons, all subsequently clicked atoms will be changed to the selected atom type.
 
 2. Automatic hydrogen placement and options for isotropic or anisotropic modelling of displacement parameters. If the box to the left of this is ticked, the structure will be automatically refined after the addition of hydrogen atoms.
 
-3. Options from left to right, to change all Q-peaks to C, all Q-peaks to H, tidy the structure, delete all hydrogen atoms, toggle Q-peaks through various options, toggle hydrogen atoms through various options and combine all fragments as close together as possible. On the right hand side is the option to change Z' and update the chemical composition using  . 
+3. Options from left to right, to change all Q-peaks to C, all Q-peaks to H, tidy the structure, delete all hydrogen atoms, toggle Q-peaks through various options, toggle hydrogen atoms through various options and combine all fragments as close together as possible. On the right hand side is the option to change Z' and update the chemical composition using I_OK . 
 
 4. Display sections of the structure by part number (useful for disorder).
 
