@@ -7,7 +7,7 @@
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
 
->>CRYST \index{Q-peaks} represent maxima in the \index{electron density} map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron Density Peaks`.
+>>CRYST Q-peaks represent maxima in the \index{electron density} map i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron Density Peaks`.
 
 5.	In the `@Work` section there is another header tab `@Toolbox Work`.  Select *Q-Peak Intensities* from the **Labels** menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
