@@ -19,6 +19,8 @@ Changing the number of Q-peaks displayed. A larger number of residual peaks may 
 Weights will automatically update once the R-factor for your structure goes below the chosen value. Set this to 0 if you don't wish to update weights.
 Weights are normally added towards the end of the refinement. Keep refining, until the weights are no longer changing and have turned green.
 
+Applying a weighting scheme will give a flat analysis of variance and GooF close to 1, it should not be included in the refinement until the structure is essentially complete, refinement should continue until the values have converged or nearly converged. olex2.refine will stop the refinement when the refinement has converged which may not involve the number of the requested cycles, ShelXL will complete the number of requested cycles irrespective of whether the refinement has converged.
+
 ### Use extinction correction
 Tick the box to include an extinction correction.
 Extinction affects the intensity of reflections and can result in systematically absent reflections being observed under special conditions. This parameter accounts for the intensity changes associated with extinction, the method used is a compromise to cover primary and secondary extinction. In general this should not be included until all of the non-hydrogen atoms have been located.
@@ -61,4 +63,4 @@ Poorly fitting reflections are listed under `@Info|Bad-Reflections`. Those measu
 - In general most of the poorly fitting reflections should have similar values of $|(F_{calc}^{2}2-F_{obs}^{2}2)/esd$ ideally all less than ~ +/- 0. One or two poorly fitting reflections with significantly different values of $|(F_{calc}^{2}2-F_{obs}^{2}2)/esd$ can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
 
 ##Inverting a Structure
-It should never be necessary to invert a structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv:f. 
+It should never be necessary to invert a structure, because Olex2 will do this automatically when it is required. This automatic inversion will only happen once. If you think we got it wrong and the stereochemistry of your structure is definitely wrong, you can invert a structure by typing inv:f.
