@@ -1,7 +1,7 @@
-introduction.md
-selecting_data.md
-solving.md
-refinement.md
-tidying.md
-checking.md
-finalising.md
+00_introduction.md
+01_selecting_data.md
+02_solving.md
+03_refining.md
+04_tidying.md
+05_checking.md
+06_finalising.md
