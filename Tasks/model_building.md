@@ -114,4 +114,6 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 
 - Typing 'CODE kill $H' in the command-line will delete all or selected hydrogen atoms.
 - Click on the I_H icon under `@Work|Toolbox Work' will delete selected H.
-- Select one or more hydrogen atom(s) and press DELETE. 
+- Select one or more hydrogen atom(s) and press DELETE.
+
+>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX.; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox Work` (or **CTRL+Q**).
