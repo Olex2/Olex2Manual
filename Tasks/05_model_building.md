@@ -76,10 +76,10 @@ To name atoms enter the **Start** number, change the **Suffix** and **Type** if 
 - **Automatic Hydrogen Naming** - if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click £Refine£ for changes to the hydrogen atom labels to take effect (or type `CODE FixHL` in the command-line).
 - **Equivalent Fragments (Z'>1)** - name matching for equivalent fragments. Select one atom from the correctly named fragment then one from the fragment to match the names. Add a **Suffix** letter and click on **Equivalent Fragments (Z' > 1)**. The second fragment will automatically be relabelled.
 
-!!!!As with many options, name matching for equivalent fragments can be done in the command-line. After selecting the atoms in order, type `CODE match sel -n=suffix`, where suffix is the number required. Without selecting atoms, sel can be replaced by the two atom names in order, separated by a space. Two alternative naming approaches can be achieved using the command-line only:
+As with many options, name matching for equivalent fragments can be done in the command-line. After selecting the atoms in order, type `CODE match sel -n=suffix`, where suffix is the number required. Without selecting atoms, sel can be replaced by the two atom names in order, separated by a space. Two alternative naming approaches can be achieved using the command-line only:
 
 - to replace the first number e.g. C101 becomes C201, and type `CODE match sel -n=$suffix` where suffix is the number required;
-- to replace the last character type `CODE match sel -n=-suffix`. If no atoms are selected clicking on **Equivalent Fragments (Z'>1)** will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.!!!!
+- to replace the last character type `CODE match sel -n=-suffix`. If no atoms are selected clicking on **Equivalent Fragments (Z'>1)** will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
 
 ## Sorting atoms in the .ins file
 The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking £Refine£. Click £Report£ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
@@ -91,11 +91,11 @@ The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the p
 - Clicking on the I_H icon under `@Work|Toolbox Work` achieves the same result.
 
 ### Adding hydrogen atoms
-!!!!Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.!!!!
+Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.
 
 #### On Q-peaks with no AFIX/HFIX instructions.
 - Q-peaks can be turned into H using the H button under '@Work|Toolbox-Work' or by right-clicking on the peak and then selecting **Type|H**.
-- Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.*********************** 
+- Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 
 #### Using AFIX/HFIX instructions: 
 Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the **Add H** option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
@@ -103,10 +103,10 @@ Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the **Add H*
 - It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH. If there appears to be Q-peaks that would be better positions for the hydrogen atoms, it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select Group-or-atom(s)` and then **Split** or **Move** with SHIFT KEY to optimise the relevant positions.
 - If you would like to manually add hydrogen atoms - under `@Tools|Hydrogen Atoms` there are various options provided for adding hydrogen atoms:
 
-**************The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms you wish to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Press ESC to exit the mode.
+The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms you wish to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Press ESC to exit the mode.
 
 - If the HFIX is inappropriate for an atom, an error message will appear in the console and hydrogen atoms will not be added. Otherwise, H atoms will appear on the screen. For more information HFIX instructions see the ShelXL manual.
-- The appropriate HFIX can be typed into the box, then click on HFIX and select the atoms to apply the HFIX to. To change mode press ESC, change the HFIX and re-enter the mode.**************************
+- The appropriate HFIX can be typed into the box, then click on HFIX and select the atoms to apply the HFIX to. To change mode press ESC, change the HFIX and re-enter the mode.
 - **Add Hydrogen** automatically adds the remaining hydrogen atoms but does not automatically undergo any cycles of refinement.
 - The hydrogen atom labels can be displayed (**H Labels**), hidden (**No H Labels**) or the HFIX can be displayed (**Show AFIX**).
 
@@ -116,4 +116,4 @@ Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the **Add H*
 - Click on the I_H icon under `@Work|Toolbox Work` will delete selected H.
 - Select one or more hydrogen atom(s) and press DELETE.
 
->*********************CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX.; these are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox Work` (or **CTRL+Q**).
+>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. These are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data, hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox Work` (or **CTRL+Q**).
