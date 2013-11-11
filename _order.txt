@@ -37,6 +37,8 @@ bookauthor=Hazel Sparkes \& Horst Puschmann
 booktitle=Solving and Refining Molecular Structurs using Olex2
 booksubtitle=An Introduction
 booktitle=Olex2
+book_use_fontspec=Cambria
+book_linespacing=1.2
 
 #PANDOC command
 pandoc_cmd=pandoc -o %s -f markdown -t latex %s

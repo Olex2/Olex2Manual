@@ -22,6 +22,8 @@ During a refinement there are a number of checks that should be made after each 
 
 ### What To Look For In a Good Refinement
 
+A summary of the refinement indicators can be found under `@Info|Refinement Indicators`. These can be used to check the refinement of your structure. Red colour indicates there is a problem with the refinement, green colour indicates a good refinement.
+
 #### All of the ADPs are chemically sensible
 The 'thermal ellipsoids' of the atoms should all look similar and of approximately the same dimensions. If there are some really large or really small ones, then there is something wrong. If there are some that are very elongated or very 'squashed', then that is also not right.
 
