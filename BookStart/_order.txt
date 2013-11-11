@@ -1,3 +1,4 @@
+cover.md
 impressum.md
 foreword.md
 about_olex2.md

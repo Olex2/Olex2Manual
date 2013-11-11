@@ -1,2 +1,3 @@
 introduction.md
 understanding_the_syntax.md
+changing_the_model_view.md

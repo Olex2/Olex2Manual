@@ -1,10 +1,11 @@
 # LATEX replacements
+\-(\S)\: ::x:: \\begin{quote}\\textbf{--\1}\\end{quote}:
 2Theta::x::$2\Theta$
 Fobs::x::$ \\ensuremath{F_{obs}}
 Fcalc::x::$ \\ensuremath{F_{calc}}
 \b Fo \b::x:: \\ensuremath{F_{obs}}
 Fc::x::\\ensuremath{F_{calc}}
-F2 ::x:: \\ensuremath{F^2}
+F^2 ::x:: \\ensuremath{F^2}
 Z' \s* > \s* 1 ::x:: \\ensuremath{Z' > 1}
 Z' \s* < \s* 1 ::x:: \\ensuremath{Z' < 1}
 Z' \s* \!<  \s* 1 ::x:: \\ensuremath{Z' != 1}
@@ -23,7 +24,6 @@ ESC \b ::x::\\textsc{Esc}
 alpha ::x:: \\textalpha
 beta ::x:: \\textbeta
 gamma ::x:: \\textgamma
-CTRL\+(.) ::x::\\textsc{Ctrl \1}
 \b P\-1 \b ::x:: $P \\bar{1}$
 \b P1 \b ::x:: $P1$
 \$\$ ::x:: \$
@@ -52,3 +52,4 @@ Disorder
 CifImagesAndReports
 Glossary
 Appendices
+#CommandsManual

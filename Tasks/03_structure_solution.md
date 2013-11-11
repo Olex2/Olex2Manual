@@ -42,7 +42,7 @@ Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the s
 - Try **Patterson Methods**: especially if there are heavy elements present in your structure, or **Structure Expansion** 
 - Use `CODE tref n` where n is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the top n higher probability solutions. You can traverse the solutions using Ctrl+Up/Down keys.
 
-## Check for Signs of Twinning: See [Twinning]
+## Check for Signs of Twinning: See \ref{Twinning}
 
 ## Check the Cell and Integration
 The unit cell dimensions and the integration should be checked prior to attempting a structure solution, but if all of the above methods have failed to yield a structure solution, it is always worth going back to the original data (the diffraction frames) to check whether an alternate cell or twinning has been missed. R_{int} which is a measure of how 'equivalent' symmetry equivalent reflections really are (the lower the R_{int}, the better). A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
