@@ -9,9 +9,9 @@ Under Tools are three sub-tab headings with options for applying restraints or c
 ## Olex2 Constraints & Restraints
 Some of these restraints and constraints are specific to the olex2.refine refinement engine. If you swap between ShelXL and olex2.refine then the instructions will be retained during ShelXL refinement cycles, but will have no effect.
 
-------- ------------------------------------
+---------------------------------------------------------------------------
 Olex2 Constraints and Restraints
-------- ------------------------------------
+-------     ---------------------------------------------------------------
 RRINGS 	Restrains selected atoms to lie in a plane and have the same distances. This constructs the relevant ShelXL compatible restraints automatically and is compatible with both engines.
 
 TRIA 	Given the central atom (C) to the two other (X) atoms distance and the X-C-X angle in degrees, this command generates the ShelXL compatible restraint for angle.
@@ -23,29 +23,29 @@ ADPVOL 	Restrains the displacement parameter of selected atoms to the value prov
 ANGLE 	Restrains the angle to the value provided.
 
 DIANG 	Restrains the dihedral angle of the selection to the value provided.
-------- ------------------------------------
+---------------------------------------------------------------------------
 
 ## Shelx Compatible Constraints
 It is very easy to apply any SHELX constraints (and restraints) in Olex2. The instructions are fully managed, so you don't have to take care of atom names in this. For example, if you want two atoms to have the same ADP value, you simply select the two atoms and type `CODE EADP` (or find the corresponding command on the GUI, where you will also find some more information about this command and how to apply it). If you later decide to rename any of the atoms involved in a constraint, this doesn't matter -- Olex2 takes care of this for you.
 For the detailed documentation of ShelXL constraints and restraints, please refer to the SHELX manual. A link to this manual is provided on our GUI with George Sheldrick's kind permission
 
-------- ------------------------------------
+---------------------------------------------------------------------------
 Shelx Compatible Constraints
-------- ------------------------------------
+-------     ---------------------------------------------------------------
 AFIX 	Constrains molecular geometry to a specified shape.
 
 EXYZ 	The coordinates of selected atoms are constrained to be the same. Useful for occupational disorder.
 
 EADP 	 The ADPs/$U_{iso}$ of selected atoms will be constrained to be the same.
-------- ------------------------------------
+---------------------------------------------------------------------------
 
 ## Shelx Compatible Restraints
 
 Again, these are fully managed: for example, if you wanted to say that two bonds should be restrained to the same length, you would apply the 'SADI' restraint by selecting the two bonds in question (or the atoms that define the bond -- two atoms to define the first bond, then two atoms to define the second bond) and then type `CODE SADI` (or find the corresponding command on the GUI). In the case when there are no bonds, but two of the distances (A-C and B-C) to be restrained share an atom (C), three atoms, A,C and B can be selected to generate the similarity restraint. 
 
-------- ------------------------------------
+---------------------------------------------------------------------------
 ShelX Compatible Restraints
-------- ------------------------------------
+-------     ---------------------------------------------------------------
 DFIX	Restrains bond lengths to a particular value d with a standard deviation s.
 
 DANG 	Usually used to restrain 1,3 distances, i.e. to define an angle, which can't be done directly in ShelXL.
@@ -61,6 +61,6 @@ DELU 	All bonds are subject to a rigid bond restraint, i.e. the ADPs in the bond
 SIMU 	Restrains the Uij components (essentially the ADPs) of selected atoms, that are less than dmax apart, to have the same value within the standard deviation s.
 
 ISOR 	Restrains the Uij components (essentially the ADPs) of selected atoms to be modelled approximately isotropically within the standard deviation s.
-------- ------------------------------------
+---------------------------------------------------------------------------
 
 Olex2 automatically puts the correct information into the *.ins* file when any of the restraint or constraint commands are applied from the command-line or the GUI panel . To adjust the parameters later, you need to edit a file-representation of the constraint or restraint in question. The best way to do this is to select ONE atom that's involved in the restraint/constraint, and then click on I_EDITATOM or type `CODE EditAtom`. This will open an editor, which will show information related to the selected atom, including any constraints or restraints where you can adjust any of the parameters.

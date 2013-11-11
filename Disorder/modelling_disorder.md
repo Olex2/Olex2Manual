@@ -18,7 +18,7 @@ The easiest way to illustrate how to model disorder is to work through an exampl
 4.	This all suggests that one carbon nearest Q1 should be modelled over two positions. Delete the hydrogen atoms on the two carbon atoms of the ethyl linker. There are several ways that the disorder could be modelled one of which will be run through here.
 5.	Select the carbon atom to be modelled over 2 positions. Under `@Work|Toolbox-Work|Select group or atom(s)and then` select **Split**. Holding Shift down + the left mouse button when on the newly generated fragment (or atom in this case) which will be green, enables the fragment to be moved. Releasing the Shift key means that the fragment can be rotated. Adjust the position and orientation of the newly generated fragment until it approximately coincides with the relevant Q1. Press ESC to exit this mode.
 
-	![Holding Shift down + the left mouse button when on the newly generated fragment enables the fragment to be moved](/images/disorder_02.png)
+	![Holding Shift down + the left mouse button when on the newly generated fragment enables the fragment to be moved](/images/disorder_02_03.png)
      
 	>OLEX2 In the case of modelling one atom it is possible to achieve steps 5 to 7 in one go by using `@Work|Toolbox Work|Split atoms you click next with` **EADP**. The method described here is applicable to modelling disordered groups of atoms which is frequently required. If treating groups of atoms and splitting them separately, make sure that all relevant atom occupancies are linked to the same free variable number (FVAR) as one cannot be present without the other.
 

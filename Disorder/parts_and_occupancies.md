@@ -2,7 +2,7 @@
 The use of **PARTs** and **occupancy** are often linked. 
 The *PART number* is used to define which atoms are considered to be bonded to each other. Atoms in PART 0 bond to everything within bonding distance, while those in PARTs other than 0 bond to all atoms in PART 0 and the same PART number as them.  For example, if some atoms are modelled in PARTs 1 and 2, the atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2).
 
-![The use of PARTs on a fragment to define bonding. The atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2)](/images/part labelled.tif)
+![The use of PARTs on a fragment to define bonding. The atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2)](/images/part labelled.png)
 
 The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, it would not be possible for atoms in PARTs 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of PART 1 and in others it is in the orientation of PART 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 

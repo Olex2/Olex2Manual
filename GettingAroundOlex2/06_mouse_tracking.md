@@ -6,15 +6,15 @@ Mouse Action                Effect
 --------------------------- --------------------------------------------------------
 Hold LEFT MOUSE             Rotates the model
 
-Hold RIGHT MOUSE
-	or			    Zooms the view (or zoomable objects)
-ALT+LEFT CLICK              
+Hold RIGHT MOUSE            Zooms the view (or zoomable objects)
+
+ALT+LEFT CLICK              -- " --
 
 CTRL+LEFT CLICK             Rotate around the (Z) axis perpendicular to the screen
 
-Hold LEFT+HOLD RIGHT
-	or			    Moves the molecule laterally
-CTRL+SHIFT+Hold LEFT        
+Hold LEFT+HOLD RIGHT        Moves the molecule laterally
+
+CTRL+SHIFT+Hold LEFT        -- " --
 
 SHIFT+Hold LEFT             Draw box to select atoms
 

@@ -1,9 +1,10 @@
 # Keyboard Shortcuts
 There are plenty of pre-defined keystrokes and these can be very helpful. 
+\setlength{\extrarowheight}{-3pt}
 
 ------------------------------------------------------------------------
 Key Stroke  Action
-----------  ----------------------------------------------------------------
+----------  ------------------------------------------------------------
 F2          Toggles the solid background colour.
 
 F3          Toggles atom labels.
