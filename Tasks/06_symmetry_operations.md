@@ -77,6 +77,8 @@ To convert the structure to P-1 the following procedure can be followed:
 
 9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
 
+![Extra atoms near expected positions](/images/more than one atom after fusing.png)
+
 > The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.
 
 10.	£Refine£ the structure and assuming that there are no problems continue finishing the refinement of the structure.
