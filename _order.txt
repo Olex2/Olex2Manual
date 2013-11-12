@@ -1,46 +1,60 @@
 # LATEX replacements
-\-(\S)\: ::x:: \\begin{quote}\\textbf{--\1}\\end{quote}:
-2Theta::x::$2\Theta$
-Fobs::x::$ \\ensuremath{F_{obs}}
-Fcalc::x::$ \\ensuremath{F_{calc}}
-\b Fo \b::x:: \\ensuremath{F_{obs}}
-Fc::x::\\ensuremath{F_{calc}}
-F^2 ::x:: \\ensuremath{F^2}
-Z' \s* > \s* 1 ::x:: \\ensuremath{Z' > 1}
-Z' \s* < \s* 1 ::x:: \\ensuremath{Z' < 1}
-Z' \s* \!<  \s* 1 ::x:: \\ensuremath{Z' != 1}
-Rint ::x:: \\ensuremath{R_{int}}
-wR2 ::x:: \\ensuremath{wR_2}
-R1 ::x:: \\ensuremath{R1}
-e-3 ::x:: \\ensuremath{e^{-3}}
-e/A ::x::$e^{-}/\\AA$
-\b Uij \b ::x::$U_{IJ}$
-Uiso ::x::$U_{iso}$
-\b UP \b ::x::\\textsc{Up}
-\b DOWN \b ::x::\\textsc{Down}
-PAGEUP ::x::\\textsc{PageUp}
-PAGEDOWN ::x::\\textsc{PageDown}
-DELETE ::x::\\textsc{Delete}
+#\-(\S)\: ::x:: \\begin{quote}\\textbf{--\1}\\end{quote}:
 
-SHIFT\+ ::x:: \\textsc{Shift+}
-RIGHT  \s* MOUSE ::x:: \\textsc{Right Mouse}
-LEFT  \s* MOUSE ::x:: \\textsc{Left Mouse}
+#2Theta::x:: \\ensuremath{2\Theta}
+#Fobs::x::$ \\ensuremath{F_{obs}}
+#Fcalc::x::$ \\ensuremath{F_{calc}}
+#\b Fo \b::x:: \\ensuremath{F_{obs}}
+#Fc::x::\\ensuremath{F_{calc}}
+#F^2 ::x:: \\ensuremath{F^2}
+#\b Z \b ::x:: \\ensuremath{Z}
+#\b Z' \b ::x:: \\ensuremath{Z'}
+#Z' \s* > \s* 1 ::x:: \\ensuremath{Z' > 1}
+#Z' \s* < \s* 1 ::x:: \\ensuremath{Z' < 1}
+#Z' \s* \!<  \s* 1 ::x:: \\ensuremath{Z' != 1}
+#Rint ::x:: \\ensuremath{R_{int}}
+#wR2 ::x:: \\ensuremath{wR_2}
+#R1 ::x:: \\ensuremath{R1}
+#e-3 ::x:: \\ensuremath{e^{-3}}
+#e/A ::x::\\ensuremath{e^{-}/\\AA}
+#\b Uij \b ::x::\\ensuremath{U_{IJ}}
+#Uiso ::x::\\ensuremath{U_{iso}}
 
-\b SHIFT \b ::x:: \\textsc{Shift}
-\b ENTER \b ::x:: \\textsc{Enter}
+#\b UP \b ::x::\\textsc{Up}
+#\b DOWN \b ::x::\\textsc{Down}
+#\b PAGEUP ::x::\\textsc{PageUp}
+#\b PAGEDOWN ::x::\\textsc{PageDown}
+#\b DELETE ::x::\\textsc{Delete}
+#\b SHIFT\+ ::x:: \\textsc{Shift+}
+#\b RIGHT \s* MOUSE ::x:: \\textsc{Right Mouse}
+#\b LEFT \s* MOUSE ::x:: \\textsc{Left Mouse}
+#\b SHIFT \b ::x:: \\textsc{Shift}
+#\b ENTER \b ::x:: \\textsc{Enter}
 
-ESC \b ::x::\\textsc{Esc}
-alpha ::x:: \\textalpha
-beta ::x:: \\textbeta
-gamma ::x:: \\textgamma
-\b P\-1 \b ::x:: $P \\bar{1}$
-\b P1 \b ::x:: $P1$
-\$\$ ::x:: \$
-pi-pi ::x:: \\textpi-\\textpi
-\£ (.*?) \£ ::x:: \\greentt{\1}
-`@.*?(\-).*?`/g ::xx:: " "
+#\b ShelX \b ::x:: \\textbf{\\textit{ShelX}}
+#\b ShelXL\-2013 \b ::x:: \\textbf{\\textit{ShelXL-2013}}
+#\b ShelXL \b ::x:: \\textbf{\\textit{ShelXL}}
+#\b ShelXS \b ::x:: \\textbf{\\textit{ShelXS}}
+#\b ShelXD \b ::x:: \\textbf{\\textit{ShelXD}}
+#\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
+#\b Olex2 \b ::x:: \\textbf{\\textit{Olex2}}
+#\b Superflip \b ::x:: \\textbf{\\textit{Superflip}}
+#\b Platon \b::x:: \\textbf{\\textit{Platon}}
+#\b SIR \b::x:: \\textbf{\\textit{SIR}}
+#\b SADABS \b::x:: \\textbf{\\textit{SADABS}}
 
-\begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
+#ESC \b ::x::\\textsc{Esc}
+#alpha ::x:: \\textalpha
+#beta ::x:: \\textbeta
+#gamma ::x:: \\textgamma
+#\b P\-1 \b ::x:: \\ensuremath{P \\bar{1}}
+#\b P1 \b ::x:: \\ensuremath{P1}
+#\$\$ ::x:: \$
+#pi-pi ::x:: \\textpi-\\textpi
+#\£ (.*?) \£ ::x:: \\greentt{\1}
+#`@.*?(\-).*?`/g ::xx:: " "
+
+#\begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
 
 #BOOK Details
 bookauthor=Hazel Sparkes \& Horst Puschmann

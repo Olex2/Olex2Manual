@@ -6,9 +6,9 @@ Icon        Function
 -------     ---------------------------------------------------------------
 LI_STOP     This icon is not normally visible. If it is, something bad has happened in Olex2 and we would like to know about it. Please click on the icon and e-mail us the text you get.
 
-LI_PLATON   If Platon is installed on your system, and the platon.exe file is 'on the system PATH', this icon will open Platon with the current *.ins* or *.cif*.
+LI_PLATON   If Platon is installed on your system, and the platon.exe file is `on the system PATH', this icon will open Platon with the current *.ins* or *.cif*.
 
-LI_EDIT     Opens a text editor containing the refinement instructions in SHELX *.ins* file format. You can edit these instructions in this window. Olex2 manages your edits.
+LI_EDIT     Opens a text editor containing the refinement instructions in SHELX .ins file format. You can edit these instructions in this window. Olex2 manages your edits.
 
 LI_EDITATOM Displays atomic information including associated constraints and restraints in a text editor. If no atoms are selected all atoms are displayed, if atoms are selected only information relating to those atoms is shown.
  

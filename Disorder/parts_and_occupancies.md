@@ -11,10 +11,10 @@ If more than one position of an atom or fragment of a molecule is being modelled
 
 - Right click on an atom and select the desired PART from the `@context menu|PART`.
 - Using the GUI panel select the atoms to be put into a PART. In `@Tools|Disorder|Assign-selection-to-PART`, type the required PART number and click on the link.
-- Select some atoms and type `CODE PART number` in the command-line where 'number' is the PART number. Using the command-line you can also provide a second numerical value to the PART command - the selected atom's occupancy.
+- Select some atoms and type `CODE PART number` in the command-line where `number' is the PART number. Using the command-line you can also provide a second numerical value to the PART command - the selected atom's occupancy.
 
 ## Displaying PART Information
-Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTS. Alternatively, use 'CODE showp X', where X is a space separated list of PARTs, in the command-line.
+Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTS. Alternatively, use `CODE showp X', where X is a space separated list of PARTs, in the command-line.
 Displaying atoms in particular PARTs - under both `@Work|Toolbox-Work|Show-PART` and `@Tools|Disorder|Show PART` are the options to display all atoms assigned to specific PARTs in combination e.g. 0 + 1 or 0 + 2 or all PARTs.
 All atoms in PART 0 are normally 100% occupied. In other words they are at that position in every asymmetric unit, while those in other PARTs are not present in every asymmetric unit hence it is normally desirable to see things in combination with atoms in PART 0. This can be useful to check that each section of modelled disorder makes chemical and crystallographic sense.
 
@@ -47,7 +47,7 @@ Right click on the atom -- **Chemical Occupancy** will provide these options:
 - **Select** a specific occupancy value e.g. 1/2.
 - **Fix** the occupancy to its current refined value. This is only applicable if the atom occupancy has been refining freely or associated with a free variable (FVAR in the .ins file).
 - To refine the occupancy, select **Free**. This refines the occupancy freely but does not associate it with a free variable.
-- Use `CODE fix` and `CODE free` in the command-line. For example, `CODE fix occu 1` fixes the occupancy of selected (or ALL atoms) to 1; `CODE free occu` will make occupancy of selected (or ALL) 'refineable'.
+- Use `CODE fix` and `CODE free` in the command-line. For example, `CODE fix occu 1` fixes the occupancy of selected (or ALL atoms) to 1; `CODE free occu` will make occupancy of selected (or ALL) `refineable'.
 
 ## Linking Atom Occupancies
 Selecting `@Tools|Disorder|Link-Selected-Occupancies` will link the occupancies of the two selected atoms to a free variable and set their sum to equal 1. Subsequent selections will be linked to another free variable.
@@ -55,10 +55,10 @@ The free variable will be linked to a number in the FVAR instruction at the top 
 Sometimes it quicker and easier to perform this using the command-line:
 
 - Using the `CODE PART PART occupancy` command, for example `CODE PART 1 21` or `CODE PART 2 -21`. In the case when new PARTs need to be created, one can select the atoms of different PARTs sequentially and issue `CODE PART --p=N --lo` command to create N new PARTs and link their occupancy. In the case WHEN N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
-- Using the `CODE Fvar variable times` command, where 'times' is the FVAR multiplier, typically 1. For example `CODE fvar 2 1` or `CODE fvar -2 1`.
+- Using the `CODE Fvar variable times` command, where `times' is the FVAR multiplier, typically 1. For example `CODE fvar 2 1` or `CODE fvar -2 1`.
 
 ## Displaying Occupancy Values
-Under `@Work|Toolbox-Work|Labels` either select Crystallographic Occupancy or Chemical Occupancy from the drop down menu. Crystallographic occupancy - if an atom is on a symmetry element, then its crystallographic occupancy is no longer 1, even though chemically it is a fully occupied atom in that position. The chemical occupancy hides this complexity. If that number says '0.5', then that means there is half an atom in that position.
+Under `@Work|Toolbox-Work|Labels` either select Crystallographic Occupancy or Chemical Occupancy from the drop down menu. Crystallographic occupancy - if an atom is on a symmetry element, then its crystallographic occupancy is no longer 1, even though chemically it is a fully occupied atom in that position. The chemical occupancy hides this complexity. If that number says `0.5', then that means there is half an atom in that position.
 
 ## Splitting Atoms 
 If an atom or group of atoms is associated with disorder, it can be useful to split the atom in order to model it over more than one position. Sometimes it is desirable to do this in association with a restraint, constraint or by linking the occupancies of the two PARTs. There are a number of options to achieve this within Olex2:

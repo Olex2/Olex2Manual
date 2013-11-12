@@ -35,7 +35,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 
 ### Adjusting the visual appearance of Q-peaks
 
-- The relative scaling of the Q-Peak transparency can be adjusted under '@Info|Electron Density Peaks* using the Transparency slider. 
+- The relative scaling of the Q-Peak transparency can be adjusted under `@Info|Electron-Density-Peaks` using the Transparency slider. 
 
 ## Atom Manipulations
 
@@ -48,7 +48,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 ### Selecting atoms or groups of atoms
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
 
-- Selected atoms turn 'green'
+- Selected atoms turn `green'
 - Add to the current selection by clicking atoms
 - Take atoms out of a selection by clicking on them again
 - Double-click on a whole molecule to select it
@@ -94,7 +94,7 @@ The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the p
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.
 
 #### On Q-peaks with no AFIX/HFIX instructions.
-- Q-peaks can be turned into H using the H button under '@Work|Toolbox-Work' or by right-clicking on the peak and then selecting **Type|H**.
+- Q-peaks can be turned into H using the H button under `@Work|Toolbox-Work` or by right-clicking on the peak and then selecting **Type|H**.
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 
 #### Using AFIX/HFIX instructions: 

@@ -29,13 +29,13 @@ Olex2 can automatically search for twin laws and suggest any likely twin laws, o
 #### Merohedral and psedudo-merhohedral twinning
 Those where the reciprocal lattices (i.e. reflection positions) exactly overlap. It is relatively simple to treat and procedures are described below. In this type of twinning, a twin law and twin scale factor are added to the head of the .ins file below the UNIT instruction in the form
 
-    > TWIN -1 0 1 0 -1 0 0 0 1 2
-    > BASF 0.1
+>CODE TWIN -1 0 1 0 -1 0 0 0 1 2
+BASF 0.1
 
 Where; `-1 0 1 0 -1 0 0 0 1 2` is a 3 by 3 matrix to define the twin law, 2 is the no. of twin components and BASF is the twin scale factor. An arbitrary value <1 is selected which is subsequently refined
 
 #### Non-merohedral twinning
-Non-merohedral twinning, where only some of the reflections overlap, are more complicated and require the preparation of a different type of .hkl file (an HKLF 5 file) prior to refinement within Olex2. A `CODE BASF number` (where 'number' is an arbitrary number <1) line is included in the .ins file, but no TWIN law.
+Non-merohedral twinning, where only some of the reflections overlap, are more complicated and require the preparation of a different type of .hkl file (an HKLF 5 file) prior to refinement within Olex2. A `CODE BASF number` (where `number' is an arbitrary number <1) line is included in the .ins file, but no TWIN law.
 Only one twin law can be applied to the data at any time (with the exception of including racemic twinning alongside a twin law). Any twin laws that are being applied to the data are displayed below the refinement statistics at the top of the GUI panel .
 
 ### For merohedral and pseudo merohedral twins
@@ -49,4 +49,4 @@ Type `CODE editins` or click on I_EDIT to view the top of the .ins file. Somewhe
 #### Racemic twinning
 Type `CODE editins` or click on I_EDIT to view the top of the .ins file. If a twin law is not included, add TWIN on one line and BASF 0.2 on the second line. If a twin law is already included, e.g. $TWIN -1 0 1 0 -1 0 0 0 1 2$, change 2 to -4 (calculates racemic twinning component for component 1 and component 2 giving 4 components) and add two randomly selected numbers <1 (~0.1 is sensible) to the BASF line which will give the fraction of each component.
 Racemic twinning is only applicable in non-centrosymmetric space groups. If the BASF refines to some very small number or >1 the twin law is not valid and should be removed. It is possible, return to the original structure (`@Tools|Twinning`) and select the original matrix (`1 0 0 0 1 0 0 0 1`) or use the `@Work|History` function.
-Non-merohedral twins -- Using an HKLF 5 file, type `CODE editins` or click on I_EDIT  to view the top of the .ins file. Somewhere below the UNIT instruction, type `CODE BASF number` (where 'number' is an arbitrary number <1) . Ensure that MERG is set to 0 and that HKLF is set to 5 at the bottom of the .ins file
+Non-merohedral twins -- Using an HKLF 5 file, type `CODE editins` or click on I_EDIT  to view the top of the .ins file. Somewhere below the UNIT instruction, type `CODE BASF number` (where `number' is an arbitrary number <1) . Ensure that MERG is set to 0 and that HKLF is set to 5 at the bottom of the .ins file

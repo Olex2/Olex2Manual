@@ -8,7 +8,7 @@ If a full analysis of torsion angles is required, click on editins to open the .
 There is also a tick-box in the refinement settings that will add a collection of commands to ensure that the final cif will contain all the information required by IUCr journals.
 
 ### Editing Report / CIF parameters
-Under `@Work|Report` you can type a name of the crystal structure report ('data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the 'standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should already be filled.
+Under `@Work|Report` you can type a name of the crystal structure report ('data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the `standard location' (i.e. a folder that contains lots of other information about your experiment) most (if not all!) of these fields should already be filled.
 
 - Collection: information on the experimenter, date collected.
 - Crystal: name, colour, size, shape preparation details etc.
@@ -16,7 +16,7 @@ Under `@Work|Report` you can type a name of the crystal structure report ('data'
 - Absorption Correction: details of the absorption correction type, details, Tmax and Tmin.
 - Publication: details of CCDC numbers, authors and journals.
 - Reference: details on the published structure
-- Source Files: Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a 'wrong' file, you can point Olex2 in the right direction.
+- Source Files: Olex2 will extract as much information from the files present in your structure folder as possible. To do this, it tries to locate various files that might contain useful information and will add this information to what it already knows about your structure. This tool allows you to see what these files are and if we've used a `wrong' file, you can point Olex2 in the right direction.
 
 ### Generating a Report
 Under `@Work|Report` are three boxes giving options on including an Image and changing the Style and Template used to generate a report. Select the options then either click on Make Report or the Report tab heading. An html report will be generated and saved into the folder containing the current structure.
@@ -32,7 +32,7 @@ Direct access to the IUCr CheckCif is available through Olex2 under `@Work|Repor
 It is important to check the .cif file for any errors or problems with the crystal structure, to this end the IUCr offers a free automated checking service for .cif files, CheckCif, is available through Olex2 but can also be accessed at http://checkcif.iucr.org/. To obtain a full report the structure factors have to be included (Send FCF). Alert's are given under either codes of A-G each has a section title that, if generated directly through the program on the web, can be clicked on for more details of what an alert means. Alert A's are the most serious and generally need attention while Alert G is probably only advisory. All Alert's that can be solved should be fixed and any more major problems that can't be fixed should be explained.
 
 ### Submitting a structure to the CCDC
-A CCDC number ready for a paper can be obtained by clicking on the link CCDC Number.  You can specify whether this submission is intended for a specific journal, or whether it should be treated as a private communication. In either case, you will receive an e-mail with the CCDC number a few days after your submission. The CCDC is always very happy to receive new structure reports of structures that already exist in the CSD. So, next time your structure turns out to be 'already in the CSD', why not submit it as a private communication? It is not necessary to devise a naming scheme and/or prepare any publication material, so it's easily done!
+A CCDC number ready for a paper can be obtained by clicking on the link CCDC Number.  You can specify whether this submission is intended for a specific journal, or whether it should be treated as a private communication. In either case, you will receive an e-mail with the CCDC number a few days after your submission. The CCDC is always very happy to receive new structure reports of structures that already exist in the CSD. So, next time your structure turns out to be `already in the CSD', why not submit it as a private communication? It is not necessary to devise a naming scheme and/or prepare any publication material, so it's easily done!
 
 ## Updating the Chemical Composition
 This should be done upon completion of the structure refinement. If the currently assigned chemical composition is different to that displayed on the screen under `@Toolbox-Work` the atom types will not appear green. To update the chemical composition:

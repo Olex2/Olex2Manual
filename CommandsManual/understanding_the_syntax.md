@@ -4,7 +4,7 @@
 **Mode**: If Olex2 is in a Mode, the chosen action will be applied to all subsequently clicked atoms. The mouse pointer will change from the default arrow symbol to signify that Olex2 is in a mode. To get out of a mode, simply press the ESC key.
 Syntax used in this document:
 
-**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, Uiso} [atoms] means 'fix occu [atoms]', 'fix xyz [atoms]', 'fix Uiso [atoms]'.
+**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, Uiso} [atoms] means `fix occu [atoms]', `fix xyz [atoms]', `fix Uiso [atoms]'.
 
 **[val=2]**: optional parameter. This parameter is not required for the command to work, and if it is not supplied, the default value will be used.
 
@@ -18,4 +18,4 @@ Syntax used in this document:
 
 **Capital Letters** are used for commands that will directly affect the structure model in the refinement. These commands will become part of the structure model and will appear in the ShelX input file. Please note that these commands can be typed either in upper or lower case.
 
-**Example Commands** are represented in this format: 'CODE refine 4 20' and can be typed exactly as they are given. In this example, the structure will be refined with 4 refinement cycles and 20 electron density peaks will be returned from the electron density map integration.
+**Example Commands** are represented in this format: `CODE refine 4 20` and can be typed exactly as they are given. In this example, the structure will be refined with 4 refinement cycles and 20 electron density peaks will be returned from the electron density map integration.

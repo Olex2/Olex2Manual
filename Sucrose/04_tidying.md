@@ -1,6 +1,6 @@
 #Tidying the Structure
 
-1.	The key numbers to look at are R1, wR2, *max* and *min* Q peak values, \index{GooF}, \index{Hooft $y$} and \index{Flack $x$} which should be examined after each refinement cycle.
+1.	The key numbers to look at are R1, wR2, *max* and *min* Q peak values, *Goof*\index{GooF}, *Hooft* \index{Hooft $y$ parameter} and *Flack*\index{Flack $x$ parameter} which should be examined after each refinement cycle.
 
 	- The values of **R1** and **wR2** are an indication of the agreement between Fc and Fo and should decrease as the refinement proceeds. Very high values of R1/wR2 (e.g. > 40/70 respectively) suggest that the structure solution is incorrect. 
 	- **Q peaks**: *max* and *min* gives information on the highest and lowest peaks and holes in the electron density map. 

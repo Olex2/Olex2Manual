@@ -7,7 +7,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 1.	Under the `@Work` tab click on the arrow next to the £Refine£ button so that it is pointing upwards and highlighted orange meaning. The refinement options are now displayed. 
 2.	Click on the £Refine£ button and Olex2 will refine your structure. Alternatively, you can type **`CODE refine`** or press CTRL+R.
 
-	>CRYST During a \index{refinement} Olex2 is calculating *structure factors* based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
+	>CRYST During a *refinement* \index{refinement} Olex2 is calculating *structure factors* based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
 
 3.	If one of the atoms you assigned is now represented as a comparatively huge sphere (not just slightly larger than the others) then it is not real. Select it and press the DELETE key on your keyboard (or right-click and select *Delete* from the context menu). If you delete an atom by mistake, use CTRL+Z to undo.
 
@@ -19,7 +19,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 	![Different Sized Atom Spheres](/images/different_sized_atom_spheres.png)
 
-	>OLEX2 The atoms are displayed as spheres when they are modelled *isotropically* (i.e. one parameter to define the *\index{atomic displacement parameter}*). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
+	>OLEX2 The atoms are displayed as spheres when they are modelled *isotropically* (i.e. one parameter to define the atomic displacement parameter \index{displacement parameter}). The size of all atom spheres is approximately the same but there are exceptions to the rule, for example if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres generally increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the size of the spheres.
 
 7.	If a sphere is significantly *smaller* than the others, the atom type is too *light* e.g. assigned as a carbon atom but it should be an oxygen atom. If it is distinctively *larger*, it has been assigned as too *heavy* an atom. Select the offending spheres and change their atom types. If the sphere representing the atom has become too small to see, draw a rectangle (SHIFT+LEFT MOUSE) around the atom to select it. 
 
@@ -31,18 +31,18 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 ## Anisotropic Refinement
 
-1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using *\index{anisotropic displacement parameter}s* , **\index{ADP}** requires 6 parameters to define the volume occupied by the electrons during this *\index{anisotropic refinement}*, rather than the single one that was used to define the sphere during *\index{isotropic refinement}*.
+1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using *anisotropic displacement parameters* \index{anisotropic displacement parameter}, **ADP** \index{ADP} requires 6 parameters to define the volume occupied by the electrons during this *anisotropic refinement* \index{anisotropic refinement}, rather than the single one that was used to define the sphere during *isotropic* \index{isotropic refinement}.
 2.	Click on the rugby-ball shaped blue icon I_ANIS on `@Toolbox-Work` at the top right. Olex2 will then automatically carry out an *anisotropic refinement*.
 
 	>OLEX2 Atoms will now be displayed more like rugby balls. If they appear like pancakes, tetraheders or are comparatively much larger than other atoms in the structure, this must always be investigated. Common reasons for odd shaped ellipsoids include incorrect atom assignments, atomic disorder, incorrect space group assignment or poor data quality.
 
-3.	Again, the atoms should be of roughly similar size and shape in similar environments. If you have incorrect atom assignments at this stage, Olex2 might display tetraheders instead of the expected ellisoids. Such atoms have become *\index{non-positive definite}* and are in reality heavier (i.e. O not C). Very large ellipsoids indicate the atom type should be lighter (i.e. C not O). In the illustration: atoms 3 are correctly assigned atom types with similar sized spheres. Atom 1 is non-positive definite (atom type is too light) and 2 is a large ellipsoid (atom type is too heavy).
+3.	Again, the atoms should be of roughly similar size and shape in similar environments. If you have incorrect atom assignments at this stage, Olex2 might display tetraheders instead of the expected ellisoids. Such atoms have become *non-positive definite* \index{non-positive definite}, *N.P.D* \index{N.P.D} and are in reality heavier (i.e. O not C). Very large ellipsoids indicate the atom type should be lighter (i.e. C not O). In the illustration: atoms 3 are correctly assigned atom types with similar sized spheres. Atom 1 is non-positive definite (atom type is too light) and 2 is a large ellipsoid (atom type is too heavy).
 
 	![Incorrect Ellipsoids](/images/incorrect_ellipsoids.png)
 
 ## Add Hydrogen Atoms
 
-1.	The next stage is to \index{add hydrogen atoms} to your structure. In `@Toolbox-Work` click on £Add H£ in the top right hand corner (or type **`CODE hadd`**). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
+1.	The next stage is to add hydrogen atoms \index{add hydrogen atoms} to your structure. In `@Toolbox-Work` click on £Add H£ in the top right hand corner (or type **`CODE hadd`**). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
 
 	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX for more details on this.
 

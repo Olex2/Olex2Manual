@@ -2,7 +2,7 @@
 
 Your structure is now finished and completed from the refinement point of view. If the structure is to be included in a thesis or scientific publication, then you probably need to come up with a naming scheme for its atoms. If it is not your own structure, it is worth liaising with the author to agree on a naming scheme -- structures are often part of a series of structures which should have consistent naming throughout.
 
-1. The next stage is to label your structure to a sensible \index{numbering scheme}. In `@Toolbox-Work|Labels` select **Labels On/Off** until the atom labels are displayed (alternatively press **F3**). Hide the Q-peaks either using the **Q** square in `@Toolbox-Work` or use CTRL+Q.
+1. The next stage is to label your structure to a sensible naming scheme \index{naming scheme}. In `@Toolbox-Work|Labels` select **Labels On/Off** until the atom labels are displayed (alternatively press **F3**). Hide the Q-peaks either using the **Q** square in `@Toolbox-Work` or use CTRL+Q.
 
 	>CRYST Generally,  it is ideal to name atoms in order e.g. all of the carbon atoms around a benzene ring 1-6 with substituents numbered 7 onwards down a chain, then all of the oxygen atoms etc. Alternatively, simply number atoms in order irrespective of atom type. If there are a series of similar structures it is sensible to use the same numbering scheme so that comparisons between bond lengths can be easily made.
 
@@ -21,4 +21,4 @@ Your structure is now finished and completed from the refinement point of view. 
 
 ## Structures to Try Next
 The next structure you should try now is sucrose (again). Despite the seemingly large number of steps required to obtain the finished structure, it's actually not all that hard. The key here is repetition: we normally recommend solving and refining sucrose several times before proceeding to another structure. 
-Having followed this procedure through it should be possible to solve the other sample structures. Most of these are relatively easy, but the disorder in structure '183' is a real challenge.
+Having followed this procedure through it should be possible to solve the other sample structures. Most of these are relatively easy, but the disorder in structure `183' is a real challenge.

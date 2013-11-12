@@ -15,6 +15,6 @@ This option is located under `@Work` and is frequently used. Here is what is in 
 
 6. Selects the Q-peaks that are displayed, slide to the right to hide strongest peaks first or to the left to hide weakest peaks first.
 
-7. Select atoms by the size of the displacement parameter. Slide to the right to select the 'biggest' atoms, and to the left to select the 'smallest' atoms.
+7. Select atoms by the size of the displacement parameter. Slide to the right to select the `biggest' atoms, and to the left to select the `smallest' atoms.
 
 8. A selection of available options for treating disorder, displaying electron density maps or growing the structure.

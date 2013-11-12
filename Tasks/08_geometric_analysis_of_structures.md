@@ -92,20 +92,20 @@ If the asymmetric unit does not consist of a complete molecule, i.e. Z' is not a
 - **Complete** will generate all missing symmetry equivalent atoms of an already grown structure, independent of whether these are bound to the main fragment or not. In other words: all solvent molecules and counter-ions will be generated according to what is already shown.
 
 ### User-controlled growing modes
-These options are similar to grow, but the commands are only executed after you click on an object. When you enter a growing mode, clickable 'growing bonds' will sprout from atoms where the kind of growing you have asked for is applicable. There are various options in `@View|Symmetry-Generation|Growing|Mode-Grow`:
+These options are similar to grow, but the commands are only executed after you click on an object. When you enter a growing mode, clickable `growing bonds' will sprout from atoms where the kind of growing you have asked for is applicable. There are various options in `@View|Symmetry-Generation|Growing|Mode-Grow`:
 
-- **Short Contacts**: Displays growable 'bonds' to those atoms where 'short interactions' exist (alternatively type `CODE mode grow -s`). Please note: for this and all other options below, if an atom is selected first, only short interactions to that atom are shown. To exit a mode, press ESC.
+- **Short Contacts**: Displays growable `bonds' to those atoms where `short interactions' exist (alternatively type `CODE mode grow -s`). Please note: for this and all other options below, if an atom is selected first, only short interactions to that atom are shown. To exit a mode, press ESC.
 - Contacts near selected atoms - select an atom or atoms and then select **Selection** to display growable bonds from those atoms. Alternatively type `CODE mode grow -r`. 
-- **VdW**: Contacts within the Van der Waals radii of the atoms will show growable 'bonds'. Alternatively type `CODE mode grow -v number` where 'number' represents a user specified distance away from atoms. 
+- **VdW**: Contacts within the Van der Waals radii of the atoms will show growable `bonds'. Alternatively type `CODE mode grow -v number` where `number' represents a user specified distance away from atoms. 
 - Relocating atoms in the ASU - it may be desirable to select different atoms to form the asymmetric unit. To do this select **Move** and click on an alternative location. 
 - Atom by atom structures can be grown by selecting **Shells**.  
 > In order to grow all of the displayed, clickable, growing options in growing modes, type `CODE grow -b`.
 
 ### Reassembling structures
-This tool does not strictly belong to the 'growing' family of tools, but it is frequently used together with the growing tools as it allows you to rearrange the asymmetric unit contents into a different configuration. There are various options under `@View|Symmetry-Generation|Growing|Assemble`:
+This tool does not strictly belong to the `growing' family of tools, but it is frequently used together with the growing tools as it allows you to rearrange the asymmetric unit contents into a different configuration. There are various options under `@View|Symmetry-Generation|Growing|Assemble`:
 
-- **Broken Fragments**: a structure may become 'broken' if parts that should be bonded are shown as separate fragments. This tool will bring them back together (alternatively type `CODE compaq -a`). 
-- **Atom-to-Atom** is very similar to the 'Broken Fragments' tool, but a different algorithm is used (or type `CODE compaq -c`). 
+- **Broken Fragments**: a structure may become `broken' if parts that should be bonded are shown as separate fragments. This tool will bring them back together (alternatively type `CODE compaq -a`). 
+- **Atom-to-Atom** is very similar to the `Broken Fragments' tool, but a different algorithm is used (or type `CODE compaq -c`). 
 - **Metal Last**: In this tool, metal ions are ignored while attempts to reassemble the ligand are made. The metal ion is placed at the shortest possible distance. Alternatively, type `CODE compaq -m`. 
 - **Q-Peaks**: This will move all electron density peaks as close to existing atoms as possible (or type `CODE compaq -q`).
 - Growing a structure to display **hydrogen bonding interactions**:

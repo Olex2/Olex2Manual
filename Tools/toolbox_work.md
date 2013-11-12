@@ -9,13 +9,13 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 	- **Atom Names**: Shows the atom names of non-H atoms as well as the labels for electron density peaks. Q1 is the largest peak. `F3` will toggle this label.
 
-	- **Crystallographic Occupancy**  displays the occupancy of any atoms. Please note that atoms in special positions will also display a number, but this doesn't mean that the site isn't fully occupied. Unless you really know what you are doing, the 'Chemical Occupancy' choice is probably the one you want. `labels -o`.
+	- **Crystallographic Occupancy**  displays the occupancy of any atoms. Please note that atoms in special positions will also display a number, but this doesn't mean that the site isn't fully occupied. Unless you really know what you are doing, the  `hemical Occupancy' choice is probably the one you want. `labels -o`.
 
-	- **Chemical Occupancy**  displays the occupancy of any atoms which are not 100% occupied i.e. their occupancy is not 1. As opposed to the 'crystallographic occupancy', the multiplicity of atoms in special positions will be taken into account. An atom on a center of inversion has a crystallographic occupancy of 0.5, but from a chemical point of view it is fully occupied. So in this mode, if there is a number displayed next to an atom, this means it is a partially occupied site. `labels -co`
+	- **Chemical Occupancy**  displays the occupancy of any atoms which are not 100% occupied i.e. their occupancy is not 1. As opposed to the  `rystallographic occupancy', the multiplicity of atoms in special positions will be taken into account. An atom on a center of inversion has a crystallographic occupancy of 0.5, but from a chemical point of view it is fully occupied. So in this mode, if there is a number displayed next to an atom, this means it is a partially occupied site. `labels -co`
 
 	- **Parts**  displays part numbers for atoms that are not in PART 0. By default, all atoms are in PART 0, unless they have explicitly been assigned to another PART.
 
-	- **Link-Code**  this is displayed SHELX 'FVAR' style: 21 and -21 etc. This denotes atoms who'se occupancy is linked: The occupancies of atoms in 21 and -21 have to add up to unity.
+	- **Link-Code**  this is displayed SHELX  `VAR' style: 21 and -21 etc. This denotes atoms who'se occupancy is linked: The occupancies of atoms in 21 and -21 have to add up to unity.
 
 	- **H Atom Labels**  will include the hydrogen atom labels along with the atom name and Q-peak labels.
 
@@ -39,7 +39,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Useful Shortcuts**:
 
-	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the 'clean' tool as described below. `CODE name $Q C`.
+	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the  `lean' tool as described below. `CODE name $Q C`.
 
 	- **Q To H**: Converts all *showing* Q-peaks to Hydrogen atoms. This tool is not recommended. The Olex2 hydrogen placement routine is clearly the better way! `CODE name $Q H`.
 
@@ -75,7 +75,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Select Group and then...**: This is an alternative (and altogether better) approach to generating disorder model in Olex2. It can also be used to move atoms from their current position. This tool is easy to use, but hard to explain.
 
-	- **Split**: After you made your selection, you can 'activate' a bond around which you want to rotate (and split) an entire group. New atoms are generated and placed for all selected atoms; and the occupancies are linked.
+	- **Split**: After you made your selection, you can  `ctivate' a bond around which you want to rotate (and split) an entire group. New atoms are generated and placed for all selected atoms; and the occupancies are linked.
 
 	- **Fit**: This works exactrly like above, but the group will be placed in the new position (atoms will be moved). No new atoms will be generated and the occupancies are not affected.
 

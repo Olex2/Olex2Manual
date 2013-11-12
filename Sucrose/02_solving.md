@@ -1,13 +1,13 @@
 #Solving the Structure
 
 1.	Click on the `@Work` tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
-2.	Click on the arrow next to the `@Solve` button so that it is turns orange and points upwards. The \index{structure solution} options are displayed.
-3.	Select a **solution program** from the drop-down menu. Depending on your computer set-up, you may only see the built-in *olex2.solve* program, but you may also see other programs in the list, if they are present on your machine.
-4.	Click £Solve£ (or type `CODE solve`) and Olex2 will attempt to solve the structure. Once the structure is solved, \index{electron density peaks} (\index{Q-peaks}) are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, artificial peaks.
+2.	Click on the arrow next to the `@Solve` button so that it is turns orange and points upwards. The *structure solution* \index{structure solution} options are displayed.
+3.	Select a **solution program** from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
+4.	Click £Solve£ (or type `CODE solve`) and Olex2 will attempt to solve the structure. Once the structure is solved, *electron density peaks* \index{electron density peaks} (*Q-Peaks* \index{Q-peaks}) are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, artificial peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
 
-	>CRYST Q-peaks represent maxima in the \index{electron density map} i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron-Density-Peaks`.
+	>CRYST Q-peaks represent maxima in the *electron density map* \index{electron density map} i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron-Density-Peaks`.
 
 5.	In the `@Work` section there is another header tab `@Toolbox-Work`.  Select *Q-Peak Intensities* from the **Labels** menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
@@ -18,7 +18,7 @@
 
 	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
 
-8.	The next stage is to \index{assign atoms types} to the Q-peaks. Use the LEFT MOUSE button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
+8.	The next stage is to assign atom types \index{assiging atoms types} to the Q-peaks. Use the LEFT MOUSE button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
 
 	>OLEX2 If the Q-peaks don't appear to form a sensible structure, try typing `CODE compaq -a`, which will pull Q-peaks together. Clicking on the centre button I_CENTER (top right of GUI) has the same effect.
 

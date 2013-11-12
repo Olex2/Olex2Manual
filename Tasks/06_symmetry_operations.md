@@ -75,7 +75,7 @@ To convert the structure to P-1 the following procedure can be followed:
 
 8. Now the structure may look correct or the molecule may be split into two parts. In order to reassemble the two separate parts type the command `CODE compaq -a` (or `@Work|Toolbox-Work` and click on I_CENTER ).
 
-9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to 'fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
+9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to `fuse together' all atoms that are closer to each other than 0.4 $\AA$. This situation is illustrated here.
 
 ![Extra atoms near expected positions](/images/more than one atom after fusing.png)
 

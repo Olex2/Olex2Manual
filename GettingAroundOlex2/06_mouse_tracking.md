@@ -4,25 +4,25 @@ Once you get used to using Olex2, the mouse actions will become second nature to
 ------------------------------------------------------------------------------------
 Mouse Action                Effect
 --------------------------- --------------------------------------------------------
-Hold LEFT MOUSE             Rotates the model
+HOLD LEFT MOUSE             Rotates the model
 
-Hold RIGHT MOUSE            Zooms the view (or zoomable objects)
+HOLD RIGHT MOUSE            Zooms the view (or zoomable objects)
 
-ALT+LEFT CLICK              -- " --
+ALT + LEFT CLICK              -- " --
 
-CTRL+LEFT CLICK             Rotate around the (Z) axis perpendicular to the screen
+CTRL + LEFT CLICK             Rotate around the (Z) axis perpendicular to the screen
 
-Hold LEFT+HOLD RIGHT        Moves the molecule laterally
+HOLD LEFT + HOLD RIGHT        Moves the molecule laterally
 
-CTRL+SHIFT+Hold LEFT        -- " --
+CTRL + SHIFT + HOLD LEFT        -- " --
 
-SHIFT+Hold LEFT             Draw box to select atoms
+SHIFT + HOLD LEFT             Draw box to select atoms
 
-LEFT-CLICK on object        Selects the object (atom, bond, plane)
+LEFT CLICK on object        Selects the object (atom, bond, plane)
 
 DOUBLE CLICK on an atom     Selects the molecule
 
-RIGHT-CLICK background      Opens the display settings menu
+RIGHT CLICK background      Opens the display settings menu
 
-RIGHT-CLICK on object       Open the object property (context) menu
+RIGHT CLICK on object       Open the object property (context) menu
 -----------------------------------------------------------------------------------
