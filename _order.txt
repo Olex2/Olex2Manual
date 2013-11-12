@@ -26,8 +26,8 @@ SHIFT\+ ::x:: \\textsc{Shift+}
 RIGHT  \s* MOUSE ::x:: \\textsc{Right Mouse}
 LEFT  \s* MOUSE ::x:: \\textsc{Left Mouse}
 
-SHIFT ::x:: \\textsc{Shift}
-ENTER ::x:: \\textsc{Enter}
+\b SHIFT \b ::x:: \\textsc{Shift}
+\b ENTER \b ::x:: \\textsc{Enter}
 
 ESC \b ::x::\\textsc{Esc}
 alpha ::x:: \\textalpha
