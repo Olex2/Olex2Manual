@@ -19,7 +19,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 
 ### Changing a Q-peak to an atom type
 
-- Select one or more Q-peaks and click on the desired atom type under `@Work|Toolbox Work`.
+- Select one or more Q-peaks and click on the desired atom type under `@Work|Toolbox-Work`.
 - Select the atom type first (with nothing selected) and then click on the Q-Peaks you wish to assign in turn.
 - Select one or more Q-peaks and right click on them, under Type select the desired atom type.
 - Select one or more Q-peaks and then type `CODE name O` to make them into oxygen atoms. 
@@ -88,7 +88,7 @@ The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the p
 
 ### Displaying hydrogen atoms
 - CTRL+H toggles the hydrogen atoms through show H, show H with H-bonding interactions and hide H.
-- Clicking on the I_H icon under `@Work|Toolbox Work` achieves the same result.
+- Clicking on the I_H icon under `@Work|Toolbox-Work` achieves the same result.
 
 ### Adding hydrogen atoms
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.
@@ -98,10 +98,10 @@ Hydrogen atoms can be added in a number of different ways within Olex2 either by
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 
 #### Using AFIX/HFIX instructions: 
-Automatic hydrogen atom positioning - Under `@Work|Toolbox Work` is the **Add H** option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
+Automatic hydrogen atom positioning - Under `@Work|Toolbox-Work` is the **Add H** option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
 
-- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH. If there appears to be Q-peaks that would be better positions for the hydrogen atoms, it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select Group-or-atom(s)` and then **Split** or **Move** with SHIFT KEY to optimise the relevant positions.
-- If you would like to manually add hydrogen atoms - under `@Tools|Hydrogen Atoms` there are various options provided for adding hydrogen atoms:
+- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH. If there appears to be Q-peaks that would be better positions for the hydrogen atoms, it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select-Group-or-atom(s)` and then **Split** or **Move** with SHIFT KEY to optimise the relevant positions.
+- If you would like to manually add hydrogen atoms - under `@Tools|Hydrogen-Atoms` there are various options provided for adding hydrogen atoms:
 
 The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms you wish to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Press ESC to exit the mode.
 
@@ -116,4 +116,4 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 - Click on the I_H icon under `@Work|Toolbox Work` will delete selected H.
 - Select one or more hydrogen atom(s) and press DELETE.
 
->CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. These are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data, hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox Work` (or **CTRL+Q**).
+>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. These are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data, hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox-Work` (or **CTRL+Q**).

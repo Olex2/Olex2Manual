@@ -14,7 +14,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 	![Large Incorrect Atom](/images/large_incorrect_atom.png)
 
 4.	If there are peaks larger than ~3 units, then there are missing C or O atoms. Select these peaks and assign them to either C or O and refine again. Repeat this step until there are no more large Q-peaks left. 
-5.	At this point, you can hide all remaining Q-peaks: in `@Toolbox Work` click on the **hide Q** icon I_Q (or use **CTRL+Q**) to hide them.
+5.	At this point, you can hide all remaining Q-peaks: in `@Toolbox-Work` click on the **hide Q** icon I_Q (or use **CTRL+Q**) to hide them.
 6.	Rotate your structure and examine the size of the atom spheres, they should all be approximately the same size. If this is not the case some of your atoms have been incorrectly assigned. In this image, atoms 3 are correctly assigned atom types with similar sized spheres. Atom 1 is too light an atom type (should be heavier) and atom 2 is too heavy an atom type (should be lighter).
 
 	![Different Sized Atom Spheres](/images/different_sized_atom_spheres.png)
@@ -32,7 +32,7 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 ## Anisotropic Refinement
 
 1.	So far, we limited the shape in which we can place electron density to a sphere. The next stage is to model the atoms as ellipsoids: using *anisotropic displacement parameters (ADP)* requires 6 parameters to define the volume occupied by the electron density, rather than the single one that was used to define the sphere during *isotropic refinement*.
-2.	Click on the rugby-ball shaped blue icon I_ANIS on `@Toolbox Work` at the top right. Olex2 will then automatically carry out an *anisotropic refinement*.
+2.	Click on the rugby-ball shaped blue icon I_ANIS on `@Toolbox-Work` at the top right. Olex2 will then automatically carry out an *anisotropic refinement*.
 
 	>OLEX2 Atoms will now be displayed more like rugby balls. If they appear like pancakes, tetraheders or are comparatively much larger than other atoms in the structure, this should be investigated. Common reasons for odd shaped ellipsoids include incorrect atom assignments, atomic disorder, incorrect space group assignment or poor data quality.
 
@@ -42,11 +42,11 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 ## Add Hydrogen Atoms
 
-1.	The next stage is to add hydrogen atoms to your structure. In `@Toolbox Work` click on £Add H£ in the top right hand corner (or type **`CODE hadd`** in the console). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
+1.	The next stage is to add hydrogen atoms to your structure. In `@Toolbox-Work` click on £Add H£ in the top right hand corner (or type **`CODE hadd`** in the console). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
 
 	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX for more details on this.
 
-2.	In `@Toolbox Work` clicking on the **H** square I_H cycles through show H / show H with H-bonding interactions / hide H (alternatively use CTRL+H). Stop at show H with hydrogen bonding interactions.
+2.	In `@Toolbox-Work` clicking on the **H** square I_H cycles through show H / show H with H-bonding interactions / hide H (alternatively use CTRL+H). Stop at show H with hydrogen bonding interactions.
 
 	>OLEX2 Hydrogen bonding interactions are shown as red dashed lines between a hydrogen atom and the acceptor atom. 
 
@@ -59,7 +59,7 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 	![Incorrectly Positioned Hydrogen](/images/Incorrectly_positioned_hydrogen.png)
 
-6.	To optimise the hydrogen atom positions there are two options: multiple refinement cycles using Refine may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see point 9 below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position). Alternatively, select a hydrogen atom and then in `@Toolbox Work` choose £Fit£ option from the £Select group or atom(s)and then...£ tool. Once in **Fit** mode, holding the **SHIFT** key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press **ESC** when finished. Repeat if more than one atoms needs to be relocated.
+6.	To optimise the hydrogen atom positions there are two options: multiple refinement cycles using Refine may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see point 9 below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position). Alternatively, select a hydrogen atom and then in `@Toolbox-Work` choose £Fit£ option from the £Select group or atom(s)and then...£ tool. Once in **Fit** mode, holding the **SHIFT** key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press **ESC** when finished. Repeat if more than one atoms needs to be relocated.
 
 	>OLEX2 When in the **Fit** mode it is possible to rotate the structure to see if the relocated hydrogen atom is now on the Q-peak. Remove your finger from the mouse and **SHIFT** key, hold the **LEFT MOUSE** button down and move the mouse.
 

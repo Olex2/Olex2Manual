@@ -9,3 +9,5 @@ The current release version of Olex2 is version 1.2.3. Of this version, we distr
 
 ##Updating Olex2
 Unless you change the settings in the menu bar on the top (Help > Update Options), Olex2 will automatically check for updates on start-up if you are connected to the internet. If updates are found, these will be downloaded in the background and applied on the next start-up of the software. Updates only happen within the same series and variant (see above) -- eventually the current 1.2.3 version of Olex2 will update to the 1.2.4 version, but it will not automatically update to Olex2 2.0 -- instead a notice regarding the new release will appear in the graphical user interface panel (GUI panel).
+
+\newpage

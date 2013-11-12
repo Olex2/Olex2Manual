@@ -6,7 +6,7 @@ During a refinement there are a number of checks that should be made after each 
 
 - Check that the correct number of *hydrogen atoms* are present and that they are appropriately positioned.
 
-- Go to the `@Info` tab and open the *`@Refinement Indicators`* header tab. If there are any errors some or all of the parameters will be orange (potential moderate problem) or red (potential serious problem). These should improve as the refinement proceeds. Attempts should always be made to correct these or be able to explain why they are not ideal.
+- Go to the `@Info` tab and open the *`@Refinement-Indicators`* header tab. If there are any errors some or all of the parameters will be orange (potential moderate problem) or red (potential serious problem). These should improve as the refinement proceeds. Attempts should always be made to correct these or be able to explain why they are not ideal.
 
 - Check that the *bond lengths and angles are sensible*. There are several ways to do this: 
 
@@ -22,7 +22,7 @@ During a refinement there are a number of checks that should be made after each 
 
 ### What To Look For In a Good Refinement
 
-A summary of the refinement indicators can be found under `@Info|Refinement Indicators`. These can be used to check the refinement of your structure. Red colour indicates there is a problem with the refinement, green colour indicates a good refinement.
+A summary of the refinement indicators can be found under `@Info|Refinement-Indicators`. These can be used to check the refinement of your structure. Red colour indicates there is a problem with the refinement, green colour indicates a good refinement.
 
 #### All of the ADPs are chemically sensible
 The 'thermal ellipsoids' of the atoms should all look similar and of approximately the same dimensions. If there are some really large or really small ones, then there is something wrong. If there are some that are very elongated or very 'squashed', then that is also not right.

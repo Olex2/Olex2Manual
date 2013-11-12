@@ -12,7 +12,7 @@ Atoms can be selected under `@Work|Select`. When the labels are active Ctrl+A se
 Individually by selecting an atom label with the left hand mouse button and pressing delete.
 Double click on any label to select them all, then press DELETE.
 The Choose the label colour, Label Box and Transparent Box options do not apply to every file format so may not be applicable, check the options available under the desired file format. 
-There are two independent sets of labels. The built-in labels (toggled with F3 and under `@Work|Toolbox Work') and then those accessed from `@Tools|Images`. These image labels can be positioned with SHIFT+LEFT MOUSE. The built-in labels are useful if you want to see to see all atom names but label only a few atoms.
+There are two independent sets of labels. The built-in labels (toggled with F3 and under `@Work|Toolbox-Work') and then those accessed from `@Tools|Images`. These image labels can be positioned with SHIFT+LEFT MOUSE. The built-in labels are useful if you want to see to see all atom names but label only a few atoms.
 
 ###Saving Images
 Olex2 offers a number of different file formats for saving images, these are found under `@Tools|Images`, the images are saved in the current structure folder:

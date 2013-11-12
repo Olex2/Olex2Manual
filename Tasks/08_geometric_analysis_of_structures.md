@@ -15,10 +15,10 @@ If the automatic matching did not work or different atoms are required to be mat
  
 Select 3 atoms in the first fragment and then 3 atoms in the second fragment in the order to be matched. Under `@Tools|Overlay` select **Match Selected Atoms**. To return to the unmatched structure, click on **UnMatch** or type `CODE fuse`.
 
-`@Tools|Overlay|Mode Match` This mode enables interactive matching by a maximum of three pairs of atoms. The first pair of atoms are superimposed, the second pair causes a rotation to minimize the distance between the atoms of the second pair, the third pair causes rotation around the line formed by the first and second pair to minimize the difference between the atoms of the third pair. Hit ESC to exit this mode. To return to the unmatched structures click on **UnMatch** or type `CODE fuse`.
+`@Tools|Overlay|Mode-Match` This mode enables interactive matching by a maximum of three pairs of atoms. The first pair of atoms are superimposed, the second pair causes a rotation to minimize the distance between the atoms of the second pair, the third pair causes rotation around the line formed by the first and second pair to minimize the difference between the atoms of the third pair. Hit ESC to exit this mode. To return to the unmatched structures click on **UnMatch** or type `CODE fuse`.
 
 ### Overlaying molecules from different structures
-Click on `@Tools|Overlay|Overlay Structure` to overlay a second structure. The two structures now appear on the right and left hand side of the graphics screen and the user-selected matching mode is automatically set up. A maximum of three pairs of atoms from the two structures can be selected. 
+Click on `@Tools|Overlay|Overlay-Structure` to overlay a second structure. The two structures now appear on the right and left hand side of the graphics screen and the user-selected matching mode is automatically set up. A maximum of three pairs of atoms from the two structures can be selected. 
 
 To remove the overlaid structure, select **Remove Overlay** from `@Tools|Overlay`.
 Alternatively, after clicking on `@Tools|Overlay|Overlay Structure`, press ESC.
@@ -67,7 +67,7 @@ To analyse all pi-pi interactions associated with the asymmetric unit automatica
 - Click on the two centroids under `@View|Geometry`. Click on either **Distance and Angles (of selection)** or **Distance and Angles with esd (of selection)**, to obtain the distance with or without an esd respectively (the latter requires the use of `@View|Geometry|Refine-and-save-esd-info` first).
 
 ### Calculating the mean plane of a selection
-Select four or more atoms through which to calculate a plane. Click on `@View|Geometry|Mean Plane(of active selection)`.
+Select four or more atoms through which to calculate a plane. Click on `@View|Geometry|Mean-Plane(of-active-selection)`.
 
 ### Calculating the deviation of atoms from a plane
 Select the atoms to be in a plane and type `CODE mpln` to create the plane. Olex2 to will then print information regarding the plane. If more information regarding this plane is needed, select it and any other object (atom, bond, plane etc) and type `CODE sel (esd)` to get the required information.
@@ -81,7 +81,7 @@ Create the required planes and select them. In `@View|Geometry`, once again clic
 - The .lst file will contain information on each plane plus the angle between adjacent planes in the list.
 
 ## Growing Structures
-Olex2 offers a lot of flexibility over the manner in which structures are grown. The majority of these options are found under `@View|Symmetry Generation|Growing` under which there are three options: Grow, Mode Grow and Assemble.
+Olex2 offers a lot of flexibility over the manner in which structures are grown. The majority of these options are found under `@View|Symmetry-Generation|Growing` under which there are three options: Grow, Mode Grow and Assemble.
 
 When completing structures where Z' is not an integer (most commonly Z'=1/2)in **Grow** mode:
 - Selecting **Grow All** will display all symmetry equivalent atoms/fragments to display the complete structure. (This is the same as `@View|Symmetry-Generation|Grow-All`).
@@ -114,7 +114,7 @@ This tool does not strictly belong to the 'growing' family of tools, but it is f
     - `@Grow|Asymm.-Unit-(fuse)` removes all symmetry equivalent atoms and displays the asymmetric unit. Alternatively type `CODE fuse`.
 
 ## Packing Structures
-Olex2 offers a range of options for packing structures in different ways in order to understand interactions or the lattice packing. These are found under `@View|Symmetry Generation|Packing`:
+Olex2 offers a range of options for packing structures in different ways in order to understand interactions or the lattice packing. These are found under `@View|Symmetry-Generation|Packing`:
 
 - Adjusting the slider bar under **Expand Short Contacts (Hydrogen Bonds)** allows short contacts or hydrogen bonding interactions to be displayed. Click on a grow-able link in order to grow a structure. Press ESC to exit this mode.
 - Packing within a defined distance:
@@ -124,7 +124,7 @@ Olex2 offers a range of options for packing structures in different ways in orde
     - To complete fragments click on **Complete Fragments**.
 
 ## Chemical Tools
-Under `@Tools|Chemical Tools` you will find these useful general tools:
+Under `@Tools|Chemical-Tools` you will find these useful general tools:
 
 - **CHN Analysis** calculates the expected CHN composition on the basis of the unit cell content.
 - **Molecular Isotope Pattern** simulates a molecular isotope pattern for your structure

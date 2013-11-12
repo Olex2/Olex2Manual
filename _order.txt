@@ -29,6 +29,7 @@ gamma ::x:: \\textgamma
 \$\$ ::x:: \$
 pi-pi ::x:: \\textpi-\\textpi
 \£ (.*?) \£ ::x:: \\greentt{\1}
+`@.*?(\-).*?`/g ::xx:: " "
 
 \begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
 

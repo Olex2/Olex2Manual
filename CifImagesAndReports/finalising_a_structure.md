@@ -22,13 +22,13 @@ Under `@Work|Report` you can type a name of the crystal structure report ('data'
 Under `@Work|Report` are three boxes giving options on including an Image and changing the Style and Template used to generate a report. Select the options then either click on Make Report or the Report tab heading. An html report will be generated and saved into the folder containing the current structure.
 
 ### Generating a CIF
-`@Work|Report|Edit CIF Info` brings up a text editor enabling the currently known information to be editing. Any edits made in this window will take precedence over any previous values. We recommend that you make all edits to the .cif file here.
+`@Work|Report|Edit-CIF-Info` brings up a text editor enabling the currently known information to be editing. Any edits made in this window will take precedence over any previous values. We recommend that you make all edits to the .cif file here.
 
-- `@Work|Report|Merge CIF` will merge all CIF information into one .cif file. There is also the option to select to include/exclude HKL/RES in the cif.
-- If ShelXL is being used to carry out the refinement under `@Work|Refine|Refinement Settings Extra it is possible to select the ACTA command which will generate a .cif and .fcf file. Note any information input under the Report section will be added to the CIF.
+- `@Work|Report|Merge-CIF` will merge all CIF information into one .cif file. There is also the option to select to include/exclude HKL/RES in the cif.
+- If ShelXL is being used to carry out the refinement under `@Work|Refine|Refinement-Settings-Extra` it is possible to select the ACTA command which will generate a .cif and .fcf file. Note any information input under the Report section will be added to the CIF.
 
 ### Validating the CIF
-Direct access to the IUCr CheckCif is available through Olex2 under `@Work|Report|CheckCif Report with the option to include the .fcf (Send FCF) in the submission or not. The report is saved in either html or pdf format into the folder containing the current crystal structure.
+Direct access to the IUCr CheckCif is available through Olex2 under `@Work|Report|CheckCif-Report` with the option to include the .fcf (Send FCF) in the submission or not. The report is saved in either html or pdf format into the folder containing the current crystal structure.
 It is important to check the .cif file for any errors or problems with the crystal structure, to this end the IUCr offers a free automated checking service for .cif files, CheckCif, is available through Olex2 but can also be accessed at http://checkcif.iucr.org/. To obtain a full report the structure factors have to be included (Send FCF). Alert's are given under either codes of A-G each has a section title that, if generated directly through the program on the web, can be clicked on for more details of what an alert means. Alert A's are the most serious and generally need attention while Alert G is probably only advisory. All Alert's that can be solved should be fixed and any more major problems that can't be fixed should be explained.
 
 ### Submitting a structure to the CCDC
@@ -41,7 +41,7 @@ This should be done upon completion of the structure refinement. If the currentl
 - Under `@Work|Solve|Chemical-Composition` simply enter the formula.
 
 ## Refinement Data Plots
-We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under `@Info|Reflection Statistics:
+We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under `@Info|Reflection-Statistics`:
 
 ### Fo--Fc
 This should be a straight line with Fo -- Fc, i.e. the gradient of the line should be ~1 and the intercept ~ 0. Any omitted data are shown in grey. If a reflection appears to be an outlier hovering over it gives relevant information in the following format (Fo, Fc)(h, k, l).

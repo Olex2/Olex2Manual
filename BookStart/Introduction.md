@@ -13,3 +13,5 @@ Olex2 is frequently being updated with new features or tools, some of which aris
 
 When using Olex2 please always cite the following reference:
 O. V. Dolomanov, L. J. Bourhis, R. J. Gildea, J. A. K. Howard and H. Puschmann. "Olex2: A complete structure solution, refinement and analysis program". (2009) *J. Appl. Cryst.*, 42, 339-341.
+
+\newpage

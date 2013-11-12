@@ -7,7 +7,7 @@ refine	Refines the structure. The number of cycles and peaks can be set e.g. `CO
 
 name	Change the atom types of the selected atoms
 
-compaq   This will assemble a fragmented structure. Also `@compaq -a`
+compaq   This will assemble a fragmented structure. Also `CODE compaq -a`
 
 fuse	Show the asymmetric unit only
 

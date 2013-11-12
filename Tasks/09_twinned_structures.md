@@ -19,7 +19,7 @@ There are a number of warning signs for twinning that have been identified, not 
     - Fo>>Fc for the majority of the most disagreeable reflections. Disagreeable reflections can be omitted under `@Info|Bad-Reflections` and clicking on **Exclude**. In addition under, `@Info|Reflection-Statistics` a plot of Fo-Fc should have a gradient of ~1 and an intercept ~0, without many reflection deviating from this line. Any reflections that have been omitted will be greyed out, while Fo/Fc versus the resolution should have a value of ~1.
     - R1 and wR2 remain unexpectedly high based on the Rint value. Generally the R1 value should be approximately similar to the Rint upon completion, see `@Info|Refinement-Indicators` and `@Info|Reflection-Statistics-Summary`.
     - Weights: the second value of the weighting scheme remains very high e.g.> 5. To check this see `@Work|Refine|Weights`.
-- Higher symmetry crystal systems in the lower symmetry Laue classes are often subject to merohedral twinning so this is always worth checking. Possible twin laws can be searched for under `@Tools|Twinning|Search for Twin Laws`.
+- Higher symmetry crystal systems in the lower symmetry Laue classes are often subject to merohedral twinning so this is always worth checking. Possible twin laws can be searched for under `@Tools|Twinning|Search-for-Twin-Laws`.
 
 The first 3 points on the list above should be assessed within the data processing software. The remaining points can be checked within Olex2.
 
@@ -39,7 +39,7 @@ Non-merohedral twinning, where only some of the reflections overlap, are more co
 Only one twin law can be applied to the data at any time (with the exception of including racemic twinning alongside a twin law). Any twin laws that are being applied to the data are displayed below the refinement statistics at the top of the GUI panel .
 
 ### For merohedral and pseudo merohedral twins
-Automatic searching for twin laws - this can be done using Olex2 under `@Tools|Twinning|Search for Twin Laws` where the program searches for metrically possible twin laws. If found, the structure is refined against each of them in turn. The **R** value gives an indication of the quality of the structure - a low **R** value is better. To select a twin law to continue the refinement, click on the relevant twin law.
+Automatic searching for twin laws - this can be done using Olex2 under `@Tools|Twinning|Search-for-Twin-Laws` where the program searches for metrically possible twin laws. If found, the structure is refined against each of them in turn. The **R** value gives an indication of the quality of the structure - a low **R** value is better. To select a twin law to continue the refinement, click on the relevant twin law.
 
 If a twin law is selected, Olex2 automatically includes the selected twin law and BASF into the .ins file. The matrix ($1 0 0 0 1 0 0 0 1$) is the untwinned refinement. BASF is the twinned scale factor indicating what percentage of the structure would be the second component i.e. 0.20 (=20%) would suggest 80% is component 1 and 20% is component 2. Currently it is only possible to refine using one twin law (excluding racemic twinning) in Olex2.
 
