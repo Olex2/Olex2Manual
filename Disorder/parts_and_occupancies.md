@@ -84,5 +84,5 @@ It may be apparent that an atom would be better located on a different Q-peak ra
 
 ### `@Toolbox-Work|Select-group-or-atom(s)-and-then...` 
 
-- **Split or Move with Shift key**: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the left hand mouse button down and moving the mouse. Press ESC when finished.
+- **Split or Move with Shift key**: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the LEFT MOUSE button down and moving the mouse. Press ESC when finished.
 Releasing the SHIFT in these modes allows the structure to be rotated and zoomed to check the positions. These positions do not have to be perfect, just relatively close as the structure will be refined afterwards. In Split or Move with Shift key be careful not to click on an atom if you are changing the view or it will split. If extra split atoms are generated in any mode. Press ESC to get out of the mode. Using the left mouse button click on the new generated atom(s) to select it, press delete and the atom(s) will disappear and change occupancy of the original atoms back to 1 and reset its PART to 0.

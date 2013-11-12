@@ -20,6 +20,15 @@ Uiso ::x::$U_{iso}$
 \b DOWN \b ::x::\\textsc{Down}
 PAGEUP ::x::\\textsc{PageUp}
 PAGEDOWN ::x::\\textsc{PageDown}
+DELETE ::x::\\textsc{Delete}
+
+SHIFT\+ ::x:: \\textsc{Shift+}
+RIGHT  \s* MOUSE ::x:: \\textsc{Right Mouse}
+LEFT  \s* MOUSE ::x:: \\textsc{Left Mouse}
+
+SHIFT ::x:: \\textsc{Shift}
+ENTER ::x:: \\textsc{Enter}
+
 ESC \b ::x::\\textsc{Esc}
 alpha ::x:: \\textalpha
 beta ::x:: \\textbeta

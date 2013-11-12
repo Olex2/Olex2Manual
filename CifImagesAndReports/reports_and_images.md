@@ -9,7 +9,7 @@ Atoms can be selected under `@Work|Select`. When the labels are active Ctrl+A se
 
 ### Deleting labels
 
-- Individually by selecting an atom label with the left hand mouse button and pressing delete.
+- Individually by selecting an atom label with the LEFT MOUSE button and pressing delete.
 - Double click on any label to select them all, then press DELETE.
 - The Choose the label colour, Label Box and Transparent Box options do not apply to every file format so may not be applicable, check the options available under the desired file format. 
 

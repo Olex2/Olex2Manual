@@ -47,7 +47,7 @@ An incorrect space group can prevent structure solution but just because a struc
 
 ####Prior to structure solution
 If you believe that your space group selection is wrong you can change this under the `@Work|Solve` tab in the **Space Group** section. 
-If you know the space group you want to try you can type it into the dropdown box and press enter.
+If you know the space group you want to try you can type it into the dropdown box and press ENTER.
 If you are unsure of the space group Olex2 can suggest likely possible space groups for you. Click on **Suggest SG** to see a list of the most likely space groups appear on the graphics screen (or type `CODE sg` in the command-line). These will also appear in the dropdown box for you to select.
 To view the full output in relation to systematic absences click on the notepad icon IEDIT or type `CODE text`. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution but your data fit well to your cell during the integration stage, it is worth checking the space group. 
 

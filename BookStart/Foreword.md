@@ -1,6 +1,6 @@
 #Foreword
 Olex2 has been in active development since 2004 -- yes, it's been nearly 10 years! And yet this is the first attempt we have made at publishing a manual for this increasingly popular software in the field of small-molecule crystallography.
 The main reason why this hasn't happened before is quite simply the fact that too much has been changing too quickly within Olex2. Right now, we have reached a good stable version of Olex2 where we envisage relatively few changes in the User Interface. The development of the underlying core will continue at unchanged pace, but this won't affect the validity of a manual as much as changes in the user interface do.
-In other words: no manual is probably better than an out of date manual. So, here it is. This version of the manual is intended for use with Olex2 version 1.2.3, which was released in August 2013. It will also largely be valid for any other version in the 1.2 series of Olex2, but won't do for older versions and will also become obsolete with the next version of Olex2: Olex2 2.0 which we expect to be released in 2014.
+In other words: *no* manual is probably better than an out of date manual. So, here it is. This version of the manual is intended for use with Olex2 version 1.2.3, which was released in August 2013. It will also largely be valid for any other version in the 1.2 series of Olex2, but won't do for older versions and will also become obsolete with the next version of Olex2: Olex2 2.0 which we expect to be released in 2014.
 
 \newpage

@@ -11,7 +11,7 @@ To rotate the structure, click with the left mouse button in the graphics screen
 It is also possible to rotate the structure by a user-defined amount relative to the screen orientation under `@View|Rotate`, **x** rotates the structure from top to bottom, **y** rotates from left to right and **z** rotates around in the plane of the page. On the command-line, `CODE rota 1 30` will rotate the molecule by 30 degrees around axis 1.
 
 ## Zooming 
-Holding the right hand mouse button down in the graphics screen (avoiding atoms or Q-peaks) and moving the mouse will zoom into or out of the structure. If you do this while pressing the ALT-Key, the zooming will be smoother and more precise.
+Holding the RIGHT MOUSE button down in the graphics screen (avoiding atoms or Q-peaks) and moving the mouse will zoom into or out of the structure. If you do this while pressing the ALT-Key, the zooming will be smoother and more precise.
 
 ## View Along a Specific Direction
 Right click on the background of the graphics window, under **View** select the desired viewing direction from 100, 010, 001, 110, 101, 011 or 111.

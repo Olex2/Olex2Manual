@@ -9,7 +9,7 @@ Options for labelling images are available under `@Tools|Images`:
 Atoms can be selected under `@Work|Select`. When the labels are active Ctrl+A selects all labels. These can then be moved with the Shift key and the left mouse button held down and then moving the mouse or alternatively deleted by pressing delete. If you leave the images section to remove the labels use Ctrl+A to select all atoms, molecules, bonds the image atom labels will be the only items not selected, use Ctrl+I to invert the selection resulting in just the image atom labels being selected, press delete to delete these labels.
 
 ###Deleting labels
-Individually by selecting an atom label with the left hand mouse button and pressing delete.
+Individually by selecting an atom label with the LEFT MOUSE button and pressing delete.
 Double click on any label to select them all, then press DELETE.
 The Choose the label colour, Label Box and Transparent Box options do not apply to every file format so may not be applicable, check the options available under the desired file format. 
 There are two independent sets of labels. The built-in labels (toggled with F3 and under `@Work|Toolbox-Work') and then those accessed from `@Tools|Images`. These image labels can be positioned with SHIFT+LEFT MOUSE. The built-in labels are useful if you want to see to see all atom names but label only a few atoms.
