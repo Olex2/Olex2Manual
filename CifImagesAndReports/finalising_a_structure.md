@@ -43,14 +43,14 @@ This should be done upon completion of the structure refinement. If the currentl
 ## Refinement Data Plots
 We've covered reflection data plots before. Here are the remaining plots that are only relevant once you've got a model. These are currently (wrongly) located under `@Info|Reflection-Statistics`:
 
-### Fo--Fc
-This should be a straight line with Fo -- Fc, i.e. the gradient of the line should be ~1 and the intercept ~ 0. Any omitted data are shown in grey. If a reflection appears to be an outlier hovering over it gives relevant information in the following format (Fo, Fc)(h, k, l).
+### Fo-Fc
+This should be a straight line with Fo-Fc, i.e. the gradient of the line should be ~1 and the intercept ~ 0. Any omitted data are shown in grey. If a reflection appears to be an outlier hovering over it gives relevant information in the following format (Fo, Fc)(h, k, l).
 
 ### Fo/Fc
 Plotted against resolution should be around 1.0.
 
 ### Scale factor vs resolution
-These should be approximately constant around 1.0 across the whole data range, a low value at high values of 2$$$$? can indicate that the data is weak or not present in that region.
+These should be approximately constant around 1.0 across the whole data range, a low value at high values of 2Theta can indicate that the data is weak or not present in that region.
 
 ### R1 factor vs resolution
 This value will increase for higher angle data.
