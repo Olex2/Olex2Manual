@@ -16,7 +16,7 @@
 #wR2 ::x:: \\ensuremath{wR_2}
 #R1 ::x:: \\ensuremath{R1}
 #e-3 ::x:: \\ensuremath{e^{-3}}
-#e/A ::x::\\ensuremath{e^{-}/\\AA}
+e/A ::x::\\ensuremath{e^{-}/\\AA}
 #\b Uij \b ::x::\\ensuremath{U_{IJ}}
 #Uiso ::x::\\ensuremath{U_{iso}}
 
