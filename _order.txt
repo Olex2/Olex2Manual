@@ -16,7 +16,7 @@
 #wR2 ::x:: \\ensuremath{wR_2}
 #R1 ::x:: \\ensuremath{R1}
 #e-3 ::x:: \\ensuremath{e^{-3}}
-#e/A ::x::\\ensuremath{e^{-}/\\AA}
+e/A ::x::\\ensuremath{e^{-}/\\AA}
 #\b Uij \b ::x::\\ensuremath{U_{IJ}}
 #Uiso ::x::\\ensuremath{U_{iso}}
 
@@ -36,7 +36,7 @@
 #\b ShelXL \b ::x:: \\textbf{\\textit{ShelXL}}
 #\b ShelXS \b ::x:: \\textbf{\\textit{ShelXS}}
 #\b ShelXD \b ::x:: \\textbf{\\textit{ShelXD}}
-#\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
+\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
 #\b Olex2 \b ::x:: \\textbf{\\textit{Olex2}}
 #\b Superflip \b ::x:: \\textbf{\\textit{Superflip}}
 #\b Platon \b::x:: \\textbf{\\textit{Platon}}
@@ -50,7 +50,7 @@
 #\b P\-1 \b ::x:: \\ensuremath{P \\bar{1}}
 #\b P1 \b ::x:: \\ensuremath{P1}
 #\$\$ ::x:: \$
-#pi-pi ::x:: \\textpi-\\textpi
+pi-pi ::x:: \\textpi-\\textpi
 #\£ (.*?) \£ ::x:: \\greentt{\1}
 #`@.*?(\-).*?`/g ::xx:: " "
 
@@ -76,4 +76,4 @@ Disorder
 CifImagesAndReports
 Glossary
 Appendices
-#CommandsManual
+CommandsManual

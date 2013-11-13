@@ -1,5 +1,9 @@
 \chapter{Glossary}
 
+This is a collection of terms that require some form of definition. Neither the list or the definitions provided here are complete; please refer to the various excellent sources of information that are available on the internet for more information.
+
+TWOCOLUMNS
+
 **Anisotropic displacement parameters,  *ADP* or $U_{ij}$**:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
 
 **Asymmetric unit**: The smallest fraction of the crystal structure which by application of the symmetry elements can be used to define the contents of a unit cell.
@@ -7,7 +11,9 @@
 **BASF**: this is a twin scale factor which is refined for a twinned structure to determine the fraction of each component that is present.
 
 **Bragg's Law**: fundamental in crystallography. This gives the conditions under which diffraction will occur and thus diffracted beams will be observed. Essentially it defines the conditions for waves to combine constructively and thus give intensity. To observe diffraction, there must be an integer number of wavelengths between diffracted X-rays from parallel planes ($n\lambda$).
+
 ${2d sin\theta = n\lambda}$
+
 $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the order of the reflection, $\lambda$: wavelength
 
 **CIF**: Crystallographic Information File, contains all of the important information on the crystal, experimental parameters, refinement indicators, atomic parameters and geometric information on the structure. These are essential for publication and care should be taken to ensure that all of the information is correct and as much as possible supplied.
@@ -22,20 +28,20 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **$F$**: the structure factors has a phase and amplitude associated with it.
 
-**Flack $x$**: applicable to non-centrosymmetric structures the Flack parameter can indicate whether the absolute structure is correct. The parameter is calculated with and esd which should be examined to assess whether the analysis is meaningful. A value of 1 with a small esd indicates that the absolute structure should be inverted, while 0 with a small esd suggest that the absolute structure is correct. A value of 0.5 may suggest that a centre of symmetry has been missed, while values in between 0 and 1 could indicate the presence of racemic twinning.
+**Flack \thinspace $x$**: applicable to non-centrosymmetric structures the Flack parameter can indicate whether the absolute structure is correct. The parameter is calculated with and esd which should be examined to assess whether the analysis is meaningful. A value of 1 with a small esd indicates that the absolute structure should be inverted, while 0 with a small esd suggest that the absolute structure is correct. A value of 0.5 may suggest that a centre of symmetry has been missed, while values in between 0 and 1 could indicate the presence of racemic twinning.
 
-**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). -21.000 means 1 -   (1 x free variable 2) in other words the occupancy of the two parts adds to 1.
+**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). --21.000 means $1 - (1 x free variable 2)$ in other words the occupancy of the two parts adds to 1.
 
 **GooF**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
 
-$GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))1/2$
+$GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2}$
 
 $w$: weight, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor, $n$: number of reflections, $p$: total number of parameters
 
-**Hooft y**: An alternative to the Flack parameter, uses an analysis of Bijvoet-pairs to determine the absolute structure of a compound (R. W. W. Hooft, L. H. Straver, A. L. Spek (2008) J. Appl. Cryst., 41, 96-103).
+**Hooft \thinspace $y$**: An alternative to the Flack parameter, uses an analysis of Bijvoet-pairs to determine the absolute structure of a compound (R. W. W. Hooft, L. H. Straver, A. L. Spek (2008) *J. Appl. Cryst.*, **41**, 96-103).
 $I(F^{2})$: the measured intensity of a reflection.
 
-**_.ins_ file**: The .ins file is the instruction file which initially contain information on the radiation used, cell parameters (and esd), structure factor cards relating to the specific atom types, the number of each atom type, the space group (in the form of LATT and SYMM cards) and the format of the .hkl file. At the end of a structure solution and refinement the .ins file will contain information about your atom positions, their thermal parameters and any restraints/constraints that have been used.
+**_.ins_ file**: The .ins file is the instruction file which initially contain information on the radiation used, cell parameters (and esd), structure factor cards relating to the specific atom types, the number of each atom type, the space group (in the form of LATT and SYMM instructions) and the format of the .hkl file. At the end of a structure solution and refinement the .ins file will contain information about your atom positions, their thermal parameters and any restraints/constraints that have been used.
 
 **Isotropic displacement parameters ($U_{iso}$)**: one parameter is used to define a sphere to represent the average thermal motion of an atom.
 
@@ -59,9 +65,9 @@ $R1 = S| |F_{obs}| - |F_{calc}| | / S |F_{obs}|$
 
 $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
-**.res file**: The .res file contains essentially all of the information in the .ins but after the last refinement cycle so some instructions that have been implemented may no longer be present e.g. AFIX or ANIS. There will also be information on the highest residual peaks.
+**_.res_ file**: The .res file contains essentially all of the information in the .ins but after the last refinement cycle so some instructions that have been implemented may no longer be present e.g. AFIX or ANIS. There will also be information on the highest residual peaks.
 
-**R_{int}** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+**$R_{int}$** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
 $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
@@ -73,12 +79,14 @@ $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
 **$U_{iso}$**: see isotropic displacement parameters
 
-**Unit Cell**: represents the fraction of the crystal structure which repeats by translation. The unit cell parameters consists of 3 unit cell axes (a, b and c) and 3 unit cell angles ($\alpha$, $\beta$ and $\gamma$) which define a parallelepiped. There are multiple unit cell choices available and conventions exist for selecting a unit cell, the smallest choice is the reduced cell but for various reasons a slightly larger cell may be selected. The unit cell will be one of the 7 crystal systems and 14 Bravais lattices.
+**Unit Cell**: represents the fraction of the crystal structure which repeats by translation. The unit cell parameters consists of 3 unit cell axes (a, b and c) and 3 unit cell angles (alpha, beta and gamma) which define a parallelepiped. There are multiple unit cell choices available and conventions exist for selecting a unit cell, the smallest choice is the reduced cell but for various reasons a slightly larger cell may be selected. The unit cell will be one of the 7 crystal systems and 14 Bravais lattices.
 
 **wR2**: a standard measure of the quality of the agreement between Fo and Fc. A very large wR2 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-wR2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]$
+$wR_2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]$
 
 $w$: weighting scheme, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor)
 
-**Z and Z'**: Z is the number of formula units in the unit cell, Z' is the number of formula units in the asymmetric unit.
+**Z** and **Z'**: Z is the number of formula units in the unit cell, Z' is the number of formula units in the asymmetric unit.
+
+NOCOLUMNS
