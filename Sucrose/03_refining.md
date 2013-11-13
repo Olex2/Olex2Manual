@@ -15,6 +15,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 
 4.	If there are peaks larger than ~3 units, then there are missing C or O atoms. Select these peaks and assign them to either C or O and refine again. Repeat this step until there are no more large Q-peaks left. 
 5.	At this point, you can hide all remaining Q-peaks: in `@Toolbox-Work` click on the hide Q icon I_Q (or use CTRL+Q) to hide them.
+
 6.	Rotate your structure and examine the size of the atom spheres, they should all be approximately the same size. If this is not the case some of your atoms have been incorrectly assigned. In this image, atoms 3 are correctly assigned atom types with similar sized spheres. Atom 1 is too light an atom type (should be heavier) and atom 2 is too heavy an atom type (should be lighter).
 
 	![Different Sized Atom Spheres](/images/different_sized_atom_spheres.png)
