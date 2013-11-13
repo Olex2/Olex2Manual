@@ -1,5 +1,5 @@
 #lstsymm
 
->A 
+>A lstsymm
 
->B Prints symmetry operations and their codes for current structure.
+>B Prints symmetry operations and their codes for the current structure.

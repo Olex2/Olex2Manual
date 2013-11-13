@@ -1,5 +1,5 @@
 #sort
->[m] [l] [p] [h] [z] [n] [s] atoms
+>A [m] [l] [p] [h] [z] [n] [s] atoms
 [s] [h] [m] moiety
 
 >B The sorting of atoms in the atom list is very powerful, but also quite complex.

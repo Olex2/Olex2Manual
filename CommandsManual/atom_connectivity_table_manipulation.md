@@ -15,3 +15,4 @@ TWOCOLUMNS
 NOCOLUMNS
 
 Olex2 will display the altered connectivity table in the case if structure is grown or packed.
+

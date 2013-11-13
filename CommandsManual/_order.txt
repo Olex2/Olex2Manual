@@ -1,7 +1,6 @@
 introduction.md
 understanding_the_syntax.md
 changing_the_model_view.md
-keyboard_shortcuts.md
 fixed_and_refined_parameters.md
 atom_connectivity_table_manipulation.md
 symmetry_operations.md

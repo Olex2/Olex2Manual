@@ -6,5 +6,5 @@
 ext {png, jpg, bmp}. png is best. 
 
 >C -pq: print quality
--nbg: removes the bacground from the picture (making it transparent with the alpha channel)
+-nbg: removes the background from the picture (making it transparent with the alpha channel)
 -dpi: physical resolution of the image

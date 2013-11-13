@@ -1,4 +1,4 @@
-#Fixed/Refined Parameters
+#Fixed and Refined Parameters
 
 TWOCOLUMNS
 
@@ -10,4 +10,4 @@ TWOCOLUMNS
 
 NOCOLUMNS
 
-labels -f show currently fixed atomic parameters, labels -f -r show labels for fixed atoms and also the number at which the occupancy of riding atoms is fixed
+`CODE labels -f` show currently fixed atomic parameters, `CODE labels -f -r` show labels for fixed atoms and also the number at which the occupancy of riding atoms is fixed
