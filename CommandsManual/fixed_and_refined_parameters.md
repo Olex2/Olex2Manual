@@ -10,4 +10,4 @@ TWOCOLUMNS
 
 NOCOLUMNS
 
-`CODE labels -f` show currently fixed atomic parameters, `CODE labels -f -r` show labels for fixed atoms and also the number at which the occupancy of riding atoms is fixed
+>OLEX2 `CODE labels -f` show currently fixed atomic parameters, `CODE labels -f -r` show labels for fixed atoms and also the number at which the occupancy of riding atoms is fixed
