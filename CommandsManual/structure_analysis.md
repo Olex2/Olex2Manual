@@ -1,6 +1,6 @@
-#Structure Analysis
-
 TWOCOLUMNS
+
+#Structure Analysis
 
 [INC ../commands/htab]
 [INC ../commands/pipi]

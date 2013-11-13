@@ -1,6 +1,6 @@
-#Changing the Model View
-
 TWOCOLUMNS
+
+#Changing the Model View
 
 [INC ../commands/matr]
 [INC ../commands/rota]

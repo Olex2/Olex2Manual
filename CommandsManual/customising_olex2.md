@@ -1,6 +1,6 @@
-#Customising Olex2
-
 TWOCOLUMNS
+
+#Customising Olex2
 
 [INC ../commands/setfont]
 [INC ../commands/editmaterial]

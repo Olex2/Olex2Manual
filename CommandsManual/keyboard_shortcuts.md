@@ -1,6 +1,6 @@
-#Keyboard Shortcuts
-
 TWOCOLUMNS
+
+#Keyboard Shortcuts
 
 [INC ../commands/conn]
 [INC ../commands/compaq]

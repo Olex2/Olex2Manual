@@ -1,6 +1,6 @@
-#Constraints and Restraints
-
 TWOCOLUMNS
+
+#Constraints and Restraints
 
 [INC ../commands/exyz]
 [INC ../commands/eadp]

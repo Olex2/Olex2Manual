@@ -21,7 +21,7 @@ The viewing direction can be saved and loaded using `CODE save view <name>` and 
 ## Displaying Basis Vectors and Cell Axes
 
 - **Show Basis**: Toggle to display/hide the basis vectors. Alternatively right click in the display window under **Model** is the option to Show / Hide Basis or type `CODE basis`. The basis vectors can be moved by dragging them with left mouse button while holding down Shift, and zoomed by dragging it with the right mouse button.
-- **Show Cell**: Toggle to display/hide the cell axes. Alternatively right click in the display window under **Model** is the option to Show / Hide Unit Cell or type `CODE cell`. The directions (a, b, c and origin) are also displayed. While holding Shift down, you can move these labels with the left mouse button.
+- **Show Cell**: Toggle to display/hide the cell axes. Alternatively right click in the display window under **Model** is the option to Show / Hide Unit Cell or type `CODE cell`. The directions (*a*, *b*, *c* and origin) are also displayed. While holding Shift down, you can move these labels with the left mouse button.
 
 ## Stereo View
-Various output options for Stereo viewing are available under`@View|Stereo-View`. Some of these produce stereo images on a standard monitor, but stereo output on dedicated 3-D monitors is also supported for either of the two commonly available systems
+Various output options for Stereo viewing are available under `@View|Stereo-View`. Some of these produce stereo images on a standard monitor, but stereo output on dedicated 3-D monitors is also supported for either of the two commonly available systems

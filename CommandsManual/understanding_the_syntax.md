@@ -1,11 +1,13 @@
-#Understanding the Syntax
 TWOCOLUMNS
+
+#Understanding the Syntax
+
 **Selection**: If one or more atoms are selected on the screen, then any command that acts on a selection will apply to the selected atoms only. If there is no selection, it will apply to all atoms. Instead of making a selection on the screen, a list of atom names can also be supplied. If a command has been successful, the selection will disappear. (Although there are a couple of exceptions to this rule).
 
 **Mode**: If Olex2 is in a Mode, the chosen action will be applied to all subsequently clicked atoms. The mouse pointer will change from the default arrow symbol to signify that Olex2 is in a mode. To get out of a mode, simply press the ESC key.
 Syntax used in this document:
 
-**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, Uiso} [atoms] means `fix occu [atoms]', `fix xyz [atoms]', `fix Uiso [atoms]'.
+**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, uiso} [atoms] means `fix occu [atoms]', `fix xyz [atoms]', `fix uiso [atoms]'.
 
 **[val=2]**: optional parameter. This parameter is not required for the command to work, and if it is not supplied, the default value will be used.
 

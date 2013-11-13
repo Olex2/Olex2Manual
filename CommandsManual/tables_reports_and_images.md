@@ -1,6 +1,6 @@
-#Tables, Reports and Images
-
 TWOCOLUMNS
+
+#Tables, Reports and Images
 
 [INC ../commands/pictps]
 [INC ../commands/pict]

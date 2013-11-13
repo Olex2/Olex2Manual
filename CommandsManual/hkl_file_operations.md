@@ -1,6 +1,6 @@
-#HKL file Operations
-
 TWOCOLUMNS
+
+#HKL file Operations
 
 [INC ../commands/hklstat]
 [INC ../commands/omit]
