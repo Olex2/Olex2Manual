@@ -1,6 +1,6 @@
-#Atom Connectivity Table Manipulation
-
 TWOCOLUMNS
+
+#Atom Connectivity Table Manipulation
 
 [INC ../commands/conn]
 [INC ../commands/compaq]

@@ -1,6 +1,6 @@
-#Fixed and Refined Parameters
-
 TWOCOLUMNS
+
+#Fixed and Refined Parameters
 
 [INC ../commands/fix]
 [INC ../commands/free]
