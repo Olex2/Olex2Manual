@@ -13,7 +13,7 @@ The Q-peaks are displayed as brown spheres, the transparency of which is related
 - Use the mouse wheel function
 - Under `@Info|Electron-Density-Peaks` or `@Work|Toolbox-Work|Peaks` the slider bar by **peaks** sets the number of peaks displayed on the screen. When the bar is at the centre, 100% of the peaks are displayed: sliding to the left hides the weakest peaks first while sliding to the right hides the strongest peaks first.
 - Under `@Work|Refine` change the number of residual peaks, click £Refine£ to re-calculate the number of peaks.
-- Type `CODE refine 4 5`, which will refine with four cycles of refinement and return 5 peaks.
+- Type `CODE refine 4 5`, which will refine with 4 cycles of refinement and return 5 peaks.
 
 When a large number of atoms have not been located, it is advisable to use a larger number of residual peaks. As the refinement proceeds reducing the number can make it easy to see where the highest peaks are located.
 
@@ -21,7 +21,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 
 - Select one or more Q-peaks and click on the desired atom type under `@Work|Toolbox-Work`.
 - Select the atom type first (with nothing selected) and then click on the Q-Peaks you wish to assign in turn.
-- Select one or more Q-peaks and right click on them, under Type select the desired atom type.
+- Select one or more Q-peaks and right click on them, under **Type** select the desired atom type.
 - Select one or more Q-peaks and then type `CODE name O` to make them into oxygen atoms. 
 
 ### Displaying Q-peak intensity labels
@@ -43,7 +43,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 
 - RIGHT CLICK on an atom (or select multiple atoms and right click on one). Under **Type**, select the desired atom type.
 - Select an atom or group of atoms, under `@Work|Toolbox-Work` click on the desired atom type.
-- Select atoms(s) and use the name command.
+- Select atoms(s) and use the name command, *e.g.* type `CODE name O` to make them into oxygen atoms.
 
 ### Selecting atoms or groups of atoms
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
