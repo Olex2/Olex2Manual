@@ -7,7 +7,7 @@ Olex2 can handle a number of data formats. There are three categories of data to
 
 >CRYST The *Crystallographic Information File* (**CIF**) \index(CIF) plays a special role once the structure solution has been completed -- it is the structure archival format. In theory it should contain all the information (experiment condition, sample information, references to the software and algorithms used in the process) available about a structure. All three of the above categories are combined into this one file.
 
-If you obtain a .cif file that was generated from \index{ShelXL-2013} ShelXL-2013, you will have the reflection (.hkl) data embedded in this file. If you load one of these .cif files into Olex2, you can start the structure refinement straight off -- it will automatically extract the reflections and the model data and place them into the appropriate files.
+If you obtain a .cif file that was generated from \index{ShelXL-2013} ShelXL-2013, you will have the reflection (*.hkl*) data embedded in this file. If you load one of these .cif files into Olex2, you can start the structure refinement straight off -- it will automatically extract the reflections and the model data and place them into the appropriate files.
 
 If you want to work with your structure (solve, build the model, refine) you need the diffraction data. Most commonly these are available in the form of a .hkl file.
 
