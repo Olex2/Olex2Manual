@@ -10,5 +10,5 @@ execout: material for the output text printed in the console of external program
 error: material for reporting errors in the console
 exception: material for reporting exception in the console
 This command can be used to edit properties of any objects printed by 'lstgo' macro. An example of that could be editing material of the console text:
-EditMaterial Console
+`CODE EditMaterial Console`
 Note that the object name is case sensitive.

@@ -4,4 +4,4 @@
 
 >B Choose the colour of the four corners of the graduated background. 
 
->C -p: a file name for the picture to be placed at the background 
+>C -p: a file name for the picture to be placed in the background
