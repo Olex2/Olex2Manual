@@ -75,5 +75,5 @@ Tasks
 Disorder
 CifImagesAndReports
 Glossary
-Appendices
 CommandsManual
+Appendices
