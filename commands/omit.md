@@ -8,7 +8,6 @@
 
 >B Inserts 'OMIT h k l' for all reflections with $|{F_{o}}^2 - {F_{c}}^2| > val$
 
-
 >A omit s 2theta
 
 >B Inserts `OMIT s 2theta' instruction in the ins file

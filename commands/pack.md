@@ -12,10 +12,6 @@
 
 >B Equivalent to 'pack from to from to from to', like 'pack 0 1' is expanded to 'pack 0 1 0 1 0 1'
 
->C
-
->D
-
 >A Cell
 
 >B Shows content of the unit cell. In conjunction with 'grow -w' allows the creation of views where all asymmetric units contributing to the unit cell are shown.

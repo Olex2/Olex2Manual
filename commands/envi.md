@@ -6,6 +6,3 @@
 
 >C -h: adds hydrogen atoms to the list
 -q: option adds Q-peaks to the list
-
-
->D 

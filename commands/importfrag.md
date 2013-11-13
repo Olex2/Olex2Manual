@@ -7,6 +7,3 @@
 >C -a: sets give AFIX to the imported molecule
 -d: generates DFIX for 1,2 and 1,3 distance for the imported molecule
 -p: sets given part to the imported molecule
-
-
->D 

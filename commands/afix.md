@@ -8,5 +8,3 @@ AFIX 66 1,2,3
 Note that there are no white spaces between the identification of the selected positions.
 
 >C -n: consider N-atoms as parts of rings
-
->D

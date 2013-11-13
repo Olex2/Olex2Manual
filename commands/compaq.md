@@ -8,5 +8,3 @@
 -c: similar to the default behaviour, but considers atom-to-atom distances and will move all atoms to the closest possible position to the largest fragment in the structure.
 -q: moves the electron density peaks close to the atoms.
 -m: disconnects metals, then does compaq -a and the reattaches the metals.
-
->D
