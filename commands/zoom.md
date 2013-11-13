@@ -1,4 +1,4 @@
-#mpln
+#zoom
 
 >A 
 

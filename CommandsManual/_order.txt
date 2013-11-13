@@ -1,3 +1,13 @@
 introduction.md
 understanding_the_syntax.md
 changing_the_model_view.md
+keyboard_shortcuts.md
+fixed_and_refined_parameters.md
+atom_connectivity_table_manipulation.md
+symmetry_operations.md
+constraints_and_restraints.md
+selection_syntax.md
+hkl_file_operations.md
+customising_olex2.md
+tables_reports_and_images.md
+structure_analysis.md
