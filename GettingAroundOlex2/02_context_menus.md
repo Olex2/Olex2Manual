@@ -1,5 +1,5 @@
 # Context Menus
-All items of the main graphics screen have context-sensitive (right-click) menus associated with them providing quick access to the options available for the selected object. Of course, many of these options are also available from either GUI or the command-line -- this is generally true for Olex2: there are often many ways to achieve the same result.
+All items of the main graphics screen have context-sensitive (right-click) menus associated with them providing quick access to the options available for the selected object. Of course, many of these options are also available from either the GUI or the command-line -- this is generally true for Olex2: there are often many ways to achieve the same result.
 We will not go through all the settings here, but invite you to explore this for yourself. The items should be self-explanatory and if they are not, we would like to hear from you!
 
 ## Right-Click on the Background

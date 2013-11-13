@@ -5,10 +5,10 @@ Olex2 uses its very own model internally. All the information regarding your mod
 For those people who cannot live without editing files (and also to safeguard against situations where the GUI might fail unexpectedly) we have provided the option to edit the Olex2 model using the ShelX syntax. In other words, Olex2 can export its current model in ShelX format in form of an .ins file for you to edit. While you edit this file you can not make any changes in the model using the graphical interface and once you save your edits, an updated Olex2 internal model will be created. As far as we know, all SHELX commands are fully supported by the Olex2 model.
 The ShelX .ins file consists of several parts:
 
-- !!!!At the beginning is the immutable information about the unit cell dimensions and the radiation used in the experiment.
+- At the beginning is the immutable information about the unit cell dimensions and the radiation used in the experiment.
 - This is then followed by information about the symmetry (LATT/SYMM, i.e. the current space group) and the atom types and numbers present in the asymmetric unit.
 - If there are constraints or restraints present, these will appear next. Note that some constraints can be very well hidden behind the FVAR instruction.
-- Finally, there is a list of all atoms (together with their coordinates and other information such as site occupancy).!!!!
+- Finally, there is a list of all atoms (together with their coordinates and other information such as site occupancy).
 
 If you want to examine a file-representation of the model, Olex2 offers the three options described below.
 
