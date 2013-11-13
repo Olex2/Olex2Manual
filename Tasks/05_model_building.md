@@ -12,7 +12,7 @@ The Q-peaks are displayed as brown spheres, the transparency of which is related
 
 - Use the mouse wheel function
 - Under `@Info|Electron-Density-Peaks` or `@Work|Toolbox-Work|Peaks` the slider bar by **peaks** sets the number of peaks displayed on the screen. When the bar is at the centre, 100% of the peaks are displayed: sliding to the left hides the weakest peaks first while sliding to the right hides the strongest peaks first.
-- Under `@Work|Refine` change the number of residual peaks, click £Refine£ to re-calculate the number of peaks.
+- Under `@Work|Refine` change the number of residual peaks, click @@Refine@@ to re-calculate the number of peaks.
 - Type `CODE refine 4 5`, which will refine with 4 cycles of refinement and return 5 peaks.
 
 When a large number of atoms have not been located, it is advisable to use a larger number of residual peaks. As the refinement proceeds reducing the number can make it easy to see where the highest peaks are located.
@@ -70,10 +70,10 @@ Olex2 offers several options for selecting atoms individually:
 
 ### Naming Atoms
 Olex2 offers a couple of useful features for naming, specifically; automatically adjusting hydrogen labelling if the parent atom name is changed and name matching for equivalent fragments if Z' > 1. These options are listed under `@Work|Naming`.
-To name atoms enter the **Start** number, change the **Suffix** and **Type** if needed. Click on £Name£, then use the left mouse button to click on the atoms in the required order, they will be labelled sequentially. Press ESC when finished.
+To name atoms enter the **Start** number, change the **Suffix** and **Type** if needed. Click on @@Name@@, then use the left mouse button to click on the atoms in the required order, they will be labelled sequentially. Press ESC when finished.
 
-- To restart from a number select the appropriate number and click on £Name£ again. A number can only be used once in association with a particular atom type, if one appears more than once the two atoms with the same name will be labelled in red.
-- **Automatic Hydrogen Naming** - if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click £Refine£ for changes to the hydrogen atom labels to take effect (or type `CODE FixHL` in the command-line).
+- To restart from a number select the appropriate number and click on @@Name@@ again. A number can only be used once in association with a particular atom type, if one appears more than once the two atoms with the same name will be labelled in red.
+- **Automatic Hydrogen Naming** - if ticked, the hydrogen atom labels will automatically update to reflect changes in the parent atom name. Click @@Refine@@ for changes to the hydrogen atom labels to take effect (or type `CODE FixHL` in the command-line).
 - **Equivalent Fragments (Z'>1)** - name matching for equivalent fragments. Select one atom from the correctly named fragment then one from the fragment to match the names. Add a **Suffix** letter and click on **Equivalent Fragments (Z' > 1)**. The second fragment will automatically be relabelled.
 
 As with many options, name matching for equivalent fragments can be done in the command-line. After selecting the atoms in order, type `CODE match sel -n=suffix`, where suffix is the number required. Without selecting atoms, sel can be replaced by the two atom names in order, separated by a space. Two alternative naming approaches can be achieved using the command-line only:
@@ -82,7 +82,7 @@ As with many options, name matching for equivalent fragments can be done in the 
 - to replace the last character type `CODE match sel -n=-suffix`. If no atoms are selected clicking on **Equivalent Fragments (Z'>1)** will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
 
 ## Sorting atoms in the .ins file
-The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking £Refine£. Click £Report£ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
+The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking @@Refine@@. Click @@Report@@ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
 
 ## Hydrogen Atoms
 

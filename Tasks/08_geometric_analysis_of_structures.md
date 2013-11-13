@@ -33,7 +33,7 @@ There are a variety of options to determine geometric parameters relating to the
 - Select two atoms, then under `@View|Geometry` click on either **Distance and Angles (of selection)** or **Distance and Angles with esd (of selection)** to obtain the distance with or without an esd (the latter always requires the use of `@View|Geometry` **Refine and save esd info** first.)
 - Right click over an atom, under BANG is a list of all bond lengths or distances to nearby Q-peaks.
 - Select one/two atoms and type `CODE bang` to see associated geometric parameters (you can also supply atom names).
-- Under `@Work` click on £Report£ to generate an html report containing the bond lengths in one of the tables.
+- Under `@Work` click on @@Report@@ to generate an html report containing the bond lengths in one of the tables.
 
 ### Measuring bond angles
 
@@ -49,7 +49,7 @@ There are a variety of options to determine geometric parameters relating to the
 - To tabulate the torsion angles:
 
     - Click on the pencil icon I_EDIT to open the .ins file header.
-    - Type `CODE CONF` on a separate line somewhere below the UNIT line and £Refine£.
+    - Type `CODE CONF` on a separate line somewhere below the UNIT line and @@Refine@@.
     - Select `@Work|Report` to generate an html report containing the bond lengths in one of the tables.
 
 ## Analysing Interactions

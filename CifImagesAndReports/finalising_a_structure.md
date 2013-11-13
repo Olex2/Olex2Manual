@@ -37,7 +37,7 @@ A CCDC number ready for a paper can be obtained by clicking on the link **CCDC N
 ## Updating the Chemical Composition
 This should be done upon completion of the structure refinement. If the currently assigned chemical composition is different to that displayed on the screen under `@Work|Toolbox Work` the atom types will not appear green. To update the chemical composition:
 
-- Under `@Work|Toolbox Work` click on I_OK. Click £Refine£ to update the formula.
+- Under `@Work|Toolbox Work` click on I_OK. Click @@Refine@@ to update the formula.
 - Under `@Work|Solve|Chemical Composition` simply enter the formula.
 
 ## Refinement Data Plots

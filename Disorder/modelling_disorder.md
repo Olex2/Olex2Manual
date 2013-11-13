@@ -6,7 +6,7 @@ Olex2 has a set of tools to help with the disorder modelling. These are located 
 ## Example Modelling Disorder
 The easiest way to illustrate how to model disorder is to work through an example. One of the sample structures supplied, THPP, contains disorder. This case is actually more complicated than most of the examples that will be encountered as by other analysis methods, two different closely related components were found to have crystallised together which is unusual. 
 
-1.	Select and open THPP. Either solve from the start or delete the disordered carbon atoms C7a and C7b - Olex2 will automatically delete associated hydrogen atoms. £Refine£ the structure, locate the largest Q-peak and name it a Carbon, £refine£ the structure anisotropically and add the hydrogen atoms. The structure should look like illustrated here. At this stage using olex2.refine you should have R1 ~0.04-0.05 (i.e. 4-5%), wR2 ~0.17-0.18 (17-18%), difference map max ~1.2 e $\AA^{-3}$, min ~-0.6 e $\AA^{-3}$ with no weights applied.
+1.	Select and open THPP. Either solve from the start or delete the disordered carbon atoms C7a and C7b - Olex2 will automatically delete associated hydrogen atoms. @@Refine@@ the structure, locate the largest Q-peak and name it a Carbon, @@refine@@ the structure anisotropically and add the hydrogen atoms. The structure should look like illustrated here. At this stage using olex2.refine you should have R1 ~0.04-0.05 (i.e. 4-5%), wR2 ~0.17-0.18 (17-18%), difference map max ~1.2 e $\AA^{-3}$, min ~-0.6 e $\AA^{-3}$ with no weights applied.
 
 	![This is how your model should look like after the first refinement](/images/disorder_01.png)
 
@@ -26,9 +26,9 @@ The easiest way to illustrate how to model disorder is to work through an exampl
 
 	>CRYST As general rule, to apply the newly added restraints/constraint, the structure has to be refined.
 
-7.	Olex2 will automatically have made the relevant atoms isotropic and you can now £Refine£. The refinement will find the occupancy of the atoms.
+7.	Olex2 will automatically have made the relevant atoms isotropic and you can now @@Refine@@. The refinement will find the occupancy of the atoms.
 8.	The structure should look sensible with two positions of the additional carbon displayed. Right click on either of the two atoms and the refined occupancy will be displayed, Part 1 ~0.83 (83%), Part 2 ~0.17 (17%). Select both carbon atoms, `@RIGHT-CLICK|Chemical-Occupancy|Fix`, which will fix the occupancies at the refined values.
-9.	Right click on the bond lengths and check that all of the bond lengths are chemically sensible (note the two components are different so there should be one aromatic and one ethyl C-C bond length). Click £Refine£.
+9.	Right click on the bond lengths and check that all of the bond lengths are chemically sensible (note the two components are different so there should be one aromatic and one ethyl C-C bond length). Click @@Refine@@.
 
 	>CRYST If the bond lengths were not similar, restraints may be required. Under'@Tools|Shelx Compatible Restraints` select DFIX enter the distance, d, and a standard deviation, s. If a group of atoms are being modelled, restraint may be required to make pairs of equivalent bonds have similar values. Select pairs of bonds and under `@Tools|Shelx-Compatible-Restraints` select SADI, changing the s to ~0.003 so that the pairs of bond lengths are restrained to be similar within a strong weight. Click **Go**. Although restraining the bond lengths may not always be necessary, in reality it often is, particularly when the occupancy of the second part is relatively small. In this case EADP will be maintained but may not always be necessary.
 

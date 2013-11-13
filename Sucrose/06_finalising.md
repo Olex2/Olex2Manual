@@ -14,7 +14,7 @@ Your structure is now finished and completed from the refinement point of view. 
 	>CRYST A number should only be used once in association with a particular atom type. If one appears more than once, the two atoms with the same name will be labelled in red. 
 
 	By default, hydrogen atoms automatically take their name from the atom to which they are attached, if `@Work|Naming|Automatic-Hydrogen-Naming` is ticked, any changes to atom labels are reflected in changes to the attached hydrogen atoms (changes take place after the refinement). If not, the hydrogen atoms may need relabeling separately, use `CODE FixHL` to give you a good start -- this will rename H-atoms to fit a commonly acceptable scheme.
-6.	Sort the atoms in the *.ins* file. Go to `@Work|Sorting`, which is one of the header options further down the GUI panel. Click on Mass & Label. Click on £Refine£ to update the model files.
+6.	Sort the atoms in the *.ins* file. Go to `@Work|Sorting`, which is one of the header options further down the GUI panel. Click on Mass & Label. Click on @@Refine@@ to update the model files.
 7.	Identify and tabulate intermolecular interactions if present. 
 8.	Generate a CIF and report for publication, and validate the CIF. 
 9.	Produce relevant Figures.

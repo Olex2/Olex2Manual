@@ -3,7 +3,7 @@
 1.	Click on the `@Work` tab in the GUI panel. Like all active GUI elements, it will change colour and become orange. 
 2.	Click on the arrow next to the `@Solve` button so that it is turns orange and points upwards. The *structure solution* \index{structure solution} options are displayed.
 3.	Select a **solution program** from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other programs in the list, if they are present on your machine.
-4.	Click £Solve£ (or type `CODE solve`) and Olex2 will attempt to solve the structure. Once the structure is solved, *electron density peaks* \index{electron density peaks} (*Q-Peaks* \index{Q-peaks}) are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, artificial peaks.
+4.	Click @@Solve@@ (or type `CODE solve`) and Olex2 will attempt to solve the structure. Once the structure is solved, *electron density peaks* \index{electron density peaks} (*Q-Peaks* \index{Q-peaks}) are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, artificial peaks.
 
 	![Sucrose Peaks](/images/sucrose_peaks.png)
 

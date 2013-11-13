@@ -81,4 +81,4 @@ To convert the structure to P-1 the following procedure can be followed:
 
 > The structure may contain additional atoms if some symmetry-equivalent atoms were not perfectly related by an inversion centre, these redundant atoms need to be eliminated either manually or using the fuse command. The optimised positions will be obtained during subsequent refinement.
 
-10.	£Refine£ the structure and assuming that there are no problems continue finishing the refinement of the structure.
+10.	@@Refine@@ the structure and assuming that there are no problems continue finishing the refinement of the structure.
