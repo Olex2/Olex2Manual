@@ -3,7 +3,7 @@ As previously mentioned, Olex2 offers the opportunity to use a command-line appr
 Frequently used command-line options
 
 ------  ----------------------------------------------------------------
-refine	Refines the structure. The number of cycles and peaks can be set e.g. `CODE refine 4 5` will ask for four cycles and return 5 peaks.
+refine	Refines the structure. The number of cycles and peaks can be set e.g. `CODE refine 4 5` will ask for 4 cycles and return 5 peaks.
 
 name	Change the atom types of the selected atoms
 
@@ -15,7 +15,7 @@ grow	Generate all missing symmetry equivalent atoms
 
 reap	Open a new structure
 
-lines #	Change the number of lines of text shown in the main graphics window. `CODE lines -1` will show all lines.
+lines #	Change the number of lines of text shown in the main graphics window to #. where # is a number. `CODE lines -1` will show all lines.
 ------  ----------------------------------------------------------------
 
 The command-line is an enormously powerful tool in Olex2. There are only a few commands that are frequently used, but they are used again and again and it is well worth your time to get to know these.
