@@ -14,9 +14,11 @@
 	>OLEX2 The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 ... etc. having less relative intensity. Select **Toggle On/Off** from the drop-down menu in `@Work|Toolbox-Work|Labels` (or press F3). At this stage it is normally more useful to see their relative intensities.
 
 6.	Still in the `@Toolbox-Work` click on the Q icon I_Q to toggle between *Q-peaks*, *Q-peaks with bonds* and *No Q-peaks* (Or press CTRL+Q repeatedly). Some of the Q-peaks may not represent real atoms at this stage so do not worry if there are unexpected bonds.
+	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
+
 7.	The `structure' can be rotated by holding down the LEFT MOUSE button in the background of the main screen and moving the mouse.
 
-	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
+
 
 8.	The next stage is to assign atom types \index{assiging atoms types} to the Q-peaks. Use the LEFT MOUSE button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
 
