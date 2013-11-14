@@ -81,7 +81,7 @@ Create the required planes and select them. In `@View|Geometry`, once again clic
 - The .lst file will contain information on each plane plus the angle between adjacent planes in the list.
 
 ## Growing Structures
-Olex2 offers a lot of flexibility over the manner in which structures are grown. The majority of these options are found under `@View|Symmetry-Generation|Growing` under which there are three options: Grow, Mode Grow and Assemble.
+Olex2 offers a lot of flexibility over the manner in which structures are grown. The majority of these options are found under `@View|Symmetry-Generation|Growing` under which there are three options: **Grow**, **Mode Grow** and **Assemble**.
 
 When completing structures where Z' is not an integer (most commonly Z'=1/2)in **Grow** mode:
 - Selecting **Grow All** will display all symmetry equivalent atoms/fragments to display the complete structure. (This is the same as `@View|Symmetry-Generation|Grow-All`).
@@ -99,7 +99,7 @@ These options are similar to grow, but the commands are only executed after you 
 - **VdW**: Contacts within the Van der Waals radii of the atoms will show growable `bonds'. Alternatively type `CODE mode grow -v number` where `number' represents a user specified distance away from atoms. 
 - Relocating atoms in the ASU - it may be desirable to select different atoms to form the asymmetric unit. To do this select **Move** and click on an alternative location. 
 - Atom by atom structures can be grown by selecting **Shells**.  
-> In order to grow all of the displayed, clickable, growing options in growing modes, type `CODE grow -b`.
+>OLEX2 In order to grow all of the displayed, clickable, growing options in growing modes, type `CODE grow -b`.
 
 ### Reassembling structures
 This tool does not strictly belong to the `growing' family of tools, but it is frequently used together with the growing tools as it allows you to rearrange the asymmetric unit contents into a different configuration. There are various options under `@View|Symmetry-Generation|Growing|Assemble`:
@@ -119,7 +119,7 @@ Olex2 offers a range of options for packing structures in different ways in orde
 - Adjusting the slider bar under **Expand Short Contacts (Hydrogen Bonds)** allows short contacts or hydrogen bonding interactions to be displayed. Click on a grow-able link in order to grow a structure. Press ESC to exit this mode.
 - Packing within a defined distance:
     - Can be achieved by moving the slider bar below **Pack Radius** to display all molecules within a certain distance. Complete fragments are displayed.
-    - In order to pack in relation to the unit cell axes, adjust the limits on a, b and c and click on **Pack to limits**. 
+    - In order to pack in relation to the unit cell axes, adjust the limits on *a*, *b* and *c* and click on **Pack to limits**. 
     - To display the unit cell contents, click on **Fill Unit Cell**. This will display all atoms within the unit cell. 
     - To complete fragments click on **Complete Fragments**.
 
@@ -130,4 +130,4 @@ Under `@Tools|Chemical-Tools` you will find these useful general tools:
 - **Molecular Isotope Pattern** simulates a molecular isotope pattern for your structure
 - **Molecular Volume** - calculates the molecular surface area and molecular volume of the current model.
 - **Volume of Polyhedron around Selected Atom** calculates the sum of the angles of the selected atom and the tetrahedron volume. This does not apply to terminal atoms.
-- Bounding Box. Right-click on it and then select Hide to delete it.
+- **Bounding Box** Right-click on it and then select Hide to delete it.
