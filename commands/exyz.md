@@ -1,6 +1,6 @@
 #exyz
 
->A atom types (to add for the selected atom)[-EADP][-lo]
+>A atom types (to add for the selected atom) [-EADP] [-lo]
 
 >B Makes the selected site be shared by atoms of different types.
 

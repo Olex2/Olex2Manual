@@ -5,7 +5,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 ##Initial Atom Type Assignement
 
 1.	Under the `@Work` tab click on the arrow next to the @@Refine@@ button so that it is pointing upwards and highlighted orange meaning. The refinement options are now displayed. 
-2.	Click on the @@Refine@@ button and Olex2 will refine your structure. Alternatively, you can type **`CODE refine`** or press CTRL+R.
+2.	Click on the @@Refine@@ button and Olex2 will refine your structure. Alternatively, you can type `@ CODE refine` or press CTRL+R.
 
 	>CRYST During a *refinement* \index{refinement} Olex2 is calculating *structure factors* based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
 
@@ -43,7 +43,7 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 ## Add Hydrogen Atoms
 
-1.	The next stage is to add hydrogen atoms \index{add hydrogen atoms} to your structure. In `@Toolbox-Work` click on @@Add H@@ in the top right hand corner (or type **`CODE hadd`**). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
+1.	The next stage is to add hydrogen atoms \index{add hydrogen atoms} to your structure. In `@Toolbox-Work` click on @@Add H@@ in the top right hand corner (or type `@ CODE hadd`). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
 
 	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX for more details on this.
 
@@ -60,16 +60,16 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 	![Incorrectly Positioned Hydrogen](/images/Incorrectly_positioned_hydrogen.png)
 
-6.	To optimise the hydrogen atom positions there are two options: multiple refinement cycles using the @@Refine@@ button may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position). Alternatively, select a hydrogen atom and then in `@Toolbox-Work` choose @@Fit@@ option from the @@Select group or atom(s)and then...@@ tool. Once in **Fit** mode, holding the SHIFT key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atoms needs to be relocated.
+6.	To optimise the hydrogen atom positions there are two options: multiple refinement cycles using the @@Refine@@ button may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position). Alternatively, select a hydrogen atom and then in `@Toolbox-Work` choose @@Fit@@ option from the @@Select group or atom(s)and then...@@ tool. Once in @@Fit@@ mode, holding the SHIFT key down and left mouse button whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atoms needs to be relocated.
 
-	>OLEX2 When in the **Fit** mode it is possible to rotate the structure to see if the relocated hydrogen atom is now on the Q-peak. Remove your finger from the mouse and SHIFT key, hold the LEFT MOUSE button down and move the mouse.
+	>OLEX2 When in the @@Fit@@ mode it is possible to rotate the structure to see if the relocated hydrogen atom is now on the Q-peak. Remove your finger from the mouse and SHIFT key, hold the LEFT MOUSE button down and move the mouse.
 
 7.	@@Refine@@ the structure.
 
 	>CRYST The refinement engine will automatically adjust the position to maintain the appropriate geometric constraints dictated by the AFIX instruction.
 
 8.	Rotate the structure and examine the hydrogen positions to make sure that the structure looks sensible. If required, repeat adjustments to the hydrogen atom positions. 
-9.	It is now necessary to adjust the weighting scheme. Under the refinement options, there is a **Weight** option. Tick the box next to **Auto Update Weights**. Click @@Refine@@ and repeat until the weights are no longer changing.
+9.	Adjust the weighting scheme. Under the refinement options, there is a @@Weight@@ option. Tick the box next to @@Auto Update Weights@@. Click @@Refine@@ and repeat until the weights are no longer changing.
 10.	The structure is now solved and refined.
 
 At this stage R1 will be between 4-5%, wR2 around 10% and the largest Q peak will be about 0.3.

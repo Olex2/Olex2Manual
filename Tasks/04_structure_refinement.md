@@ -10,7 +10,7 @@ The most common refinement options can be set under `@Work|Refine`. Listed here 
 ### Max. Refinement Cycles
 Sets the number of refinement cycles. ShelXL refines up to the maximum number of cycles, regardless if the refinement has settled or not. Olex2.refine will stop earlier if the refinement has converged.
 Early on in the refinement, when you know that your structure is far from correct, a few cycles of refinement is about right. If you ask for more cycles, you are not only wasting your time, but you are asking the program to find the minimum of something that you know is wrong. This can lead to unwanted and sometimes confusing shifts in your model.
-A larger number of cycles can be useful towards the end of a refinement to ensure the **Max Shift** label I_MAXSHIFT reads 0.000 i.e. the refinement has converged. Click on the label to view the atom where the largest shift occurs. For a large structure early on in the refinement, this may slow the refinement. If the residual shift does not approach 0, there is something wrong with the model and you must figure out what that is before you can finalise the structure.
+A larger number of cycles can be useful towards the end of a refinement to ensure the @@Max Shift@@ label I_MAXSHIFT reads 0.000 i.e. the refinement has converged. Click on the label to view the atom where the largest shift occurs. For a large structure early on in the refinement, this may slow the refinement. If the residual shift does not approach 0, there is something wrong with the model and you must figure out what that is before you can finalise the structure.
 
 ### Max. Refinement Peaks
 Changing the number of Q-peaks displayed. A larger number of residual peaks may be useful earlier on during a refinement when a structure is incomplete in order to see new fragments more easily. As the refinement proceeds and most (or all) of the atoms are located you do not need so many Q-Peaks and can switch them off.
@@ -43,19 +43,19 @@ The list file (in the case of running ShelX programs) can be viewed by typing `C
 A summary of the key refinement parameters that are particularly useful to monitor the progress of the refinement are available under `@Info|Refinement-Indicators`. There is also as summary about your data is under `@Info|Reflection-Statistics-Summary`.
 
 - The statistics are colour-coded to provide a quick method to monitor a refinement, such that red=bad, dark=ok. 
-- R1, wR2, GooF: Standard algorithms for measuring the quality of the agreement between Fo and Fc. When someone asks "What was the R-factor of your structure?", they are asking for R1 (R1 for reflections filtered by $F_{obs} > 4\sigma(F_{obs})$). A very large R-value suggests an incorrect solution and therefore a need to try more rigorous structure solution routines. The GooF (Goodness of Fit) value should converge to 1.0 at the end of the refinement.
-- Highest peak/Deepest hole: Values indicate residual electron density peaks and holes in units of $e^{-}/\AA^{3}$. The closer to 0, the better. 
-- Refs (total): the number of reflections read from the hkl file.
-- Refs (uni) is the number of unique reflections, after merging equivalent reflections and rejecting systematic absence violations. 
-- Refs (Fo> 4sig(Fo)): cutoff for defining observed data.
-- Rint: measure of equivalence of symmetry equivalent reflections. Lower the Rint: is better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
-- R (sigma): measure of the precision of the resulting mean intensities. Large values indicate that the data is very weak and/or data were incorrectly processed.
-- F000: This is the scattering factor (F) for the hkl = 000 reflection. The value is equal to the number of electrons in the unit cell.
+- **R1**, **wR2**, **GooF**: Standard algorithms for measuring the quality of the agreement between Fo and Fc. When someone asks "What was the R-factor of your structure?", they are asking for R1 (R1 for reflections filtered by $F_{obs} > 4\sigma(F_{obs})$). A very large R-value suggests an incorrect solution and therefore a need to try more rigorous structure solution routines. The GooF (Goodness of Fit) value should converge to 1.0 at the end of the refinement.
+- Highest peak/Deepest hole: Values indicate residual electron density peaks and holes in units of e/A. The closer to 0, the better. 
+- **Refs (total)**: the number of reflections read from the hkl file.
+- **Refs (uni)** is the number of unique reflections, after merging equivalent reflections and rejecting systematic absence violations. 
+- **Refs ($Fo> 4\sigma(F_o)$)**: cutoff for defining observed data.
+- **Rint**: measure of equivalence of symmetry equivalent reflections. Lower the Rint: is better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+- **R** (sigma): measure of the precision of the resulting mean intensities. Large values indicate that the data is very weak and/or data were incorrectly processed.
+- **$F000$**: This is the scattering factor ($F$) for the `hkl = 000` reflection. The value is equal to the number of electrons in the unit cell.
 
 ## Omitting Reflections
 Poorly fitting reflections are listed under `@Info|Bad-Reflections`. Those measured reflections that differ most from the equivalent calculated reflections are listed. If your data reduction step was carried out correctly, there should be none that are significant.
 
-- To omit a reflection click on **omit** to the right of the reflection or type a specific hkl under **Exclude**.
+- To omit a reflection click on @@omit@@ to the right of the reflection or type a specific hkl under @@Exclude@@.
 - **Edit Reflections**. This displays the worst-fitting reflections, showing each equivalent occurrence of that reflection separately. You can omit only the offending separate reflections and do not need to throw the whole reflection out. In fact, Olex2 simply moves the flagged reflections to the end of the file (after the `0 0 0` line, indicating to the refinement program that these should be ignored.
 - To omit a specific reflection manually, type `CODE OMIT h k l`.
 - Use `CODE OMIT ##`, where ## is the minimum value of the $|(F_{calc}^{2}-F_{obs}^{2})/esd$ to omit all reflections where the value is above the threshold.

@@ -1,6 +1,6 @@
 #sump
 
->A [val=1] [esd=0.01][part=new_part] [occupancy] [atoms] [-p=1]
+>A [val=1] [esd=0.01] [part=new_part] [occupancy] [atoms] [-p=1]
 
 >B Creates a new linear equation. If any of the selected atoms has refinable or fixed occupancy, a new variable is added with value 1/(number of given atoms), otherwise already used variable is used with weight of 1.0. Also look at part command.
 

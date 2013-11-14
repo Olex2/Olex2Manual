@@ -12,7 +12,7 @@ During a refinement there are a number of checks that should be made after each 
 
     - Hover over a bond and the bond length will be displayed. Left click on the bond to select it. 
 
-    - Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle. Then go to the `@View` tab, under the `@Geometry` header tab click on **Distance and Angles (of selection)**.
+    - Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle. Then go to the `@View` tab, under the `@Geometry` header tab click on @@Distance and Angles (of selection)@@.
 
     - Select all bond that you are interested in, then type `CODE labels`. This will display the bond distances as labels on the bonds. You can also type `CODE sel -l` to print a list of the distances or `CODE sel -l -c` to then place this list on the clipboard, which you can then paste elsewhere.
 
@@ -34,7 +34,7 @@ Check that the *Max Shift* is very close to 0 in the top panel, if it is not, th
 *R1* and *wR2* should be as small as possible. *wR2* is always larger than *R1* due to the way it is calculated. The expected values depend both on the type of structure that is being solved and the quality of the data e.g. for a molecular organic compound an *R1* ~ 5--7% and *wR2* ~ 10--15% is reasonable. If heavy elements are involved, the final R-factors will be considerably lower. This is because a larger proportion of the electrons in the molecule are in the metal, and we can typically pinpoint the position of these very accurately. Associated with wR2 (and also the weighting scheme) is the Goodness of Fit (GooF) parameter, which should be close to 1. If it deviates a lot (say, larger than 1.2 or smaller than 0.8), there is a problem.
 
 #### The Highest Peak and Deepest Hole
-The *Highest Electron Density Peak* and *Deepest Electron Density Hole* should be small and approximately equal for a molecular organic compound ~0.5 e/A. If the structure contains a heavy atom e.g. a transition metal, Cl or Br, slightly larger peaks might be expected particularly in the vicinity of the heavy element. You can click on the Q-peak and type **`CODE envi`**, or right-click on it and then choose **BANG** (which stands for **B**onds **ANG**gles) to calculate the distance of any suspect residual peak to the heavy element.
+The *Highest Electron Density Peak* and *Deepest Electron Density Hole* should be small and approximately equal for a molecular organic compound ~0.5 e/A. If the structure contains a heavy atom e.g. a transition metal, Cl or Br, slightly larger peaks might be expected particularly in the vicinity of the heavy element. You can click on the Q-peak and type `@CODE envi`, or right-click on it and then choose @@BANG@@ (which stands for **B**onds **ANG**gles) to calculate the distance of any suspect residual peak to the heavy element.
 
 #### Data/Parameter Ratio
 This one is a tricky one because there really is not much you can do to fix it if this should become a problem. The ratio of the number of reflections (observed parameters) to refinement variables (model parameters) should be no less than 8 to 1. If enough data have not been recorded, e.g. a very weakly diffracting crystal, very small sample or high pressure data -- it may be necessary to reduce the number of refinement parameters using constraints.

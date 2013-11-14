@@ -1,6 +1,6 @@
 #calcfourier
 
->A {-calc,- diff, -obs, -tomc}[-r=0.25 \\A][-i][-scale=simple][-fcf]
+>A {-calc,- diff, -obs, -tomc} [-r=0.25 ANGST] [-i] [-scale=simple] [-fcf]
 
 >B Calculates Fourier for current model.
 

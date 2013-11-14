@@ -1,6 +1,6 @@
 #match
 
->A [atoms][-a][-w][-i][-n][-u][-esd][-h][-cm][-o]
+>A [atoms] [-a] [-w] [-i] [-n] [-u] [-esd] [-h] [-cm] [-o]
 
 >B This procedure find relation between the connectivity graphs of molecular fragments of loaded structure and aligns the fragments. If no arguments are given, the procedure analyses all fragments and in the case fragments with matching connectivity found, aligns Acta A45 (1989), 208  them and prints corresponding root mean square distance (RMSD) in angstroms. If two atoms are provided (explicitly by name or through the selection) the graph relation information - orientation matrix and the matching atoms is printed, use -a option to align the fragments.
 

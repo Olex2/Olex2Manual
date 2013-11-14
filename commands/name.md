@@ -1,5 +1,5 @@
 #name
->A [selection/atom names][-c][-s=]
+>A [selection/atom names] [-c] [-s=]
 
 >B The command allows changing the atom names.
 
