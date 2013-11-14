@@ -48,7 +48,7 @@ A summary of the key refinement parameters that are particularly useful to monit
 - Refs (total): the number of reflections read from the hkl file.
 - Refs (uni) is the number of unique reflections, after merging equivalent reflections and rejecting systematic absence violations. 
 - Refs (Fo> 4sig(Fo)): cutoff for defining `observed data'.
-- R_{int}: measure of `equivalence' of symmetry equivalent reflections. Lower the R_{int}: is better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+- Rint: measure of `equivalence' of symmetry equivalent reflections. Lower the Rint: is better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 - R (sigma): measure of the precision of the resulting mean intensities. Large values indicate that the data is very weak and/or data were incorrectly processed.
 - F000: This is the scattering factor (F) for the hkl = 000 reflection. The value is equal to the number of electrons in the unit cell.
 
