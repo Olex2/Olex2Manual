@@ -48,7 +48,7 @@ When a large number of atoms have not been located, it is advisable to use a lar
 ### Selecting atoms or groups of atoms
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
 
-- Selected atoms turn `green'
+- Selected atoms turn green
 - Add to the current selection by clicking atoms
 - Take atoms out of a selection by clicking on them again
 - Double-click on a whole molecule to select it
@@ -100,7 +100,7 @@ Hydrogen atoms can be added in a number of different ways within Olex2 either by
 #### Using AFIX/HFIX instructions: 
 Automatic hydrogen atom positioning - Under `@Work|Toolbox-Work` is the **Add H** option after which Olex2 automatically locates and positions the hydrogen atoms and carries out some refinement cycles. 
 
-- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH. If there appears to be Q-peaks that would be better positions for the hydrogen atoms, it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select-Group-or-atom(s)` and then **Split** or **Move** with SHIFT KEY to optimise the relevant positions.
+- It is necessary to check whether the hydrogen atoms are in sensible positions, particularly for less well defined terminal groups such as -CH3 or -OH. If there appears to be Q-peaks that would be better positions for the hydrogen atoms, it may be necessary to carry out multiple refinement cycles or use `@Work|Toolbox-Work|Select-Group-or-atom(s)` and then @@Split@@ or @@Move@@ with SHIFT KEY to optimise the relevant positions.
 - If you would like to manually add hydrogen atoms - under `@Tools|Hydrogen-Atoms` there are various options provided for adding hydrogen atoms:
 
 The icons illustrate some commonly used hydrogen types, click on one to enter that mode (the HFIX instruction type will be displayed in the orange mode bar) then click on the atoms you wish to apply the HFIX to. It is possible to switch between modes by clicking on another icon. Press ESC to exit the mode.

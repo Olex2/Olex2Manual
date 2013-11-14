@@ -7,7 +7,7 @@ TWOCOLUMNS
 **Mode**: If Olex2 is in a Mode, the chosen action will be applied to all subsequently clicked atoms. The mouse pointer will change from the default arrow symbol to signify that Olex2 is in a mode. To get out of a mode, simply press the ESC key.
 Syntax used in this document:
 
-**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, uiso} [atoms] means `fix occu [atoms]', `fix xyz [atoms]', `fix uiso [atoms]'.
+**{a, b, c}**: choice of a, b or c. For example: fix {occu, xyz, uiso} [atoms] means `CODE fix occu [atoms]`, `CODE fix xyz [atoms]`, `CODE fix uiso [atoms]`.
 
 **[val=2]**: optional parameter. This parameter is not required for the command to work, and if it is not supplied, the default value will be used.
 

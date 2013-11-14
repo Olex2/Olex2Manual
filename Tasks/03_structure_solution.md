@@ -1,7 +1,7 @@
 # Structure Solution
 
 The structure solution process identifies electron density maxima in the asymmetric unit of the electron density maps, which is calculated from the recorded diffraction data. Once you know the positions of these maxima, you can later assign atom types and proceed with building a structure model.
-What solution programs actually do to `solve' the structure, is to solve the `crystallographic phase problem' \index{phase problem}(hence why this is called `solution'). Like all waves, X-rays have both a phase and amplitude associated with them, however during a diffraction experiment we are only able to measure the amplitude of a reflection ($\sqrt{I}$), not its phase. In order to solve a structure it is essential to determine the relative phase of each reflection in order to sum the waves together correctly.
+What solution programs actually do to "solve" the structure, is to solve the `crystallographic phase problem' \index{phase problem}(hence why this is called solution). Like all waves, X-rays have both a phase and amplitude associated with them, however during a diffraction experiment we are only able to measure the amplitude of a reflection ($\sqrt{I}$), not its phase. In order to solve a structure it is essential to determine the relative phase of each reflection in order to sum the waves together correctly.
 Structure solution is largely a fully automated process, and in most routine cases it will simply work with default settings. But there are always cases where this step can become quite difficult and there are several things you can do to try and obtain a solution.
 
 ## Select a Structure Solution Program
@@ -16,14 +16,14 @@ This is the most widely used program for solving small-molecule structures. It r
 
 - **Direct Methods**: are suitable for attempting a structure solution for any type of structure.
 - **Patterson**: this approach is suitable for locating heavy elements in the presence of much lighter ones. Since heavy elements make a significant contribution to the overall scattering location, these will normally give sufficiently good phases to enable the rest of the atoms to be located within a couple of cycles of refinement. 
-- **Structure Expansion**: from Olex2, we offer this third option: a Patterson solution is `fed into' the Direct Methods algorithm and this will often lead to a structure when other methods fail.
+- **Structure Expansion**: from Olex2, we offer this third option: a Patterson solution is "fed into" the Direct Methods algorithm and this will often lead to a structure when other methods fail.
 
 ### ShelXD
 This dual-space method \index{dual-space method} is popular for solving macromolecular structures but it also will work for small molecules. It is slow, but if all else fails, it is worth a shot.
 
 ### Superflip
-Superflip is the `heavy weight' implementation of the charge-flipping algorithm. It will almost always solve any structure, regardless of whether you knew the symmetry in advance or knew what atom types to expect. If your original symmetry was wrong, Superflip will return the solution in the correct space group for you.
-Olex2 automatically recognises all solution programs from the ShelX suite, as well as Superflip and some versions of SIR, as long as the programs are `on the system PATH' (i.e. you, or the software installation, has set the PATH environment variable to point to these programs). If you absolutely don't want to fiddle with those, you can place the programs (*.exe* files) into the Olex2 directory -- something we do not recommend!
+Superflip is the "heavy weight" implementation of the charge-flipping algorithm. It will almost always solve any structure, regardless of whether you knew the symmetry in advance or knew what atom types to expect. If your original symmetry was wrong, Superflip will return the solution in the correct space group for you.
+Olex2 automatically recognises all solution programs from the ShelX suite, as well as Superflip and some versions of SIR, as long as the programs are "on the system PATH" (i.e. you, or the software installation, has set the PATH environment variable to point to these programs). If you absolutely don't want to fiddle with those, you can place the programs (*.exe* files) into the Olex2 directory -- something we do not recommend!
 
 ## Check the Space Group
 Getting the space group right is an important condition for obtaining the correct final structures. Sometimes a structure will solve in the wrong space group and the refinement may proceed without obvious major problems. If the space group is wrong, there will always be *some* signs and it is essential to check for these.
@@ -45,7 +45,7 @@ Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the s
 ## Check for Signs of Twinning: See \ref{Twinning}
 
 ## Check the Cell and Integration
-The unit cell dimensions and the integration should be checked prior to attempting a structure solution, but if all of the above methods have failed to yield a structure solution, it is always worth going back to the original data (the diffraction frames) to check whether an alternate cell or twinning has been missed. Rint which is a measure of how `equivalent' symmetry equivalent reflections really are (the lower the Rint, the better). A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+The unit cell dimensions and the integration should be checked prior to attempting a structure solution, but if all of the above methods have failed to yield a structure solution, it is always worth going back to the original data (the diffraction frames) to check whether an alternate cell or twinning has been missed. Rint which is a measure of how "equivalent" symmetry equivalent reflections really are (the lower the Rint, the better). A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
 ## Additional Structure Solution Options
 **Reflection File**: the file will have the same name as that of the .ins file but if you have more than one .hkl file in the project you can choose to use another file.

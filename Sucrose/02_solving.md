@@ -9,14 +9,14 @@
 
 	>CRYST Q-peaks represent maxima in the *electron density map* \index{electron density map} i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron-Density-Peaks`.
 
-5.	In the `@Work` section there is another header tab `@Toolbox-Work`.  Select *Q-Peak Intensities* from the **Labels** menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
+5.	In the `@Work` section there is another header tab `@Toolbox-Work`. Select *Q-Peak Intensities* from the **Labels** menu. The relative intensities of the Q-peaks will now be displayed as labels with each atom.
 
 	>OLEX2 The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 ... etc. having less relative intensity. Select **Toggle On/Off** from the drop-down menu in `@Work|Toolbox-Work|Labels` (or press F3). At this stage it is normally more useful to see their relative intensities.
 
 6.	Still in the `@Toolbox-Work` click on the Q icon I_Q to toggle between *Q-peaks*, *Q-peaks with bonds* and *No Q-peaks* (Or press CTRL+Q repeatedly). Some of the Q-peaks may not represent real atoms at this stage so do not worry if there are unexpected bonds.
 	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
 
-7.	The `structure' can be rotated by holding down the LEFT MOUSE button in the background of the main screen and moving the mouse.
+7.	The "structure" can be rotated by holding down the LEFT MOUSE button in the background of the main screen and moving the mouse.
 
 
 

@@ -21,4 +21,4 @@ Your structure is now finished and completed from the refinement point of view. 
 
 ## Structures to Try Next
 The next structure you should try now is sucrose (again). Despite the seemingly large number of steps required to obtain the finished structure, it's actually not all that hard. The key here is repetition: we normally recommend solving and refining sucrose several times before proceeding to another structure. 
-Having followed this procedure through it should be possible to solve the other sample structures. Most of these are relatively easy, but the disorder in structure `183' is a real challenge.
+Having followed this procedure through it should be possible to solve the other sample structures. Most of these are relatively easy, but the disorder in structure "183" is a real challenge.

@@ -10,15 +10,15 @@
 
 >A from to
 
->B Equivalent to 'pack from to from to from to', like 'pack 0 1' is expanded to 'pack 0 1 0 1 0 1'
+>B Equivalent to `pack from to from to from to`, like `CODE pack 0 1` is expanded to `pack 0 1 0 1 0 1`
 
 >A Cell
 
->B Shows content of the unit cell. In conjunction with 'grow -w' allows the creation of views where all asymmetric units contributing to the unit cell are shown.
+>B Shows content of the unit cell. In conjunction with `CODE grow -w` allows the creation of views where all asymmetric units contributing to the unit cell are shown.
 
 >A Wbox
 
->B Packs the volume inside the 3D selection box (the once can be shown by selecting at least 3 atoms and typing 'sel wbox'), to pack multiple boxes - use '-c' option.
+>B Packs the volume inside the 3D selection box (the once can be shown by selecting at least 3 atoms and typing `CODE sel wbox`), to pack multiple boxes - use *-c* option.
 
 >A R
 

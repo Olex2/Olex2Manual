@@ -1,12 +1,10 @@
 # Quick Access Icons
 
 
-------------------------------------------------------------------------
-Icon        Function
--------     ---------------------------------------------------------------
-LI_STOP     This icon is not normally visible. If it is, something bad has happened in Olex2 and we would like to know about it. Please click on the icon and e-mail us the text you get.
-
-LI_PLATON   If Platon is installed on your system, and the platon.exe file is `on the system PATH', this icon will open Platon with the current *.ins* or *.cif*.
+-----------------------------------------------------------------------------
+Icon       Function
+------     ------------------------------------------------------------------
+LI_PLATON   If Platon is installed on your system, and the platon.exe file is "on the system PATH", this icon will open Platon with the current *.ins* or *.cif*.
 
 LI_EDIT     Opens a text editor containing the refinement instructions in SHELX .ins file format. You can edit these instructions in this window. Olex2 manages your edits.
 
@@ -18,4 +16,4 @@ LI_TEXT     Displays current console buffer - what is seen in the graphic screen
  
 LI_CENTER   This will try and assemble a fragmented structure `CODE compaq -a`, adjust the zoom and `CODE centre` the structure on the screen. Structures should not normally fragment, but sometimes they do.
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------

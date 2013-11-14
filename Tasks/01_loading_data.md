@@ -14,7 +14,7 @@ If you want to work with your structure (solve, build the model, refine) you nee
 If you don't have the diffraction data, you can still prepare tables, reports and images from the contents of the .res file, but you cannot modify your model.
 
 ## Opening a Structure
-The basic unit you work with in Olex2 is `a structure'. It has a name and that should not change throughout the process. Underlying this structure is a single data collection (which may, of course, give rise to more than one .hkl file). We encourage you to place all files belonging to a structure (and only those) into a named directory. In practice this means that after a data collection is finished, you work in a particular directory. In order to open a particular structure, do one of the following: 
+The basic unit you work with in Olex2 is "a structure". It has a name and that should not change throughout the process. Underlying this structure is a single data collection (which may, of course, give rise to more than one .hkl file). We encourage you to place all files belonging to a structure (and only those) into a named directory. In practice this means that after a data collection is finished, you work in a particular directory. In order to open a particular structure, do one of the following: 
 
 - Simply drag and drop any crystallographic file into Olex2. 
 - On the GUI panel under `@Home|Start`, select **Open Existing Structure or Data File**, locate your directory, select the .ins file and click Open. 

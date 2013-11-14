@@ -9,13 +9,13 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 	- **Atom Names**: Shows the atom names of non-H atoms as well as the labels for electron density peaks. Q1 is the largest peak. `F3` will toggle this label.
 
-	- **Crystallographic Occupancy**  displays the occupancy of any atoms. Please note that atoms in special positions will also display a number, but this doesn't mean that the site isn't fully occupied. Unless you really know what you are doing, the  `hemical Occupancy' choice is probably the one you want. `labels -o`.
+	- **Crystallographic Occupancy** displays the occupancy of any atoms. Please note that atoms in special positions will also display a number, but this doesn't mean that the site isn't fully occupied. Unless you really know what you are doing, the @@Chemical Occupancy@@ choice is probably the one you want. `labels -o`.
 
-	- **Chemical Occupancy**  displays the occupancy of any atoms which are not 100% occupied i.e. their occupancy is not 1. As opposed to the  `rystallographic occupancy', the multiplicity of atoms in special positions will be taken into account. An atom on a center of inversion has a crystallographic occupancy of 0.5, but from a chemical point of view it is fully occupied. So in this mode, if there is a number displayed next to an atom, this means it is a partially occupied site. `labels -co`
+	- **Chemical Occupancy**  displays the occupancy of any atoms which are not 100% occupied i.e. their occupancy is not 1. As opposed to the "Crystallographic occupancy", the multiplicity of atoms in special positions will be taken into account. An atom on a center of inversion has a crystallographic occupancy of 0.5, but from a chemical point of view it is fully occupied. So in this mode, if there is a number displayed next to an atom, this means it is a partially occupied site. `labels -co`
 
 	- **Parts**  displays part numbers for atoms that are not in PART 0. By default, all atoms are in PART 0, unless they have explicitly been assigned to another PART.
 
-	- **Link-Code**  this is displayed SHELX  `VAR' style: 21 and -21 etc. This denotes atoms who'se occupancy is linked: The occupancies of atoms in 21 and -21 have to add up to unity.
+	- **Link-Code**  this is displayed SHELX  FVAR style: 21 and -21 etc. This denotes atoms who'se occupancy is linked: The occupancies of atoms in 21 and -21 have to add up to unity.
 
 	- **H Atom Labels**  will include the hydrogen atom labels along with the atom name and Q-peak labels.
 
@@ -29,9 +29,9 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Atom Types**: During model building, changing the atom type of a mis-assigned atom is a fairly common operation. We display the atom types that are in the list as little coloured buttons. A green button means that the number of atoms of that type that is actually present in the structure matches the provided formula. A blue button means that there aren't enough of this type and a red button means that this atom type has been over-assigned. The … button allows you to access the periodic table.
 
->>You can also use the right-click menu to change the atom type, or use the command line: select the atom(s) you want to change and type `name N` to change all selected atoms to nitrogen, for example.
+>>You can also use the right-click menu to change the atom type, or use the command line: select the atom(s) you want to change and type `CODE name N` to change all selected atoms to nitrogen, for example.
 
-- **Add Hydrogen Atoms**: Olex2 will place hydrogen atoms geometrically and automatically and releveant constraints will be added. For almost all hydrogen atoms, our placement routine works very well (including solvent water molecules, amines etc). If a hydrogen atom should be placed in the wrong place, simply delete the one wrongly placed atom and try this again. Very often you will find it is now correctly placed. From the command line, the command is `hadd'.
+- **Add Hydrogen Atoms**: Olex2 will place hydrogen atoms geometrically and automatically and releveant constraints will be added. For almost all hydrogen atoms, our placement routine works very well (including solvent water molecules, amines etc). If a hydrogen atom should be placed in the wrong place, simply delete the one wrongly placed atom and try this again. Very often you will find it is now correctly placed. From the command line, the command is `CODE hadd'.
 
 - **Isotropic/Anisotropic**: In the early phases of structure building, atoms are refined isotropically (i.e. modelled as spheres). To change this to anisotropic refinement (i.e. modelled as ellipsoids), press the ellipsoid button. If nothing is selected, *all* atoms will be changed.
 
@@ -39,7 +39,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Useful Shortcuts**:
 
-	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the  `lean' tool as described below. `CODE name $Q C`.
+	- **Q To C**: Converts all *showing* Q-peaks to carbon atoms. This tool is not really recommended. Please use the  @@Clean@@ tool I_CLEAN as described below. `CODE name $Q C`.
 
 	- **Q To H**: Converts all *showing* Q-peaks to Hydrogen atoms. This tool is not recommended. The Olex2 hydrogen placement routine is clearly the better way! `CODE name $Q H`.
 
@@ -47,9 +47,9 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 	
 	- **Delete Hydrogen Atoms**: If nothing is selected, all hydrogen atoms in the structure will be deleted. Otherwise, the selected atoms will be deleted. `CODE kill $H`.
 
-	- **Show/Hide Peaks**: The display of Q-peaks is cycled through these stages: Show -> Show with Bonds -> Hide. `Ctrl+Q`.
+	- **Show/Hide Peaks**: The display of Q-peaks is cycled through these stages: Show -> Show with Bonds -> Hide. (CTRL+Q).
 
-	- **Show/Hide Hydrogen Atoms**: The display of hydrogen atoms  is cycled through these stages: Show -> Show with internal H-bonds -> Hide. `Ctrl+H`.
+	- **Show/Hide Hydrogen Atoms**: The display of hydrogen atoms  is cycled through these stages: Show -> Show with internal H-bonds -> Hide. (CTRL+H).
 
 	- **Center**: This centers the structure on the screen and assembles all fragments.
 
@@ -75,7 +75,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 
 - **Select Group and then...**: This is an alternative (and altogether better) approach to generating disorder model in Olex2. It can also be used to move atoms from their current position. This tool is easy to use, but hard to explain.
 
-	- **Split**: After you made your selection, you can  `ctivate' a bond around which you want to rotate (and split) an entire group. New atoms are generated and placed for all selected atoms; and the occupancies are linked.
+	- **Split**: After you made your selection, you can "activate" a bond around which you want to rotate (and split) an entire group. New atoms are generated and placed for all selected atoms; and the occupancies are linked.
 
 	- **Fit**: This works exactrly like above, but the group will be placed in the new position (atoms will be moved). No new atoms will be generated and the occupancies are not affected.
 
