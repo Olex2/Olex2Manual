@@ -1,6 +1,6 @@
 #omit
 
->A omit h k l
+>A h k l
 
 >B Inserts `CODE OMIT h k l` instruction in the ins file. Use `CODE delIns omit` to remove all the OMITs from the INS file header.
 

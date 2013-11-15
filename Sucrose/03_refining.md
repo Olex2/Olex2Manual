@@ -45,7 +45,7 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 1.	The next stage is to add hydrogen atoms \index{add hydrogen atoms} to your structure. In `@Toolbox-Work` click on @@Add H@@ in the top right hand corner (or type `@ CODE hadd`). Olex2 automatically adds hydrogen atoms and includes them in the subsequent refinement.
 
-	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to section XXX for more details on this.
+	>CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. Please refer to page \pageref{hydrogen-atoms} for more details on this.
 
 2.	In `@Toolbox-Work` clicking on the H square I_H cycles through *Show H* / *Show H with H-bonds* / *Hide H* (alternatively use CTRL+H). Stop at *Show H with hydrogen bonds*.
 
@@ -53,7 +53,7 @@ At this stage you should have R1 ~ 8-9%. The biggest Q peak should be ~ 1.2.
 
 3.	Check that there have been no extra hydrogen atoms generated. If there are any, delete them. Select atoms by clicking on them with the LEFT MOUSE button and then press the DELETE key. @@Refine@@ the structure.
 	
-	>OLEX2 If you select some hydrogen atoms and use the @@Delete All H@@ button I_KILLH  or type `CODE kill $H` in the command-line, only the selected atoms will be deleted. 
+	>OLEX2 If you select some hydrogen atoms and use the @@Delete All H@@ button SI_KILLH  or type `CODE kill $H` in the command-line, only the selected atoms will be deleted. 
 
 4.	Repeat hydrogen atom addition as before. This time Olex2 will only add the missing hydrogen atoms. If for any reason, they are still incorrect, it will be necessary to add them manually. Also if hydrogen atoms were missing after @@Add H@@, you will have to add them manually. Refer to section XXX how to do this. 
 5.	The first assignment of hydrogen atom positions is not always fully optimised, particularly for less well defined groups such as --OH. If there are Q-peaks close to oxygen atoms that are not where the hydrogen is currently located, the hydrogen position may need adjusting. The image shows an incorrectly positioned hydrogen atom 1 which should be located at the Q-peak 2.

@@ -8,7 +8,7 @@ Olex2 offers a large range of properties that can be displayed as labels on atom
 - @@Parts@@  displays part numbers for atoms that are not in PART 0. By default, all atoms are in PART 0, unless they have explicitly been assigned to another part.
 - @@Link-Code@@  this is displayed ShelX FVAR style: `21` and `-21` etc. This denotes atoms whose occupancy is linked: The occupancies of atoms in `21` and `-21` have to add up to unity.
 - @@H Atom Labels@@  will include the hydrogen atom labels along with the atom name and Q-peak labels.
-- @@Fixed Parameters@@  if any parameters are fixed, these will be displayed as the atom label: _occupancy_, _xyz_, {U_(eq)}.
+- @@Fixed Parameters@@  if any parameters are fixed, these will be displayed as the atom label: _occupancy_, _xyz_, Ueq.
 - @@Variables@@  displays all variables associated with the atom.
 - @@AFIX Commands@@  useful to check the AFIX commands that are being applied to the structure.
 - @@Q-Peak Intensities@@  intensities of the Q-peaks will be displayed.

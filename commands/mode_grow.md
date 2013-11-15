@@ -1,6 +1,6 @@
 #mode grow 
 
->A grow [-s] [-v] [-b] [-shells]
+>A [-s] [-v] [-b] [-shells]
 
 >B Displays the directions in which the molecule can be grown.
 

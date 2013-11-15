@@ -1,6 +1,6 @@
-#mode_fit
+#mode fit
 
->A fit [-s]
+>A [-s]
 
 >B Allows fitting of selected group (moving and rotating in 3D).
 

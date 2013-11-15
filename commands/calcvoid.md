@@ -1,7 +1,6 @@
 #calcvoid
 
-
->A [radii file name] [all atoms/selected atoms] [-d=0] [-p] [-r=0.2 \\A]
+>A [radii file name] [all atoms/selected atoms] [-d=0] [-p] [-r=0.2 ANGST]
 
 >B Calculates and displays the structure map. Also calculates the largest channels along crystallographic directions and the packing index. 
 

@@ -3,7 +3,7 @@
 ##Change the Asymmetric Unit
 
 ### Using symmetry tools to adjust atomic positions \index{symmetry}
-It is frequently desirable to adjust atomic positions or change the location of the asymmetric unit based on space group allowed symmetry operations (for example when a molecule is split over more than one site rather than being joined in the asymmetric unit or to clearly display intermolecular interactions between a fragment and solvent molecule). Options for making these adjustments are provided under `@View|Symmetry-Generation|Symmetry-Tools`. See also Reassembling structures.
+It is frequently desirable to adjust atomic positions or change the location of the asymmetric unit based on space group allowed symmetry operations (for example when a molecule is split over more than one site rather than being joined in the asymmetric unit or to clearly display intermolecular interactions between a fragment and solvent molecule). Options for making these adjustments are provided under `@View|Symmetry-Generation|Symmetry-Tools`. See also below.
 
 ### Relocating the asymmetric unit \index{ASU}
 - @@Centre on Cell@@: centres all parts of the asymmetric unit within the unit cell. (Alternatively right click in the display window under Model is the option to Centre.) It is crystallographic good practice to ensure that the centre of mass of a molecule or fragment is contained within the unit cell.

@@ -1,6 +1,6 @@
 #mode name
 
->A name [-p] [-s] [-t] [-a=0]
+>A [-p] [-s] [-t] [-a=0]
 
 >B Puts the program into the naming mode.
 

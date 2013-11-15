@@ -1,6 +1,6 @@
-#mode_split
+#mode split
 
->A split [-r={eadp, isor, simu}]
+>A [-r={eadp, isor, simu}]
 
 >B Splits subsequently clicked atoms into parts. While in this mode, the newly generated atoms can be selected and moved as a group with SHIFT key down, or rotated when dragging the selection. The original and generated atoms will be placed into different parts.
 

@@ -6,8 +6,8 @@
 - **part 1**: all atoms in PART 1
 - **isot**: all isotropic atoms
 - **frag C5**: the whole fragment containing C5
-- **$E**: all atoms of the given type. E is a chemical element symbol or one of the following: star - all types, M - all metals, X - all halogens
-- $star,**E**: all atoms, *but* of the E type.
-- $star,**H**: all non-H atoms
+- **$E**: all atoms of the given type. E is a chemical element symbol or one of the following: * - all types, M - all metals, X - all halogens
+- $*,**E**: all atoms, *but* of the E type.
+- $*,**H**: all non-H atoms
 - **wbox**: Shows the 3D selection box constructed for all/selected atoms. This box can be used to pack the structure or to crop the voids display/electron density maps. If the third argument (cell) is provided, the frame gets the dimensions of the unit cell rather than being rectangular (this box can be used for packing and 3D maps trimming/extending).
 - **ofile** *n*: slects all atoms in the overlayed file *n*; if *n* is 0, elements of the currently focused file are selected

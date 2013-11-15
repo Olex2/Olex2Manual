@@ -1,7 +1,6 @@
 #htab
 
-
->A [minimal angle=150 $^\circ$] [maximum bond length 2.9 \\A] [-t] [-g]
+>A [minimal angle=150$^\circ$] [maximum bond length 2.9 ANGST] [-t] [-g]
 
 >B Searches and adds found hydrogen bonds (like HTAB and RTAB in Shelx) into a list for the refinement program to add to the CIF. Equivalent symmetry positions are automatically inserted and merged with the existing ones. The command can be executed several times with different parameter values, only one unique instruction will be added. 
 

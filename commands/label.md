@@ -1,6 +1,6 @@
 #label
 
->A label [atoms]
+>A [atoms]
 
 >B Adds labels to all/given/selected atoms and bonds. These labels can be moved by pressing the SHIFT key while holding down the LEFT MOUSE button, and edited by double-clicking on them.
 

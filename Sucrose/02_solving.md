@@ -14,6 +14,7 @@
 	>OLEX2 The Q-peak names also indicate the relative intensity order i.e. the most intense peak is Q1 with Q2, Q3 ... etc. having less relative intensity. Select @@Labels On/Off@@ from the drop-down menu in `@Work|Toolbox-Work|Labels` (or press F3). At this stage it is normally more useful to see their relative intensities.
 
 6.	Still in the `@Toolbox-Work` click on the Q icon I_Q to toggle between *Q-peaks*, *Q-peaks with bonds* and *No Q-peaks* (Or press CTRL+Q repeatedly). Some of the Q-peaks may not represent real atoms at this stage so do not worry if there are unexpected bonds.
+
 	>CRYST Since X-rays are diffracted by the electrons surrounding atomic nuclei, the larger Q-peaks will relate to heavier atom types.
 
 7.	The "structure" can be rotated by holding down the LEFT MOUSE button in the background of the main screen and moving the mouse.
@@ -22,7 +23,7 @@
 
 8.	The next stage is to assign atom types \index{assiging atoms types} to the Q-peaks. Use the LEFT MOUSE button to click on Q-peaks that you believe correspond to a particular atom type (e.g. oxygen). Selected atoms turn green.
 
-	>OLEX2 If the Q-peaks don't appear to form a sensible structure, try typing `CODE compaq -a`, which will pull Q-peaks together. Clicking on the centre button I_CENTER (top right of GUI) has the same effect.
+	>OLEX2 If the Q-peaks don't appear to form a sensible structure, try typing `CODE compaq -a`, which will pull Q-peaks together. Clicking on the centre button SI_CENTER (top right of GUI) has the same effect.
 
 9.	In `@Toolbox-Work` click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type `CODE name C` to assign all selected peaks as carbon atoms. By using the UP key, it's easy to repeat this command.
 
