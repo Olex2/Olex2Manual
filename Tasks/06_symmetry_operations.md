@@ -59,11 +59,11 @@ To convert the structure to P-1 the following procedure can be followed:
 
 2. Select two symmetry related heavy atoms, if present, otherwise any two symmetry related atoms.
 
-> CRYST The position of heavy elements is normally better defined due to their dominance of the scattering and hence if present it is better to select these.
+    > CRYST The position of heavy elements is normally better defined due to their dominance of the scattering and hence if present it is better to select these.
 
 3. Type `CODE echo ccrd(sel)` you will see the three coordinates (x,y,z) of the geometric centre between the selected atoms.
 
-> OLEX2 Alternatively type `CODE echo ccrd(Atom1name Atom2name)` without selecting any atoms.
+    > OLEX2 Alternatively type `CODE echo ccrd(Atom1name Atom2name)` without selecting any atoms.
 
 4. Type `CODE push x y z`, which moves all of the atomic coordinates so that the inversion centre between the molecules is coincident with a crystallographic inversion centre (at 0,0,0) in P-1.
 

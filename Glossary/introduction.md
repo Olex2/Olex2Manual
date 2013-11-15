@@ -12,7 +12,9 @@ TWOCOLUMNS
 
 **Bragg's Law**: fundamental in crystallography. This gives the conditions under which diffraction will occur and thus diffracted beams will be observed. Essentially it defines the conditions for waves to combine constructively and thus give intensity. To observe diffraction, there must be an integer number of wavelengths between diffracted X-rays from parallel planes ($n\lambda$).
 
-${2d sin\theta = n\lambda}$
+\begin{equation}
+{2d sin\theta = n\lambda} \nonumber
+\end{equation}
 
 $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the order of the reflection, $\lambda$: wavelength
 
@@ -34,7 +36,9 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **GooF**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
 
-$GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2}$
+\begin{equation}
+GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2} \nonumber
+\end{equation}
 
 $w$: weight, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor, $n$: number of reflections, $p$: total number of parameters
 
@@ -61,7 +65,9 @@ $I(F^{2})$: the measured intensity of a reflection.
 
 **R1**: a standard measure of the quality of the agreement between Fo and Fc. A very large R1 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-$R1 = S| |F_{obs}| - |F_{calc}| | / S |F_{obs}|$
+\begin{equation}
+R1 = S| |F_{obs}| - |F_{calc}| | / S |F_{obs}| \nonumber
+\end{equation}
 
 $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
@@ -69,7 +75,9 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 **$R_{int}$** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
-$R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
+\begin{equation}
+R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}} \nonumber
+\end{equation}
 
 **Space Group** will be one of 230 possible space groups, these give information on the complete symmetry of the crystal structure.
 
@@ -83,7 +91,9 @@ $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
 **wR2**: a standard measure of the quality of the agreement between Fo and Fc. A very large wR2 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-$wR_2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]$
+\begin{equation}
+wR_2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2] \nonumber
+\end{equation}
 
 $w$: weighting scheme, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor)
 

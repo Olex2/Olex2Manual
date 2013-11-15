@@ -49,7 +49,5 @@ CTRL+Z      Undo the last action. It works whenever possible.
 
 TAB         Expands the command (when typing in OLEX's console).
 
-MODE OFF    Not a shortcut, but a quick way to exit a current mode in command-line. Same as ESC.
-
 UP KEY      Key brings the previously issued commands from the console.
 ------------------------------------------------------------------------

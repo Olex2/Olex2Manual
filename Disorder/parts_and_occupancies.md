@@ -14,7 +14,7 @@ If more than one position of an atom or fragment of a molecule is being modelled
 - Select some atoms and type `CODE PART number` in the command-line where `number' is the PART number. Using the command-line you can also provide a second numerical value to the PART command - the selected atom's occupancy.
 
 ## Displaying PART Information
-Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTS. Alternatively, use `CODE showp X', where X is a space separated list of PARTs, in the command-line.
+Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTS. Alternatively, use `CODE showp X`, where X is a space separated list of PARTs, in the command-line.
 Displaying atoms in particular PARTs - under both `@Work|Toolbox-Work|Show-PART` and `@Tools|Disorder|Show PART` are the options to display all atoms assigned to specific PARTs in combination e.g. 0 + 1 or 0 + 2 or all PARTs.
 All atoms in PART 0 are normally 100% occupied. In other words they are at that position in every asymmetric unit, while those in other PARTs are not present in every asymmetric unit hence it is normally desirable to see things in combination with atoms in PART 0. This can be useful to check that each section of modelled disorder makes chemical and crystallographic sense.
 
@@ -25,18 +25,18 @@ When refining occupancies, the thermal parameters of the atoms should be refined
 Free variables provide a simple and yet elegant mechanism to implement a number of linear constraints and restraints. They are found in the .ins file under an FVAR instruction. The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used as a link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. 
 For example:
 
->CODE FVAR 0.355153 0.75
-PART 1
-C1 C 0.36499 0.36561 0.32094 21.00000 0.03239 
-PART 0
-PART 2
-C1a C 0.28806 0.36415 0.33164 -21.00000 0.05000 
-PART 0
-PART 1
-C2 C 0.30722 0.29774 0.21191 21.00000 0.03333 
-PART 0
-PART 2
-C2a C 0.39521 0.31781 0.21763 -21.00000 0.05000`
+>CODE FVAR 0.355153 0.75`
+>CODE PART 1`
+>CODE C1 C 0.36499 0.36561 0.32094 21.00000 0.03239`
+>CODE PART 0`
+>CODE PART 2`
+>CODE C1a C 0.28806 0.36415 0.33164 -21.00000 0.0500`
+>CODE PART 0`
+>CODE PART 1`
+>CODE C2 C 0.30722 0.29774 0.21191 21.00000 0.03333`
+>CODE PART 0`
+>CODE PART 2`
+>CODE C2a C 0.39521 0.31781 0.21763 -21.00000 0.05000`
 
 `21.000` means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). `-21.000` means 1 - (1 x free variable 2), in other words the occupancy of the two PARTs adds to 1.
 `PART 1 / 2` means that the atoms have been grouped into different PARTS only one of which would be present at a position in the crystal structure at any one time. PART 0 is for atoms with one position.*
@@ -54,7 +54,7 @@ Selecting `@Tools|Disorder|Link-Selected-Occupancies` will link the occupancies 
 The free variable will be linked to a number in the FVAR instruction at the top of the .ins file, `21` links to the second FVAR number, 31 links to the third FVAR number etc. These number are then refined. Essentially, `21` means 1 x FVAR 2, while -21 means 1-(1 x FVAR 2)] i.e. if two atoms have occupancies of `21` and `-21` respectively the sum of their occupancies will equal one fully occupied atom.
 Sometimes it quicker and easier to perform this using the command-line:
 
-- Using the `CODE PART part occupancy` command, for example `CODE PART 1 21` or `CODE PART 2 -21`. In the case when new PARTs need to be created, one can select the atoms of different PARTs sequentially and issue `CODE PART --p=N --lo` command to create N new PARTs and link their occupancy. In the case WHEN N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
+- Using the `@PART part occupancy` command, for example `CODE PART 1 21` or `CODE PART 2 -21`. In the case when new PARTs need to be created, one can select the atoms of different PARTs sequentially and issue `CODE PART -p=N -lo` command to create N new PARTs and link their occupancy. In the case WHEN N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
 - Using the `CODE Fvar variable times` command, where *times* is the FVAR multiplier, typically 1. For example `CODE fvar 2 1` or `CODE fvar -2 1`.
 
 ## Displaying Occupancy Values
