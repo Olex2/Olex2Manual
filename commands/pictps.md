@@ -11,7 +11,7 @@
 -color_fill: Fills the ellipses with colour.
 -color_bond: Bonds will be in colour.
 -color_line: Lines representing the ellipses will be in colour.
--div_pie: number [4] of stripes in the octant
+-div_pie: number of stripes in the octant [4]
 -lw_ellipse: line width [0.5] of the ellipse
 -lw_font: line width [1] for the vector font
 -lw_octant: line width [0.5] of the octant arcs
