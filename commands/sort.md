@@ -2,7 +2,7 @@
 >A [m] [l] [p] [h] [z] [n] [s] atoms
 [s] [h] [m] moiety
 
->B The sorting of atoms in the atom list is very powerful, but also quite complex.
+>B The sorting of atoms in the atom list is very powerful but also quite complex.
 
 >C -m: atomic weight
 -z: atomic number
@@ -18,6 +18,6 @@ Sorting of moieties
 -m: by molecular weight
 
 >D `CODE sort [+atom_sort_type]` TBA
-`CODE sort [Atoms] [moiety [+moiety_sort_type] [moiety_atoms]]` If just *moiety* is provided - the atoms will be split into the moieties without sorting.
+`CODE sort [Atoms] [moiety [+moiety_sort_type] [moiety_atoms]]`. If just *moiety* is provided - the atoms will be split into the moieties without sorting.
 Examples:
 `CODE sort +m1 F2 F1 moiety +s` will sort atoms by atomic mass and label, put F1 after F2 and form moieties sorted by size. Note that when sorting atoms, any subsequent sort type operates inside the groups created by the preceding sort types.

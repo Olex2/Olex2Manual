@@ -18,7 +18,7 @@
 
 >A Wbox
 
->B Packs the volume inside a 3D selection box (the once can be shown by selecting at least 3 atoms and typing `CODE sel wbox`), to pack multiple boxes use `CODE -c` option.
+>B Packs the volume of the structure inside a 3D selection box. You can select 3 atoms and type `CODE sel wbox` to create a box around just that part of the structure. To keep already shown box around atoms and work on another part of the structure, use the `CODE -c` option.
 
 >A R
 
