@@ -78,8 +78,8 @@ To name atoms enter the @@Start@@ number, change the @@Suffix@@ and @@Type@@ if 
 
 As with many options, name matching for equivalent fragments can be done in the command-line. After selecting the atoms in order, type `CODE match sel -n=suffix`, where suffix is the number required. Without selecting atoms, sel can be replaced by the two atom names in order, separated by a space. Two alternative naming approaches can be achieved using the command-line only:
 
-- to replace the first number e.g. C101 becomes C201, and type `CODE match sel -n=$suffix` where suffix is the number required;
-- to replace the last character type `CODE match sel -n=-suffix`. If no atoms are selected clicking on @@Equivalent Fragments (Z'>1)@@ will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
+- to replace the first number e.g. C**1**01 becomes C**2**01, type `CODE match sel -n=$2`;
+- to replace the last character e.g. C11**A** becomes C11**B** type `CODE match sel -n=-B`. If no atoms are selected clicking on @@Equivalent Fragments (Z'>1)@@ will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
 
 ## Sorting atoms in the .ins file
 The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking @@Refine@@. Click @@Report@@ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).

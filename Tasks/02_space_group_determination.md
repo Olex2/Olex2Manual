@@ -11,10 +11,10 @@ Olex2 offers a range of different plots that can assist during a refinement: the
 ### Wilson Plot
 This is a statistical comparison of the observed intensity data with the theoretical distribution for a random atomic arrangement which helps with identifying whether the data centric or acentric. The provided formula will be taken into account in the calculation of this plot.
 
-### Cumulative Intensity
+### Cumulative Intensity \index{space group!cumulative intensity}
 Provides an indication of whether the data is centric, acentric or twinned. If the Wilson plot is inconclusive, this graph will often help. It is also a very quick way to check whether your data may be from a twinned crystal.
 
-### Systematic Absences \index{systematic absence}
+### Systematic Absences \index{systematic absence} \index{FRED!systematic absence}
 The intensity distribution of reflections that should be systematically absent (but are not) is plotted. These should all be very weak.
 
 ### Completeness
