@@ -1,6 +1,6 @@
 \chapter{Olex2 Commands}
 
-This document describes some of the commands that are available in Olex2. Many of these commands are also available directly from the Olex2 Graphical User Interface. Most items on the GUI have a small `info' symbol next to them, where you can find out more about any of these items.
+This document describes some of the commands that are available in Olex2. Many of these commands are also available directly from the Olex2 Graphical User Interface. Most items on the GUI have a small *info* symbol I_TINFO next to them, where you can find out more about any of these items.
 
 #Introduction
 There is no special console window in Olex2 -– the commands described in this document can be typed where ever you are in Olex2 and the text you type (as well as the program response) will appear in the bottom left hand corner of the main window. The text will then scroll up behind the displayed molecule. The number of lines of text that are visible can be set with the command `CODE lines n`. You can also toggle between showing the molecule only, showing the text only and showing both at the same time (default) using CTR+T. You can always examine the text output in your default text editor by typing `CODE text`.

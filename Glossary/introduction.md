@@ -71,7 +71,7 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 $R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}$
 
-**Space Group** will be one of 230 possible space groups, these give infor-mation on the complete symmetry of the crystal structure.
+**Space Group** will be one of 230 possible space groups, these give information on the complete symmetry of the crystal structure.
 
 **Systematic absences** these are systematically absent reflections which do not appear in the diffraction pattern as a result of the symmetry of the space group. The presence of certain groups of systematic absence can be used to identify symmetry elements or lattice centring that is present in a particular crystal lattice and help to identify the space group for the structure.
 

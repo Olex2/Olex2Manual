@@ -1,5 +1,5 @@
 #mpln
->A [atoms]] [-n] [-r][-rings]
+>A [atoms] [-n] [-r] [-rings]
 
 >B Finds the best plane through the current selection or given atoms, or out of all visible atoms if none are given.
 

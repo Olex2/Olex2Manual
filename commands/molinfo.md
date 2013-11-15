@@ -1,6 +1,6 @@
 #molinfo
 
->A [radii file name][atoms][-g=5][-s=o]
+>A [radii file name] [atoms] [-g=5] [-s=o]
 
 >B Calculates molecular volume and surface area for all/selected atoms.
 

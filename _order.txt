@@ -16,7 +16,7 @@
 #wR2 ::x:: \\ensuremath{wR_2}
 #R1 ::x:: \\ensuremath{R1}
 #e-3 ::x:: \\ensuremath{e^{-3}}
-e/A ::x::\\ensuremath{e^{-}/\\AA}
+#e/A ::x::\\ensuremath{e^{-}/\\AA}
 #\b Uij \b ::x::\\ensuremath{U_{IJ}}
 #Uiso ::x::\\ensuremath{U_{iso}}
 
@@ -36,7 +36,7 @@ e/A ::x::\\ensuremath{e^{-}/\\AA}
 #\b ShelXL \b ::x:: \\textbf{\\textit{ShelXL}}
 #\b ShelXS \b ::x:: \\textbf{\\textit{ShelXS}}
 #\b ShelXD \b ::x:: \\textbf{\\textit{ShelXD}}
-\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
+#\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
 #\b Olex2 \b ::x:: \\textbf{\\textit{Olex2}}
 #\b Superflip \b ::x:: \\textbf{\\textit{Superflip}}
 #\b Platon \b::x:: \\textbf{\\textit{Platon}}
@@ -50,18 +50,18 @@ e/A ::x::\\ensuremath{e^{-}/\\AA}
 #\b P\-1 \b ::x:: \\ensuremath{P \\bar{1}}
 #\b P1 \b ::x:: \\ensuremath{P1}
 #\$\$ ::x:: \$
-pi-pi ::x:: \\textpi-\\textpi
+#pi-pi ::x:: \\textpi-\\textpi
 #\£ (.*?) \£ ::x:: \\greentt{\1}
 #`@.*?(\-).*?`/g ::xx:: " "
 
 #\begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
 
 #BOOK Details
-bookauthor=Hazel Sparkes \& Horst Puschmann
+bookauthor=Hazel A. Sparkes \& Horst Puschmann
 booktitle=Solving and Refining Molecular Structurs using Olex2
 booksubtitle=An Introduction
 booktitle=Olex2
-book_use_fontspec=Cambria
+book_use_fontspec=
 book_linespacing=1.2
 
 #PANDOC command
