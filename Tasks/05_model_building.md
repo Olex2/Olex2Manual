@@ -1,6 +1,6 @@
 # Model Building
 
-## Q-Peaks Options
+## Q-Peaks Options \index{Q-peaks}
 The Q-peaks are displayed as brown spheres, the transparency of which is related to their relative intensity, in other words the peaks that appear darkest (and therefore most obvious) on the screen have the greatest relative intensity while the lighter, less obvious peaks have the lowest intensity. They are scaled by the peak height of the largest peak. If that is a very large peak (a heavy element), then all other peaks will appear very faint. Once the heavy peaks have been assigned, the next-highest peak will be lower and ALL peaks will appear more clearly.
 
 ### Displaying/Hiding/Deleting
@@ -37,15 +37,15 @@ When a large number of atoms have not been located, it is advisable to use a lar
 
 - The relative scaling of the Q-Peak transparency can be adjusted under `@Info|Electron-Density-Peaks` using the Transparency slider. 
 
-## Atom Manipulations
+## Atom Manipulations 
 
-###Changing atom types
+###Changing atom types \index{changing atoms}
 
 - RIGHT CLICK on an atom (or select multiple atoms and right click on one). Under @@Type@@, select the desired atom type.
 - Select an atom or group of atoms, under `@Work|Toolbox-Work` click on the desired atom type.
 - Select atoms(s) and use the name command, *e.g.* type `CODE name O` to make them into oxygen atoms.
 
-### Selecting atoms or groups of atoms
+### Selecting atoms or groups of atoms \index{selecting atoms}
 Atom selections are very important in Olex2. When you need to address specific atoms (because you want to change their atom type, involve them in some restraints or want to delete them, for example), you do this by selecting them. When you work with Olex2, you never need to know the name of an atom, but you must know how to select them! Here are a few points about selections:
 
 - Selected atoms turn green
@@ -68,7 +68,7 @@ Olex2 offers several options for selecting atoms individually:
     - @@Select Rings@@: C6, C5N, C5 or C5O options are available. Type in the ring composition to be selected.
     - More options are available from `CODE help sel`.
 
-### Naming Atoms
+### Naming Atoms \index{atom names}
 Olex2 offers a couple of useful features for naming, specifically; automatically adjusting hydrogen labelling if the parent atom name is changed and name matching for equivalent fragments if Z' > 1. These options are listed under `@Work|Naming`.
 To name atoms enter the @@Start@@ number, change the @@Suffix@@ and @@Type@@ if needed. Click on @@Name@@, then use the left mouse button to click on the atoms in the required order, they will be labelled sequentially. Press ESC when finished.
 
@@ -84,13 +84,13 @@ As with many options, name matching for equivalent fragments can be done in the 
 ## Sorting atoms in the .ins file
 The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking @@Refine@@. Click @@Report@@ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
 
-## Hydrogen Atoms
+## Hydrogen Atoms \index{hydrogen atoms}
 
 ### Displaying hydrogen atoms
 - CTRL+H toggles the hydrogen atoms through show H, show H with H-bonding interactions and hide H.
 - Clicking on the I_H icon under `@Work|Toolbox-Work` achieves the same result.
 
-### Adding hydrogen atoms
+### Adding hydrogen atoms \index{add hydrogen atoms}
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.
 
 #### On Q-peaks with no AFIX/HFIX instructions
