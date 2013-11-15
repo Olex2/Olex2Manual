@@ -4,7 +4,7 @@
 
 >B Packs all or specified atoms within given dimensions.
 
->C -c: prevents clearing existing model.
+>C **-c**: prevents clearing existing model.
 
 >D `CODE pack $O` will pack all O atoms with the default of -1.5 to 1.5 cells range.
 
@@ -18,8 +18,8 @@
 
 >A Wbox
 
->B Packs the volume of the structure inside a 3D selection box. You can select 3 atoms and type `CODE sel wbox` to create a box around just that part of the structure. To keep already shown box around atoms and work on another part of the structure, use the `CODE -c` option.
+>B Packs the volume of the structure inside a 3D selection box. You can select 3 atoms and type `CODE sel wbox` to create a box around just that part of the structure. To keep already shown box around atoms and work on another part of the structure, use the $-c$ option.
 
->A R
+>A r
 
 >B Packs fragments within radius r of the selected atom(s) or the centre of gravity of the asymmetric unit.

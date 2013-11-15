@@ -13,7 +13,7 @@ Syntax used in this document:
 
 **-k**: This is an option switch.
 
-$i$: Italic characters are used for variables.
+*i*: Italic characters are used for variables.
 
 **[atoms]** means an optional list of atoms. Any atoms that are selected will automatically be present in this list. If there are no selected atoms, all atoms will be in this list. Alternatively, the atom names of the atoms that should appear in this list can be typed by hand. 
 

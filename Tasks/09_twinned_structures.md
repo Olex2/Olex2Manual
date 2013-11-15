@@ -29,8 +29,10 @@ Olex2 can automatically search for twin laws and suggest any likely twin laws, o
 #### Merohedral and psedudo-merhohedral twinning
 Those where the reciprocal lattices (i.e. reflection positions) exactly overlap. It is relatively simple to treat and procedures are described below. In this type of twinning, a twin law and twin scale factor are added to the head of the .ins file below the UNIT instruction in the form
 
->CODE TWIN `-1 0 1 0 -1 0 0 0 1 2`
+\begin{verbatim}
+TWIN -1 0 1 0 -1 0 0 0 1 2
 BASF 0.1
+\end{verbatim}
 
 Where; `-1 0 1 0 -1 0 0 0 1 2` is a 3 by 3 matrix to define the twin law, 2 is the no. of twin components and BASF is the twin scale factor. An arbitrary value <1 is selected which is subsequently refined
 

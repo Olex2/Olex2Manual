@@ -11,5 +11,5 @@ All commands in Olex2 will auto-complete when pressing the TAB key. If the compl
 \newpage
 
 \small
-\widowpenalty=1000
-\clubpenalty=1000
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}

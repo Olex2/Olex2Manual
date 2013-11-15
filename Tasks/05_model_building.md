@@ -110,10 +110,12 @@ The icons illustrate some commonly used hydrogen types, click on one to enter th
 - @@Add Hydrogen@@ automatically adds the remaining hydrogen atoms but does not automatically undergo any cycles of refinement.
 - The hydrogen atom labels can be displayed (**H Labels**), hidden (**No H Labels**) or the HFIX can be displayed (**Show AFIX**).
 
+
+    >CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. These are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data, hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by pressing CTRL+Q.
+
+
 ## Deleting Hydrogen Atoms
 
 - Typing `CODE kill $H` in the command-line will delete all or selected hydrogen atoms.
 - Click on the I_H icon under `@Work|Toolbox Work` will delete selected H.
 - Select one or more hydrogen atom(s) and press DELETE.
-
->CRYST The hydrogen atoms are automatically added using a riding model with appropriate AFIX instructions. These are normally expressed as geometrical constraints on the X-H distances and/or H-X-(X neighbour(s)) angles depending on the pivot atom type and isotropic temperature factors being a fraction of that of the pivot atom. From X-ray data, hydrogen atoms are only refined isotropically as there are insufficient data to refine them anisotropically. Make the Q-peaks visible again by clicking I_Q in `@Toolbox-Work` (or CTRL+Q).

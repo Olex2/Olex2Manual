@@ -14,7 +14,7 @@ This is a statistical comparison of the observed intensity data with the theoret
 ### Cumulative Intensity \index{space group!cumulative intensity}
 Provides an indication of whether the data is centric, acentric or twinned. If the Wilson plot is inconclusive, this graph will often help. It is also a very quick way to check whether your data may be from a twinned crystal.
 
-### Systematic Absences \index{systematic absence} \index{FRED!systematic absence}
+### Systematic Absences \index{systematic absence}
 The intensity distribution of reflections that should be systematically absent (but are not) is plotted. These should all be very weak.
 
 ### Completeness

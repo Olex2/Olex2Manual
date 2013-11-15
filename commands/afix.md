@@ -7,4 +7,4 @@ The AFIX command can also be used to generate missing atoms to complete rings or
 `CODE AFIX 66 1,2,3`
 Note that there are no white spaces between the identification of the selected positions.
 
->C -n: consider N-atoms as parts of rings
+>C **-n**: consider N-atoms as parts of rings

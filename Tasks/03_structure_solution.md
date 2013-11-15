@@ -38,7 +38,7 @@ If a structure should contain heavy atoms and the chemical composition does not 
 Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the structure solution method selected will be displayed. Adjusting these can help to yield a structure solution in more challenging cases. Please refer to the relevant manuals (specifically for ShelXS and Superflip) for explanations of these options. Here are a few tips for ShelXS:
 
 - Increasing **np** (e.g. from 500 to 5000) increases the number of direct method attempts that are made.
-- In cases of pseudo symmetry, changing *Emin* under ESEL to 1.0/0.9 may help.
+- In cases of pseudo symmetry, try changing *Emin* under ESEL to 1.0/0.9.
 - Try **Patterson Methods**: especially if there are heavy elements present in your structure, or **Structure Expansion** 
 - Use `CODE tref n` where n is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the top n higher probability solutions. You can traverse the solutions using Ctrl+Up/Down keys.
 
