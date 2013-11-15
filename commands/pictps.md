@@ -2,7 +2,7 @@
 
 >A filename.ps
 
->B Generates a post-script file of what is visible in the molecule display. The bond width is taken from the display. This can be changed with brad
+>B Generates a post-script file of what is visible in the molecule display. The bond width is taken from the display. This can be changed with `CODE brad`.
 
 >C -atom_outline_color - the colour of the atom outline, used for extra 3D effect for the intersecting objects [0xFFFFFF]
 -atom_outline_oversize - the size of the outline [5]%
