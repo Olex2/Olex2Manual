@@ -75,7 +75,7 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 **_.res_ file**: The .res file contains essentially all of the information in the .ins but after the last refinement cycle so some instructions that have been implemented may no longer be present e.g. AFIX or ANIS. There will also be information on the highest residual peaks.
 
-**$R_{int}$** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
+**$R_{int}$**: Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
 \begin{displaymath}
 R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}

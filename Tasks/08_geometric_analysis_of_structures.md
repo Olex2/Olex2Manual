@@ -24,7 +24,6 @@ To remove the overlaid structure, select @@Remove Overlay@@ from `@Tools|Overlay
 Alternatively, after clicking on `@Tools|Overlay|Overlay Structure`, press ESC.
 
 ## Calculating Geometric Parameters
-There are a variety of options to determine geometric parameters relating to the structure.
 
 ### Measuring bond distances \index{bonds}
 

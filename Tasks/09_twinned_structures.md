@@ -41,7 +41,7 @@ Non-merohedral twinning, where only some of the reflections overlap, are more co
 Only one twin law can be applied to the data at any time (with the exception of including racemic twinning alongside a twin law). Any twin laws that are being applied to the data are displayed below the refinement statistics at the top of the GUI panel .
 
 ### For merohedral and pseudo merohedral twins
-Automatic searching for twin laws \index{twin laws} - this can be done using Olex2 under `@Tools|Twinning|Search-for-Twin-Laws` where the program searches for metrically possible twin laws. If found, the structure is refined against each of them in turn. The $R$-value gives an indication of the quality of the structure - a low $R$-value is better. To select a twin law to continue the refinement, click on the relevant twin law.
+Automatic searching for twin laws \index{twin laws} - this can be done using Olex2 under `@Tools|Twinning|Search-for-Twin-Laws` where the program searches for metrically possible twin laws. If found, the structure is refined against each of them in turn. The $R$-value gives an indication of the quality of the structure - a low $R$-value is better. To select a twin law, click on the relevant twin law.
 
 If a twin law is selected, Olex2 automatically includes the selected twin law and BASF into the .ins file. The matrix (`1 0 0 0 1 0 0 0 1`) is the untwinned refinement. BASF is the twinned scale factor indicating what percentage of the structure would be the second component i.e. 0.20 (=20%) would suggest 80% is component 1 and 20% is component 2. Currently it is only possible to refine using one twin law (excluding racemic twinning) in Olex2.
 
