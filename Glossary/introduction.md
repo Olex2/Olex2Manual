@@ -2,6 +2,8 @@
 
 This is a collection of terms that require some form of definition. Neither the list or the definitions provided here are complete; please refer to the various excellent sources of information that are available on the internet for more information.
 
+\small
+
 TWOCOLUMNS
 
 **Anisotropic displacement parameters,  *ADP* or $U_{ij}$**:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
@@ -12,9 +14,9 @@ TWOCOLUMNS
 
 **Bragg's Law**: fundamental in crystallography. This gives the conditions under which diffraction will occur and thus diffracted beams will be observed. Essentially it defines the conditions for waves to combine constructively and thus give intensity. To observe diffraction, there must be an integer number of wavelengths between diffracted X-rays from parallel planes ($n\lambda$).
 
-\begin{equation}
-{2d sin\theta = n\lambda} \nonumber
-\end{equation}
+\begin{displaymath}
+{2d sin\theta = n\lambda}
+\end{displaymath}
 
 $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the order of the reflection, $\lambda$: wavelength
 
@@ -36,9 +38,9 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **GooF**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
 
-\begin{equation}
-GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2} \nonumber
-\end{equation}
+\begin{displaymath}
+GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2}
+\end{displaymath}
 
 $w$: weight, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor, $n$: number of reflections, $p$: total number of parameters
 
@@ -65,9 +67,9 @@ $I(F^{2})$: the measured intensity of a reflection.
 
 **R1**: a standard measure of the quality of the agreement between Fo and Fc. A very large R1 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-\begin{equation}
-R1 = S| |F_{obs}| - |F_{calc}| | / S |F_{obs}| \nonumber
-\end{equation}
+\begin{displaymath}
+R1 = S| |F_{obs}| - |F_{calc}| | / S |F_{obs}|
+\end{displaymath}
 
 $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
@@ -75,9 +77,9 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 **$R_{int}$** Measure of how "equivalent" symmetry equivalent reflections really are. The lower the Rint, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
-\begin{equation}
-R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}} \nonumber
-\end{equation}
+\begin{displaymath}
+R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}
+\end{displaymath}
 
 **Space Group** will be one of 230 possible space groups, these give information on the complete symmetry of the crystal structure.
 
@@ -91,9 +93,9 @@ R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}} \nonumber
 
 **wR2**: a standard measure of the quality of the agreement between Fo and Fc. A very large wR2 value suggests an incorrect solution and a need to try more rigorous structure solution routines.
 
-\begin{equation}
-wR_2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2] \nonumber
-\end{equation}
+\begin{displaymath}
+wR_2 = (S [w(F_{obs}^{2} - F_{calc}^{2})2] / S [w(F_{obs}^{2})2]
+\end{displaymath}
 
 $w$: weighting scheme, $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factor)
 
