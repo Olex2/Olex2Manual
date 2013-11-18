@@ -25,6 +25,6 @@
 
 	>OLEX2 If the Q-peaks don't appear to form a sensible structure, try typing `CODE compaq -a`, which will pull Q-peaks together. Clicking on the centre button SI_CENTER (top right of GUI) has the same effect.
 
-9.	In `@Toolbox-Work` click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type `CODE name C` to assign all selected peaks as carbon atoms. By using the UP key, it's easy to repeat this command.
+9.	In `@Toolbox-Work` click on the relevant atom type e.g. O. These Q-peaks will change colour depending on the atom type. Carry on assigning as many Q-peaks as possible to the correct atom type; it should be possible to find all C and O atoms at this stage (although this is not always the case for every crystal structure). With atoms selected, you can also type `CODE name C` to assign all selected peaks as carbon atoms. By using the UP key, it is easy to repeat this command.
 
 	>OLEX2 Hovering over the atom with the mouse pointer shows the atom label e.g. O1, which takes the format of an atom type followed by a number. There are often some artificial peaks at this stage, so identify recognisable fragments rather than trying to assign an atom type to every Q-peak. Hydrogen atoms are not usually identified at this stage, since they have a very low scattering power.

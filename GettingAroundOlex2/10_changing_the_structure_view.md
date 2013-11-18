@@ -7,7 +7,7 @@ The same display options apply for changing the appearance of the atoms during a
 The quality of the atom appearance can be adjusted by right clicking in the display window and under @@Draw quality@@ is the option to change between High, Medium or Low. Alternatively type `CODE qual -h/m/l` in the command-line. When very large structures or packing diagrams are displayed, the graphics may respond slowly if the draw quality is set too high - besides, you will see the same regardless of which quality setting you choose.
 
 ## Rotating a Structure
-To rotate the structure, click with the left mouse button in the graphics screen (avoiding atoms or Q-peaks) and move the mouse. Holding Ctrl down at the same time rotates the structure around in the plane of the screen. You can also use Shift + direction keys to rotate the structure using the keyboard.
+To rotate the structure, click with the LEFT MOUSE button in the graphics screen (avoiding atoms or Q-peaks) and move the mouse. Holding CTRL down at the same time rotates the structure around in the plane of the screen. You can also use SHIFT + DIRECTION keys to rotate the structure using the keyboard.
 It is also possible to rotate the structure by a user-defined amount relative to the screen orientation under `@View|Rotate`, @@x@@ rotates the structure from top to bottom, @@y@@ rotates from left to right and @@z@@ rotates around in the plane of the page. On the command-line, `CODE rota 1 30` will rotate the molecule by 30 degrees around axis 1.
 
 ## Zooming 

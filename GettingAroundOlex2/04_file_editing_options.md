@@ -1,8 +1,8 @@
-# File Editing Options
+# File Editing Options \index{file editing}
 
 If you are new to crystallography and Olex2 is the first crystallographic program you have come across, then you will find this section very odd indeed. If you are an expert crystallographer who has grown up with editing a ShelX .ins file before every refinement cycle, for example, then you have probably been wondering for a while how to edit the *.ins*.
 Olex2 uses its very own model internally. All the information regarding your model is stored and managed by Olex2 transparently -- you don't need to worry about this. You can type `CODE describe` in the command-line to see what Olex2 knows about the refinement model, the same information is placed into the CIF when completing the structure. 
-For those people who cannot live without editing files (and also to safeguard against situations where the GUI might fail unexpectedly) we have provided the option to edit the Olex2 model using the ShelX syntax. In other words, Olex2 can export its current model in ShelX format in form of an .ins file for you to edit. While you edit this file you can not make any changes in the model using the graphical interface and once you save your edits, an updated Olex2 internal model will be created. As far as we know, all SHELX commands are fully supported by the Olex2 model.
+For those people who cannot live without editing files (and also to safeguard against situations where the GUI might fail unexpectedly) we have provided the option to edit the Olex2 model using the ShelX syntax. In other words, Olex2 can export its current model in ShelX format in form of a .ins file for you to edit. While you edit this file you can not make any changes in the model using the graphical interface and once you save your edits, an updated Olex2 internal model will be created. As far as we know, all SHELX commands are fully supported by the Olex2 model.
 The ShelX .ins file consists of several parts:
 
 - At the beginning is the immutable information about the unit cell dimensions and the radiation used in the experiment.

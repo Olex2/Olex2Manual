@@ -60,7 +60,7 @@ Atom selections are very important in Olex2. When you need to address specific a
 For very many operations in Olex2 the following statement is true: If you have a selection, the operation will act on this selection. If you do not have a selection, the operation will be applied to ALL atoms. For example, if you have two isotropic atoms selected and type `CODE anis`, only these two atoms will be made anisotropic. If you have nothing selected and do the same, ALL atoms will become anisotropic.
 Olex2 offers several options for selecting atoms individually:
 
-- Left click with the mouse on an atom or multiple atoms in turn to select one or more atoms.
+- LEFT CLICK with the mouse on an atom or multiple atoms in turn to select one or more atoms.
 - Under `@Work|Select`:
     - @@Exclusive@@ or @@Additive@@ enable either C, H, N, O or all atoms to be selected either individually or additively.
     - @@Selection@@: the current atom selection can be Inverted, Deselected, Deleted or Previous returns to the previous atom selection.
@@ -82,7 +82,7 @@ As with many options, name matching for equivalent fragments can be done in the 
 - to replace the last character e.g. C11**A** becomes C11**B** type `CODE match sel -n=-B`. If no atoms are selected clicking on @@Equivalent Fragments (Z'>1)@@ will show how the fragments will be matched. Type `CODE match -u` to return to the non-matched view.
 
 ## Sorting atoms in the .ins file
-The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z vlaue etc) and clicking @@Refine@@. Click @@Report@@ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
+The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the preferred sort order (Suffix, Z value etc) and clicking @@Refine@@. Click @@Report@@ to view the sorted atoms. Click on the info icon I_INFO in the beginning of the line to learn about more complicated sorting options (which can be accessed using the command-line only).
 
 ## Hydrogen Atoms \index{hydrogen atoms}
 
@@ -93,7 +93,7 @@ The atoms can be sorted in the .ins file under `@Work|Sorting` by seleting the p
 ### Adding hydrogen atoms \index{add hydrogen atoms}
 Hydrogen atoms can be added in a number of different ways within Olex2 either by locating them on Q-peaks or using AFIX/HFIX instructions to constrain their position automatically or manually.
 
-#### On Q-peaks with no AFIX/HFIX instructions
+#### On Q-peaks with no AFIX/HFIX instructions \index{Q-peaks}
 - Q-peaks can be turned into H using the H button under `@Work|Toolbox-Work` or by right-clicking on the peak and then selecting @@Type|H@@.
 - Alternatively delete all Q-peaks which are not likely to be hydrogen atoms then click on the I_QH icon. All of the Q-peaks on the screen will be changed to hydrogen atoms.
 

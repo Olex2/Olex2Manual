@@ -6,7 +6,7 @@
 It is frequently desirable to adjust atomic positions or change the location of the asymmetric unit based on space group allowed symmetry operations (for example when a molecule is split over more than one site rather than being joined in the asymmetric unit or to clearly display intermolecular interactions between a fragment and solvent molecule). Options for making these adjustments are provided under `@View|Symmetry-Generation|Symmetry-Tools`. See also below.
 
 ### Relocating the asymmetric unit \index{ASU}
-- @@Centre on Cell@@: centres all parts of the asymmetric unit within the unit cell. (Alternatively right click in the display window under Model is the option to Centre.) It is crystallographic good practice to ensure that the centre of mass of a molecule or fragment is contained within the unit cell.
+- @@Centre on Cell@@: centres all parts of the asymmetric unit within the unit cell. (Alternatively RIGHT CLICK in the display window under Model is the option to Centre.) It is crystallographic good practice to ensure that the centre of mass of a molecule or fragment is contained within the unit cell.
 - @@Largest Part@@: centres all parts of the asymmetric unit on the largest fragment. 
 
 ### Reassembling split fragments
@@ -32,7 +32,7 @@ The current space group is displayed in the top corner of the GUI panel.
 A number of the data plot options (`@Info|Reflection-Statistics`) can be useful when you are unsure about the space group.
 
 ### Changing the space group
-An incorrect space group can prevent structure solution but just because a structure solves in a space group it does not mean that the assignment is correct and a check should be made for higher symmetry space groups e.g. using Platon.
+An incorrect space group can prevent structure solution but just because a structure solves in a space group it does not mean that the assignment is correct and a check should be made for higher symmetry space groups e.g. using Platon. \index{Platon}
 
 ####Prior to structure solution \index{structure solution}
 If you believe that your space group selection is wrong you can change this under the `@Work|Solve` tab in the @@Space Group@@ section. 

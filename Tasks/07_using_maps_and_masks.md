@@ -4,7 +4,7 @@
 Various maps can be calculated by Olex2 and are displayed interactively. These options are available under `@Tools|Maps`:
 The appearance of the maps can be changed under the top heading of @@View@@ (e.g. plane, contour, contour + plane, surface, wire, points). The additional options to adjust the view change depending on which option has been selected. The tool information provides more detail on the different views.
 
-### Calculate Voids
+### Calculate Voids \index{voids}
 This calculates all voids in the structure. The resolution of the map (Res/ANGST) and the distance from atoms (Distance/ANGST) can be adjusted to user-defined values. Click on @@Void@@ to toggle between displaying and not displaying voids. The @@Precise@@ option uses a different algorithm which will return more precise values, but the calculation will take much longer. The approximate values are normally all you need.
 
 ### Calculate Solvent Accessible Voids

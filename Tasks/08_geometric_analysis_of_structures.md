@@ -26,10 +26,10 @@ Alternatively, after clicking on `@Tools|Overlay|Overlay Structure`, press ESC.
 ## Calculating Geometric Parameters
 There are a variety of options to determine geometric parameters relating to the structure.
 
-### Measuring bond distances
+### Measuring bond distances \index{bonds}
 
 - Hovering over a bond with the mouse will display the bond length of that particular bond.
-- Right click on the bond and the bond length will be displayed at the top.
+- RIGHT CLICK on the bond and the bond length will be displayed at the top.
 - Select two atoms, then under `@View|Geometry` click on either @@Distance and Angles (of selection)@@ or @@Distance and Angles with esd (of selection)@@ to obtain the distance with or without an esd (the latter always requires the use of `@View|Geometry` @@Refine and save esd info@@ first.)
 - Right click over an atom, under BANG is a list of all bond lengths or distances to nearby Q-peaks.
 - Select one/two atoms and type `CODE bang` to see associated geometric parameters (you can also supply atom names).
@@ -37,14 +37,14 @@ There are a variety of options to determine geometric parameters relating to the
 
 ### Measuring bond angles
 
-- Right click on the central atom, under BANG the bond angle will be displayed.
+- RIGHT CLICK on the central atom, under BANG the bond angle will be displayed.
 - Select three atoms, then, once again, under `@View|Geometry` click on either @@Distance and Angles (of selection)@@ or @@Distance and Angles with esd (of selection)@@ to obtain the distance with or without an esd. 
 - Select the central atom and type `CODE ang sel` to see associated geometric parameters (alternatively replace sel by an atom name).
 - Select `@Work|Report` to generate an html report containing the bond lengths in one of the tables.
 
-### Measuring torsion angles
+### Measuring torsion angles \index{torsion angles}
 
-- Right click on the central bond, under TANG any torsion angles associated with the bond will be displayed.
+- RIGHT CLICK on the central bond, under TANG any torsion angles associated with the bond will be displayed.
 - Select four atoms, then, once again, under `@View|Geometry` click on either @@Distance and Angles (of selection)@@ or @@Distance and Angles with esd (of selection)@@ to obtain the distance with or without an esd respectively.
 - To tabulate the torsion angles:
 

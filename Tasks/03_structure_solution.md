@@ -31,8 +31,8 @@ A lot of these problems can be prevented by using Superflip as the solution prog
 An incorrect space group can prevent a structure solution being obtained. However, just because a structure solution can be obtained in one space group, it does not necessarily mean that is the correct space group and checks should always be made for missed symmetry, e.g. by using Platon \index{Platon}. For various reasons beyond the scope of this manual, it can be more difficult to solve a crystal structure in a centrosymmetric space group hence trying a lower symmetry space group e.g. *P1* instead of P-1 can be more successful. Assuming that the higher symmetry space group is the correct one, it is then necessary to convert back to the higher symmetry space group after structure solution.
 
 ## Check the Chemical Composition
-The chemical composition it displayed in the fixed top tab in the GUI panel. It can be changed under `@Work|Solve` and typing into the @@Chemical Composition@@ text box. For some structure solution programs to work, the correct formula is essential: or at least the correct element types that are present in the structure.
-If a structure should contain heavy atoms and the chemical composition does not reflect this or vice versa, some structure solution programs (direct methods in particular) will be adversely affected. It is also worth considering whether the structure is what was expected or could it be a reactant, an intermediate or a by-product. And there is always the possibility that unexpected solvents and counter-ions might have crystallised witht he main molecule.
+The chemical composition \index{chemical composition} is displayed in the fixed top tab in the GUI panel. It can be changed under `@Work|Solve` and typing into the @@Chemical Composition@@ text box. For some structure solution programs to work, the correct formula is essential: or at least the correct element types that are present in the structure.
+If a structure should contain heavy atoms and the chemical composition does not reflect this or vice versa, some structure solution programs (direct methods in particular) will be adversely affected. It is also worth considering whether the structure is what was expected or could it be a reactant, an intermediate or a by-product. And there is always the possibility that unexpected solvents and counter-ions might have crystallised with the main molecule.
 
 ## Change the Settings Of Structure Solution Programs \index{structure solution settings}
 Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the structure solution method selected will be displayed. Adjusting these can help to yield a structure solution in more challenging cases. Please refer to the relevant manuals (specifically for ShelXS and Superflip) for explanations of these options. Here are a few tips for ShelXS:
@@ -40,7 +40,7 @@ Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the s
 - Increasing **np** (e.g. from 500 to 5000) increases the number of direct method attempts that are made.
 - In cases of pseudo symmetry, try changing *Emin* under ESEL to 1.0/0.9.
 - Try **Patterson Methods**: especially if there are heavy elements present in your structure, or **Structure Expansion** 
-- Use `CODE tref n` where n is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the top n higher probability solutions. You can traverse the solutions using Ctrl+Up/Down keys.
+- Use `CODE tref n` where n is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the top n higher probability solutions. You can traverse the solutions using CTRL+UP/DOWN keys.
 
 ## Check for Signs of Twinning: See page \pageref{twinning}. \index{twinning}
 

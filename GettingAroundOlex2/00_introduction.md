@@ -6,4 +6,4 @@ Olex2 provides a Graphic User Interface (GUI) through which many common crystall
 
 Olex2 provides the option to input information using the GUI panel, context menus and the command-line or a combination of these. The GUI panel provides access to commonly required tools and commands for a structure solution and refinement. These options are also available through the command-line which provides additional functionality as well.
 
-The area on the right of the screen is referred to as the GUI panel in Olex2. It is based on a tab structure with five top level tabs available Home, Work, View, Tools and Info. The area above the tabs provides concise information about your data and structure. The coloured fields in this image summarise the quality of the diffraction data.
+The area on the right of the screen is referred to as the GUI panel in Olex2. It is based on a tab structure with five top level tabs available **Home, Work, View, Tools** and **Info**. The area above the tabs provides concise information about your data and structure. The coloured fields in this image summarise the quality of the diffraction data.

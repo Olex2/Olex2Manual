@@ -17,7 +17,7 @@ grow      Generate all missing symmetry equivalent atoms
 
 reap      Open a new structure
 
-lines #   Change the number of lines of text shown in the main graphics window to #. where # is a number. `CODE lines -1` will show all lines.
+lines #   Change the number of lines of text shown in the main graphics window to # where # is a number. `CODE lines -1` will show all lines.
 ------  ----------------------------------------------------------------
 
 The command-line is an enormously powerful tool in Olex2. There are only a few commands that are frequently used, but they are used again and again and it is well worth your time to get to know these.
