@@ -7,5 +7,6 @@
 >D If 3 atoms (A1, A2, A3) are selected, this command will generate three free variables (var1, var2 and var3) and insert the `1 1 var1 1 var2 1 var3` instruction (equivalent to
 
 \begin{displaymath}
-1.0 = 1.0 \times occ(A1) + 1.0 \times occ(A2) + 1.0 \times occ(A3)
+1.0 = 1.0 \times occu(A1) + 1.0 \times occu(A2) \\
++ 1.0 \times occ(A3)
 \end{displaymath}
