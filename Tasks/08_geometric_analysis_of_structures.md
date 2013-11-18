@@ -57,7 +57,7 @@ There are a variety of options to determine geometric parameters relating to the
 ### Hydrogen bonding
 - Use Olex2's `CODE htab` command to locate the hydrogen bonds; (use `CODE help htab` to find more information). Type `CODE htab -g` to automatically calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type `CODE fuse` (note that Olex2 will display HTABs disregarding their validity). 
 
-### pi-pi interactions
+### pi-pi interactions \index{pi-pi interactions}
 To analyse all pi-pi interactions associated with the asymmetric unit automatically type `CODE pipi -g`. Type `CODE fuse` to return to the asymmetric unit. This is also available under `@View|Geometry|Analyse-pi-pi-Interactions`.
 
 #### Locate pi-pi interactions manually
@@ -80,7 +80,7 @@ Create the required planes and select them. In `@View|Geometry`, once again clic
 - `CODE MPLA Y` followed by the Y atom names in plane 2.
 - The .lst file will contain information on each plane plus the angle between adjacent planes in the list.
 
-## Growing Structures
+## Growing Structures \index{growing}
 Olex2 offers a lot of flexibility over the manner in which structures are grown. The majority of these options are found under `@View|Symmetry-Generation|Growing` under which there are three options: @@Grow@@, @@Mode Grow@@ and @@Assemble@@.
 
 When completing structures where Z' is not an integer (most commonly Z'=1/2)in @@Grow@@ mode:
