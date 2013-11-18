@@ -1,15 +1,15 @@
 # PARTs and Occupancy
 The use of **PARTs** and **occupancy** are often linked. 
-The *PART number* is used to define which atoms are considered to be bonded to each other. Atoms in PART 0 bond to everything within bonding distance, while those in PARTs other than 0 bond to all atoms in PART 0 and the same PART number as them.  For example, if some atoms are modelled in PARTs 1 and 2, the atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2).
+The *PART number* \index{Part number} is used to define which atoms are considered to be bonded to each other. Atoms in PART 0 bond to everything within bonding distance, while those in PARTs other than 0 bond to all atoms in PART 0 and the same PART number as them.  For example, if some atoms are modelled in PARTs 1 and 2, the atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2).
 
 ![The use of PARTs on a fragment to define bonding. The atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2)](/images/part labelled.png)
 
-The occupancy is used to define the fraction of an atom modelled in a particular location. In the image above, it would not be possible for atoms in PARTs 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of PART 1 and in others it is in the orientation of PART 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
+The *occupancy* \index{occupancy} is used to define the fraction of an atom modelled in a particular location. In the image above, it would not be possible for atoms in PARTs 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of PART 1 and in others it is in the orientation of PART 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 
 ## Assigning PARTs
 If more than one position of an atom or fragment of a molecule is being modelled in the unit cell, it is necessary to put the disordered atoms into separate PARTs. Otherwise, bonds appear between the disordered PARTs and only one option can be present at any point in a cell, at any one time.
 
-- Right click on an atom and select the desired PART from the `@context menu|PART`.
+- RIGHT CLICK on an atom and select the desired PART from the `@context menu|PART`.
 - Using the GUI panel select the atoms to be put into a PART. In `@Tools|Disorder|Assign-selection-to-PART`, type the required PART number and click on the link.
 - Select some atoms and type `CODE PART number` in the command-line where `number' is the PART number. Using the command-line you can also provide a second numerical value to the PART command - the selected atom's occupancy.
 
@@ -21,7 +21,7 @@ All atoms in PART 0 are normally 100% occupied. In other words they are at that 
 ## Assigning Occupancies
 When refining occupancies, the thermal parameters of the atoms should be refined isotropically. If the sum of the occupancies of a pair of atoms is required to total one, their $U_{iso}$ values should be linked using EADP but allowed to refine until the occupancies are fixed. The reason for this is that strong correlations exist between occupancies and thermal parameters and not linking $U_{iso}$ while refining the occupancies may lead to incorrect occupancies. Very small occupancies should be examined with caution.
 
-## Free Variables
+## Free Variables \index{free variables}
 Free variables provide a simple and yet elegant mechanism to implement a number of linear constraints and restraints. They are found in the .ins file under an FVAR instruction. The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used as a link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. 
 For example:
 
@@ -41,10 +41,10 @@ C2a C 0.39521 0.31781 0.21763 -21.00000 0.05000
 \end{verbatim}
 
 `21.000` means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). `-21.000` means 1 - (1 x free variable 2), in other words the occupancy of the two PARTs adds to 1.
-`PART 1 / 2` means that the atoms have been grouped into different PARTS only one of which would be present at a position in the crystal structure at any one time. PART 0 is for atoms with one position.*
+`PART 1 / 2` means that the atoms have been grouped into different PARTS only one of which would be present at a position in the crystal structure at any one time. PART 0 is for atoms with one position.
 
 ## Change the Occupancy of an Atom or Group
-Right click on the atom -- @@Chemical Occupancy@@ will provide these options:
+Right click on the atom -- @@Chemical Occupancy@@ \index{chemical occupancy} will provide these options:
 
 - **Select** a specific occupancy value e.g. $1/2$.
 - **Fix** the occupancy to its current refined value. This is only applicable if the atom occupancy has been refining freely or associated with a free variable (FVAR in the .ins file).
@@ -56,10 +56,10 @@ Selecting `@Tools|Disorder|Link-Selected-Occupancies` will link the occupancies 
 The free variable will be linked to a number in the FVAR instruction at the top of the .ins file, `21` links to the second FVAR number, 31 links to the third FVAR number etc. These number are then refined. Essentially, `21` means 1 x FVAR 2, while -21 means 1-(1 x FVAR 2)] i.e. if two atoms have occupancies of `21` and `-21` respectively the sum of their occupancies will equal one fully occupied atom.
 Sometimes it quicker and easier to perform this using the command-line:
 
-- Using the `@PART part occupancy` command, for example `CODE PART 1 21` or `CODE PART 2 -21`. In the case when new PARTs need to be created, one can select the atoms of different PARTs sequentially and issue `CODE PART -p=N -lo` command to create N new PARTs and link their occupancy. In the case WHEN N is greater than 2, the occupancies will be linked through a restraint (SUMP) represented by a linear equation, rather than by a constraint.
+- Using the part occupancy command `CODE PART`, for example `CODE PART 1 21` or `CODE PART 2 -21`. In the case when new PARTs need to be created, one can select the atoms of different PARTs sequentially and issue `CODE PART -p=N -lo` command to create N new PARTs and link their occupancy. In the case when N is greater than 2, the occupancies will be linked through a restraint (SUMP) \index{restraint} represented by a linear equation, rather than by a constraint.
 - Using the `CODE Fvar variable times` command, where *times* is the FVAR multiplier, typically 1. For example `CODE fvar 2 1` or `CODE fvar -2 1`.
 
-## Displaying Occupancy Values
+## Displaying Occupancy Values \index{occupancy}
 Under `@Work|Toolbox-Work|Labels` either select Crystallographic Occupancy or Chemical Occupancy from the drop down menu. Crystallographic occupancy - if an atom is on a symmetry element, then its crystallographic occupancy is no longer 1, even though chemically it is a fully occupied atom in that position. The chemical occupancy hides this complexity. If that number says 0.5, then that means there is half an atom in that position.
 
 ## Splitting Atoms 
@@ -87,4 +87,4 @@ It may be apparent that an atom would be better located on a different Q-peak ra
 ### `@Toolbox-Work|Select-group-or-atom(s)-and-then...` 
 
 - @@Split or Move with Shift key@@: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the LEFT MOUSE button down and moving the mouse. Press ESC when finished.
-Releasing the SHIFT in these modes allows the structure to be rotated and zoomed to check the positions. These positions do not have to be perfect, just relatively close as the structure will be refined afterwards. In Split or Move with Shift key be careful not to click on an atom if you are changing the view or it will split. If extra split atoms are generated in any mode. Press ESC to get out of the mode. Using the left mouse button click on the new generated atom(s) to select it, press delete and the atom(s) will disappear and change occupancy of the original atoms back to 1 and reset its PART to 0.
+Releasing the SHIFT in these modes allows the structure to be rotated and zoomed to check the positions. These positions do not have to be perfect, just relatively close as the structure will be refined afterwards. In Split or Move with SHIFT key be careful not to click on an atom if you are changing the view or it will split. If extra split atoms are generated in any mode. Press ESC to get out of the mode. Using the left mouse button click on the new generated atom(s) to select it, press delete and the atom(s) will disappear and change occupancy of the original atoms back to 1 and reset its PART to 0.
