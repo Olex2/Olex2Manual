@@ -20,7 +20,7 @@ There are two independent sets of labels. The built-in labels (toggled with F3 a
 A variety of options are available for creating figures are available under `@View|Quick-Drawing-Styles` and `@Tools|Images`. Pictures are created of the molecules or fragments displayed on the graphics screen and can either be of a grown or ungrown structure.
 
 ### Creating and Saving Images
-Olex2 offers a number of different file formats for saving images, these are found under `@Tools|Images`. A name for the structure image can be typed into the white box. There are options to specify what happens if an image file @@already exists@@, the default is to @@Ask@@, but it is also possible to select @@Increment@@ or @@Replace@@ from the drop-down menu. A number of other opptions are available:
+Olex2 offers a number of different file formats for saving images, these are found under `@Tools|Images`. A name for the structure image can be typed into the white box. There are options to specify what happens if an image file @@already exists@@, the default is to @@Ask@@, but it is also possible to select @@Increment@@ or @@Replace@@ from the drop-down menu. A number of other options are available:
 
 - @@Label selected@@ - will label all the selected atoms and/or bonds. If none are selected, then all bonds and atoms will be labelled.
 - @@Non-H atoms@@ - will label all atoms that are not hydrogens.
