@@ -31,14 +31,14 @@ DIANG           Restrains the dihedral angle of the selection to the value provi
 
 ## Shelx Compatible Constraints
 It is very easy to apply any SHELX constraints (and restraints) in Olex2. The instructions are fully managed, so you do not have to take care of atom names in this. For example, if you want two atoms to have the same ADP value, you simply select the two atoms and type `CODE EADP` (or find the corresponding command on the GUI). If you later decide to rename any of the atoms involved in a constraint, this does not matter -- Olex2 takes care of this for you.
-For the detailed documentation of ShelXL constraints and restraints, please refer to the SHELX manual. A link to this manual is provided on our GUI with George Sheldrick's kind permission
+For detailed documentation of ShelXL constraints and restraints, please refer to the SHELX manual. A link to this manual is provided on our GUI with George Sheldrick's kind permission
 
 ---------------------------------------------------------------------------
 SHELX       Constraints
 -------     ---------------------------------------------------------------
 AFIX        Constrains molecular geometry to a specified shape.
 
-EXYZ        The coordinates of selected atoms are constrained to be the same. Useful for 	occupational disorder.
+EXYZ        The coordinates of selected atoms are constrained to be the same. Useful for occupational disorder.
 
 EADP        The ADPs/Uiso of selected atoms will be constrained to be the same.
 ---------------------------------------------------------------------------
@@ -60,7 +60,7 @@ CHIV        Restrains the chiral volume of selected atoms to a specified value V
 
 FLAT        Restrains four or more selected atoms to lie in the same plane within a weight *s1*.
 
-DELU        All bonds are subject to a rigid bond restraint, i.e. the ADPs in the bond 	direction are restrained to be equal with weight *s1*. The same restraint is applied to the 1,3-distances and if the weight *s2* is not supplied it will take the same value as *s1*.
+DELU        All bonds are subject to a rigid bond restraint, i.e. the ADPs in the bond direction are restrained to be equal with weight *s1*. The same restraint is applied to the 1,3-distances and if the weight *s2* is not supplied, it will take the same value as *s1*.
 
 SIMU        Restrains the Uij components (essentially the ADPs) of selected atoms, that are less than dmax apart, to have the same value within the standard deviations.
 
