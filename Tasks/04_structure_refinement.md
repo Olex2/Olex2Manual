@@ -55,7 +55,7 @@ A summary of the key refinement parameters that are particularly useful to monit
 Poorly fitting reflections are listed under `@Info|Bad-Reflections`. Those measured reflections that differ most from the equivalent calculated reflections are listed. If your data reduction step was carried out correctly, there should be none that are significant.
 
 - To omit a reflection click on @@omit@@ to the right of the reflection or type a specific hkl under @@Exclude@@.
-- @@Edit Reflections@@. This displays the worst-fitting reflections, showing each equivalent occurrence of that reflection. You can omit only the offending reflections. Olex2 moves the flagged reflections to the end of the file (after the `0 0 0` line, indicating to the refinement program that these should be ignored.
+- @@Edit Reflections@@. This displays the worst-fitting reflections, showing each equivalent occurrence of that reflection. You can omit only the offending reflections. Olex2 moves the flagged reflections to the end of the file (after the `0 0 0` line, indicating to the refinement program that these should be ignored).
 - To omit a specific reflection manually, type `CODE OMIT h k l`.
 - Use `CODE OMIT ##`, where ## is the minimum value of the $|(F_{calc}^{2}-F_{obs}^{2})/esd$ to omit all reflections where the value is above the threshold.
 - In general most of the poorly fitting reflections should have similar values of $|(F_{calc}^{2}-F_{obs}^{2})/esd$ ideally all less than ~  +/- 0. One or two poorly fitting reflections with significantly different values of $|(F_{calc}^{2}-F_{obs}^{2})/esd$ can be removed, but if large numbers appear to be poorly fitting, the reasons for this should be investigated.
