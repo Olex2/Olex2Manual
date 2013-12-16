@@ -1,9 +1,9 @@
 00_introduction.md
 01_quick_access_icons.md
-05_gui_tabs.md
-02_context_menus.md
-03_command_line_options.md
-04_file_editing_options.md
+02_gui_tabs.md
+03_context_menus.md
+04_command_line_options.md
+05_file_editing_options.md
 06_mouse_tracking.md
 07_keyboard_shortcuts.md
 08_toolbox_work.md
