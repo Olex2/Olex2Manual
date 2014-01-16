@@ -26,7 +26,7 @@ The first 3 points on the list above should be assessed within the data processi
 ### Treating twinning \index{twinning}
 Olex2 can automatically search for twin laws and suggest any likely twin laws, or you can input twin laws to test. There are different types of twinning:
 
-#### Merohedral and psedudo-merhohedral twinning
+#### Merohedral and psedudo-merohedral twinning
 Those where the reciprocal lattices (i.e. reflection positions) exactly overlap. It is relatively simple to treat and procedures are described below. In this type of twinning, a twin law and twin scale factor are added to the head of the .ins file below the UNIT instruction in the form
 
 \begin{verbatim}
