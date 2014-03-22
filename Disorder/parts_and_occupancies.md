@@ -14,7 +14,7 @@ If more than one position of an atom or fragment of a molecule is being modelled
 - Select some atoms and type `CODE PART number` in the command-line where `number' is the PART number. Using the command-line you can also provide a second numerical value to the PART command - the selected atom's occupancy.
 
 ## Displaying PART Information
-Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTS. Alternatively, use `CODE showp X`, where X is a space separated list of PARTs, in the command-line.
+Displaying PART numbers - under `@Work|Toolbox-Work|Labels` either select PARTs from the drop down menu or click on PARTs. Alternatively, use `CODE showp X`, where X is a space separated list of PARTs, in the command-line.
 Displaying atoms in particular PARTs - under both `@Work|Toolbox-Work|Show-PART` and `@Tools|Disorder|Show PART` are the options to display all atoms assigned to specific PARTs in combination e.g. 0 + 1 or 0 + 2 or all PARTs.
 All atoms in PART 0 are normally 100% occupied. In other words they are at that position in every asymmetric unit, while those in other PARTs are not present in every asymmetric unit hence it is normally desirable to see things in combination with atoms in PART 0. This can be useful to check that each section of modelled disorder makes chemical and crystallographic sense.
 
@@ -48,7 +48,7 @@ Right click on the atom -- @@Chemical Occupancy@@ \index{chemical occupancy} wil
 
 - **Select** a specific occupancy value e.g. $1/2$.
 - **Fix** the occupancy to its current refined value. This is only applicable if the atom occupancy has been refining freely or associated with a free variable (FVAR in the .ins file).
-- To refine the occupancy, select @@Free@@. This refines the occupancy freely but does not associate it with a free variable.
+- To refine the occupancy, select **Free**. This refines the occupancy freely but does not associate it with a free variable.
 - Use `CODE fix` and `CODE free` in the command-line. For example, `CODE fix occu 1` fixes the occupancy of selected (or ALL atoms) to 1; `CODE free occu` will make occupancy of selected (or ALL) `refineable'.
 
 ## Linking Atom Occupancies
@@ -67,24 +67,24 @@ If an atom or group of atoms is associated with disorder, it can be useful to sp
 
 ### `@Work|Toolbox-Work|Split-atoms-you-click-next-with-...` 
 
-- *No restraint* splits atoms with no restraints or constraints, putting them into two PARTs and associating the occupancy with a free variable. Press ESC when finished.
-- EADP or ISOR or SIMU splits the atoms, applying either an EADP constraint or ISOR or SIMU restraint depending on what option is selected. Press ESC when finished. (See restraints/constraints) for more detail of these restraints.
+- **No restraint** splits atoms with no restraints or constraints, putting them into two PARTs and associating the occupancy with a free variable. Press ESC when finished.
+- **EADP** or **ISOR** or **SIMU** splits the atoms, applying either an EADP constraint or ISOR or SIMU restraint depending on what option is selected. Press ESC when finished. (See restraints/constraints) for more detail of these restraints.
 
 >OLEX2 If you click on more than one atom to split it, it will be associated with the same free variable unless you press ESC and reopen the mode, in which case the occupancy will be linked to a new free variable. To edit the standard deviations associated with ISOR or SIMU click on the relevant atoms to select them, click on the open .ins icon I_EDIT and edit the .ins file directly. When atoms are split, Olex2 will automatically make them isotropic for the occupancies to be refined.
 
 ### `@Toolbox Work|Select-group-or-atom(s)-and-then...` 
-*Split* will split the pre-selected atom or group of atoms with no restraint: setting one atom to PART 1 with the occupancy linked to a free variable and the other to PART 2 with the occupancy linked to 1 free variable. Subsequently, holding down the SHIFT+LEFT MOUSE button and moving the mouse allows the new atom(s) to be moved e.g. onto a Q-peak. Press ESC when finished.
+**Split** will split the pre-selected atom or group of atoms with no restraint: setting one atom to PART 1 with the occupancy linked to a free variable and the other to PART 2 with the occupancy linked to 1 free variable. Subsequently, holding down the SHIFT+LEFT MOUSE button and moving the mouse allows the new atom(s) to be moved e.g. onto a Q-peak. Press ESC when finished.
 
 ### Moving Incorrectly Located Atoms
 It may be apparent that an atom would be better located on a different Q-peak rather than the initially assigned position. This can be useful when Add H is used for less well defined hydrogen atoms e.g. OH. Often multiple refinement cycles will lead to the hydrogen atom moving onto the Q-peak but the following may be a quicker method as only small shifts occur in each cycle of refinement.
 
 ### `@Toolbox-Work|Select-group-or-atom(s)-and-then...`
 
-- *Fit* allows the pre-selected atoms to be moved by holding down the SHIFT KEY + LEFT MOUSE button and moving the mouse will move the group. Press ESC when finished.
+- **Fit** allows the pre-selected atoms to be moved by holding down the SHIFT KEY + LEFT MOUSE button and moving the mouse will move the group. Press ESC when finished.
 
 ## Splitting and Moving Atoms
 
 ### `@Toolbox-Work|Select-group-or-atom(s)-and-then...` 
 
-- @@Split or Move with Shift key@@: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the LEFT MOUSE button down and moving the mouse. Press ESC when finished.
+- **Split or Move with Shift key**: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the LEFT MOUSE button down and moving the mouse. Press ESC when finished.
 Releasing the SHIFT in these modes allows the structure to be rotated and zoomed to check the positions. These positions do not have to be perfect, just relatively close as the structure will be refined afterwards. In Split or Move with SHIFT key be careful not to click on an atom if you are changing the view or it will split. If extra split atoms are generated in any mode. Press ESC to get out of the mode. Using the left mouse button click on the new generated atom(s) to select it, press delete and the atom(s) will disappear and change occupancy of the original atoms back to 1 and reset its PART to 0.
