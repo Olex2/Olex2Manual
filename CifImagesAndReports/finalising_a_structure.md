@@ -1,11 +1,11 @@
 # Finalising a Structure
 
 ## Before Writing a Final CIF
-The bonds to hydrogen atoms are not automatically included in the CIF. Type `CODE htab` in the command-line -- this will print detail of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode. You then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.
+The bonds to hydrogen atoms are not automatically included in the CIF. Type `CODE htab` in the command-line -- this will print details of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode. You then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.
 
 If a full analysis of torsion angles is required, type `CODE editins` or click I_EDIT to open the .ins file header. Type `CODE CONF` on a separate line somewhere below the UNIT line. 
 
-There is also a tick-box in the refinement settings (`@Work|Refine|CONF,MORE -1,Bond$H,ACTA`) that will add a collection of commands to ensure that the final CIF will contain all the information required by IUCr journals.
+There is also a tick-box in the refinement settings (`@Work|Refine|CONF,MORE -1,Bond$H,ACTA`) that will add a collection of commands to ensure that the final CIF will contain all of the information required by IUCr journals.
 
 ### Editing Report / CIF parameters
 Under `@Work|Report` you can type a name for the the crystal structure report ('data' block name in CIF terminology). What follows will allow you to enter and/or modify details relating to the crystal and data collection. If you have solved and refined your structure in the "standard location" i.e. a folder that contains lots of other information about your experiment then most (if not all) of these fields should already be filled.
