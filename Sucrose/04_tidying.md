@@ -1,9 +1,9 @@
 #Tidying the Structure
 
-1.	The key numbers to look at are **R1**, **wR2**, *max* and *min* Q peak values, *Goof*\index{GooF}, *Hooft* \index{Hooft $y$ parameter} and *Flack*\index{Flack $x$ parameter} which should be examined after each refinement cycle.
+1.	The key numbers to look at are **R1**, **wR2**, *max* and *min* Q peak values (also called highest peak and deepest hole), *Goof*\index{GooF}, *Hooft* \index{Hooft $y$ parameter} and *Flack*\index{Flack $x$ parameter} which should be examined after each refinement cycle.
 
 	- The values of **R1** and **wR2** are an indication of the agreement between Fc and Fo and should decrease as the refinement proceeds. Very high values of R1/wR2 (e.g. > 40/70 respectively) suggest that the structure solution is incorrect. 
-	- **Q peaks**: *max* and *min* gives information on the highest and lowest peaks and holes in the electron density map. 
+	- **Q peaks**: *max* and *min* gives information on the highest peaks and deepest holes in the electron density map. 
 	- **GooF** is the goodness of fit of a structure and should converge towards 1 at the end of the refinement. 
 	- **Hooft $y$** and **Flack $x$** are applicable only to structures in non-centrosymmetric space groups (i.e. *not* containing an inversion centre). They are displayed with an error and should be close to zero if the structure solution is correct, while ~1 implies the structure should be inverted and values significantly different from 0 or 1 indicate a racemic twin.
 
