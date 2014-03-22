@@ -1,5 +1,5 @@
 # Restraints and Constraints
-Some structures need restraints or constraints in order to obtain a chemically reasonable refinement. *Constraints* \index{constraints} will fix items to an exact value and there are only three of them in ShelXL: EADP, EXYZ and AFIX. Constraints are NOT refined; two (or more) atoms will end up in exactly the same position (EXYZ), or have exactly the same displacement parameters (EADP) and AFIX constrains some or all geometrical parameters. 
+Some structures need restraints or constraints in order to obtain a chemically reasonable refinement. *Constraints* \index{constraints} will fix items to an exact value and there are only three of them in ShelXL: EADP, EXYZ and AFIX. Constraints are NOT refined; two (or more) atoms will end up in exactly the same position (EXYZ), or have exactly the same displacement parameters (EADP) while AFIX constrains some or all geometrical parameters to specific values. 
 
 >CRYST Special cases of constraint is the use of free variables (FVARs) to express occupancy of one atom through the occupancy of the other (aka "linked occupancies"), or the introduction of linear dependency on occupancies of Uiso and the Uiso value of riding hydrogen atoms: the riding atom's Uiso is fixed at $k \times $U_{iso}/U_{eq}$ of the parent atom, where $k$ is a constant and typically equals 1.2 or 1.5.
 
