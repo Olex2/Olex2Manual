@@ -25,4 +25,5 @@ DOUBLE CLICK on an atom          Selects the molecule
 RIGHT CLICK background           Opens the display settings menu
 
 RIGHT CLICK on object            Open the object property (context) menu
+
 -----------------------------------------------------------------------------------
