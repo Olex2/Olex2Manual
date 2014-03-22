@@ -50,4 +50,5 @@ CTRL+Z      Undo the last action. It works whenever possible.
 TAB         Expands the command (when typing in OLEX's console).
 
 UP KEY      Key brings the previously issued commands from the console.
+
 ------------------------------------------------------------------------
