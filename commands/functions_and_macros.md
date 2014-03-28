@@ -13,11 +13,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ATA
 
@@ -33,17 +33,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Atoms
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -53,11 +53,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #BaseDir
 
@@ -73,11 +73,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcR
 
@@ -93,11 +93,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CCrd
 
@@ -113,11 +113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cell
 
@@ -133,11 +133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CheckState
 
@@ -153,11 +153,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChooseDir
 
@@ -173,17 +173,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChooseElement
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -193,11 +193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChooseFont
 
@@ -213,11 +213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChooseMaterial
 
@@ -233,11 +233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cif
 
@@ -253,17 +253,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CmdList
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -273,17 +273,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Color
 
 **Arguments**: [none, 1 or 2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -293,11 +293,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Crd
 
@@ -313,11 +313,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Crs
 
@@ -333,11 +333,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CurrentLanguage
 
@@ -353,11 +353,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CurrentLanguageEncoding
 
@@ -373,17 +373,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cursor
 
 **Arguments**: [none, 1, 2 or 3]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -393,11 +393,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DataDir
 
@@ -413,11 +413,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Env
 
@@ -433,11 +433,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ExtraZoom
 
@@ -453,11 +453,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FATA
 
@@ -473,11 +473,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileDrive
 
@@ -493,11 +493,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileExt
 
@@ -513,11 +513,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileFull
 
@@ -533,17 +533,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileLast
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -553,11 +553,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileName
 
@@ -573,17 +573,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileOpen
 
 **Arguments**: [3 or 4]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -593,11 +593,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FilePath
 
@@ -613,17 +613,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FileSave
 
 **Arguments**: [3 or 4]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -633,11 +633,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Flush
 
@@ -653,17 +653,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FPS
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -673,11 +673,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Freeze
 
@@ -693,11 +693,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FullScreen
 
@@ -713,11 +713,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetCompilationInfo
 
@@ -733,11 +733,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetEnv
 
@@ -753,11 +753,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetFont
 
@@ -773,11 +773,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetMAC
 
@@ -793,11 +793,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetMaterial
 
@@ -813,11 +813,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetMouseX
 
@@ -833,11 +833,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetMouseY
 
@@ -853,17 +853,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetUserInput
 
 **Arguments**: [3]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -873,11 +873,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetVar
 
@@ -893,11 +893,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetWindowSize
 
@@ -913,11 +913,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GlTooltip
 
@@ -933,11 +933,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HasGUI
 
@@ -953,11 +953,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HKLSrc
 
@@ -973,17 +973,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HtmlPanelWidth
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -993,11 +993,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Ins
 
@@ -1013,11 +1013,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsCurrentLanguage
 
@@ -1033,11 +1033,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsFileLoaded
 
@@ -1053,11 +1053,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsFileType
 
@@ -1073,11 +1073,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsOS
 
@@ -1093,17 +1093,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsPluginInstalled
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1113,11 +1113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IsVar
 
@@ -1133,11 +1133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LastError
 
@@ -1153,17 +1153,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LoadDll
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1173,11 +1173,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LogLevel
 
@@ -1193,11 +1193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LSM
 
@@ -1213,11 +1213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Lst
 
@@ -1233,11 +1233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #MatchFiles
 
@@ -1253,11 +1253,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #P4p
 
@@ -1273,11 +1273,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Process
 
@@ -1293,11 +1293,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RemoveSE
 
@@ -1313,17 +1313,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RGB
 
 **Arguments**: [3 or 4]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1333,11 +1333,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Run
 
@@ -1353,11 +1353,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sel
 
@@ -1373,11 +1373,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetVar
 
@@ -1393,11 +1393,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SG
 
@@ -1413,11 +1413,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SGList
 
@@ -1433,11 +1433,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SGS
 
@@ -1453,11 +1453,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SSM
 
@@ -1473,17 +1473,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Strcat
 
 **Arguments**: [2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1493,17 +1493,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Strcmp
 
 **Arguments**: [2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1513,11 +1513,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #StrDir
 
@@ -1533,11 +1533,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ThreadCount
 
@@ -1553,11 +1553,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Title
 
@@ -1573,11 +1573,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TranslatePhrase
 
@@ -1593,11 +1593,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UnsetVar
 
@@ -1613,17 +1613,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ValidatePlugin
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -1633,11 +1633,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #VSS
 
@@ -1653,11 +1653,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #VVol
 
@@ -1673,11 +1673,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.ArgCount
 
@@ -1693,11 +1693,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.BaseDir
 
@@ -1713,11 +1713,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.ConfigDir
 
@@ -1733,11 +1733,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.GetArg
 
@@ -1753,11 +1753,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.GetLogName
 
@@ -1773,11 +1773,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.GetOpt
 
@@ -1793,11 +1793,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.InstanceDir
 
@@ -1813,11 +1813,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.IsBaseDirWritable
 
@@ -1833,11 +1833,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.IsDebugBuild
 
@@ -1853,11 +1853,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.ModuleHash
 
@@ -1873,11 +1873,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.OptCount
 
@@ -1893,11 +1893,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.OptValue
 
@@ -1913,11 +1913,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.Platform
 
@@ -1933,11 +1933,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.Profiling
 
@@ -1953,11 +1953,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.SaveOptions
 
@@ -1973,11 +1973,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #app.SharedDir
 
@@ -1993,11 +1993,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.Clear
 
@@ -2013,11 +2013,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.Command
 
@@ -2033,11 +2033,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.GetName
 
@@ -2053,11 +2053,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.IsGrouped
 
@@ -2073,11 +2073,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.IsSelected
 
@@ -2093,11 +2093,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.Lines
 
@@ -2113,11 +2113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.LineSpacing
 
@@ -2133,11 +2133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.Post
 
@@ -2153,11 +2153,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.PromptString
 
@@ -2173,11 +2173,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.ShowBuffer
 
@@ -2193,11 +2193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.Visible
 
@@ -2213,11 +2213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #console.cursor.Symbol
 
@@ -2233,11 +2233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.BG2FG
 
@@ -2253,11 +2253,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.GetName
 
@@ -2273,11 +2273,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.InitBG
 
@@ -2293,11 +2293,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.InitFG
 
@@ -2313,11 +2313,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.IsGrouped
 
@@ -2333,11 +2333,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.IsSelected
 
@@ -2353,11 +2353,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.Position
 
@@ -2373,11 +2373,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.Step
 
@@ -2393,11 +2393,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fader.Visible
 
@@ -2413,11 +2413,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.AbsolutePath
 
@@ -2433,11 +2433,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Age
 
@@ -2453,11 +2453,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.ChangeExt
 
@@ -2473,11 +2473,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.ChDir
 
@@ -2493,11 +2493,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Copy
 
@@ -2513,11 +2513,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.CurDir
 
@@ -2533,11 +2533,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Delete
 
@@ -2553,11 +2553,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Exists
 
@@ -2573,11 +2573,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.GetDrive
 
@@ -2593,11 +2593,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.GetExt
 
@@ -2613,11 +2613,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.GetName
 
@@ -2633,11 +2633,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.GetPath
 
@@ -2653,11 +2653,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.ListDirForGUI
 
@@ -2673,11 +2673,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.MkDir
 
@@ -2693,11 +2693,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.OSPath
 
@@ -2713,11 +2713,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.RelativePath
 
@@ -2733,11 +2733,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Rename
 
@@ -2753,11 +2753,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #file.Which
 
@@ -2773,11 +2773,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fs.Exists
 
@@ -2793,11 +2793,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Basis
 
@@ -2813,11 +2813,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.CalcZoom
 
@@ -2833,11 +2833,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Compile
 
@@ -2853,11 +2853,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.GetZoom
 
@@ -2873,11 +2873,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.LineWidth
 
@@ -2893,11 +2893,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.RasterZ
 
@@ -2913,11 +2913,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Stereo
 
@@ -2933,11 +2933,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.StereoColor
 
@@ -2953,11 +2953,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.AmbientColor
 
@@ -2973,11 +2973,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.ClearColor
 
@@ -2993,11 +2993,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.LocalViewer
 
@@ -3013,11 +3013,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.SmoothShade
 
@@ -3033,11 +3033,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.TwoSides
 
@@ -3053,11 +3053,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Ambient
 
@@ -3073,11 +3073,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Attenuation
 
@@ -3093,11 +3093,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Diffuse
 
@@ -3113,11 +3113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Enabled
 
@@ -3133,11 +3133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Position
 
@@ -3153,11 +3153,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.Specular
 
@@ -3173,11 +3173,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.SpotCutoff
 
@@ -3193,11 +3193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.SpotDirection
 
@@ -3213,11 +3213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light1.SpotExponent
 
@@ -3233,11 +3233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Ambient
 
@@ -3253,11 +3253,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Attenuation
 
@@ -3273,11 +3273,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Diffuse
 
@@ -3293,11 +3293,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Enabled
 
@@ -3313,11 +3313,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Position
 
@@ -3333,11 +3333,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.Specular
 
@@ -3353,11 +3353,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.SpotCutoff
 
@@ -3373,11 +3373,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.SpotDirection
 
@@ -3393,11 +3393,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light2.SpotExponent
 
@@ -3413,11 +3413,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Ambient
 
@@ -3433,11 +3433,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Attenuation
 
@@ -3453,11 +3453,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Diffuse
 
@@ -3473,11 +3473,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Enabled
 
@@ -3493,11 +3493,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Position
 
@@ -3513,11 +3513,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.Specular
 
@@ -3533,11 +3533,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.SpotCutoff
 
@@ -3553,11 +3553,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.SpotDirection
 
@@ -3573,11 +3573,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light3.SpotExponent
 
@@ -3593,11 +3593,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Ambient
 
@@ -3613,11 +3613,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Attenuation
 
@@ -3633,11 +3633,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Diffuse
 
@@ -3653,11 +3653,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Enabled
 
@@ -3673,11 +3673,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Position
 
@@ -3693,11 +3693,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.Specular
 
@@ -3713,11 +3713,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.SpotCutoff
 
@@ -3733,11 +3733,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.SpotDirection
 
@@ -3753,11 +3753,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light4.SpotExponent
 
@@ -3773,11 +3773,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Ambient
 
@@ -3793,11 +3793,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Attenuation
 
@@ -3813,11 +3813,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Diffuse
 
@@ -3833,11 +3833,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Enabled
 
@@ -3853,11 +3853,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Position
 
@@ -3873,11 +3873,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.Specular
 
@@ -3893,11 +3893,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.SpotCutoff
 
@@ -3913,11 +3913,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.SpotDirection
 
@@ -3933,11 +3933,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light5.SpotExponent
 
@@ -3953,11 +3953,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Ambient
 
@@ -3973,11 +3973,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Attenuation
 
@@ -3993,11 +3993,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Diffuse
 
@@ -4013,11 +4013,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Enabled
 
@@ -4033,11 +4033,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Position
 
@@ -4053,11 +4053,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.Specular
 
@@ -4073,11 +4073,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.SpotCutoff
 
@@ -4093,11 +4093,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.SpotDirection
 
@@ -4113,11 +4113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light6.SpotExponent
 
@@ -4133,11 +4133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Ambient
 
@@ -4153,11 +4153,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Attenuation
 
@@ -4173,11 +4173,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Diffuse
 
@@ -4193,11 +4193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Enabled
 
@@ -4213,11 +4213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Position
 
@@ -4233,11 +4233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.Specular
 
@@ -4253,11 +4253,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.SpotCutoff
 
@@ -4273,11 +4273,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.SpotDirection
 
@@ -4293,11 +4293,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light7.SpotExponent
 
@@ -4313,11 +4313,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Ambient
 
@@ -4333,11 +4333,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Attenuation
 
@@ -4353,11 +4353,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Diffuse
 
@@ -4373,11 +4373,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Enabled
 
@@ -4393,11 +4393,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Position
 
@@ -4413,11 +4413,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.Specular
 
@@ -4433,11 +4433,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.SpotCutoff
 
@@ -4453,11 +4453,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.SpotDirection
 
@@ -4473,11 +4473,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.lm.light8.SpotExponent
 
@@ -4493,11 +4493,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Call
 
@@ -4513,11 +4513,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ClientHeight
 
@@ -4533,11 +4533,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ClientWidth
 
@@ -4553,11 +4553,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ContainerHeight
 
@@ -4573,11 +4573,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ContainerWidth
 
@@ -4593,11 +4593,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.EndModal
 
@@ -4613,11 +4613,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetBorders
 
@@ -4633,11 +4633,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetData
 
@@ -4653,11 +4653,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetFontName
 
@@ -4673,11 +4673,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetImage
 
@@ -4693,11 +4693,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetItems
 
@@ -4713,11 +4713,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetItemState
 
@@ -4733,11 +4733,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetLabel
 
@@ -4753,11 +4753,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetState
 
@@ -4773,11 +4773,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.GetValue
 
@@ -4793,11 +4793,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Height
 
@@ -4813,11 +4813,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.IsItem
 
@@ -4833,11 +4833,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.IsPopup
 
@@ -4853,11 +4853,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.LoadData
 
@@ -4873,11 +4873,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SaveData
 
@@ -4893,11 +4893,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Select
 
@@ -4913,11 +4913,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetBG
 
@@ -4933,11 +4933,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetData
 
@@ -4953,11 +4953,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetFG
 
@@ -4973,11 +4973,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetFocus
 
@@ -4993,11 +4993,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetImage
 
@@ -5013,11 +5013,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetItems
 
@@ -5033,11 +5033,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetLabel
 
@@ -5053,11 +5053,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetState
 
@@ -5073,11 +5073,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetValue
 
@@ -5093,11 +5093,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ShowModal
 
@@ -5113,11 +5113,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Snippet
 
@@ -5133,11 +5133,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Width
 
@@ -5153,11 +5153,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #lcells.Search
 
@@ -5173,11 +5173,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #math.eval
 
@@ -5193,11 +5193,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mouse.IsEnabled
 
@@ -5213,11 +5213,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #py.Export
 
@@ -5233,11 +5233,11 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #py.LogLevel
 
@@ -5253,17 +5253,17 @@
 
 **Type**: Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy._make_history_bars
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5273,17 +5273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.absorption_correctionMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5293,17 +5293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.add_affiliation
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5313,17 +5313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.add_crystallisation
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5333,17 +5333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.add_person
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5353,17 +5353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.add_solvent
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5373,17 +5373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.addInstruction
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5393,17 +5393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.addToLocalList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5413,17 +5413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.AddVariableToUserInputList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5433,17 +5433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.AnalyseRefinementSource
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5453,17 +5453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.AvailablePlugins
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5473,17 +5473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.AvailableSkins
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5493,17 +5493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.bgcolor
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5513,17 +5513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.bijvoet_differences_NPP
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5533,17 +5533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.bijvoet_differences_scatter_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5553,17 +5553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.calcsolv
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5573,17 +5573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ccdc_submit
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5593,17 +5593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.change_skin
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5613,17 +5613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.changeBoxColour
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5633,17 +5633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.check_for_selection
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5653,17 +5653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ChooseLabelContent
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5673,17 +5673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.citationsMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5693,17 +5693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.collect
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5713,17 +5713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.collectionMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5733,17 +5733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.CompletenessPlot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5753,17 +5753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.contactLetter
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5773,17 +5773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.CopyVFSFile
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5793,17 +5793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.create_history
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5813,17 +5813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.crystalMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5833,17 +5833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.CumulativeIntensityDistribution
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5853,17 +5853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.currentResultFilesHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5873,17 +5873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.dealWithReportImage
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5893,17 +5893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.delete_history
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5913,17 +5913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.diffractionMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5933,17 +5933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.doBanner
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5953,17 +5953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.doProgramSettings
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5973,17 +5973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.downloadTranslation
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -5993,17 +5993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.dump
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6013,17 +6013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.EditCifInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6033,17 +6033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.EditGuiItem
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6053,17 +6053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.EditHelpItem
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6073,17 +6073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.EditParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6093,17 +6093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ElementButtonStates
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6113,17 +6113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.example
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6133,17 +6133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.expand
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6153,17 +6153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ExtractCifInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6173,17 +6173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.fade_in
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6193,17 +6193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.fade_out
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6213,17 +6213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.FindZOfHeaviestAtomInFormua
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6233,17 +6233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.flipsmall
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6253,17 +6253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.Fobs_Fcalc_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6273,17 +6273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.Fobs_over_Fcalc_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6293,17 +6293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.formatted_date_from_timestamp
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6313,17 +6313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_cif_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6333,17 +6333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_news_image_from_server
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6353,17 +6353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_refine_ls_hydrogen_treatment
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6373,17 +6373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_refinement_methods
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6393,17 +6393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_refinement_programs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6413,17 +6413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_solution_methods
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6433,17 +6433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_solution_programs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6453,17 +6453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.get_text_from_vfs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6473,17 +6473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetAvailableRefinementProgs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6493,17 +6493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetAvailableSolutionProgs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6513,17 +6513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getCellHTML
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6533,17 +6533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetCurrentSelection
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6553,17 +6553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getFileContents
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6573,17 +6573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetFormulaDisplay
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6593,17 +6593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getGenericSwitchName
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6613,17 +6613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getGenericSwitchNameTranslation
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6633,17 +6633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetHklFileList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6653,17 +6653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getListAffiliations
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6673,17 +6673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getListCrystallisations
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6693,17 +6693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getListPeople
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6713,17 +6713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getListSolvents
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6733,17 +6733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getmap
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6753,17 +6753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getObjectCount
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6773,17 +6773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetOptionalHyphenString
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6793,17 +6793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetParam
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6813,17 +6813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getPersonInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6833,17 +6833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getPrintStyles
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6853,17 +6853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getReportExtraCIFItems
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6873,17 +6873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getReportImageData
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6893,17 +6893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getReportImageSrc
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6913,17 +6913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getReportPhilItem
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6933,17 +6933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getReportTitleSrc
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6953,17 +6953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetRInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6973,17 +6973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getStyles
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -6993,17 +6993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getStylesList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7013,17 +7013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetTag
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7033,17 +7033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getTemplatesList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7053,17 +7053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.getTip
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7073,17 +7073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.GetTwinLaw
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7093,17 +7093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.HklStatsAnalysis
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7113,17 +7113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.hooft_analysis
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7133,17 +7133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.InActionButton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7153,17 +7153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.IsPluginInstalled
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7173,17 +7173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.isPro
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7193,17 +7193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.load_user_gui_phil
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7213,17 +7213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.loadHistory
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7233,17 +7233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.LoadParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7253,17 +7253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.LoadStructureParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7273,17 +7273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_gui_edit_link
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7293,17 +7293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_history_bars
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7313,17 +7313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_HOS
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7333,17 +7333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_reflection_graph
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7353,17 +7353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_warning_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7373,17 +7373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MakeActiveGuiButton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7393,17 +7393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MakeElementButtonsFromFormula
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7413,17 +7413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.makeFormulaForsNumInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7433,17 +7433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MakeHoverButton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7453,17 +7453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MakeHoverButtonOff
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7473,17 +7473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MakeHoverButtonOn
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7493,17 +7493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.makeReflectionGraphGui
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7513,17 +7513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.MergeCif
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7533,17 +7533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.move
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7553,17 +7553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.Normal_probability_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7573,17 +7573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.olex_fs_copy
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7593,17 +7593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexBET
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7613,17 +7613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexCctbxMasks
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7633,17 +7633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexCctbxTwinLaws
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7653,17 +7653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexCDS
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7673,17 +7673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexCheckCIF
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7693,17 +7693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.Olexhole
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7713,17 +7713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexMail
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7733,17 +7733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.OlexPlaton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7753,17 +7753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.on_twin_image_click
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7773,17 +7773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.onRefinementMethodChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7793,17 +7793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.onSolutionMethodChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7813,17 +7813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.PopBanner
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7833,17 +7833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.popout_history_tree
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7853,17 +7853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.print_top_100
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7873,17 +7873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.progressMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7893,17 +7893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.publicationMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7913,17 +7913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.QPeaksSlide
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7933,17 +7933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.r1_factor_vs_resolution_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7953,17 +7953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.referenceMetadataHtmlMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7973,17 +7973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.refineDataMaker
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -7993,17 +7993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.register_new_odac
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8013,17 +8013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.RemoveVariableFromUserInputList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8033,17 +8033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.rename_history
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8053,17 +8053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reset_file_in_OFS
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8073,17 +8073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reset_twin_law_img
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8093,17 +8093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.resetHistory
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8113,17 +8113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.resize_skin_logo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8133,17 +8133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.restraint_builder
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8153,17 +8153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.revert_history
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8173,17 +8173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.revert_to_original
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8193,17 +8193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.round_to_n_digits
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8213,17 +8213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.run_MakeMovie
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8233,17 +8233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.RunRefinementPrg
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8253,17 +8253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.runSadabs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8273,17 +8273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.RunSolutionPrg
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8293,17 +8293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SaveCifInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8313,17 +8313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.saveHistory
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8333,17 +8333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SaveStructureParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8353,17 +8353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SaveUserParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8373,17 +8373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.scale_factor_vs_resolution_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8393,17 +8393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.set_cif_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8413,17 +8413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.set_refinement_program
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8433,17 +8433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.set_solution_program
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8453,17 +8453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.set_source_file
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8473,17 +8473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.setAllMainToolbarTabButtons
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8493,17 +8493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.setDiffractometerDefinitionFile
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8513,17 +8513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.setDisplayQuality
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8533,17 +8533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetFormulaFromInput
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8553,17 +8553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.setMainToolbarTabButtons
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8573,17 +8573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetMaxCycles
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8593,17 +8593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetMaxPeaks
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8613,17 +8613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetParam
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8633,17 +8633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetReportStyle
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8653,17 +8653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetReportTemplate
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8673,17 +8673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.settings_tree
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8693,17 +8693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ShowParams
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8713,17 +8713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.standardise_path
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8733,17 +8733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.stopDebugging
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8753,17 +8753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.stopShelx
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8773,17 +8773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.StringsAreEqual
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8793,17 +8793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.StringsAreNotEqual
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8813,17 +8813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.students_t_hooft_analysis
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8833,17 +8833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SwitchAllAlertsOn
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8853,17 +8853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.switchButton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8873,17 +8873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.symmetry_search
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8893,17 +8893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SystematicAbsencesPlot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8913,17 +8913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.test_help_boxes
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8933,17 +8933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.txt
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8953,17 +8953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.UisoSelectSlide
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8973,17 +8973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.weightGuiDisplay
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -8993,17 +8993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.which_program
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9013,17 +9013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.WilsonPlot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9033,17 +9033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.write_to_olex
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9053,17 +9053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.X_Y_plot
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9073,17 +9073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.cif.GetCheckcifReport
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9093,17 +9093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.back_demo_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9113,17 +9113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.cancel_demo_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9133,17 +9133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.next_demo_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9153,17 +9153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.run_autodemo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9173,17 +9173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.run_demo_loop
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9193,17 +9193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.demo.switch_tab_for_tutorials
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9213,17 +9213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.About
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9233,17 +9233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.do_sort
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9253,17 +9253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.GetFileListCombo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9273,17 +9273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.GetFolderList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9293,17 +9293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.GetPhilChoices
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9313,17 +9313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.SetHtmlFontSize
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9333,17 +9333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.SetHtmlFontSizeControls
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9353,17 +9353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.SwitchPanel
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9373,17 +9373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.SwitchSettings
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9393,17 +9393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.dialog.FileOpen
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9413,17 +9413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.dialog.FileSave
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9433,17 +9433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.home.multiple_dataset.check
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9453,17 +9453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.home.multiple_dataset.generateHtml
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9473,17 +9473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.get_action_button_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9493,17 +9493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.GetBitmapSize
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9513,17 +9513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.GetPRImageInstructions
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9533,17 +9533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.GetPSImageInstructions
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9553,17 +9553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.make_action_button_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9573,17 +9573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.images.MakeBitmapImage
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9593,17 +9593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.maps.MapView
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9613,17 +9613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.maps.MaskView
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9633,17 +9633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.maps.SetXgridView
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9653,17 +9653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.maps.VoidView
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9673,17 +9673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.metadata.add_resolved_conflict_item_to_phil
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9693,17 +9693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.metadata.conflicts
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9713,17 +9713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.metadata.sources
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9733,17 +9733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.advance_crystal_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9753,17 +9753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.get_crystal_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9773,17 +9773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.play_crystal_images
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9793,17 +9793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.add_cif_to_merge_list
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9813,17 +9813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.AddTemplateToMergeList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9833,17 +9833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.DisplayMergeList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9853,17 +9853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnAddNameToAuthorList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9873,17 +9873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnContactAuthorChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9893,17 +9893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnPersonAffiliationChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9913,17 +9913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnPersonChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9933,17 +9933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnPersonInfoChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9953,17 +9953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.OnPublicationTemplateChange
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9973,17 +9973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.report.publication.remove_cif_from_merge_list
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -9993,17 +9993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.checkErrLogFile
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10013,17 +10013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.checkPlaton
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10033,17 +10033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.flash_gui_control
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10053,17 +10053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.hasDisorder
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10073,17 +10073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.make_disorder_quicktools
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10093,17 +10093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.start_where
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10113,17 +10113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.folder_view.generateHtml
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10133,17 +10133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.folder_view.list
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10153,17 +10153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.gui.tools.folder_view.loadStructure
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10173,17 +10173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.history.get
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10193,17 +10193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.internal.resizeNewsImage
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10213,17 +10213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.it.make_pie_graph
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10233,17 +10233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.it.resize_news_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10253,17 +10253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.it.trim_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10273,17 +10273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.md.export_internal_help
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10293,17 +10293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.md.run
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10313,17 +10313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.md.set_book_src
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10333,17 +10333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.opo.upload_structure
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10353,17 +10353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.opo.web_authenticate
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10373,17 +10373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ortepplus.GetStyleList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10393,17 +10393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ortepplus.run_ortep_with_style
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10413,17 +10413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.piltools.make_element_buttons
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10433,17 +10433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.AskToUpdate
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10453,17 +10453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.getAvailableModules
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10473,17 +10473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.getModule
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10493,17 +10493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.updateKey
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10513,17 +10513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.doAct
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10533,17 +10533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.getAction
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10553,17 +10553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.getCurrentModuleName
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10573,17 +10573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.getInfo
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10593,17 +10593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.getModuleList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10613,17 +10613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.plugins.gui.update
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10633,17 +10633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.programs.get_known
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10653,17 +10653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.pt.make_new_plugin
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10673,17 +10673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.pt.register_new_module
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10693,17 +10693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.r.get_olex2_tables
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10713,17 +10713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.report.get_crystal_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10733,17 +10733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.report.get_report_title
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10753,17 +10753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.report.handleNA
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10773,17 +10773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.report.makeSpecialCifCharacter
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10793,17 +10793,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.report.ResolvePrograms
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10813,17 +10813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.add_to_collection
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10833,17 +10833,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.combine
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10853,17 +10853,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.edit_text
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10873,17 +10873,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.get_collection_structure_image_paths
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10893,17 +10893,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.get_single_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10913,17 +10913,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.GetFileList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10933,17 +10933,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.GetFolderList
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10953,17 +10953,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.gui_get_collection_file_list
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10973,17 +10973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.gui_initialise
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -10993,17 +10993,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.gui_is_initialised
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11013,17 +11013,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.gui_on_collection_folder_change
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11033,17 +11033,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.gui_on_collection_name_change
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11053,17 +11053,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.make_collection_folder
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11073,17 +11073,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.make_crystallisation_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11093,17 +11093,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.make_mounting_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11113,17 +11113,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.make_new_collection
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11133,17 +11133,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.modify_collection
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11153,17 +11153,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.save_collection_structure_image_paths
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11173,17 +11173,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.set_single_image
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11193,17 +11193,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.reportplus.tex
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11213,17 +11213,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.cell
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11233,17 +11233,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.combine_all_cifs
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11253,17 +11253,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.copy_files_from_download_to_location
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11273,17 +11273,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.dear_author_edit
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11293,17 +11293,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_canned_response_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11313,17 +11313,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_cif
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11333,17 +11333,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_cif_item
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11353,17 +11353,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_gui_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11373,17 +11373,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_id
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11393,17 +11393,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_local_checkcif_make_html
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11413,17 +11413,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_local_checkcif_run
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11433,17 +11433,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_plugin_path
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11453,17 +11453,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.get_stats
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11473,17 +11473,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.insert_canned_response
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11493,17 +11493,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.make_yagi
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11513,17 +11513,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.markdown
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11533,17 +11533,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.pdf_to_text
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11553,17 +11553,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.run_checks
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11573,17 +11573,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.sc.strip_refine_special_details
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11593,17 +11593,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.skin.export_parameters
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11613,17 +11613,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.tex.hyphenate_iupac
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11633,17 +11633,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.tex.minus
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11653,17 +11653,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.threading.joinAll
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11673,17 +11673,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.threading.shell.run
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11693,17 +11693,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.xplain.exists
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11713,17 +11713,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.xplain.get_output_name
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11733,17 +11733,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.xplain.output_exists
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11753,17 +11753,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.xplain.run
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11773,11 +11773,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #time.DF
 
@@ -11793,11 +11793,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #time.FormatDateTime
 
@@ -11813,17 +11813,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #time.Now
 
 **Arguments**: [none or 1]
 
-**Description**: Returns current date and time as a long number if no format is provided. If a format string is provided it return a formatted string. The DF() function can be used for default formatting 
+**Description**: Returns current date and time as a long number if no format is provided. If a format string is provided it return a formatted string. The DF() function can be used for default formatting
 
 **Options**: None
 
@@ -11833,11 +11833,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.CurrentData
 
@@ -11853,11 +11853,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.DataCount
 
@@ -11873,11 +11873,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.DataName
 
@@ -11893,11 +11893,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.GetFormula
 
@@ -11913,11 +11913,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.GetMu
 
@@ -11933,11 +11933,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.SaveSolution
 
@@ -11953,11 +11953,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.SetFormula
 
@@ -11973,17 +11973,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.analysis.AnalyseUeq
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -11993,11 +11993,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.analysis.Scale
 
@@ -12013,11 +12013,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.analysis.Trim
 
@@ -12033,11 +12033,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.Fractionalise
 
@@ -12053,11 +12053,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomAfix
 
@@ -12073,11 +12073,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomCount
 
@@ -12093,11 +12093,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomCrd
 
@@ -12113,11 +12113,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomlabel
 
@@ -12133,11 +12133,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomName
 
@@ -12153,11 +12153,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomOccu
 
@@ -12173,11 +12173,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomType
 
@@ -12193,11 +12193,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomU
 
@@ -12213,11 +12213,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetAtomUiso
 
@@ -12233,11 +12233,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetCell
 
@@ -12253,11 +12253,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetCellSymm
 
@@ -12273,11 +12273,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetCellVolume
 
@@ -12293,11 +12293,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetFormula
 
@@ -12313,11 +12313,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetPeak
 
@@ -12333,11 +12333,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetVolume
 
@@ -12353,11 +12353,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetWeight
 
@@ -12373,11 +12373,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetZ
 
@@ -12393,11 +12393,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.GetZprime
 
@@ -12413,11 +12413,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.IsAtomDeleted
 
@@ -12433,11 +12433,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.IsPeak
 
@@ -12453,11 +12453,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.NewAtom
 
@@ -12473,11 +12473,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.NPDCount
 
@@ -12493,11 +12493,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.Orthogonalise
 
@@ -12513,11 +12513,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetAtomCrd
 
@@ -12533,11 +12533,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetAtomlabel
 
@@ -12553,11 +12553,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetAtomOccu
 
@@ -12573,11 +12573,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetAtomU
 
@@ -12593,11 +12593,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetZ
 
@@ -12613,11 +12613,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.au.SetZprime
 
@@ -12633,11 +12633,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.exptl.Radiation
 
@@ -12653,11 +12653,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.exptl.Size
 
@@ -12673,11 +12673,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.exptl.Temperature
 
@@ -12693,11 +12693,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.latt.GetFragmentAtoms
 
@@ -12713,11 +12713,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.latt.GetFragmentCount
 
@@ -12733,11 +12733,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.latt.GetMoiety
 
@@ -12753,11 +12753,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.latt.IsGrown
 
@@ -12773,17 +12773,17 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.Completeness
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -12793,11 +12793,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.Exti
 
@@ -12813,11 +12813,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.FVar
 
@@ -12833,11 +12833,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.HasOccu
 
@@ -12853,11 +12853,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.OSF
 
@@ -12873,11 +12873,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.UpdateCR
 
@@ -12893,11 +12893,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.uc.CellEx
 
@@ -12913,11 +12913,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.uc.MatrixCount
 
@@ -12933,11 +12933,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.uc.VolumeEx
 
@@ -12953,11 +12953,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Contours
 
@@ -12973,11 +12973,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Depth
 
@@ -12993,11 +12993,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Extended
 
@@ -13013,11 +13013,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.GetMax
 
@@ -13033,11 +13033,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.GetMin
 
@@ -13053,11 +13053,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.GetName
 
@@ -13073,11 +13073,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.IsGrouped
 
@@ -13093,11 +13093,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.IsSelected
 
@@ -13113,11 +13113,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.IsValid
 
@@ -13133,11 +13133,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.MaxDepth
 
@@ -13153,11 +13153,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.PlaneSize
 
@@ -13173,11 +13173,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.RenderMode
 
@@ -13193,11 +13193,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Scale
 
@@ -13213,11 +13213,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Size
 
@@ -13233,11 +13233,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.Visible
 
@@ -13253,11 +13253,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.label.GetName
 
@@ -13273,11 +13273,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.label.IsGrouped
 
@@ -13293,11 +13293,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.label.IsSelected
 
@@ -13313,11 +13313,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.label.Visible
 
@@ -13333,11 +13333,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.legend.GetName
 
@@ -13353,11 +13353,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.legend.IsGrouped
 
@@ -13373,11 +13373,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.legend.IsSelected
 
@@ -13393,11 +13393,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xgrid.legend.Visible
 
@@ -13413,11 +13413,11 @@
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #MACROS
 #/
@@ -13434,11 +13434,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #@Close
 
@@ -13454,11 +13454,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #@py
 
@@ -13466,7 +13466,7 @@
 
 **Description**: Runs provided python lines \'\n\' is used as new line separator or shows a text input window
 
-**Options**: 
+**Options**:
 
 - *i*: shows a text input box
 
@@ -13480,11 +13480,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #@reap
 
@@ -13492,7 +13492,7 @@
 
 **Description**: This macro loads a file if provided as an argument. If no argument is provided, it shows a file open dialog
 
-**Options**: 
+**Options**:
 
 - ***: read and overlay
 
@@ -13508,11 +13508,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #@update
 
@@ -13528,11 +13528,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_anisotropic
 
@@ -13548,11 +13548,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_defaultw
 
@@ -13568,11 +13568,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_get
 
@@ -13588,11 +13588,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_isotropic
 
@@ -13608,11 +13608,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_reap_li
 
@@ -13628,11 +13628,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_reapa
 
@@ -13648,11 +13648,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_report
 
@@ -13668,11 +13668,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_table
 
@@ -13688,11 +13688,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_tutorial
 
@@ -13708,11 +13708,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #_xphadd
 
@@ -13728,11 +13728,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Abort
 
@@ -13748,11 +13748,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AddBond
 
@@ -13768,11 +13768,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AddIns
 
@@ -13788,17 +13788,17 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AddLabel
 
 **Arguments**: [3 or 5]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -13808,11 +13808,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AddObject
 
@@ -13828,11 +13828,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AddSE
 
@@ -13848,11 +13848,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ADPDisp
 
@@ -13868,11 +13868,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ADS
 
@@ -13888,11 +13888,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Afix
 
@@ -13900,7 +13900,7 @@
 
 **Description**: sets atoms afix, special cases are 56,69,66,69,76,79,106,109,116 and 119
 
-**Options**: 
+**Options**:
 
 - *n*: to accept N atoms in the rings for afix 66
 
@@ -13912,11 +13912,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Anis
 
@@ -13924,7 +13924,7 @@
 
 **Description**: Makes provided atoms anisotropic if no arguments provided current selection or all atoms are considered
 
-**Options**: 
+**Options**:
 
 - *h*: adds hydrogen atoms
 
@@ -13936,11 +13936,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ARad
 
@@ -13956,11 +13956,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ASR
 
@@ -13976,11 +13976,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AtomInfo
 
@@ -13996,11 +13996,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #atreap_fader
 
@@ -14016,11 +14016,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #atreap_no_fader
 
@@ -14036,11 +14036,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #autorefine
 
@@ -14056,11 +14056,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #AZoom
 
@@ -14076,11 +14076,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Bang
 
@@ -14088,7 +14088,7 @@
 
 **Description**: Prints bonds and angles table for selected/given atoms
 
-**Options**: 
+**Options**:
 
 - *c*: copy info to the clipboard
 
@@ -14100,11 +14100,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Basis
 
@@ -14120,17 +14120,17 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Bind
 
 **Arguments**: [2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -14140,11 +14140,11 @@
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #BRad
 
@@ -14156,7 +14156,7 @@ Any particula bond type can also be specified like:
 	brad 0.5 C-H
 Note that the heavier atom type is always first
 
-**Options**: 
+**Options**:
 
 - *a*: specified value is absolute, in A
 
@@ -14168,11 +14168,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #bw
 
@@ -14188,11 +14188,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcCHN
 
@@ -14208,11 +14208,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcFourier
 
@@ -14220,7 +14220,7 @@ Note that the heavier atom type is always first
 
 **Description**: Calculates fourier map
 
-**Options**: 
+**Options**:
 
 - *calc*: calculates calculated map
 
@@ -14248,11 +14248,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcMass
 
@@ -14268,11 +14268,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #calcms
 
@@ -14288,11 +14288,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcPatt
 
@@ -14308,11 +14308,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcVoid
 
@@ -14320,7 +14320,7 @@ Note that the heavier atom type is always first
 
 **Description**: Calculates solvent accessible void and packing parameters; optionally accepts a file with space separated values of Atom Type and radius, an entry a line
 
-**Options**: 
+**Options**:
 
 - *d*: distance from Van der Waals surface [0]
 
@@ -14338,11 +14338,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CalcVol
 
@@ -14350,7 +14350,7 @@ Note that the heavier atom type is always first
 
 **Description**: Calculates tetrahedron or bipyramidal shape volume for given (selected) atom
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear the selection
 
@@ -14364,11 +14364,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Capitalise
 
@@ -14384,17 +14384,17 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Ceiling
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -14404,11 +14404,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cell
 
@@ -14416,7 +14416,7 @@ Note that the heavier atom type is always first
 
 **Description**: If no arguments provided inverts visibility of unit cell, otherwise sets it to the boolean value of the parameter
 
-**Options**: 
+**Options**:
 
 - *r*: shows reciprocal cell
 
@@ -14428,11 +14428,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cent
 
@@ -14440,7 +14440,7 @@ Note that the heavier atom type is always first
 
 **Description**: Creates a centroid for given/selected/all atoms
 
-**Options**: 
+**Options**:
 
 - *rings*: finds rings specified by template and add centroids for each of them. For example cent -rings=C6
 
@@ -14452,11 +14452,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Center
 
@@ -14464,7 +14464,7 @@ Note that the heavier atom type is always first
 
 **Description**: Sets the centre of rotation to given point
 
-**Options**: 
+**Options**:
 
 - *z*: also recalculates the scene zoom
 
@@ -14476,11 +14476,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChangeSG
 
@@ -14488,7 +14488,7 @@ Note that the heavier atom type is always first
 
 **Description**: [shift] SG. Changes space group of current structure, applying given shit prior (if provided) to the change of symmetry of the unit cell
 
-**Options**: 
+**Options**:
 
 - *c*: apply cell change according to the centering change (experimental!)
 
@@ -14500,11 +14500,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #changesgs
 
@@ -14520,17 +14520,17 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CheckMenu
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -14540,11 +14540,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ChemDraw
 
@@ -14560,11 +14560,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Chiv
 
@@ -14572,7 +14572,7 @@ Note that the heavier atom type is always first
 
 **Description**: Restrains chiral volume of atom(s) to \'0\' or provided value
 
-**Options**: 
+**Options**:
 
 - *cs*:  do not clear selection
 
@@ -14584,11 +14584,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cif2Doc
 
@@ -14596,7 +14596,7 @@ Note that the heavier atom type is always first
 
 **Description**: converts cif to a document
 
-**Options**: 
+**Options**:
 
 - *n*: output file name
 
@@ -14608,11 +14608,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Cif2Tab
 
@@ -14620,7 +14620,7 @@ Note that the heavier atom type is always first
 
 **Description**: creates a table from a cif
 
-**Options**: 
+**Options**:
 
 - *n*: output file name
 
@@ -14634,11 +14634,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CifCreate
 
@@ -14654,11 +14654,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CifExtract
 
@@ -14666,7 +14666,7 @@ Note that the heavier atom type is always first
 
 **Description**: extract a list of items from one cif to another
 
-**Options**: 
+**Options**:
 
 - *i*: a custom CIF with items to extract [etc/CIF/extract.cif]
 
@@ -14678,11 +14678,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #cifm
 
@@ -14698,11 +14698,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CifMerge
 
@@ -14710,7 +14710,7 @@ Note that the heavier atom type is always first
 
 **Description**: Merges loaded or provided as first argument cif with other cif(s)
 
-**Options**: 
+**Options**:
 
 - *f*: creates final CIF with embedded RES file and HKL loop
 
@@ -14724,11 +14724,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Clean
 
@@ -14736,7 +14736,7 @@ Note that the heavier atom type is always first
 
 **Description**: Tidies up current model
 
-**Options**: 
+**Options**:
 
 - *aq*: disables analysis of the Q-peaks based on thresholds
 
@@ -14756,11 +14756,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Clear
 
@@ -14776,17 +14776,17 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Close
 
 **Arguments**: [any] [any options]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -14796,11 +14796,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Collectivise
 
@@ -14816,11 +14816,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Compaq
 
@@ -14828,7 +14828,7 @@ Note that the heavier atom type is always first
 
 **Description**: Moves all atoms or fragments of the asymmetric unit as close to each other as possible. If no options provided, all fragments are assembled around the largest one.
 
-**Options**: 
+**Options**:
 
 - *a*: assembles broken fragments
 
@@ -14846,11 +14846,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #completeness
 
@@ -14866,11 +14866,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CONF
 
@@ -14878,7 +14878,7 @@ Note that the heavier atom type is always first
 
 **Description**: Adds dihedral angle calculation instructions to create corresponding tables in the CIF
 
-**Options**: 
+**Options**:
 
 - *a*: finds angles which made up of all given/selected atoms [true]
 
@@ -14890,11 +14890,11 @@ Note that the heavier atom type is always first
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Conn
 
@@ -14913,11 +14913,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Constrain
 
@@ -14933,21 +14933,21 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CreateBitmap
 
 **Arguments**: [2];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *r*: 
+- *r*:
 
 
 
@@ -14957,27 +14957,27 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CreateMenu
 
 **Arguments**: [1, 2 or 3];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *c*: 
+- *c*:
 
-- *m*: 
+- *m*:
 
-- *r*: 
+- *r*:
 
-- *s*: 
+- *s*:
 
 
 
@@ -14987,17 +14987,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #CreateShortcut
 
 **Arguments**: [2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15007,11 +15007,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #cumulative_intensity
 
@@ -15027,11 +15027,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #custom_on_report
 
@@ -15047,11 +15047,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Dang
 
@@ -15059,7 +15059,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Adds a ShelX compatible angle restraint
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -15071,11 +15071,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #default
 
@@ -15091,11 +15091,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #defaultu
 
@@ -15111,11 +15111,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Degen
 
@@ -15123,7 +15123,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Prints how many symmetry operators put given atom to the same site
 
-**Options**: 
+**Options**:
 
 - *cs*: clear selection
 
@@ -15135,11 +15135,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DelBond
 
@@ -15155,17 +15155,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DeleteBitmap
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15175,17 +15175,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DeleteMenu
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15195,11 +15195,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DelIns
 
@@ -15215,11 +15215,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DelObject
 
@@ -15235,11 +15235,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Delta
 
@@ -15255,11 +15255,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DeltaI
 
@@ -15275,11 +15275,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DELU
 
@@ -15287,7 +15287,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Rigid bond constraint. If no atoms provided, all non-H atoms considered
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -15299,11 +15299,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Describe
 
@@ -15319,11 +15319,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Dfix
 
@@ -15331,11 +15331,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Restrains distancesto the given value
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
-- *e*: 
+- *e*:
 
 
 
@@ -15345,11 +15345,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Dir
 
@@ -15365,11 +15365,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #dire
 
@@ -15385,11 +15385,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Direction
 
@@ -15405,11 +15405,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #dires
 
@@ -15425,17 +15425,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #DisableMenu
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15445,11 +15445,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EADP
 
@@ -15465,11 +15465,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Echo
 
@@ -15477,7 +15477,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Prints provided string, functions are evaluated before printing
 
-**Options**: 
+**Options**:
 
 - *c*: copy printed information to clipboard
 
@@ -15491,11 +15491,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #edit
 
@@ -15511,11 +15511,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EditAtom
 
@@ -15523,7 +15523,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Shows information for the given atom and all of its dependents
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear the selection
 
@@ -15535,17 +15535,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EditIns
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15555,11 +15555,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EditMaterial
 
@@ -15575,11 +15575,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #edt
 
@@ -15595,11 +15595,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #edthelp
 
@@ -15615,11 +15615,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Elevate
 
@@ -15635,11 +15635,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #emf
 
@@ -15655,17 +15655,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EnableMenu
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15675,11 +15675,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Envi
 
@@ -15687,7 +15687,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: This macro prints environment of any particular atom. Default search radius is 2.7A.
 
-**Options**: 
+**Options**:
 
 - *c*: prints just the connectivity information
 
@@ -15707,11 +15707,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Esd
 
@@ -15719,7 +15719,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: This procedure calculates possible parameters for the selection and evaluates their esd using the variance-covariance matrix coming from the ShelXL refinement with negative \'MORE\' like \'MORE -1\' option or from the olex2.refine
 
-**Options**: 
+**Options**:
 
 - *c*: copies printed values to the clipboard
 
@@ -15735,11 +15735,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Exec
 
@@ -15747,7 +15747,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Executes external process
 
-**Options**: 
+**Options**:
 
 - *d*: output dub file name
 
@@ -15767,11 +15767,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Exit
 
@@ -15787,11 +15787,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #expand
 
@@ -15807,11 +15807,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Export
 
@@ -15827,11 +15827,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ExportFont
 
@@ -15847,11 +15847,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ExportFrag
 
@@ -15867,11 +15867,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #external_edit
 
@@ -15887,11 +15887,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #EXYZ
 
@@ -15899,7 +15899,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Adds a new element to the given/selected site. Takes one selected atom and element types as any subsequent argument. Alternatively can take a few selected atoms of different type to be modelled as the type swapping disorder or a set of atoms of the same type and new element type on the command line.
 
-**Options**: 
+**Options**:
 
 - *eadp*: does not set the equivalent ADP constraint for the shared site
 
@@ -15911,17 +15911,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Fade
 
 **Arguments**: [3]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -15931,11 +15931,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FcfCreate
 
@@ -15943,7 +15943,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Creates fcf from current file. Expects a number as in the shelx list number as the first argument, the second argument is the output file name filename().fcf is default
 
-**Options**: 
+**Options**:
 
 - *scale*: [external],simple or regression
 
@@ -15955,11 +15955,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #File
 
@@ -15967,7 +15967,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Saves current model to a file. By default an ins file is saved and loaded
 
-**Options**: 
+**Options**:
 
 - *s*: sort the main residue of the asymmetric unit
 
@@ -15979,11 +15979,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FitCHN
 
@@ -15999,11 +15999,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Fix
 
@@ -16019,11 +16019,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FixHL
 
@@ -16039,11 +16039,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FixUnit
 
@@ -16059,11 +16059,11 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Flat
 
@@ -16071,7 +16071,7 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Description**: Flat group restraint for at least 4 provided atoms
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -16083,17 +16083,17 @@ Usage: conn bonding_radius [selection/atom(s)/$type] - note the radius should ha
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Flush
 
 **Arguments**: [none, 1 or 2]
 
-**Description**: 
+**Description**:
 
 #1
 Flushes log streams
@@ -16108,11 +16108,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #FlushFS
 
@@ -16128,11 +16128,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Fmol
 
@@ -16148,11 +16148,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fobs_fcalc
 
@@ -16168,11 +16168,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fobs_over_fcalc
 
@@ -16188,11 +16188,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Focus
 
@@ -16208,11 +16208,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Free
 
@@ -16228,11 +16228,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Fuse
 
@@ -16248,18 +16248,18 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Fvar
 
 **Arguments**: [any]
 
 **Description**: Assigns/release occupancy for given atoms. Examples:
--\'fvar\' if nothing is selected will print current values of the variables. For a selection of even number atoms, will create a new variable and link occupancies of the first half of the selection to occupancy the other half of the selection. 
+-\'fvar\' if nothing is selected will print current values of the variables. For a selection of even number atoms, will create a new variable and link occupancies of the first half of the selection to occupancy the other half of the selection.
 -\'fvar 0\' - makes occupancy of provided atoms refineable
 -\'fvar 1\' - fixes occupancy of provided atoms at current value
 -\'fvar 1 1\' - fixes occupancy of provided atoms at chemical occupancy of 1
@@ -16274,11 +16274,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #g3
 
@@ -16294,11 +16294,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #g4
 
@@ -16314,11 +16314,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GenDisp
 
@@ -16326,7 +16326,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Generates anisotropic dispertion parameters for current radiation wavelength
 
-**Options**: 
+**Options**:
 
 - *f*: generates full SFAC instructions
 
@@ -16340,11 +16340,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #getAutoChem
 
@@ -16360,17 +16360,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GetParam
 
 **Arguments**: [any] [any options]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -16380,11 +16380,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Grad
 
@@ -16392,7 +16392,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Sets options for the background gradient. No options - showsn the gradient dialog where the user can choose the gradient colors. One parameter is expected to be a boolean - shows/hides the gradient. Four parameters specify the gradient colours explicetly.
 
-**Options**: 
+**Options**:
 
 - *i*: toggles gradient mode and the user/white background
 
@@ -16406,11 +16406,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GraphPD
 
@@ -16418,7 +16418,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Prints a intensity vs. 2 theta graph
 
-**Options**: 
+**Options**:
 
 - *fcf*: take structure factors from the FCF file, otherwise calculate from current model
 
@@ -16434,11 +16434,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #GraphSR
 
@@ -16446,7 +16446,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Prints a scale vs resolution graph for current file (fcf file must exist in current folder)
 
-**Options**: 
+**Options**:
 
 - *b*: number of bins
 
@@ -16458,11 +16458,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Group
 
@@ -16470,7 +16470,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Groups current visible objects or selection
 
-**Options**: 
+**Options**:
 
 - *n*: a custom name can be provided
 
@@ -16482,11 +16482,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Grow
 
@@ -16494,7 +16494,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Grows whole structure or provided atoms only
 
-**Options**: 
+**Options**:
 
 - *b*: grows all visible grow bonds (when in a grow mode)
 
@@ -16512,11 +16512,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gui2
 
@@ -16532,17 +16532,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #guinames_m
 
 **Arguments**: [any] [any options]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -16552,11 +16552,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HAdd
 
@@ -16572,11 +16572,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Help
 
@@ -16584,7 +16584,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Prints available information. If no arguments provided prints available commands
 
-**Options**: 
+**Options**:
 
 - *c*: specifies commands category
 
@@ -16596,11 +16596,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #hho
 
@@ -16616,11 +16616,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Hide
 
@@ -16628,7 +16628,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Hides selected objects or provided atom names (no atom related objects as bonds are hidden automatically)
 
-**Options**: 
+**Options**:
 
 - *b*: also hides all bonds atatched to the selected atoms
 
@@ -16640,11 +16640,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HImp
 
@@ -16660,11 +16660,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklAppend
 
@@ -16672,15 +16672,15 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: moves reflection back into the refinement list. See excludeHkl for more details
 
-**Options**: 
+**Options**:
 
-- *c*: 
+- *c*:
 
-- *h*: 
+- *h*:
 
-- *k*: 
+- *k*:
 
-- *l*: 
+- *l*:
 
 
 
@@ -16690,11 +16690,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklBrush
 
@@ -16702,7 +16702,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: for high redundancy data sets, removes equivalents with high sigma
 
-**Options**: 
+**Options**:
 
 - *f*: consider Friedel law
 
@@ -16714,17 +16714,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklEdit
 
 **Arguments**: [none, 1 or 3]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -16734,11 +16734,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklExclude
 
@@ -16746,15 +16746,15 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Excludes reflections with give indexes from the hkl file -h=1;2 : all reflections where h=1 or 2
 
-**Options**: 
+**Options**:
 
 - *c*: true/false to use provided indexes in any reflection. The default is in any one reflection
 
 - *h*: semicolon separated list of indexes
 
-- *k*: 
+- *k*:
 
-- *l*: 
+- *l*:
 
 
 
@@ -16764,17 +16764,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklExtract
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -16784,11 +16784,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklImport
 
@@ -16797,7 +16797,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 **Description**: Creates a Shelx compatible 44488(4) file format from given source. Valid arguments: fixed and separator. For example:
 	\'HklImport in.hkl fixed 7 7 7 9 9 out.hkl\' or \'HklImport in.hkl separator \' \'\' out.hkl
 
-**Options**: 
+**Options**:
 
 - *batch*: for separator formatted file specifies that there is a batch number
 
@@ -16809,11 +16809,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklMerge
 
@@ -16821,7 +16821,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Merges current HKL file (ehco HKLSrc()) to given file name. Warning: if no arguments provided, the current file is overwritten
 
-**Options**: 
+**Options**:
 
 - *z*: zero negative intensity
 
@@ -16833,11 +16833,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklSplit
 
@@ -16845,7 +16845,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Split an HKL file according to the Fc^2/esd or the value of |Fc^2-Fo^2|/esd. The threshold value is the first argument. If it ends with \'%\' - the pecentage of the merged reflections is taken into the account. The second argument is the splitting criterion - \'i\'  for intensity or \'a\' for the agreeability. Unless -b option is provided, the \'agreeable\' reflections end up in the *_a.hkl file,  \'disagreeable\' - in the *_d.hkl file; weaker reflections end up in *_w.hkl and stronger reflections - in the *_s.hkl files.
 
-**Options**: 
+**Options**:
 
 - *b*: creates an HKLF 5 file (*_h5) with batches 1 and -2; only applicable when second parameter is 'a'
 
@@ -16857,11 +16857,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklStat
 
@@ -16869,7 +16869,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: If no arguments provided, prints the statistics on all reflections as well as the ones used in the refinement. If an expressions (condition) is given in the following form: x[ahbkcl], meaning that x=ah+bk+cl for x equals 0, ((ah+bk+cl) mod x) equals 0 for positove x and not equals 0 for negative x; the subsequent expressions are combined using logical \'and\' operator. For instance 2[l] expression means: to find all reflections where l is even, the expression -2[l] means to find all reflections with odd l, 0[h-l] - reflections where h equals to l etc. The function operates on all P1 merged reflections after filtering by SHEL and OMIT, -m option merges the reflections in current space group
 
-**Options**: 
+**Options**:
 
 - *l*: list the reflections
 
@@ -16883,17 +16883,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HklView
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -16903,11 +16903,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Htab
 
@@ -16915,7 +16915,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Adds HTAB instructions to the ins file, maximum bond length [2.9] and minimal angle [150] might be provided
 
-**Options**: 
+**Options**:
 
 - *g*: generates found interactions
 
@@ -16929,11 +16929,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #htmguifontsize
 
@@ -16949,11 +16949,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html
 
@@ -16969,11 +16969,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HtmlPanelSwap
 
@@ -16989,11 +16989,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HtmlPanelVisible
 
@@ -17009,17 +17009,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #HtmlPanelWidth
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -17029,17 +17029,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ImportFont
 
 **Arguments**: [2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -17049,11 +17049,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ImportFrag
 
@@ -17061,7 +17061,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Import a fragment into current structure
 
-**Options**: 
+**Options**:
 
 - *a*: set specified AFIX to the imported fragment
 
@@ -17081,11 +17081,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Individualise
 
@@ -17101,11 +17101,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Info
 
@@ -17113,7 +17113,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Prints out information for gived [all] atoms
 
-**Options**: 
+**Options**:
 
 - *c*: copy the printed information ito the clipboard
 
@@ -17131,19 +17131,19 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #InstallPlugin
 
 **Arguments**: [1];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *"l*: local installation from a zip file, which must contains index.ind"
 
@@ -17155,11 +17155,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Inv
 
@@ -17167,7 +17167,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Inverts whole structure or provided fragments of the structure
 
-**Options**: 
+**Options**:
 
 - *f*: force inversion for non-centrosymmetric space groups
 
@@ -17179,11 +17179,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ISOR
 
@@ -17191,7 +17191,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Forses Uij of provided atoms to behave in isotropic manner. If no atoms provided, all non-H atoms considered
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -17203,11 +17203,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Isot
 
@@ -17215,7 +17215,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Makes provided atoms isotropic, if no arguments provided, current selection or all atoms become isotropic
 
-**Options**: 
+**Options**:
 
 - *npd*: makes all NPD atoms isotropic
 
@@ -17227,11 +17227,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #IT
 
@@ -17239,7 +17239,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Calculates tensor of inertia
 
-**Options**: 
+**Options**:
 
 - *o*: orients basis according to principle axes of inertia
 
@@ -17251,11 +17251,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Kill
 
@@ -17263,7 +17263,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Deletes provided/selected atoms, bonds and other objects. \'kill labels\' hides all atom and bond labels
 
-**Options**: 
+**Options**:
 
 - *au*: kill atoms in the asymmetric unit (disregarding visibility/availability). This option is intended for the internal use - the model is not rebuilt after its execution
 
@@ -17275,11 +17275,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Label
 
@@ -17287,7 +17287,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Creates moveable labels for provided atoms/bonds/angles (selection)
 
-**Options**: 
+**Options**:
 
 - *cif*: creates labels for CIF data a combination of {b,a,t,h}
 
@@ -17303,11 +17303,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Labels
 
@@ -17315,7 +17315,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Shows/hides atom labels. Takes no argument is given to invert current labels visibility or a boolean value
 
-**Options**: 
+**Options**:
 
 - *a*: afix
 
@@ -17353,11 +17353,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Line
 
@@ -17365,7 +17365,7 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Description**: Creates a line or best line for provided atoms
 
-**Options**: 
+**Options**:
 
 - *f*: consider input in fractional coordinates vs Cartesian
 
@@ -17379,11 +17379,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Lines
 
@@ -17399,17 +17399,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Link
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -17419,11 +17419,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #link_parts_occupancies_with
 
@@ -17439,11 +17439,11 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Listen
 
@@ -17459,17 +17459,17 @@ An extension to \'flush log\' to \'flush output\' to flush console buffer into D
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Load
 
 **Arguments**: [any except none]
 
-**Description**: 
+**Description**:
 
 #1
 Arguments - textures
@@ -17484,11 +17484,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #log
 
@@ -17504,11 +17504,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LS
 
@@ -17524,11 +17524,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstFS
 
@@ -17544,11 +17544,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstFun
 
@@ -17556,7 +17556,7 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Description**: Lists all defined functions. Accepts * based masks
 
-**Options**: 
+**Options**:
 
 - *h*: Shows help
 
@@ -17568,11 +17568,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstGO
 
@@ -17588,11 +17588,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstIns
 
@@ -17608,11 +17608,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstMac
 
@@ -17620,7 +17620,7 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Description**: Lists all defined macros. Accepts * based masks
 
-**Options**: 
+**Options**:
 
 - *h*: Shows help
 
@@ -17632,11 +17632,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstSymm
 
@@ -17652,11 +17652,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #LstVar
 
@@ -17672,11 +17672,11 @@ Loads style/scene/view/gview/model/radii. For radii accepts sfil, vdw, pers
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Mask
 
@@ -17693,11 +17693,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Match
 
@@ -17705,7 +17705,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Fragment matching, alignment and label transfer routine
 
-**Options**: 
+**Options**:
 
 - *a*: align
 
@@ -17735,11 +17735,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Matr
 
@@ -17747,7 +17747,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Displays or sets current orientation matrix. For single argument, 1,2,3 001, 111, etc values are acceptable, two values taken are of the klm form, which specify a view from k1*a+l1*b+m1*c to k2*a+l2*b+m2*c, three values pecify the view normal and nine values provide a full matrix
 
-**Options**: 
+**Options**:
 
 - *r*: used reciprocal cell instead
 
@@ -17759,11 +17759,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Mode
 
@@ -17771,7 +17771,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Turns specified mode on. Valid mode: fixu, fixc, grow, himp, match, move, name, occu, pack, part, split, fit
 
-**Options**: 
+**Options**:
 
 - *a*: [name] autocomplete; [grow] grow (rebuild) asymmetric unit only; [fit] afix
 
@@ -17806,11 +17806,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mode_grow
 
@@ -17826,11 +17826,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #MolInfo
 
@@ -17838,13 +17838,13 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Prints molecular volume, surface area and other information for visible/selected atoms
 
-**Options**: 
+**Options**:
 
 - *g*: generation of the triangluation [5]
 
 - *o*: use occupancy of the atoms in the integration
 
-- *s*: source ([o]ctahedron, (t)etrahedron) 
+- *s*: source ([o]ctahedron, (t)etrahedron)
 
 
 
@@ -17854,11 +17854,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Move
 
@@ -17866,7 +17866,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Moves two atoms as close to each other as possible; if no atoms given, moves all fragments as close to the cell center as possible
 
-**Options**: 
+**Options**:
 
 - *c*: copy moved atom
 
@@ -17880,11 +17880,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Mpln
 
@@ -17892,7 +17892,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Sets current view along the normal of the best plane
 
-**Options**: 
+**Options**:
 
 - *n*: just orient, do not create plane
 
@@ -17910,11 +17910,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mspy
 
@@ -17930,11 +17930,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #my_report
 
@@ -17950,11 +17950,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Name
 
@@ -17962,7 +17962,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Names atoms. If the \'sel\' keyword is used and a number (or just the number) is provided as second argument the numbering will happen in the order the atoms were selected
 
-**Options**: 
+**Options**:
 
 - *c*: enables checking labels for duplications
 
@@ -17980,17 +17980,17 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #NextSolution
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -18000,11 +18000,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #normal_probability
 
@@ -18020,11 +18020,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #note
 
@@ -18040,11 +18040,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #oda
 
@@ -18060,11 +18060,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #odemo
 
@@ -18080,11 +18080,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #OFileDel
 
@@ -18100,11 +18100,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #OFileSwap
 
@@ -18120,11 +18120,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Omit
 
@@ -18140,11 +18140,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #onexit
 
@@ -18160,11 +18160,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #OnRefine
 
@@ -18180,11 +18180,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #onstartup
 
@@ -18200,11 +18200,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #options
 
@@ -18220,11 +18220,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Pack
 
@@ -18232,7 +18232,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Packs structure within default or given volume(6 or 2 values for parallelepiped or 1 for sphere). If atom names/types are provided it only packs the provided atoms.
 
-**Options**: 
+**Options**:
 
 - *c*: specifies if current lattice content should not be deleted
 
@@ -18244,11 +18244,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #panel
 
@@ -18264,11 +18264,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Part
 
@@ -18276,7 +18276,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Sets part(s) to given atoms, also if -lo is given and -p > 1 allows linking occupancy of given atoms throw FVAR and/or SUMP in cases when -p > 2
 
-**Options**: 
+**Options**:
 
 - *c*: creates a copy of all grown atoms to which applied in the asymmetric unit and automatically links occupancies with the original atoms
 
@@ -18292,17 +18292,17 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Patt
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -18312,11 +18312,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #pers
 
@@ -18332,11 +18332,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Pict
 
@@ -18344,7 +18344,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Outputs a raster picture. Output file name is required, if a second numerical parameter is provided, it is considered to be image resolution in range [0.1-10] in screen sizes, anythin greater than 10 is considered as the desired picture width.
 
-**Options**: 
+**Options**:
 
 - *bw*: embossed output in b&w
 
@@ -18364,11 +18364,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Picta
 
@@ -18376,7 +18376,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: A portable version of pict with limited resolution (OS/graphics card dependent). Not stable on some graphics cards
 
-**Options**: 
+**Options**:
 
 - *dpi*: the physical resolution to be written to the file
 
@@ -18392,11 +18392,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PictPR
 
@@ -18412,11 +18412,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PictPS
 
@@ -18424,7 +18424,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Postscript rendering
 
-**Options**: 
+**Options**:
 
 - *atom_outline_color*: atom outline color[0xffffff]
 
@@ -18454,7 +18454,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 - *octants*: comma separated atom types/names ADP's of which to be rendered with octants [-$C]
 
-- *p*: perspective 
+- *p*: perspective
 
 - *scale_hb*: scale for H-bonds [0.5]
 
@@ -18468,11 +18468,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PictS
 
@@ -18480,7 +18480,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Stereoscopic picture rendering
 
-**Options**: 
+**Options**:
 
 - *a*: view angle [6]
 
@@ -18496,11 +18496,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PictTEX
 
@@ -18508,7 +18508,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Experimental tex/pgf rendering
 
-**Options**: 
+**Options**:
 
 - *color_fill*: ellipses are filled
 
@@ -18522,19 +18522,19 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PiM
 
 **Arguments**: [any] ;
 
-**Description**: Creates an illustration of a pi-system to metal bonds
+**Description**: Creates an illustration of a \pi-system to metal bonds
 
-**Options**: 
+**Options**:
 
 - *l*: display labels for the created lines
 
@@ -18546,19 +18546,19 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PiPi
 
 **Arguments**: [none or 2] ;
 
-**Description**: Analysis of the pi-pi interactions. The procedure searches for flat reqular C6 or NC5 rings and prints information for the ones where the centroid-centroid distance is smaller than [4] A and the shift is smaller than [3] A. These two parameters can be customised.
+**Description**: Analysis of the \pi-\pi interactions. The procedure searches for flat reqular C6 or NC5 rings and prints information for the ones where the centroid-centroid distance is smaller than [4] A and the shift is smaller than [3] A. These two parameters can be customised.
 
-**Options**: 
+**Options**:
 
 - *g*: generates using found symmetry operations
 
@@ -18572,19 +18572,19 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #PiSig
 
 **Arguments**: [none or 2] ;
 
-**Description**: Analysis of the pi-sigma interactions (experimental). The procedure searches for flat reqular 4 and 6 membored rings. Then it searches for atoms within [4] A from the ring centre and with less than [25] angle between the plane normal and the (plane center-atom) vectors.
+**Description**: Analysis of the \pi-\igma interactions (experimental). The procedure searches for flat reqular 4 and 6 membored rings. Then it searches for atoms within [4] A from the ring centre and with less than [25] angle between the plane normal and the (plane center-atom) vectors.
 
-**Options**: 
+**Options**:
 
 - *g*: generates using found symmetry operations
 
@@ -18598,11 +18598,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Plan
 
@@ -18618,11 +18618,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #platon
 
@@ -18638,11 +18638,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Poly
 
@@ -18658,11 +18658,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Popup
 
@@ -18670,7 +18670,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Creates a popup HTML window. Usage: popup popup_name html_source
 
-**Options**: 
+**Options**:
 
 - *b*: border[trscaip],t-caption bar, r-sizeable border, s-system menu, c-close box, a-maximise box, i-minimise box, p-window should stay on the top of others
 
@@ -18698,11 +18698,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Post
 
@@ -18718,11 +18718,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ProcessCmd
 
@@ -18738,11 +18738,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #profile
 
@@ -18758,11 +18758,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #proj
 
@@ -18778,11 +18778,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ProjSph
 
@@ -18790,7 +18790,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Creates a projection from the selected atom onto a sphere, coloring each point on the sphere with a unique color corresponding to fragments.
 
-**Options**: 
+**Options**:
 
 - *e*: emboss the sphere
 
@@ -18804,11 +18804,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #pss1
 
@@ -18824,11 +18824,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #pss2
 
@@ -18844,11 +18844,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #pss3
 
@@ -18864,11 +18864,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Push
 
@@ -18884,11 +18884,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #QPeakScale
 
@@ -18904,11 +18904,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #QPeakSizeScale
 
@@ -18924,11 +18924,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Qual
 
@@ -18944,11 +18944,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #quit
 
@@ -18964,11 +18964,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #reap
 
@@ -18984,11 +18984,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #reap_fade
 
@@ -19004,11 +19004,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #refine
 
@@ -19024,11 +19024,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Refresh
 
@@ -19044,17 +19044,17 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Reload
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -19064,11 +19064,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #report
 
@@ -19084,11 +19084,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Reset
 
@@ -19096,7 +19096,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Resets current structure for the solution with ShelX
 
-**Options**: 
+**Options**:
 
 - *atoms*: saves the atom list alongside
 
@@ -19116,11 +19116,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RESI
 
@@ -19128,7 +19128,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Creates residue with given class name and optionally number and adds selected or provided atoms into the residue. If provided residue class name is \'none\', provided atoms are removed from their residues
 
-**Options**: 
+**Options**:
 
 - *a*: alias
 
@@ -19140,11 +19140,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Restrain
 
@@ -19160,11 +19160,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RIGU
 
@@ -19180,11 +19180,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Rota
 
@@ -19200,11 +19200,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RRings
 
@@ -19212,7 +19212,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Makes all provided rings [like C6 or NC5] regular (flat and all distances similar). If a selection is given - the whole rings must be selected
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -19224,11 +19224,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RSA
 
@@ -19244,11 +19244,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #RTab
 
@@ -19264,11 +19264,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Run
 
@@ -19284,11 +19284,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #sadabs
 
@@ -19304,11 +19304,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sadi
 
@@ -19324,11 +19324,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SAInfo
 
@@ -19344,11 +19344,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #saint
 
@@ -19364,11 +19364,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Same
 
@@ -19376,7 +19376,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Creates SAME instruction for two fragments (two selected atoms or two atoms provided) or number_of_groups and groups following each another (or selection)
 
-**Options**: 
+**Options**:
 
 - *e*: expand SAME into the list of SADI
 
@@ -19390,11 +19390,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Save
 
@@ -19410,11 +19410,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Scene
 
@@ -19422,7 +19422,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Prints default scene parameters or sets it (none resets)
 
-**Options**: 
+**Options**:
 
 - *s*: shows a file open dialog
 
@@ -19434,11 +19434,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Schedule
 
@@ -19446,7 +19446,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Description**: Schedules a particular macro (second argument) to be executed within provided interval (first argument)
 
-**Options**: 
+**Options**:
 
 - *g*: requires GUI
 
@@ -19460,11 +19460,11 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sel
 
@@ -19479,7 +19479,7 @@ sel atoms where xatom.bai.z > 2 - to select all atoms heavier after H
 sel bonds where xbond.length > 2 - to select all bonds longer than 2 A
 sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atoms is H
 
-**Options**: 
+**Options**:
 
 - *a*: select all
 
@@ -19499,25 +19499,25 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SelBack
 
 **Arguments**: [none];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *a*: 
+- *a*:
 
-- *o*: 
+- *o*:
 
-- *x*: 
+- *x*:
 
 
 
@@ -19527,17 +19527,17 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetCmd
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -19547,11 +19547,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetEnv
 
@@ -19567,11 +19567,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetFont
 
@@ -19579,7 +19579,7 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Sets font for specified control
 
-**Options**: 
+**Options**:
 
 - *b*: bold
 
@@ -19595,11 +19595,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetMaterial
 
@@ -19615,17 +19615,17 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetParam
 
 **Arguments**: [any] [any options]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -19635,11 +19635,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #setup
 
@@ -19655,11 +19655,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SetView
 
@@ -19667,7 +19667,7 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Sets view normal to the normal of the selected plane, to a bond or mean line
 
-**Options**: 
+**Options**:
 
 - *c*: center
 
@@ -19679,11 +19679,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #sfil
 
@@ -19699,11 +19699,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SG
 
@@ -19711,9 +19711,9 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: suggest space group
 
-**Options**: 
+**Options**:
 
-- *a*: 
+- *a*:
 
 
 
@@ -19723,11 +19723,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #sgd
 
@@ -19743,11 +19743,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SGE
 
@@ -19763,11 +19763,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sgen
 
@@ -19783,11 +19783,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SGInfo
 
@@ -19795,7 +19795,7 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Prints space group information.
 
-**Options**: 
+**Options**:
 
 - *c*: include lattice centering matrices
 
@@ -19809,11 +19809,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SGS
 
@@ -19829,11 +19829,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Shell
 
@@ -19849,11 +19849,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowH
 
@@ -19869,11 +19869,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowP
 
@@ -19881,7 +19881,7 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Shows specified or all parts of the structure
 
-**Options**: 
+**Options**:
 
 - *m*: do not modify the display view
 
@@ -19895,11 +19895,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowQ
 
@@ -19907,9 +19907,9 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Traverses the three states - peaks and peak bonds are visible, only peaks visible, no peaks or peak bonds. One numeric argument is taken to increment/decrement the numegbr of visibe peaks. Two aruments are taken to control the visibility of atoms or bonds, like in: \'showq a true\' or \'showq b false\'
 
-**Options**: 
+**Options**:
 
-- *wheel*: number of peaks to hide (if negative) or to show 
+- *wheel*: number of peaks to hide (if negative) or to show
 
 
 
@@ -19919,11 +19919,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowStr
 
@@ -19939,11 +19939,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowSymm
 
@@ -19959,17 +19959,17 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ShowWindow
 
 **Arguments**: [1 or 2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -19979,17 +19979,17 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SignPlugin
 
 **Arguments**: [any except none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -19999,11 +19999,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Silent
 
@@ -20019,11 +20019,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SIMU
 
@@ -20031,7 +20031,7 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Description**: Similarity restraint for Uij of provided atoms. If no atoms provided, all non-H atoms considered
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -20043,11 +20043,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #skin
 
@@ -20063,11 +20063,11 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #solve
 
@@ -20083,17 +20083,17 @@ sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atom
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sort
 
 **Arguments**: [any]
 
-**Description**: Sorts atoms of the default residue. Atom sort arguments: 
+**Description**: Sorts atoms of the default residue. Atom sort arguments:
 	m - atomic mass
 	z - atomic number
 	l - label, considering numbers
@@ -20116,11 +20116,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Split
 
@@ -20128,7 +20128,7 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Description**: Splits provided atoms along the longest axis of the ADP
 
-**Options**: 
+**Options**:
 
 - *r*: EADP,ISOR or SIMU to be placed for the split atoms
 
@@ -20140,11 +20140,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Standardise
 
@@ -20160,11 +20160,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #starter
 
@@ -20180,11 +20180,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #StartLogging
 
@@ -20192,7 +20192,7 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Description**: Creates/opens for appending a log file, where all screen output is saved
 
-**Options**: 
+**Options**:
 
 - *c*: empties the file if exists
 
@@ -20204,11 +20204,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #startupPanel
 
@@ -20224,11 +20224,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Stop
 
@@ -20244,17 +20244,17 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #StoreParam
 
 **Arguments**: [2 or 3]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -20264,11 +20264,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Style
 
@@ -20276,7 +20276,7 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Description**: Prints default style or sets it (none resets)
 
-**Options**: 
+**Options**:
 
 - *s*: shows a file open dialog
 
@@ -20288,11 +20288,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Sump
 
@@ -20308,11 +20308,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #SwapBg
 
@@ -20328,11 +20328,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #systematic_absences
 
@@ -20348,11 +20348,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tbx
 
@@ -20368,11 +20368,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tbxh
 
@@ -20388,11 +20388,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tbxs
 
@@ -20408,11 +20408,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #telp
 
@@ -20428,11 +20428,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #telph
 
@@ -20448,11 +20448,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TelpV
 
@@ -20468,17 +20468,17 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Test
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -20488,11 +20488,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TestBinding
 
@@ -20508,11 +20508,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TestMT
 
@@ -20528,11 +20528,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TestStat
 
@@ -20548,11 +20548,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TestSymm
 
@@ -20560,7 +20560,7 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Description**: Tests current structure for missing symmetry
 
-**Options**: 
+**Options**:
 
 - *e*: tolerance limit
 
@@ -20572,11 +20572,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #text
 
@@ -20592,11 +20592,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Textm
 
@@ -20612,11 +20612,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tidy
 
@@ -20632,11 +20632,11 @@ Example: sort +ml F2 F1 moiety +s - will sort atoms by atomic mass and label, pu
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #TLS
 
@@ -20647,7 +20647,7 @@ R1=sum(i=1..3,j=i..3)(|Uobs_ij-Utls_ij|)/sum(i=1..3, j=i..3)(|Uobs_ij|)
 R2\' is invariant under the rotation and is calculated as
 R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
-**Options**: 
+**Options**:
 
 - *a*: apply the TLS ADP to the atoms
 
@@ -20659,11 +20659,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Tolman
 
@@ -20671,7 +20671,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Calculates Tolamn code angle for the selection (M P S1 S2 S3)
 
-**Options**: 
+**Options**:
 
 - *mpd*: M to P distance
 
@@ -20683,11 +20683,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tool
 
@@ -20703,11 +20703,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Transform
 
@@ -20723,17 +20723,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Tref
 
 **Arguments**: [1 or 2]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -20743,11 +20743,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Tria
 
@@ -20755,7 +20755,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Adds a distance restraint for bonds and \'angle\' restraint for the angle
 
-**Options**: 
+**Options**:
 
 - *cs*: do not clear selection
 
@@ -20767,11 +20767,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #tubes
 
@@ -20787,11 +20787,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #txt
 
@@ -20807,17 +20807,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UncheckMenu
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -20827,11 +20827,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Undo
 
@@ -20847,17 +20847,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UninstallPlugin
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -20867,11 +20867,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Uniq
 
@@ -20887,11 +20887,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Update
 
@@ -20907,21 +20907,21 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UpdateFile
 
 **Arguments**: [1];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *f*: 
+- *f*:
 
 
 
@@ -20931,11 +20931,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UpdateOptions
 
@@ -20951,11 +20951,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UpdateQPeakTable
 
@@ -20971,11 +20971,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #UpdateWght
 
@@ -20991,11 +20991,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #User
 
@@ -21011,11 +21011,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #user_onstartup
 
@@ -21031,11 +21031,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ValidateCif
 
@@ -21051,11 +21051,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #VATA
 
@@ -21071,17 +21071,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ViewGrid
 
 **Arguments**: [none or 1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -21091,11 +21091,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #ViewLattice
 
@@ -21111,11 +21111,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #VoidE
 
@@ -21131,11 +21131,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #vv
 
@@ -21151,11 +21151,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Wait
 
@@ -21163,7 +21163,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Forces Olex2 and calling process to sleep for provided number of milliseconds
 
-**Options**: 
+**Options**:
 
 - *r*: during wait all events are processed
 
@@ -21175,17 +21175,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #WaitFor
 
 **Arguments**: [1]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -21195,11 +21195,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #WBox
 
@@ -21207,7 +21207,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Calculates wrapping box around provided box using the set of best, intermidiate and worst planes
 
-**Options**: 
+**Options**:
 
 - *s*: create separate boxes for fragments
 
@@ -21221,11 +21221,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #weight
 
@@ -21241,11 +21241,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #Wilson
 
@@ -21253,7 +21253,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Prints Wilson plot data
 
-**Options**: 
+**Options**:
 
 - *b*: number of bins
 
@@ -21267,11 +21267,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #wilson_plot
 
@@ -21287,11 +21287,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #WindowCmd
 
@@ -21307,11 +21307,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xp
 
@@ -21327,11 +21327,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xprep
 
@@ -21347,11 +21347,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fs.Clear
 
@@ -21367,11 +21367,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #fs.Dump
 
@@ -21387,11 +21387,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Fog
 
@@ -21407,11 +21407,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Perspective
 
@@ -21427,11 +21427,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.Zoom
 
@@ -21447,11 +21447,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #gl.scene.MakeCurrent
 
@@ -21467,11 +21467,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.DefineControl
 
@@ -21479,7 +21479,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Defines a managed control properties
 
-**Options**: 
+**Options**:
 
 - *bg*: background color
 
@@ -21503,11 +21503,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Dump
 
@@ -21523,11 +21523,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Group
 
@@ -21543,11 +21543,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Hide
 
@@ -21563,11 +21563,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Home
 
@@ -21583,11 +21583,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.ItemState
 
@@ -21595,7 +21595,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Changes state of the HTML switch, accepts masks like \'*-picture-*\'
 
-**Options**: 
+**Options**:
 
 - *u*: does not update the html
 
@@ -21607,11 +21607,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Load
 
@@ -21627,11 +21627,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.LstObj
 
@@ -21647,11 +21647,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetBorders
 
@@ -21667,11 +21667,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.SetFonts
 
@@ -21687,11 +21687,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Tooltips
 
@@ -21707,11 +21707,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #html.Update
 
@@ -21727,11 +21727,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #lcells.Search
 
@@ -21739,7 +21739,7 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Description**: Searches current cell, cell from given file, or given cell
 
-**Options**: 
+**Options**:
 
 - *d*: deviation [1 A^3]
 
@@ -21751,11 +21751,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #lcells.Update
 
@@ -21771,11 +21771,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mouse.Disable
 
@@ -21791,11 +21791,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mouse.Enable
 
@@ -21811,11 +21811,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #mouse.Lock
 
@@ -21831,17 +21831,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #py.Reset
 
 **Arguments**: [none]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -21851,11 +21851,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #py.Run
 
@@ -21871,29 +21871,29 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Macro
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.as_pdb_file
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *filepath*: 
+- *filepath*:
 
 - *fractional_coordinates*: (False)
 
-- *remark*: 
+- *remark*:
 
-- *remarks*: 
+- *remarks*:
 
-- *resname*: 
+- *resname*:
 
 
 
@@ -21903,19 +21903,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.config_box
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *config*: Name of the configuration file
 
@@ -21931,21 +21931,21 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.config_changed_var_val
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *f*: 
+- *f*:
 
 
 
@@ -21955,17 +21955,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.install_plugin
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -21975,19 +21975,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.make_help_box
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *name*: Name of the Box
 
@@ -22003,19 +22003,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.makeHtmlBottomPop
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *name*: Name of the Bottom html popupbox
 
@@ -22029,19 +22029,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.resize_to_panelwidth
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *c*: Colourize
 
@@ -22055,19 +22055,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.run_Analysis
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *method*: olex or cctbx
 
@@ -22081,17 +22081,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.run_MakeAllRBars
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -22101,19 +22101,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.run_skin
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *function*: The function to call
 
@@ -22125,21 +22125,21 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.SetGrad
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *f*: 
+- *f*:
 
 
 
@@ -22149,17 +22149,17 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.StoreSingleParameter
 
 **Arguments**: [any]
 
-**Description**: 
+**Description**:
 
 **Options**: None
 
@@ -22169,19 +22169,19 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.tbxs
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
 - *n*: The name of the setup screen
 
@@ -22193,25 +22193,25 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #spy.ValidateCif
 
 **Arguments**: [any];
 
-**Description**: 
+**Description**:
 
-**Options**: 
+**Options**:
 
-- *cif_dic*: 
+- *cif_dic*:
 
-- *filepath*: 
+- *filepath*:
 
-- *show_warnings*: 
+- *show_warnings*:
 
 
 
@@ -22221,11 +22221,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.EndUpdate
 
@@ -22241,11 +22241,11 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 
 #xf.rm.ShareADP
 
@@ -22261,9 +22261,9 @@ R2\'=sum(i=1..3,j=1..3)((Uobs_ij-Utls_ij)^2)/sum(i=1..3,j=1..3)(Uobs_ij^2)
 
 **Type**: Python Function
 
-**Example**: 
+**Example**:
 
-**Keywords**: 
+**Keywords**:
 
-**Scope**: 
+**Scope**:
 

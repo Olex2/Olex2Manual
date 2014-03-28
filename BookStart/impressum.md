@@ -1,4 +1,4 @@
-\noindent This booklet is our first draft of an Olex2 manual and is being produced in very limited numbers for the Olex2 workshops.
+\noindent This booklet is an early draft of an Olex2 manual and is being produced in very limited numbers for the Olex2 workshops.
 There is a lot of room for improvement, and we are asking you to help us with this. We ask you to annotate this book: go wild and scribble all over it: and send it back to us when you are done.
 We will send your copy back to you, and you will also receive the next version of this manual as soon as it has been published.
 
@@ -9,7 +9,7 @@ We will send your copy back to you, and you will also receive the next version o
 
 \vspace{270pt}
 
-\noindent\copyright 2013 OlexSys Ltd
+\noindent\copyright 2014 OlexSys Ltd
 
 \noindent Department of Chemistry
 
@@ -24,6 +24,6 @@ We will send your copy back to you, and you will also receive the next version o
 \vspace{30pt}
 
 
-\noindent Printed and bound by **BookPrintingUK**
+\noindent Printed and bound by **Mixam**
 
 \newpage
