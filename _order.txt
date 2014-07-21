@@ -1,74 +1,17 @@
-# LATEX replacements
-#\-(\S)\: ::x:: \\begin{quote}\\textbf{--\1}\\end{quote}:
-
-#2Theta::x:: \\ensuremath{2\Theta}
-#Fobs::x::$ \\ensuremath{F_{obs}}
-#Fcalc::x::$ \\ensuremath{F_{calc}}
-#\b Fo \b::x:: \\ensuremath{F_{obs}}
-#Fc::x::\\ensuremath{F_{calc}}
-#F^2 ::x:: \\ensuremath{F^2}
-#\b Z \b ::x:: \\ensuremath{Z}
-#\b Z' \b ::x:: \\ensuremath{Z'}
-#Z' \s* > \s* 1 ::x:: \\ensuremath{Z' > 1}
-#Z' \s* < \s* 1 ::x:: \\ensuremath{Z' < 1}
-#Z' \s* \!<  \s* 1 ::x:: \\ensuremath{Z' != 1}
-#Rint ::x:: \\ensuremath{R_{int}}
-#wR2 ::x:: \\ensuremath{wR_2}
-#R1 ::x:: \\ensuremath{R1}
-#e-3 ::x:: \\ensuremath{e^{-3}}
-#e/A ::x::\\ensuremath{e^{-}/\\AA}
-#\b Uij \b ::x::\\ensuremath{U_{IJ}}
-#Uiso ::x::\\ensuremath{U_{iso}}
-
-#\b UP \b ::x::\\textsc{Up}
-#\b DOWN \b ::x::\\textsc{Down}
-#\b PAGEUP ::x::\\textsc{PageUp}
-#\b PAGEDOWN ::x::\\textsc{PageDown}
-#\b DELETE ::x::\\textsc{Delete}
-#\b SHIFT\+ ::x:: \\textsc{Shift+}
-#\b RIGHT \s* MOUSE ::x:: \\textsc{Right Mouse}
-#\b LEFT \s* MOUSE ::x:: \\textsc{Left Mouse}
-#\b SHIFT \b ::x:: \\textsc{Shift}
-#\b ENTER \b ::x:: \\textsc{Enter}
-
-#\b ShelX \b ::x:: \\textbf{\\textit{ShelX}}
-#\b ShelXL\-2013 \b ::x:: \\textbf{\\textit{ShelXL-2013}}
-#\b ShelXL \b ::x:: \\textbf{\\textit{ShelXL}}
-#\b ShelXS \b ::x:: \\textbf{\\textit{ShelXS}}
-#\b ShelXD \b ::x:: \\textbf{\\textit{ShelXD}}
-#\b olex2\.solve \b ::x:: \\textbf{\\textit{olex2.solve}}
-#\b Olex2 \b ::x:: \\textbf{\\textit{Olex2}}
-#\b Superflip \b ::x:: \\textbf{\\textit{Superflip}}
-#\b Platon \b::x:: \\textbf{\\textit{Platon}}
-#\b SIR \b::x:: \\textbf{\\textit{SIR}}
-#\b SADABS \b::x:: \\textbf{\\textit{SADABS}}
-
-#ESC \b ::x::\\textsc{Esc}
-#alpha ::x:: \\textalpha
-#beta ::x:: \\textbeta
-#gamma ::x:: \\textgamma
-#\b P\-1 \b ::x:: \\ensuremath{P \\bar{1}}
-#\b P1 \b ::x:: \\ensuremath{P1}
-#\$\$ ::x:: \$
-#pi-pi ::x:: \\textpi-\\textpi
-#\£ (.*?) \£ ::x:: \\greentt{\1}
-#`@.*?(\-).*?`/g ::xx:: " "
-
-#\begin{figure}[htbp] \s* \centering \s* (.*?) \end{figure} ::x:: \begin{wrapfigure}{r}{0.48\textwidth}\vspace{-15pt} \1 \\end{wrapfig}
-
 #BOOK Details
 bookauthor=Hazel A. Sparkes \& Horst Puschmann
-booktitle=Solving and Refining Molecular Structurs using Olex2
-booksubtitle=An Introduction
-booktitle=Olex2
+booktitle=Getting Started with Olex2
+booksubtitle=An excerpt of the official Olex2 manual
 book_use_fontspec=Cambria
 book_linespacing=1.2
 
 #PANDOC command
-pandoc_cmd=pandoc -o %s -f markdown -t latex %s
+#pandoc_cmd=pandoc -o %s -f markdown -t latex %s
+#pandoc_cmd=pandoc -s -S --toc %s -o %s
+pandoc_cmd=pandoc -s -S --webtex --toc --toc-depth 2 -c %(css)s %(in)s -o %(out)s
 
 #Book Chapters
-BookStart
+#BookStart
 Sucrose
 GettingAroundOlex2
 Tasks
@@ -76,4 +19,5 @@ Disorder
 CifImagesAndReports
 Glossary
 CommandsManual
-Appendices
+#Appendices
+WEBSITE

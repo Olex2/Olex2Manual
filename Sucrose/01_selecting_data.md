@@ -1,7 +1,6 @@
 # Selecting Data
 
-1. Open Olex2.
-2. Click on the `@Home` tab in the GUI panel. Under the `@Start` header one of the sample structures is **Sucrose**. Click on this and the model/instructions *.ins* file will be loaded.
+1. Click on the `@Home` tab in the GUI panel in Olex2. Under the `@Start` header one of the sample structures is **Sucrose**. Click on this and the model/instructions *.ins* file will be loaded.
 
 ![Home Tab in GUI Panel](/images/start.png)
 

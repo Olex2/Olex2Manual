@@ -1,13 +1,35 @@
-\noindent This booklet is an early draft of an Olex2 manual and is being produced in very limited numbers for the Olex2 workshops.
-There is a lot of room for improvement, and we are asking you to help us with this. We ask you to annotate this book: go wild and scribble all over it: and send it back to us when you are done.
-We will send your copy back to you, and you will also receive the next version of this manual as soon as it has been published.
+\noindent This booklet has been produced for the 23rd IUCr Congress and General Assembly in Montreal 2014. It is an abriged version of the full official Olex2 Manual, which is available from OlexSys Ltd on request.
+
 
 \vspace{20pt}
 
-\noindent We thank Natasha Chetina for editing this text.
+
+\noindent The manual was written by Hazel A. Sparkes, Oleg Dolomanov and Horst Puschmann. We thank Natasha Chetina for editing this text.
 
 
-\vspace{270pt}
+\vspace{20pt}
+
+
+\noindent
+<b>OlexSys Ltd are:</b>
+
+
+\noindent
+<b>Dr. Horst Puschmann</b> (*Chief Scientific Officer*): horst@olexsys.org
+
+\noindent
+<b>Dr. Oleg Dolomanov</b> (*Chief Technical Officer*): oleg@olexsys.org
+
+\noindent
+<b>Beatrice Leigh</b> (*Chief Executive Officer*): bea@olexsys.org
+
+\noindent
+<b>Prof. Judith A.K Howard</b> (*Chairperson*): judith@olexsys.org
+
+
+\vspace{230pt}
+
+
 
 \noindent\copyright 2014 OlexSys Ltd
 
@@ -23,7 +45,6 @@ We will send your copy back to you, and you will also receive the next version o
 
 \vspace{30pt}
 
-
-\noindent Printed and bound by **Mixam**
+\noindent Printed and bound by **printed.com**, UK
 
 \newpage
