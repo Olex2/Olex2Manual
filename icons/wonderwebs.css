@@ -1,0 +1,260 @@
+
+/*Character format styles*/
+
+.code {
+    font-family: monospace;
+    font-size: 100%;
+    color: #222222;
+    background-color: #eeeeee;
+    border: 1px dashed #666666;
+    padding-left: 2px;
+    padding-right: 2px;
+    }
+
+.guilink{
+  color: orange;
+  }
+
+.keys{
+border:1px solid gray;
+box-shadow:1px 0 1px 0 #eee, 0 1px 0 1px #ccc, 0 1px 0 2px #444;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+margin:1px 2px;
+padding:1px 3px;
+}
+
+.emphasis{
+        font-weight: bold;
+        font-style: italic;
+}
+
+
+/*Styles related to images*/
+
+.caption{
+        font-size: 70%;
+        font-style: italic;
+        text-align: center;
+}
+
+
+img.displayed {
+    display: block;
+    border: thin solid;
+    border-color: #ababab;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/* ... the following are the small icon images.*/
+img.si {
+    border: thin solid;
+    border-color: #ababab;
+    width: 15px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img.li {
+    float: left;
+    vertical-align: top;
+    display: block;
+    border: thin solid;
+    border-color: #ababab;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img.i {
+    border: thin solid;
+    border-color: #ababab;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px
+    }
+
+img.latex {
+    position: relative;
+    top: 3px
+    }
+
+/**************************************************************
+Paragraph Formatting Styles
+**************************************************************/
+
+blockquote {
+    display: block;
+    border: thin solid;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+blockquote.olex2 {
+    border-color: #deffde;
+    background-color: #ecffec;
+}
+
+blockquote.cryst {
+    border-color: #ffdede;
+    background-color: #ffecec;
+}
+
+blockquote.note{
+    border-color: #deffde;
+    color:#ff0000;
+    background-color: #ecffec;
+}
+
+blockquote.example{
+    border-color: #deffde;
+    color:#228822;
+    background-color: #ecffec;
+    margin:auto;
+}
+
+blockquote.options{
+    display: block;
+    border: thin solid;
+    border-color: #deffde;
+    color:#0000ff;
+    background-color: #ecffec;
+}
+
+
+
+/**************************************************************
+STANDALONE ONLY
+**************************************************************/
+
+body {
+font-size: 16px;
+line-height: 28px;
+font-family: arial, sans-serif;
+color: #343434;
+background-color:#F1F1F1;
+max-width: 980px;
+margin: 0 auto;
+}
+.wrapper{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto;
+}
+
+
+.highlighted
+{
+background-color:#ff0000 !important;
+}
+
+
+
+
+.content{
+float: left;
+position: relative;
+width: 100%;
+top: 122px;
+border-radius: 10px;
+color: #f000000;
+max-width: 980px;
+height: auto !important;
+height: 300px;
+}
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    text-decoration: none;
+    color:#073A70 !important;
+}
+h1, h2, h3, h4, h5 { font-family: verdana;
+    font-family:"Open Sans Condensed Light" ;
+    font-weight: bold;
+    font-size: 140%;
+    border-bottom: 2px dotted #073A70;
+    color: #073A70; }
+
+h1 {
+        font-size: 160%;
+}
+
+h1:before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+}
+
+
+h2 {
+        font-size: 130%;
+}
+
+
+h2:before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+}
+
+
+h3 {
+        font-size: 120%;
+}
+
+
+h3:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
+
+
+h4 {
+        font-size: 90%;
+        font-style: italic;
+}
+
+h5 {
+        font-size: 90%;
+        font-style: italic;
+}
+
+h1.title {
+        font-size: 200%;
+        font-weight: bold;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        text-align: left;
+        border: none;
+}
+
+dt code {
+        font-weight: bold;
+}
+dd p {
+        margin-top: 0;
+}
+
+
+
+.chapter_heading{
+        font-weight: bold;
+        font-size: 30px;
+        color:#073A70;
+        margin-bottom: 40px;
+}
+
