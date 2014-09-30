@@ -7,5 +7,4 @@
 >C **-r**: uses the reciprocal lattice instead of the direct.
 
 >D `CODE matr 1` or `CODE matr a` or `CODE matr 100` - sets the current normal along the crystallographic a direction.
-
 `CODE matr 100 011` sets the current normal along the (`0 1 1 -- 1 0 0`) direction (the normal direction changes if from and to are swapped)

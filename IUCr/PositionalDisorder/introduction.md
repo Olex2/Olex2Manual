@@ -1,0 +1,1 @@
+This example will show you how to split atoms when there is a positional disorder.

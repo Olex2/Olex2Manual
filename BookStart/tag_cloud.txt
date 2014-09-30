@@ -1,0 +1,47 @@
+Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2 Olex2
+
+OlexSys OlexSys OlexSys OlexSys OlexSys OlexSys OlexSys OlexSys OlexSys
+Crystallography Crystallography Crystallography Crystallography
+Small~Molecule Small~Molecule Small~Molecule Small~Molecule Small~Molecule
+
+CIF CIF CIF CIF CIF CIF CIF CIF CIF CIF
+
+hkl hkl hkl hkl hkl hkl hkl hkl
+
+ShelXL ShelXL ShelXL
+ShelXS ShelXS ShelXS
+cctbx.refine cctbx.refine cctbx.refine cctbx.refine
+cctbx.solve cctbx.solve cctbx.solve cctbx.solve cctbx.solve
+Superflip Superflip Superflip Superflip Superflip Superflip Superflip
+Charge~Flipping
+
+Report Report Report
+ReportPlus ReportPlus ReportPlus ReportPlus ReportPlus
+DrawPlus DrawPlus
+
+Solve Solve
+Refine Refine
+
+Journal~Article Journal~Article Journal~Article
+Publication
+Referee
+
+Chemistry Chemistry Chemistry Chemistry Chemistry
+
+Structure Structure Structure  Structure Structure
+X-ray X-ray X-ray X-ray X-ray X-ray X-ray X-ray
+
+HTAB
+RIGU
+HADD
+SADI
+ANIS
+ISOR
+TELP
+PERS
+ROTA
+ACTA
+Twinning Twinning
+
+ORTEP ORTEP
+
