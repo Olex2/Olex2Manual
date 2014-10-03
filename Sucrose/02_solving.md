@@ -5,7 +5,7 @@
 3.	Select a **solution program** from the drop-down menu. Depending on your computer set-up, you may only see the built-in olex2.solve program, but you may also see other solution programs in the list, if they are installed.
 4.	Click @@Solve@@ (or type `CODE solve`) and Olex2 will attempt to solve the structure. Once the structure is solved, *electron density peaks* \index{electron density peaks} (*Q-Peaks* \index{Q-peaks}) are shown as brown spheres. Hover over these to see their peak height, or look at `@Info|Electron-Density-Peaks` for a click-able list of the top 10 peaks. The colour intensity of these Q-peaks represents the relative intensity. The molecule of sucrose is clearly visible, along with some much weaker, artificial peaks.
 
-	![Sucrose Q-Peaks. The structure can easily be guessed from the position of the electron density peaks.](/images/sucrose_peaks.png)
+	![Sucrose Q-Peaks. The structure can easily be guessed from the position of the electron density peaks.](./images/sucrose_peaks.png)
 
 	>CRYST Q-peaks represent maxima in the *electron density map* \index{electron density map} i.e. places where the atoms are likely to be located. If the structure solution has been successful, you will probably see the whole molecule, but this is not always the case: sometimes you will only see parts of the molecule and these might be fragmented. The intensity of the spheres is scaled to the largest peak present. So the weakest peaks appear faded out. The scaling used here can be adjusted in `@Info|Electron-Density-Peaks`.
 

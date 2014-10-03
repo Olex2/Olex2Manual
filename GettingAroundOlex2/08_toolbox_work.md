@@ -1,9 +1,9 @@
 # Toolbox Work
 This option is located under `@Work` and is frequently used. Here is what is in it:
 
-![Toolbox Work](/images/toolbox_work.png)
+![Toolbox Work](./images/toolbox_work.png)
 
-1. Option to toggle between labels being on/off. Can select from a number of different labels to be applied to the structure e.g. H Atom labels and Q peak intensities.  
+1. Option to toggle between labels being on/off. Can select from a number of different labels to be applied to the structure e.g. H Atom labels and Q peak intensities.
 
 2. Options to change the atom type. If you have a selection and press one of these buttons, the selected atoms will be changed according to which button was pressed. If there is no selection and you press one of these buttons, all subsequently clicked atoms will be changed to the selected atom type.
 

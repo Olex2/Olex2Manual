@@ -10,7 +10,7 @@ The quality of the atom appearance can be adjusted by right clicking in the disp
 To rotate the structure, click with the LEFT MOUSE button in the graphics screen (avoiding atoms or Q-peaks) and move the mouse. Holding CTRL down at the same time rotates the structure around in the plane of the screen. You can also use SHIFT + DIRECTION keys to rotate the structure using the keyboard.
 It is also possible to rotate the structure by a user-defined amount relative to the screen orientation under `@View|Rotate`, @@x@@ rotates the structure from top to bottom, @@y@@ rotates from left to right and @@z@@ rotates around in the plane of the page. On the command-line, `CODE rota 1 30` will rotate the molecule by 30 degrees around axis 1.
 
-## Zooming 
+## Zooming
 Holding the RIGHT MOUSE button down in the graphics screen (avoiding atoms or Q-peaks) and moving the mouse will zoom into or out of the structure. If you do this while pressing the ALT-Key, the zooming will be smoother and more precise.
 
 ## View Along a Specific Direction
@@ -24,4 +24,5 @@ The viewing direction can be saved and loaded using `CODE save view <name>` and 
 - @@Show Cell@@: Toggle to display/hide the cell axes. Alternatively right click in the display window under @@Model@@ is the option to Show / Hide Unit Cell or type `CODE cell`. The directions (*a*, *b*, *c* and origin) are also displayed. While holding Shift down, you can move these labels with the left mouse button.
 
 ## Stereo View
-Various output options for Stereo viewing are available under `@View|Stereo-View`. Some of these produce stereo images on a standard monitor, but stereo output on dedicated 3-D monitors is also supported for either of the two commonly available systems
+Various output options for Stereo viewing are available under `@View|Stereo-View`. Some of these produce stereo images on a standard monitor, but stereo output on dedicated 3-D monitors is also supported for either of the two commonly available systems.
+

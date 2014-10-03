@@ -19,5 +19,4 @@ Disorder
 CifImagesAndReports
 Glossary
 CommandsManual
-#Appendices
-WEBSITE
+Appendices

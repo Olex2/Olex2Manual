@@ -1,8 +1,8 @@
 # PARTs and Occupancy
-The use of **PARTs** and **occupancy** are often linked. 
+The use of **PARTs** and **occupancy** are often linked.
 The *PART number* \index{Part number} is used to define which atoms are considered to be bonded to each other. Atoms in PART 0 bond to everything within bonding distance, while those in PARTs other than 0 bond to all atoms in PART 0 and the same PART number as them.  For example, if some atoms are modelled in PARTs 1 and 2, the atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2).
 
-![The use of PARTs on a fragment to define bonding. The atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2)](/images/part labelled.png)
+![The use of PARTs on a fragment to define bonding. The atoms in PART 0 within bonding distance, bond to atoms in PART 1 and 2. However, the atoms in PART 1 only bond to those in PART 0 and 1, not 2 (likewise for those in PART 2)](./images/part labelled.png)
 
 The *occupancy* \index{occupancy} is used to define the fraction of an atom modelled in a particular location. In the image above, it would not be possible for atoms in PARTs 1 and 2 to be present in a particular asymmetric unit at the same time or the molecule would be very odd. The disorder model indicates that in some asymmetric units the molecule is in the orientation of PART 1 and in others it is in the orientation of PART 2. Therefore the total occupancy of the two sites cannot exceed 1 but in this case to have a complete molecule it must equal 1. In this case the occupancy of PART 1 was 0.8 and PART 2 was 0.2.
 
@@ -22,7 +22,7 @@ All atoms in PART 0 are normally 100% occupied. In other words they are at that 
 When refining occupancies, the thermal parameters of the atoms should be refined isotropically. If the sum of the occupancies of a pair of atoms is required to total one, their $U_{iso}$ values should be linked using EADP but allowed to refine until the occupancies are fixed. The reason for this is that strong correlations exist between occupancies and thermal parameters and not linking $U_{iso}$ while refining the occupancies may lead to incorrect occupancies. Very small occupancies should be examined with caution.
 
 ## Free Variables \index{free variables}
-Free variables provide a simple and yet elegant mechanism to implement a number of linear constraints and restraints. They are found in the .ins file under an FVAR instruction. The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used as a link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. 
+Free variables provide a simple and yet elegant mechanism to implement a number of linear constraints and restraints. They are found in the .ins file under an FVAR instruction. The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used as a link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter.
 For example:
 
 \begin{verbatim}
@@ -62,17 +62,17 @@ Sometimes it quicker and easier to perform this using the command-line:
 ## Displaying Occupancy Values \index{occupancy}
 Under `@Work|Toolbox-Work|Labels` either select Crystallographic Occupancy or Chemical Occupancy from the drop down menu. Crystallographic occupancy - if an atom is on a symmetry element, then its crystallographic occupancy is no longer 1, even though chemically it is a fully occupied atom in that position. The chemical occupancy hides this complexity. If that number says 0.5, then that means there is half an atom in that position.
 
-## Splitting Atoms 
+## Splitting Atoms
 If an atom or group of atoms is associated with disorder, it can be useful to split the atom in order to model it over more than one position. Sometimes it is desirable to do this in association with a restraint, constraint or by linking the occupancies of the two PARTs. There are a number of options to achieve this within Olex2:
 
-### `@Work|Toolbox-Work|Split-atoms-you-click-next-with-...` 
+### `@Work|Toolbox-Work|Split-atoms-you-click-next-with-...`
 
 - *No restraint* splits atoms with no restraints or constraints, putting them into two PARTs and associating the occupancy with a free variable. Press ESC when finished.
 - *EADP* or *ISOR* or *SIMU* splits the atoms, applying either an EADP constraint or ISOR or SIMU restraint depending on what option is selected. Press ESC when finished. (See restraints/constraints) for more detail of these restraints.
 
 >OLEX2 If you click on more than one atom to split it, it will be associated with the same free variable unless you press ESC and reopen the mode, in which case the occupancy will be linked to a new free variable. To edit the standard deviations associated with ISOR or SIMU click on the relevant atoms to select them, click on the open .ins icon I_EDIT and edit the .ins file directly. When atoms are split, Olex2 will automatically make them isotropic for the occupancies to be refined.
 
-### `@Toolbox Work|Select-group-or-atom(s)-and-then...` 
+### `@Toolbox Work|Select-group-or-atom(s)-and-then...`
 *Split* will split the pre-selected atom or group of atoms with no restraint: setting one atom to PART 1 with the occupancy linked to a free variable and the other to PART 2 with the occupancy linked to 1 free variable. Subsequently, holding down the SHIFT+LEFT MOUSE button and moving the mouse allows the new atom(s) to be moved e.g. onto a Q-peak. Press ESC when finished.
 
 ### Moving Incorrectly Located Atoms
@@ -84,7 +84,7 @@ It may be apparent that an atom would be better located on a different Q-peak ra
 
 ## Splitting and Moving Atoms
 
-### `@Toolbox-Work|Select-group-or-atom(s)-and-then...` 
+### `@Toolbox-Work|Select-group-or-atom(s)-and-then...`
 
 - *Split or Move with Shift key*: once in this mode any atoms that are clicked on will be split unless the Shift key is held down in which case the atoms can be moved by holding the LEFT MOUSE button down and moving the mouse. Press ESC when finished.
 Releasing the SHIFT in these modes allows the structure to be rotated and zoomed to check the positions. These positions do not have to be perfect, just relatively close as the structure will be refined afterwards. In Split or Move with SHIFT key be careful not to click on an atom if you are changing the view or it will split. If extra split atoms are generated in any mode. Press ESC to get out of the mode. Using the left mouse button click on the new generated atom(s) to select it, press delete and the atom(s) will disappear and change occupancy of the original atoms back to 1 and reset its PART to 0.
