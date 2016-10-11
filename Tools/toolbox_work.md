@@ -1,7 +1,7 @@
-﻿# Toolbox Work
+﻿﻿# Toolbox Work
 This tool is intended to provide quick shortcuts to operations that you will encounter frequently when working on a structure. Some of the tools present here are also accessible elsewhere on the GUI, and of course you can always type the command.
 
-![Toolbox Work](C:\Users\Horst\Documents\GitHub\Olex2Manual\Tools\images\toolbox_work.png)
+![50 Toolbox Work](C:\Users\Horst\Documents\GitHub\Olex2Manual\Tools\images\toolbox_work.png)
 
 - @@Labels@@: Choose from the dropdown menu what should be displayed on the atom labels. Most of these are self-explanatory, but here are a some comments:
 
@@ -44,7 +44,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 	- @@Q To H@@: Converts all *showing* Q-peaks to Hydrogen atoms. This tool is not recommended. The Olex2 hydrogen placement routine is clearly the better way! `CODE name $Q H`.
 
 	- @@Clean (Brush)@@: Peaks that are too small will be deleted and larger peak will be converted to carbon. Impossible atoms will be deleted and some other atom type assignments may be made. This tool is suprisingly useful in the early stages of model building (soon after structure solution). `CODE clean`.
-	
+
 	- @@Delete Hydrogen Atoms@@: If nothing is selected, all hydrogen atoms in the structure will be deleted. Otherwise, the selected atoms will be deleted. `CODE kill $H`.
 
 	- @@Show/Hide Peaks@@: The display of Q-peaks is cycled through these stages: Show -> Show with Bonds -> Hide. (CTRL+Q).
@@ -60,7 +60,7 @@ This tool is intended to provide quick shortcuts to operations that you will enc
 	- @@Show PARTS 0 AND@@: All atoms of PART 0 and all atoms belonging to the chosen PART will be shown. Each view here should afford a recognisable and chemically feasible moiety on the screen. `CODE ShowP 0 1`, `CODE ShowP 0 2`, `CODE ShowP`.
 
 	- @@Unique@@: When you tick this box while an atom is selected, Olex2 will only display the fragment of the structure that contains the selected atom (`CODE uniq`). If it is ticked, the chosen fragment will continue to be shown in isolation if you visualise the various PARTS.
-	
+
 	- @@Labels@@: These provide the label options that only make sense in the presence of PARTs.
 
 - @@Split Atoms with@@: These links provide *one* way to start modelling disorder in Olex2. This is a mode: you select the tool first, then you click the atoms you wish to split.

@@ -4,6 +4,7 @@ Once you get used to using Olex2, the mouse actions will become second nature to
 ------------------------------------------------------------------------------------
 Mouse Action                     Effect
 -------------------------------- --------------------------------------------------------
+
 HOLD LEFT MOUSE                  Rotates the model
 
 HOLD RIGHT MOUSE                 Zooms the view (or zoomable objects)

@@ -8,7 +8,7 @@ The easiest way to illustrate how to model disorder is to work through an exampl
 
 1.	Select and open THPP. Either solve from the start or delete the disordered carbon atoms C7a and C7b - Olex2 will automatically delete associated hydrogen atoms. @@Refine@@ the structure, locate the largest Q-peak and name it a Carbon, @@refine@@ the structure anisotropically and add the hydrogen atoms. The structure should look like illustrated here. At this stage using olex2.refine you should have R1 ~0.04-0.05 (i.e. 4-5%), wR2 ~0.17-0.18 (17-18%), difference map max ~1.2 e/A, min ~-0.6 e/A with no weights applied.
 
-	![This is how your model should look like after the first refinement](./images/disorder_01.png)
+	![50 50 This is how your model should look like after the first refinement](./images/disorder_01.png)
 
 2.	The highest peak in the difference map of ~1.2 e/A is higher than would be expected for a structure containing no particularly heavy atoms.
 3.	Examine the position of the highest peaks. Q1 will appear near one of the existing carbon atoms. Measure the distance between Q1 & C6 and Q1 & N8 (`@View|Geometry|Distance and Angles (of selection) `). The distances of 1.27 and 1.49 ANGST are well in range for C-C and C-N bonds.
@@ -18,7 +18,7 @@ The easiest way to illustrate how to model disorder is to work through an exampl
 4.	This all suggests that one carbon nearest Q1 should be modelled over two positions. Delete the hydrogen atoms on the two carbon atoms of the ethyl linker. There are several ways that the disorder could be modelled one of which will be run through here.
 5.	Select the carbon atom to be modelled over 2 positions. Under `@Work|Toolbox-Work|Select-group-or atom(s)and-then` select @@Split@@. Holding SHIFT + the LEFT mouse button down when on the newly generated fragment (or atom in this case) which will be green, enables the fragment to be moved. Releasing the SHIFT key means that the molecule can be rotated. Adjust the position and orientation of the newly generated fragment until it approximately coincides with the relevant Q1. Press ESC to exit this mode.
 
-	![Holding SHIFT + the LEFT mouse button DOWN when on the newly generated fragment enables the fragment to be moved](./images/disorder_02_03.png)
+	![50 Holding SHIFT + the LEFT mouse button DOWN when on the newly generated fragment enables the fragment to be moved](./images/disorder_02_03.png)
 
 	>OLEX2 In the case of modelling one atom it is possible to achieve steps 5 to 7 in one go by using `@Work|Toolbox-Work|Split-atoms-you-click-next-with` EADP. The method described here is applicable to modelling disordered groups of atoms which is frequently required. If treating groups of atoms and splitting them separately, make sure that all relevant atom occupancies are linked to the same free variable number (FVAR) as one cannot be present without the other.
 
@@ -39,6 +39,6 @@ The easiest way to illustrate how to model disorder is to work through an exampl
 
 12.	Continue the refinement as normal. The relevant part of the final model is shown here. The 14% component is un-reacted starting material and the major part is the expected product.
 
-	![Your final model should look like this](./images/disorder_04.png)
+	![50 Your final model should look like this](./images/disorder_04.png)
 
 	>CRYST This is just one approach to modelling the disorder in this structure and there are other equally valid approaches that can be used. The decision over when to split an atom is sometimes down to the crystallographers' interpretation of the data. Care should be taken not to over-model or over-restrain a structure.

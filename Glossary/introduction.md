@@ -34,9 +34,9 @@ $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the
 
 **Flack \thinspace $x$**: applicable to non-centrosymmetric structures the Flack parameter can indicate whether the absolute structure is correct. The parameter is calculated with an esd which should be examined to assess whether the analysis is meaningful. A value of 1 with a small esd indicates that the absolute structure should be inverted, while 0 with a small esd suggest that the absolute structure is correct. A value of 0.5 may suggest that a centre of symmetry has been missed, while values in between 0 and 1 could indicate the presence of racemic twinning.
 
-**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). --21.000 means $1 - (1 x free variable 2)$ in other words the occupancy of the two parts adds to 1.
+**Free variable (FVAR)**: The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used to link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter. For example 21.000 means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). --21.000 means 1 -- (1 $\times$ free variable 2) in other words the occupancy of the two parts adds to 1.
 
-**GooF**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
+**$GooF$**: The Goodness of Fit values should converge to 1.0 for a very good structure at the end of the refinement.
 
 \begin{displaymath}
 GooF = (S[w(F_{obs}^{2}-F_{calc}^{2})2] / (n-p))^{1/2}
@@ -47,7 +47,7 @@ $w$: weight, $F_{obs}$: observed structure factors, $F_{calc}$: calculated struc
 **Hooft \thinspace $y$**: An alternative to the Flack parameter, uses an analysis of Bijvoet-pairs to determine the absolute structure of a compound (R. W. W. Hooft, L. H. Straver, A. L. Spek (2008) *J. Appl. Cryst.*, **41**, 96-103).
 $I(F^{2})$: the measured intensity of a reflection.
 
-**_.ins_ file**: The .ins file is the instruction file which initially contain information on the radiation used, cell parameters (and esd), structure factor cards relating to the specific atom types, the number of each atom type, the space group (in the form of LATT and SYMM instructions) and the format of the .hkl file. At the end of a structure solution and refinement the .ins file will contain information about your atom positions, their thermal parameters and any restraints/constraints that have been used.
+**.ins file**: The .ins file is the instruction file which initially contain information on the radiation used, cell parameters (and esd), structure factor cards relating to the specific atom types, the number of each atom type, the space group (in the form of LATT and SYMM instructions) and the format of the .hkl file. At the end of a structure solution and refinement the .ins file will contain information about your atom positions, their thermal parameters and any restraints/constraints that have been used.
 
 **Isotropic displacement parameters ($U_{iso}$)**: one parameter is used to define a sphere to represent the average thermal motion of an atom.
 
