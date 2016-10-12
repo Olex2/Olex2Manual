@@ -1,12 +1,12 @@
 \frontmatter
 
 
-\vspace*{40pt}
+\vspace*{30pt}
 
 
   \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.30\textwidth]{X:/HP/GitHub/Olex2Manual/Bookstart/images/AsCA.png}
+  \includegraphics[width=0.25\textwidth]{X:/HP/GitHub/Olex2Manual/Bookstart/images/AsCA.png}
   \end{figure}
 
 

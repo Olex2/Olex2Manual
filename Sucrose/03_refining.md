@@ -7,7 +7,7 @@ Now that initial atom assignments have been made, the next stage is to refine th
 1.	Under the `@Work` tab click on the arrow next to the @@Refine@@ button so that it is pointing upwards and highlighted orange. The refinement options are now displayed.
 2.	Click on the @@Refine@@ button and Olex2 will refine your structure. Alternatively, you can type `CODE refine` or press CTRL+R.
 
-	>CRYST During a *fred*idx Olex2 is calculating *structure factors* based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
+	>CRYST During a refinement Olex2 is calculating *structure factors* based on your current structural model and comparing them to the experimentally measured values. Adjustments are then made to the atomic parameters to try and improve the fit.
 
 3.	If one of the atoms you assigned is now represented as a comparatively huge sphere (not just slightly larger than the others) then it is not real. Select it and press the DELETE key on your keyboard (or right-click and select *Delete* from the context menu). If you delete an atom by mistake, use CTRL+Z to undo.
 
