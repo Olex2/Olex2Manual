@@ -3,41 +3,27 @@
 
 \vspace*{30pt}
 
-
-  \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.25\textwidth]{X:/HP/GitHub/Olex2Manual/Bookstart/images/AsCA.png}
-  \end{figure}
-
-
+![25](X:/HP/GitHub/Olex2Manual/Bookstart/images/AsCA.png)
 
 \vspace*{30pt}
 
 \thispagestyle{empty}
 \begin{center}
-
-
-\vspace*{20pt}
+\vspace*{10pt}
 
 \noindent\fontsize{30pt}{30pt}\selectfont\textbf{
-Olex2
+Olex2F
 }
 
 \vspace*{20pt}
-
 
 \noindent\fontsize{20pt}{20pt}\selectfont\textbf{
 Getting Started
 }
-
-
-\vspace*{190pt}
-
-  \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.30\textwidth]{X:/HP/GitHub/Olex2Manual/Bookstart/images/OlexSys.png}
-  \end{figure}
-
-
 \end{center}
 
+\vspace*{150pt}
+
+![30](X:/HP/GitHub/Olex2Manual/Bookstart/images/OlexSys.png)
+
+\newpage

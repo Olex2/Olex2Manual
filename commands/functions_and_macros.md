@@ -19474,7 +19474,7 @@ Example: \'mask hbonds 2048\' - this resets hydrogen bond style to default
 sel $type - selects any particular atom type; type can be one of the following shortcuts - * - for all atoms, M - for metals, X - for halogens
 sel $*,type - selects all but type atoms
 
-An extended syntax include keyword \'where\' and \'rings\' which allow selecting atoms and bonds according to their properties, like type and length or rings of particular connectivity like C6 or NC5. If the \'where\' keyword is used, logical operators, like and (&&), and or (||) can be used to refine the selection. For example:
+An extended syntax include keyword \'where\' and \'rings\' which allow selecting atoms and bonds according to their properties, like type and length or rings of particular connectivity like C6 or NC5. If the \'where\' keyword is used, logical operators, like and (&&), and or (iii) can be used to refine the selection. For example:
 sel atoms where xatom.bai.z > 2 - to select all atoms heavier after H
 sel bonds where xbond.length > 2 - to select all bonds longer than 2 A
 sel bonds where xbond.b.bai.z == 1 - to select all bonds where the lightest atoms is H

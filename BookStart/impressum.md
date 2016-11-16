@@ -21,9 +21,6 @@
 <b>Dr. Oleg Dolomanov</b> (*Chief Technical Officer*): oleg@olexsys.org
 
 \noindent
-<b>Beatrice Leigh</b> (*Chief Executive Officer*): bea@olexsys.org
-
-\noindent
 <b>Prof. Judith A.K Howard</b> (*Chairperson*): judith@olexsys.org
 
 
@@ -31,7 +28,7 @@
 
 
 
-\noindent\copyright 2014 OlexSys Ltd
+\noindent\copyright 2016 OlexSys Ltd
 
 \noindent Department of Chemistry
 
@@ -45,6 +42,6 @@
 
 \vspace{30pt}
 
-\noindent Printed and bound by **printed.com**, UK
+\noindent This version: AsCA 2016 in Hanoi, Vietnam
 
 \newpage

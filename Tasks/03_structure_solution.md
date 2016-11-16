@@ -1,4 +1,4 @@
-# Structure Solution 
+# Structure Solution
 
 The structure solution process \index{structure solution} identifies electron density maxima in the asymmetric unit of the electron density maps, which is calculated from the recorded diffraction data. Once you know the positions of these maxima, you can later assign atom types and proceed with building a structure model.
 What solution programs actually do to "solve" the structure, is to solve the "crystallographic phase problem" \index{phase problem}(hence why this is called solution). Like all waves, X-rays have both a phase and amplitude associated with them, however during a diffraction experiment we are only able to measure the amplitude of a reflection ($\sqrt{I}$), not its phase. In order to solve a structure it is essential to determine the relative phase of each reflection in order to sum the waves together correctly.
@@ -15,7 +15,7 @@ This solution program is part of Olex2 and is always available. It uses the char
 This is the most widely used program for solving small-molecule structures. It runs faster than charge-flipping, but you must provide the correct space group and it might not work if you do not know the molecular configuration accurately. Within ShelXS, there are three structure solution methods:
 
 - **Direct Methods**: are suitable for attempting a structure solution for any type of structure.
-- **Patterson** \index{Patterson method}: this approach is suitable for locating heavy elements in the presence of much lighter ones. Since heavy elements make a significant contribution to the overall scattering location, these will normally give sufficiently good phases to enable the rest of the atoms to be located within a couple of cycles of refinement. 
+- **Patterson** \index{Patterson method}: this approach is suitable for locating heavy elements in the presence of much lighter ones. Since heavy elements make a significant contribution to the overall scattering location, these will normally give sufficiently good phases to enable the rest of the atoms to be located within a couple of cycles of refinement.
 - **Structure Expansion** \index{structure expansion}: from Olex2, we offer this third option: a Patterson solution is "fed into" the Direct Methods algorithm and this will often lead to a structure when other methods fail.
 
 ### ShelXD \index{ShelXD}
@@ -28,7 +28,7 @@ Olex2 automatically recognises all solution programs from the ShelX suite, as we
 ## Check the Space Group \index{incorrect space group}
 Getting the space group right is an important condition for obtaining the correct final structures. Sometimes a structure will solve in the wrong space group and the refinement may proceed without obvious major problems. If the space group is wrong, there will always be *some* signs and it is essential to check for these.
 A lot of these problems can be prevented by using Superflip as the solution program: it almost always gets the space group right (if the structure solves at all).
-An incorrect space group can prevent a structure solution being obtained. However, just because a structure solution can be obtained in one space group, it does not necessarily mean that is the correct space group and checks should always be made for missed symmetry, e.g. by using Platon \index{Platon}. For various reasons beyond the scope of this manual, it can be more difficult to solve a crystal structure in a centrosymmetric space group hence trying a lower symmetry space group e.g. *P1* instead of P-1 can be more successful. Assuming that the higher symmetry space group is the correct one, it is then necessary to convert back to the higher symmetry space group after structure solution.
+An incorrect space group can prevent a structure solution being obtained. However, just because a structure solution can be obtained in one space group, it does not necessarily mean that is the correct space group and checks should always be made for missed symmetry, e.g. by using Platon \index{Platon}. For various reasons beyond the scope of this manual, it can be more difficult to solve a crystal structure in a centrosymmetric space group hence trying a lower symmetry space group e.g. P1 instead of P-1 can be more successful. Assuming that the higher symmetry space group is the correct one, it is then necessary to convert back to the higher symmetry space group after structure solution.
 
 ## Check the Chemical Composition
 The chemical composition \index{chemical composition} is displayed in the fixed top tab in the GUI panel. It can be changed under `@Work|Solve` and typing into the @@Chemical Composition@@ text box. For some structure solution programs to work, the correct formula is essential: or at least the correct element types that are present in the structure.
@@ -39,7 +39,7 @@ Under `@Work|Solve|Solution-Settings-Extra` additional options specific to the s
 
 - Increasing **np** (e.g. from 500 to 5000) increases the number of direct method attempts that are made.
 - In cases of pseudo symmetry, try changing *Emin* under ESEL to 1.0/0.9.
-- Try **Patterson Methods**: especially if there are heavy elements present in your structure, or **Structure Expansion** 
+- Try **Patterson Methods**: especially if there are heavy elements present in your structure, or **Structure Expansion**
 - Use `CODE tref n` where n is the number of the solution to try. This is normally available after a standard ShelXS structure solution. This way Olex2 will instruct ShelXS to investigate the top n higher probability solutions. You can traverse the solutions using CTRL+UP/DOWN keys.
 
 ## Check for Signs of Twinning: See page \pageref{twinning}. \index{twinning}
@@ -52,4 +52,4 @@ The unit cell dimensions and the integration should be checked prior to attempti
 
 > CRYST You should always be careful to ensure that your .ins file corresponds to your .hkl. Olex2 saves the full path of the correct file in the header of the .ins file (in a REM line) and will use that file if it is present.
 
-**Z and Z'**: Z is the number of formula units in the unit cell, Z' is the number of formula units in the asymmetric unit.
+**ZZ and ZZ'**: ZZ is the number of formula units in the unit cell, ZZ' is the number of formula units in the asymmetric unit.

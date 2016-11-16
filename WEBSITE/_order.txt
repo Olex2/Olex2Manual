@@ -1,0 +1,15 @@
+#BOOK Details
+bookauthor=Horst Puschmann
+booktitle=OlexSys Ltd
+booksubtitle=Website
+booktitle=OlexSys
+book_use_fontspec=Cambria
+book_linespacing=1.2
+
+pandoc_cmd=pandoc -s -S --webtex --toc --toc-depth 2 -c %(css)s %(in)s -o %(out)s
+
+#Book Chapters
+Home
+Services
+Olex2
+About Us

@@ -1,0 +1,24 @@
+#BOOK Details
+bookauthor=Hazel A. Sparkes \& Horst Puschmann
+booktitle=Solving and Refining Molecular Structurs using Olex2
+booksubtitle=An Introduction
+booktitle=Olex2
+book_use_fontspec=Cambria
+book_linespacing=1.2
+
+#PANDOC command
+#pandoc_cmd=pandoc -o %s -f markdown -t latex %s
+#pandoc_cmd=pandoc -s -S --toc %s -o %s
+pandoc_cmd=pandoc -s -S --webtex --toc --toc-depth 2 -c %(css)s %(in)s -o %(out)s
+
+#Book Chapters
+BookStart
+Sucrose
+#GettingAroundOlex2
+#Tasks
+#Disorder
+#CifImagesAndReports
+#Glossary
+CommandsManual
+Appendices
+#WEBSITE

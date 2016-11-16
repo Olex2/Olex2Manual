@@ -43,7 +43,7 @@ If you are unsure of the space group Olex2 can suggest likely possible space gro
 To view the full output in relation to systematic absences click on the notepad icon IEDIT or type `CODE text`. The space group displayed in the top corner of the GUI panel should update to your new choice and any atoms or Q-peaks will disappear ready for a new structure solution. It is worth noting that if you are having difficulty getting a sensible structure solution but your data fit well to your cell during the integration stage, it is worth checking the space group.
 
 #### Converting to a higher symmetry space group \index{symmetry} \index{space group}
-*Example*: Converting a structure in space group *P1* with two symmetry-related molecules into one in P-1 with one molecule in the asymmetric unit.
+*Example*: Converting a structure in space group P1 with two symmetry-related molecules into one in P-1 with one molecule in the asymmetric unit.
 To convert the structure to P-1 the following procedure can be followed:
 
 1. Ensure that the atoms are currently modelled isotropically, if not, click I_ISOT under `@Work|Toolbox-Work` and refine the structure.
@@ -68,6 +68,6 @@ To convert the structure to P-1 the following procedure can be followed:
 
 9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to `fuse together' all atoms that are closer to each other than 0.4 ANGST. This situation is illustrated here.
 
-![50 Extra atoms near expected positions](./images/more than one atom after fusing.png)
+![30 Extra atoms near expected positions](./images/more than one atom after fusing.png)
 
 10.@@Refine@@ the structure and assuming that there are no problems continue finishing the refinement of the structure.
