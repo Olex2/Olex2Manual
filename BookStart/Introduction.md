@@ -3,7 +3,7 @@ Olex2 is a powerful tool for small molecule crystallography and is designed to b
 
 ![95 The main stages of a crystallographic structure determination, highlighting (in dark blue) the areas, where Olex2 is useful.](./images/introduction.png)
 
-This manual is by no means exhaustive but aims to provide a solid overview of Olex2 and its capabilities, so that you can start tackling crystal structure solution, refinement, CIF (Crystal Information File) generation and produce images. There is often more than one way to complete a task in Olex2, but this manual focusses predominantly on the use of the GUI panel to explain the most commonly required functionality.
+This manual is by no means exhaustive but aims to provide a solid overview of Olex2 and its capabilities, so that you can start tackling crystal structure solution, refinement, CIF (Crystal Information File) generation and produce images. There is often more than one way to complete a task in Olex2, but this manual focuses predominantly on the use of the GUI panel to explain the most commonly required functionality.
 
 There are many commands in Olex2 which are accessible through the command-line. Some of these commands are very useful for crystallographic work, and these are highlighted in this text using this `CODE refine` formatting. Items you can expect to find on the GUI panel, e.g. `@Work|Toolbox-Work` are highlighted in this format. Buttons or links that do something look like this: @@Refine@@.
 

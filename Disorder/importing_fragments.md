@@ -28,8 +28,8 @@ Another way to import fragments is to make use of the ImportFrag command. This c
 
 The full options for `CODE ImportFrag` are these:
 
-**-a**: sets AFIX to the imported molecule
-**-d**: generates DFIX for 1,2 and 1,3 distance for the imported molecule
-**-p**: sets given part to the imported molecule
+> - **-a**: sets AFIX to the imported molecule
+> - **-d**: generates DFIX for 1,2 and 1,3 distance for the imported molecule
+> - **-p**: sets given part to the imported molecule
 
 You may export a fragment (i.e. from a "healthy" structure) using the `CODE ExportFrag` command. This will generate an xyz file for use with `CODE ImportFrag'.
