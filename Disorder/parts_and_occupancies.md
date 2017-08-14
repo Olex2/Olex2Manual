@@ -25,20 +25,18 @@ When refining occupancies, the thermal parameters of the atoms should be refined
 Free variables provide a simple and yet elegant mechanism to implement a number of linear constraints and restraints. They are found in the .ins file under an FVAR instruction. The first number on the FVAR line corresponds to the overall scale factor for the data and should not be edited. Subsequent numbers can be used as a link to parameters that are being refined e.g. if the occupancy of two atoms needs to be linked or the isotropic displacement parameter.
 For example:
 
-\begin{verbatim}
-FVAR 0.355153 0.75
-PART 1
-C1 C 0.36499 0.36561 0.32094 21.00000 0.03239
-PART 0
-PART 2
-C1a C 0.28806 0.36415 0.33164 -21.00000 0.0500
-PART 0
-PART 1
-C2 C 0.30722 0.29774 0.21191 21.00000 0.03333
-PART 0
-PART 2
-C2a C 0.39521 0.31781 0.21763 -21.00000 0.05000
-\end{verbatim}
+        FVAR 0.355153 0.75
+        PART 1
+        C1 C 0.36499 0.36561 0.32094 21.00000 0.03239
+        PART 0
+        PART 2
+        C1a C 0.28806 0.36415 0.33164 -21.00000 0.0500
+        PART 0
+        PART 1
+        C2 C 0.30722 0.29774 0.21191 21.00000 0.03333
+        PART 0
+        PART 2
+        C2a C 0.39521 0.31781 0.21763 -21.00000 0.05000
 
 `21.000` means 1 x free variable 2 (i.e. the 2nd number on the FVAR line, before refinement here 0.75). `-21.000` means 1 - (1 x free variable 2), in other words the occupancy of the two PARTs adds to 1.
 `PART 1 / 2` means that the atoms have been grouped into different PARTS only one of which would be present at a position in the crystal structure at any one time. PART 0 is for atoms with one position.

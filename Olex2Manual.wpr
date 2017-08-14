@@ -9,11 +9,5 @@ proj.directory-list = [{'dirloc': loc('.'),
                         'filter': '*',
                         'include_hidden': False,
                         'recursive': True,
-                        'watch_for_changes': True},
-                       {'dirloc': loc('../../../olex2-trunk/util/pyUtil/PluginLib/plugin-MarkDownTools'),
-                        'excludes': (),
-                        'filter': '*',
-                        'include_hidden': False,
-                        'recursive': True,
                         'watch_for_changes': True}]
 proj.file-type = 'shared'

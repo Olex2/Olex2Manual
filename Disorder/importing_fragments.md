@@ -6,13 +6,13 @@ Ilia Guzei maintains a library of common fragments, and there is a link to this 
 
 If you have trouble with a chloroform molecule, for example, then you will find this bit of text on Ilia's page:
 
-    FRAG 17
-    CL1 5  1.692203  0.000000 -0.571985
-    CL2 5 -0.846102  1.465491 -0.571985
-    CL3 5 -0.846102 -1.465491 -0.571985
-    C1  1  0.000000  0.000000 -0.032312
-    H1  2  0.000000  0.000000  1.058268
-    FEND
+        FRAG 17
+        CL1 5  1.692203  0.000000 -0.571985
+        CL2 5 -0.846102  1.465491 -0.571985
+        CL3 5 -0.846102 -1.465491 -0.571985
+        C1  1  0.000000  0.000000 -0.032312
+        H1  2  0.000000  0.000000  1.058268
+        FEND
 
 All you need to do to import this fragment as a rigid body into Olex2 is this:
 

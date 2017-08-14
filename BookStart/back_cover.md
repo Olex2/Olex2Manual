@@ -1,2 +1,2 @@
 \incgraph[documentpaper]
-[width=\stockwidth,height=\stockheight]{X:/HP/GitHub/Olex2Manual/BookStart/images/backA5.png}
+[width=\stockwidth,height=\stockheight]{S:/OlexSys/Olex2Manual/BookStart/images/backA5.png}

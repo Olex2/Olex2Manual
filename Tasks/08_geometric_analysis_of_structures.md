@@ -56,8 +56,9 @@ Alternatively, after clicking on `@Tools|Overlay|Overlay Structure`, press ESC.
 ### Hydrogen bonding
 - Use Olex2's `CODE htab` command to locate the hydrogen bonds; (use `CODE help htab` to find more information). Type `CODE htab -g` to automatically calculate and generate the resulting hydrogen bonded structure. To return to just viewing the asymmetric unit type `CODE fuse` (note that Olex2 will display HTABs disregarding their validity).
 
-### \pi-\pi interactions \index{\pi-\pi interactions}
-To analyse all \pi-\pi interactions associated with the asymmetric unit automatically type `CODE pipi -g`. Type `CODE fuse` to return to the asymmetric unit. This is also available under `@View|Geometry|Analyse-pi-pi-Interactions`.
+### \pi-\pi interactions
+
+To analyse all \pi-\pi interactions \index{pi-pi interactions} associated with the asymmetric unit automatically type `CODE pipi -g`. Type `CODE fuse` to return to the asymmetric unit. This is also available under `@View|Geometry|Analyse-pi-pi-Interactions`.
 
 #### Locate \pi-\pi interactions manually
 

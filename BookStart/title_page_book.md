@@ -3,7 +3,7 @@
 
 \vspace*{30pt}
 
-![25](X:/HP/GitHub/Olex2Manual/Bookstart/images/AsCA.png)
+![40](S:/OlexSys/Olex2Manual/Bookstart/images/hyderabad.png)
 
 \vspace*{30pt}
 
@@ -12,7 +12,7 @@
 \vspace*{10pt}
 
 \noindent\fontsize{30pt}{30pt}\selectfont\textbf{
-Olex2F
+Olex2
 }
 
 \vspace*{20pt}
@@ -24,6 +24,6 @@ Getting Started
 
 \vspace*{150pt}
 
-![30](X:/HP/GitHub/Olex2Manual/Bookstart/images/OlexSys.png)
+![30](S:/OlexSys/Olex2Manual/Bookstart/images/OlexSys.png)
 
 \newpage

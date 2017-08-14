@@ -2,21 +2,14 @@
 
 During a refinement, you need to make a number of checks after each refinement cycle.
 
-    - Check that all of the *ellipsoids* are of a similar size throughout the structure and look sensible (the ellipsoid axes should not appear significantly different).
-    
-    - Check that the correct number of *hydrogen atoms* are present and that they are in the right place.
-
-    - Go to the `@Info` tab and open the *`@Refinement-Indicators`* header tab. If there are any errors, some or all of the parameters will be orange (potentially moderate problem) or red (potentially serious problem). These should improve as the refinement proceeds. Attempts should always be made to correct these or be able to explain why they are not ideal.
-
-    - Check that the *bond lengths* and *angles* are sensible. There are several ways to do this:
-
-    - Hover over a bond to see the bond length. Left click on the bond to select it.
-
-    - Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle. Then go to the `@View` tab, under the `@Geometry` header tab click on @@Distance and Angles (of selection)@@.
-
-    - Select all bond that you are interested in, then type `CODE labels`. This will display the bond distances as labels on the bonds. You can also type `CODE sel -l` to print a list of the distances or `CODE sel -l -c` to then place this list on the clipboard, which you can then paste elsewhere.
-
-    - The Cambridge Structural Database is an excellent resource to use to check that your bond lengths and angles are sensible and within expected ranges. If they are not, investigate why not.
+-The Cambridge Structural Database is an excellent resource to use to check that your bond lengths and angles are sensible and within expected ranges. If they are not, investigate why not.
+-Check that all of the *ellipsoids* are of a similar size throughout the structure and look sensible (the ellipsoid axes should not appear significantly different).
+-Check that the correct number of *hydrogen atoms* are present and that they are in the right place.
+-Go to the `@Info` tab and open the *`@Refinement-Indicators`* header tab. If there are any errors, some or all of the parameters will be orange (potentially moderate problem) or red (potentially serious problem). These should improve as the refinement proceeds. Attempts should always be made to correct these or be able to explain why they are not ideal.
+- Check that the *bond lengths* and *angles* are sensible. There are several ways to do this:
+- Hover over a bond to see the bond length. Left click on the bond to select it.
+- Select 2 atoms for a bond length, 3 atoms for a bonded angle or 4 atoms to get a torsion angle. Then go to the `@View` tab, under the `@Geometry` header tab click on @@Distance and Angles (of selection)@@.
+- Select all bond that you are interested in, then type `CODE labels`. This will display the bond distances as labels on the bonds. You can also type `CODE sel -l` to print a list of the distances or `CODE sel -l -c` to then place this list on the clipboard, which you can then paste elsewhere.
 
 >OLEX2 The `CODE sel` command can be always used in the command-line to print information regarding the current selection.
 

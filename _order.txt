@@ -1,7 +1,7 @@
 #BOOK Details
 bookauthor=Hazel A. Sparkes \& Horst Puschmann
 booktitle=Getting Started with Olex2
-booksubtitle=An excerpt of the official Olex2 manual
+booksubtitle=The official Olex2 manual
 book_use_fontspec=Cambria
 book_linespacing=1.2
 
