@@ -11,13 +11,13 @@ Now that initial atom assignments have been made; the next stage is to refine th
 
 3. If one of the atoms you assigned is now represented as a comparatively huge sphere (not just slightly larger than the others), then it is not real. Select it and press the DELETE key on your keyboard (or right-click and select *Delete* from the context menu). If you delete an atom by mistake, use CTRL+Z to undo.
 
-    ![50  Large incorrect atom. The real atom -- Hydrogen -- is much lighter than what has been assigned: Carbon](./images/large_incorrect_atom.png)
+    ![50  Large incorrect atom. The real atom -- Hydrogen -- is much lighter than what has been assigned: Carbon](large_incorrect_atom.png)
 
 4. If there are peaks larger than ~3 units, then there are missing C or O atoms. Select these peaks and assign them to either C or O and refine again. Repeat this step until there are no more large Q-peaks left.
 5. At this point, you can hide all remaining Q-peaks: in `@Toolbox-Work` click on the hide Q icon I_Q (or use CTRL+Q) to hide them.
 6. Rotate your structure and examine the size of the atom spheres, they should all be approximately the same size. If this is not the case, you have assigned some of the atoms incorrectly. In this image, atoms **3** are correct, with similarly sized spheres. Atom **1** is too light (it should be heavier) and atom **2** is too heavy (it should be lighter).
 
-    ![50 Atom spheres of different size: this indicates 1 must be heavier than the currently assigned atom type and 2 must be lighter.](./images/different_sized_atom_spheres.png)
+    ![50 Atom spheres of different size: this indicates 1 must be heavier than the currently assigned atom type and 2 must be lighter.](different_sized_atom_spheres.png)
 
     >OLEX2 The atoms are displayed as spheres when they are modelled *isotropically* (i.e. one parameter to define the iiiatomic displacement parameteriiiidx). The size of all atom spheres is approximately the same, but there are exceptions to the rule.  For example, if there are long floppy chains (e.g. propyl or butyl) in your structure, the size of the spheres increases along the chain to the distal atom due to the increased libration. Atomic disorder can also cause changes in the visual representation of the spheres.
 
@@ -39,7 +39,7 @@ At this stage, you should have R1 ~ 8--9%. The biggest Q peak should be ~ 1.2.
 
 3. Again, the atoms should be roughly of similar size and shape in similar environments. If you have incorrect atom assignments at this stage, Olex2 might display tetrahedra instead of the expected ellipsoids. Such atoms have become iiinon-positive definiteiiiidx, **N.P.D**, \index{N.P.D} and are in reality heavier (i.e. O not C). Very large ellipsoids indicate the atom type should be lighter (i.e. C not O). In the illustration: atoms **3** are correctly assigned atom types with similar sized spheres. Atom **1** is non-positive definite (atom type is too light), and **2** is a large ellipsoid (atom type is too heavy).
 
-    ![50  Incorrect Ellipsoids](./images/incorrect_ellipsoids.png)
+    ![50  Incorrect Ellipsoids](incorrect_ellipsoids.png)
 
 ## Add Hydrogen Atoms
 
@@ -58,7 +58,7 @@ At this stage, you should have R1 ~ 8--9%. The biggest Q peak should be ~ 1.2.
 4. Repeat hydrogen atom addition as before. This time Olex2 will only add the missing hydrogen atoms. If for any reason, they are still incorrect, you have to add them manually, which is what you also have to do if hydrogen atoms were missing after @@Add H@@. Refer to page \pageref{add-hydrogen-atoms} how to do this.
 5. The first assignment of hydrogen atom positions is not always fully optimised, particularly for less well-defined groups such as --OH. If there are Q-peaks close to oxygen atoms that are not where the hydrogen is, the hydrogen position may need adjusting. The image shows an incorrectly positioned hydrogen atom **1**, where the correct position is at Q-peak **2**.
 
-    ![50  Incorrectly Positioned Hydrogen](./images/Incorrectly_positioned_hydrogen.png)
+    ![50  Incorrectly Positioned Hydrogen](Incorrectly_positioned_hydrogen.png)
 
 6. To optimise the hydrogen atom positions there are two options: multiple refinement cycles using the @@Refine@@ button may see the hydrogen atom(s) rotate onto the Q-peak (sometimes updating the weighting scheme, see below, helps the refinement escape the false minimum and to rotate the H-atom(s) into the correct position). Alternatively, select a hydrogen atom and then in `@Toolbox-Work` choose @@Fit@@ option from the @@Select group or atom(s)and then...@@ tool. Once in @@Fit@@ mode, holding the SHIFT key and LEFT MOUSE button down whilst dragging the relevant hydrogen atom allows you to move the hydrogen atom into the desired position. Press ESC when finished. Repeat if more than one atoms needs to be relocated.
 
