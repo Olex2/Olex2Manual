@@ -1,4 +1,4 @@
-#Importing Fragments
+# Importing Fragments
 
 It is possible to import "fragments" into Olex2. A fragment is typically a molecule (often a solvent molecule or a counter ion), and you might want to import it because the entity turns out to be disordered. Imported fragments can be fully constrained or resrained, so that the relative position of the atoms in the fragment does not change (i.e. it is imported as a "rigid body").
 

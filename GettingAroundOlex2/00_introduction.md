@@ -1,6 +1,6 @@
-\chapter{Getting Around Olex2}
+# The Olex2 GUI
 
-Olex2 provides a Graphic User Interface (GUI) through which many common crystallographic tasks can be completed. A screenshot of the default layout is shown below. The appearance is fully customisable (including enabling the GUI panel, graphics or text to be displayed or hidden, applying user colour schemes, changing the number of lines of text etc.), so you can set this up in a way that works best for you.
+A screenshot of the default layout is shown below. The appearance is fully customisable (including enabling the GUI panel, graphics or text to be displayed or hidden, applying user colour schemes, changing the number of lines of text etc.), so you can set this up in a way that works best for you.
 
 ![50 A Screenshot of the Olex2 GUI, identifying the three main areas.](gui_overlay.png)
 
