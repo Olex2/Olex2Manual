@@ -1,4 +1,5 @@
-#Finalising the Structure
+# Finalising the Structure
+> Finish everything off
 
 Your structure is now finished and completed from the refinement point of view. If the structure is to be included in a thesis or scientific publication, then you probably need to come up with a naming scheme for its atoms. If it is not your own structure, it is worth liaising with the chemist to agree on a naming scheme -- structures are often part of a series which should have consistent naming throughout.
 

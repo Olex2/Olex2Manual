@@ -1,4 +1,5 @@
 # Refinement
+> From electron density to your finished model
 
 Now that initial atom assignments have been made; the next stage is to refine the structure to see how well your assignments fit the data and improve the model.
 

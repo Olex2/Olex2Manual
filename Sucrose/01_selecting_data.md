@@ -1,4 +1,5 @@
 # Selecting Data
+> How to load data into Olex2
 
 1. Click on the `@Home` tab in the GUI panel in Olex2. Under the `@Start` header one of the sample structures is **Sucrose**. Click on this and the model/instructions *.ins* file will be loaded.
 

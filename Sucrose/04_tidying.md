@@ -1,4 +1,5 @@
 # Tidying the Structure
+> Polishing your finished structure
 
 1.  The key numbers to look at are R1, wR2, *max* and *min* Q peak values (also called highest peak and deepest hole), *Goof*\index{GooF}, *Hooft* \index{Hooft $y$ parameter} and *Flack*\index{Flack $x$ parameter} which you should examine after each refinement.
 

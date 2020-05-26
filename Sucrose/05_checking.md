@@ -1,4 +1,5 @@
 # Checking the Structure
+> Making sure everyting is correct
 
 During a refinement, you need to make a number of checks after each refinement cycle.
 

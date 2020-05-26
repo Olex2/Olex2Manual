@@ -1,4 +1,5 @@
 # Solving the Structure
+> The first step in any structure determination: locate the electron density in the asymmetric unit
 
 1. Click on the `@Work` tab in the GUI panel. Like all active GUI elements, it changes colour and becomes orange.
 2. Click on the arrow next to the `@Solve` button so that it turns orange and points upwards. The iiistructure solutioniiiidx options are displayed.
