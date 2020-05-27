@@ -1,5 +1,3 @@
-title_page_book.md
-impressum.md
-foreword_IUCr_Hyderabad.md
-about_olex2.md
+Foreword.md
+About_Olex2.md
 introduction.md
