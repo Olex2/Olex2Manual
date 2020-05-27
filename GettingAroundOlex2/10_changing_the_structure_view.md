@@ -1,4 +1,5 @@
 # Changing the Structure View
+> Different atom styles
 
 ## Changing the Display Style
 The same display options apply for changing the appearance of the atoms during a refinement as can be used for generating images. These can be found under `@View|Quick-Drawing-Styles`, alternatively right click on the graphics display window and under @@Draw Style@@ select the desired appearance.

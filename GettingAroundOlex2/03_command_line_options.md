@@ -1,4 +1,5 @@
 # Command-Line Options
+> Olex2's powerful command line
 
 As previously mentioned, Olex2 offers the opportunity to use a command-line approach if preferred. Although this manual focuses predominantly on the use of the GUI panel and graphics screen, it is worth remembering that the command-line offers a number of additional options and functionality. There are some command-line commands that are extremely useful for routine work, especially when you consider that the UP/DOWN arrow keys browse through your command-line history.
 Frequently used command-line options

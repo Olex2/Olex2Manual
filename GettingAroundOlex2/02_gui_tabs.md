@@ -1,4 +1,6 @@
 # GUI Tabs
+> The Tabs in Olex2
+
 The tabs group tools and options that you might require at the same time together under the same heading. The tools available and the exact layout can change slightly between releases as new tools are developed. It is worth spending a few minutes browsing through the available tools 
 
 - `@Home`: Quick links for loading data, tutorials, customisable setting options, and a news section. This is opened by default on Olex2 start-up.

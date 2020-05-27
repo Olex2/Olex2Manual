@@ -1,4 +1,6 @@
-#Atom Label Display Options
+# Atom Label Display Options
+> How to display and label atoms
+
 Olex2 offers a large range of properties that can be displayed as labels on atoms. This provides immediate feedback on these properties of the atoms: `@Work|Toolbox-Work|Labels`:
 
 - @@Labels On/Off@@  show or hide atom name labels and Q-peak labels (alternatively press F3). This will switch other types of labelling off but selecting it again will display atom name labels.

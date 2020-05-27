@@ -1,4 +1,6 @@
 # Mouse Tracking
+> How to use the mouse in Olex2
+
 Once you get used to using Olex2, the mouse actions will become second nature to you. Depending on what software you have used before, you will find the mouse actions in Olex2 more or less intuitive.
 
 ------------------------------------------------------------------------

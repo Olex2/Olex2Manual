@@ -1,4 +1,5 @@
 # Going Back - Using the History Tool
+> How to go to previous versions of your structure
 
 
 Olex2 automatically creates a history tree which allows you to go back to either an earlier refinement cycle or a different structure solution attempt. This feature can be accessed under the `@Work|History`.

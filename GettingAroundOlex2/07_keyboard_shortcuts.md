@@ -1,6 +1,7 @@
 # Keyboard Shortcuts
+> Some keyboard shortcuts in Olex2
+
 There are plenty of pre-defined keystrokes and these can be very helpful. 
-\setlength{\extrarowheight}{-3pt}
 
 ------------------------------------------------------------------------
 Key Stroke  Action

@@ -1,4 +1,6 @@
 # Quick Access Icons
+> An overview over the icons used in Olex2
+
 
 |Icon   |    Function|
 |------ |    ------------------------------------------------------------------|
