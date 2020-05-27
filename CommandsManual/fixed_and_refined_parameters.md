@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Fixed and Refined Parameters
+> Fix and free parameters: occupancy, xyx, uiso
 
-#Fixed and Refined Parameters
+TWOCOLUMNS
 
 [INC ../commands/fix]
 [INC ../commands/free]

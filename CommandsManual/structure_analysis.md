@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Structure Analysis
+> Tools to analyse your structure
 
-#Structure Analysis
+TWOCOLUMNS
 
 [INC ../commands/htab]
 [INC ../commands/pipi]

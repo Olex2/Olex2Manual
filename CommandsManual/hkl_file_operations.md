@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# HKL file Operations
+> What Olex2 can do with the hkl file
 
-#HKL file Operations
+TWOCOLUMNS
 
 [INC ../commands/hklstat]
 [INC ../commands/omit]

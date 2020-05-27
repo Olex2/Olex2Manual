@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Atom Connectivity
+> Changing the way atoms are connected to each other
 
-#Atom Connectivity Table Manipulation
+TWOCOLUMNS
 
 [INC ../commands/conn]
 [INC ../commands/compaq]

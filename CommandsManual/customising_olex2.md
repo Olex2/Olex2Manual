@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Customising Olex2
+> Things you can do to make Olex2 your own
 
-#Customising Olex2
+TWOCOLUMNS
 
 [INC ../commands/setfont]
 [INC ../commands/editmaterial]

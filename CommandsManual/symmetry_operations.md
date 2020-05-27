@@ -1,6 +1,7 @@
-TWOCOLUMNS
-
 #Symmetry Operations
+> Symmetry commands
+
+TWOCOLUMNS
 
 [INC ../commands/lstsymm]
 [INC ../commands/envi]

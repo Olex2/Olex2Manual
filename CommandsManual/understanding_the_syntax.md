@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Understanding the Syntax
+> Understanding the Olex2 Syntax
 
-#Understanding the Syntax
+TWOCOLUMNS
 
 **Selection**: If one or more atoms are selected on the screen, then any command that acts on a selection will apply to the selected atoms only. If there is no selection, it will apply to all atoms. Instead of making a selection on the screen, a list of atom names can also be supplied. If a command has been successful, the selection will disappear. (Although there are a couple of exceptions to this rule).
 

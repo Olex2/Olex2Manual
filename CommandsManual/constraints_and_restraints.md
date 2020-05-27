@@ -1,6 +1,7 @@
-TWOCOLUMNS
-
 #Constraints and Restraints
+> Commands relating to the application of constraints and restraints
+
+TWOCOLUMNS
 
 [INC ../commands/exyz]
 [INC ../commands/eadp]

@@ -1,6 +1,7 @@
-TWOCOLUMNS
+# Changing the Model View
+> Changing the visual appearance of the molecule
 
-#Changing the Model View
+TWOCOLUMNS
 
 [INC ../commands/matr]
 [INC ../commands/rota]
