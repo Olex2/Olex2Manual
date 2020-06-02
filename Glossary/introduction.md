@@ -3,7 +3,7 @@
 
 TWOCOLUMNS
 
-**Anisotropic displacement parameters,  *ADP* or $U_{ij}$:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
+**Anisotropic displacement parameters**,  **ADP** or $U_{ij}$:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
 
 **Asymmetric unit**: The smallest fraction of the crystal structure which by application of the symmetry elements can be used to define the contents of a unit cell.
 
@@ -68,9 +68,7 @@ $F_{obs}$: observed structure factors, $F_{calc}$: calculated structure factors
 
 **$R_{int}$**: Measure of how "equivalent" symmetry equivalent reflections really are. The lower the **Rint**, the better. A high value indicates bad data, poor absorption correction, or wrong space group (i.e. Laue symmetry).
 
-\begin{displaymath}
-R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}}
-\end{displaymath}
+$ R_{int} = S | F_{obs^{2}} - F{obs^{2}mean} | / S F_{obs^{2}} $
 
 **Space Group** will be one of 230 possible space groups, these give information on the complete symmetry of the crystal structure.
 
