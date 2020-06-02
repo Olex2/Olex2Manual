@@ -1,4 +1,5 @@
 # Reports and Images
+> Every structure determination needs reports and images. Here's how you get them using Olex2
 
 Tools for the creation of images are available from `@Tools|Images`.
 

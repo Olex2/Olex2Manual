@@ -1,4 +1,5 @@
 # Finalising a Structure
+> How to really finish a structure off
 
 ## Before Writing a Final CIF
 The bonds to hydrogen atoms are not automatically included in the CIF. Type `CODE htab` in the command-line -- this will print details of any hydrogen bonds that are found on the screen and include appropriate instructions relating to them into the refinement mode. You then need to refine the structure again to get these values in the CIF. Note that htab takes two default parameters, type `CODE help htab` to find out more about this.

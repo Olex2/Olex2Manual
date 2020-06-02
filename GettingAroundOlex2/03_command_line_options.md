@@ -6,7 +6,7 @@ Frequently used command-line options
 
 |Command  | Description|
 |-------- | ----------------------------------------------------------------|
-|refine    Refines the structure. The number of cycles and peaks can be set e.g. `CODE refine 4 5` will ask for 4 cycles and return five peaks.|
+|refine   |Refines the structure. The number of cycles and peaks can be set e.g. `CODE refine 4 5` will ask for 4 cycles and return five peaks.|
 |name     | Change the atom types of the selected atoms|
 |compaq   | This will assemble a fragmented structure. Also `CODE compaq -a`|
 |fuse     | Show the asymmetric unit only|

@@ -1,6 +1,5 @@
 # Extension Modules
-
-We are currently working on a number of extension modules for Olex2, which will be available for testing in due course.
+> Various extension modules are available for Olex2
 
 - _ReportPlus_: This module allows the generation of highly customisable, quality structure reports, either for a single structure or for multiple structures. This is very useful when it comes to combining structural data from multiple structures to create a set of structures ready for publication.
 

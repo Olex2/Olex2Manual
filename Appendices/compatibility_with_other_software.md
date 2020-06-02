@@ -1,4 +1,6 @@
 # Compatibility with Other Software
+> Olex2 will make use of plenty of other crystallographic software
+
 Olex2 comes with its own structure solution and refinement programs: olex2.solve and olex2.refine. Of course, you are not limited to these. Olex2 fully supports a wide range of commonly used crystallographic programs and all relevant settings for these can be set from within Olex2. In some cases, for example, ShelXD, the values for some of the required fields are calculated by Olex2 and are automatically passed through to the external software
 
 ##Solution Programs

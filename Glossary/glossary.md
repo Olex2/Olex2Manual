@@ -6,7 +6,7 @@ This is a collection of terms that require some form of definition. Neither the 
 
 TWOCOLUMNS
 
-**Anisotropic displacement parameters,  *ADP* or $U_{ij}$**:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
+**Anisotropic displacement parameters**,  *ADP* or $U_{ij}$**:  Six parameters are used to define an ellipsoid representing the thermal motion of an atom.
 
 **Asymmetric unit**: The smallest fraction of the crystal structure which by application of the symmetry elements can be used to define the contents of a unit cell.
 
@@ -14,9 +14,7 @@ TWOCOLUMNS
 
 **Bragg's Law**: fundamental in crystallography. This gives the conditions under which diffraction will occur and thus diffracted beams will be observed. Essentially it defines the conditions for waves to combine constructively and thus give intensity. To observe diffraction, there must be an integer number of wavelengths between diffracted X-rays from parallel planes ($n\lambda$).
 
-\begin{displaymath}
 {2d sin\theta = n\lambda}
-\end{displaymath}
 
 $d$: interplanar spacing, $\theta$: incident angle, $n$: an integer known as the order of the reflection, $\lambda$: wavelength
 
