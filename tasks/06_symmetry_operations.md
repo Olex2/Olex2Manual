@@ -68,6 +68,6 @@ To convert the structure to P-1 the following procedure can be followed:
 
 9. If the structure contains extra atoms near the expected positions. Type `CODE fuse 0.4` to `fuse together' all atoms that are closer to each other than 0.4 ANGST. This situation is illustrated here.
 
-![30 Extra atoms near expected positions](more than one atom after fusing.png)
+![30 Extra atoms near expected positions](../more than one atom after fusing.png)
 
 10.@@Refine@@ the structure and assuming that there are no problems continue finishing the refinement of the structure.

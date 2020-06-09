@@ -3,7 +3,7 @@
 
 This option is located under `@Work` and is frequently used. Here is what is in it:
 
-![50 Toolbox Work](toolbox_work.png)
+![50 Toolbox Work](../toolbox_work.png)
 
 1. Option to toggle between labels being on/off. Can select from a number of different labels to be applied to the structure e.g. H Atom labels and Q peak intensities.
 
