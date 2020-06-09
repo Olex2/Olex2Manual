@@ -1,4 +1,5 @@
-#Introduction
+# Introduction
+
 Olex2 is a powerful tool for small molecule crystallography and is designed to be simple to use for novice users while providing complex functionality and tools for experts. Olex2 provides features for a complete structure determination from structure solution and refinement, through report writing and CIF generation to producing images.
 
 ![95 The main stages of a crystallographic structure determination, highlighting (in dark blue) the areas, where Olex2 is useful.](introduction.png)
