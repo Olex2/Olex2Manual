@@ -2,7 +2,7 @@
 > An overview over the icons used in Olex2
 
 
-|Icon   |    Function|
+|Icon   |    Function  |
 |------ |    ------------------------------------------------------------------|
 |LI_PLATON |  If Platon \index{Platon} is installed on your system, and the platon.exe file is "on the system PATH", this icon will open Platon with the current *.ins* or *.cif*.|
 |LI_EDIT |    Opens a text editor containing the refinement instructions in SHELX .ins file format. You can edit these instructions in this window. Olex2 manages your edits.|
