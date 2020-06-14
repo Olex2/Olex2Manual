@@ -4,8 +4,9 @@
 
 >B The command allows the atom names to be changed.
 
->C **c**: checks if the generated names are unique.
-s: changes the suffix only (no value removes the suffix, i.e. the part of the label after the element symbol and numerical value)
+>C
+ * **-c**: checks if the generated names are unique.
+ * **-s**: changes the suffix only (no value removes the suffix, i.e. the part of the label after the element symbol and numerical value)
 
 >D `CODE name O1 O2`: renames O1 to O2
 `CODE name 1`: (some atoms selected). Sequentially names the atoms in order of the selection    by adding 1,2, etc to the element symbol. Note that in this case if any generated name is not unique (and the -c option is not given), a random name will be generated.

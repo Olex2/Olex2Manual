@@ -4,7 +4,8 @@
 
 >B Packs all or specified atoms within given dimensions.
 
->C **-c**: prevents clearing existing model.
+>C
+ * **-c**: prevents clearing existing model.
 
 >D `CODE pack $O` will pack all O atoms with the default of -1.5 to 1.5 cells range.
 
