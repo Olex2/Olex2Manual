@@ -10,3 +10,4 @@ hkl_file_operations.md
 customising_olex2.md
 tables_reports_and_images.md
 structure_analysis.md
+all_commands.md
